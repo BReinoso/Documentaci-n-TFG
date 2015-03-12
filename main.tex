@@ -1,0 +1,140 @@
+%
+% Incluir el estilo de la Universidad de Deusto.
+
+\documentclass{memoriaPFC}
+%Para evitar un error por falta de registros..
+\usepackage{etex}
+\usepackage{microtype}
+
+
+
+
+%
+% Incluir el estilo definido para la Universidad de Burgos por Álvar Arnáiz 2009/12/20.
+\include{estiloUBU}
+
+%
+% Incluir los comandos para las palabras técnicas.
+\include{comandosIS}
+
+%
+% DATOS DEL DOCUMENTO
+\title{Aplicación de soporte a personas con dificultades de visión}
+
+%\autores{Nombre1 Apellidos1}{Nombre2 Apellidos2}
+\autores{Bryan Reinoso Cevallos}{}
+
+\tutor{José Francisco Díez Pastor, \\\textcolor{white}{Tutores}Dr. César I. García Osorio}
+
+
+\date{marrzo de 2015}
+
+\titulacion{ii}
+
+\resumen{%
+}
+\descriptores{}
+
+\abstract{%
+}
+\keywords{}
+
+
+%
+% COMIENZO DEL DOCUMENTO
+\begin{document}
+
+%
+% Portada, resumen, indices
+\frontmatter
+\ubuportada
+\hacerresumen
+\tableofcontents
+\listoffigures % Opcional
+\listoftables % Opcional
+%\lstlistoflistings % Opcional
+
+%
+% Contenidos
+\mainmatter
+%\subsection*{Agradecimientos}
+%\input{0agradecimientos}
+%
+\chapter{Introducción}
+\input{1introduccion}
+%
+\chapter{Objetivos del proyecto}
+\input{2objetivosDelProyecto}
+%
+\chapter{Conceptos teóricos}
+\input{3conceptosTeoricos}
+%
+\chapter{Técnicas y herramientas}
+\input{4tecnicasYherramientas}
+%
+\chapter{Estado del arte}
+\input{5estadoDelArte}
+%
+\chapter{Aspectos relevantes del desarrollo del proyecto}
+\input{6aspectosRelevantes}
+%
+\chapter{Conclusiones y líneas de trabajo futuras}
+\input{7conclusionesYfuturo}
+
+%
+% ANEXOS
+% Redefinir el nombre de capítulo por Anexo y que sean números romanos
+\renewcommand\chaptername{Anexo}
+\renewcommand\thechapter{\Roman{chapter}}
+\setcounter{chapter}{0}
+
+% Añadir entrada en el índice: Anexos
+\addcontentsline{toc}{chapter}{Anexos}
+%
+%\portadasAuxiliares{Anexo I - Plan del proyecto software}
+%\chapter{Plan del proyecto software}
+%\input{anexo1PlanDeProyectoSoftware}
+%
+%\portadasAuxiliares{Anexo II - Especificación de requisitos}
+%\chapter{Especificación de requisitos}
+%\input{anexo2EspecificacionDeRequisitos}
+%
+%\portadasAuxiliares{Anexo III - Especificación de diseño}
+%\chapter{Especificación de diseño}
+%\input{anexo3EspecificacionDeDisenno}
+%
+%\portadasAuxiliares{Anexo IV - Manual del programador}
+%\chapter{Manual del programador}
+%\input{anexo4ManualDelProgramador}
+%
+%\portadasAuxiliares{Anexo V - Manual del usuario}
+%\chapter{Manual del usuario}
+%\input{anexo5ManualDelUsuario}
+
+
+%
+% APÉNDICES
+%\backmatter
+%\appendix
+
+% Añadir entrada en el índice: Apéndices
+%\addcontentsline{toc}{chapter}{Apéndices}
+%
+%\portadasAuxiliares{Apéndice A - Guía rápida de Version One}
+%\chapter{Guía rápida de Version One}
+%\input{apendiceA}
+%
+%\portadasAuxiliares{Apéndice B - Licencia GNU GPL}
+%\chapter{Licencia GNU GPL}
+%\input{apendiceB}
+
+%
+%Bibliografía
+\normalem
+\bibliografia{referencias}
+
+
+% Otras referencias
+%\bibliografiaOtras{otrasreferencias}
+
+\end{document}

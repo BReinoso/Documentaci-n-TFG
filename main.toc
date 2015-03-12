@@ -1,0 +1,25 @@
+\select@language {spanish}
+\contentsline {chapter}{\numberline {1}Introducci\'on}{1}{chapter.4}
+\contentsline {chapter}{\numberline {2}Objetivos del proyecto}{3}{chapter.5}
+\contentsline {section}{\numberline {2.1}Objetivos funcionales}{3}{section.6}
+\contentsline {chapter}{\numberline {3}Conceptos te\'oricos}{5}{chapter.7}
+\contentsline {chapter}{\numberline {4}T\'ecnicas y herramientas}{7}{chapter.8}
+\contentsline {section}{\numberline {4.1}T\'ecnicas de desarrollo}{7}{section.9}
+\contentsline {section}{\numberline {4.2}Herramientas utilizadas}{7}{section.10}
+\contentsline {subsection}{\numberline {4.2.1}Gestor de Tareas: VersionOne}{7}{subsection.11}
+\contentsline {paragraph}{}{7}{paragraph*.12}
+\contentsline {subsection}{\numberline {4.2.2}Gestor de Versiones: Git Hub}{7}{subsection.13}
+\contentsline {paragraph}{}{7}{paragraph*.14}
+\contentsline {subsection}{\numberline {4.2.3}IDEL de desarrollo: Android Studio}{8}{subsection.15}
+\contentsline {paragraph}{}{8}{paragraph*.16}
+\contentsline {subsection}{\numberline {4.2.4}Herramienta de Generaci\'on de Documentaci\'on: \textlatin {\LaTeX }}{8}{subsection.17}
+\contentsline {subsection}{\numberline {4.2.5}Herramientas de Deep Learning: Deep Belief SDK}{8}{subsection.18}
+\contentsline {paragraph}{}{8}{paragraph*.19}
+\contentsline {subsection}{\numberline {4.2.6}Manual del Programador}{8}{subsection.20}
+\contentsline {subsubsection}{Instalaci\'on del JDK}{8}{subsubsection*.21}
+\contentsline {chapter}{\numberline {5}Estado del arte}{13}{chapter.27}
+\contentsline {chapter}{\numberline {6}Aspectos relevantes del desarrollo del proyecto}{15}{chapter.28}
+\contentsline {section}{\numberline {6.1}Resolviendo puzles en un ordenador}{15}{section.29}
+\contentsline {chapter}{\numberline {7}Conclusiones y l\IeC {\'\i }neas de trabajo futuras}{17}{chapter.30}
+\contentsline {section}{\numberline {7.1}Dificultades encontradas}{17}{section.31}
+\contentsline {chapter}{Anexos}{17}{section.31}

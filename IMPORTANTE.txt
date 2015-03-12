@@ -1,0 +1,5 @@
+Antes de llevar a imprimir la versión definitiva se debe:
+- Validar que todas las imagenes estan actualizadas
+- Cambiar en main.bbl -> la entrada de Lapo Filippo a \LaTeX$_{2}$
+
+Quitar el paquete de los hipervínculos para la impresión

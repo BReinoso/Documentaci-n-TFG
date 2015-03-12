@@ -1,0 +1,4 @@
+-JDK:
+http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html?ssSourceSiteId=otnes
+-SDK y Studio:
+http://developer.android.com/sdk/index.html
