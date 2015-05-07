@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.16)  12 MAR 2015 22:00
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.16)  7 MAY 2015 03:01
 entering extended mode
 **main.tex
 (D:\trabajoFin\PlantillaTFG\main.tex
@@ -794,7 +794,7 @@ LaTeX Info: Redefining \nameref on input line 45.
 (D:\trabajoFin\PlantillaTFG\main.out) (D:\trabajoFin\PlantillaTFG\main.out)
 \@outlinefile=\write6
 
-<imgs/cabecera.pdf, id=78, 617.67549pt x 135.51413pt>
+<imgs/cabecera.pdf, id=91, 617.67549pt x 135.51413pt>
 File: imgs/cabecera.pdf Graphic file (type pdf)
  <use imgs/cabecera.pdf>
 Package pdftex.def Info: imgs/cabecera.pdf used on input line 50.
@@ -836,7 +836,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (D:\miktex\tex\latex\microtype\mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-<imgs/escudoInfor.pdf, id=79, 618.11432pt x 737.07487pt>
+<imgs/escudoInfor.pdf, id=92, 618.11432pt x 737.07487pt>
 File: imgs/escudoInfor.pdf Graphic file (type pdf)
 
 <use imgs/escudoInfor.pdf>
@@ -940,70 +940,70 @@ Cap\'{\i }tulo 4.
 (D:\trabajoFin\PlantillaTFG\4tecnicasYherramientas.tex [7]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <8> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 39.
-
-<imgs/jdk_1.png, id=517, 1391.1975pt x 758.835pt>
+ [8]
+<imgs/jdk_1.png, id=541, 1391.1975pt x 758.835pt>
 File: imgs/jdk_1.png Graphic file (type png)
  <use imgs/jdk_1.png>
-Package pdftex.def Info: imgs/jdk_1.png used on input line 59.
+Package pdftex.def Info: imgs/jdk_1.png used on input line 74.
 (pdftex.def)             Requested size: 390.79141pt x 213.1555pt.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 59.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 74.
 
 
-LaTeX Warning: \oval, \circle, or \line size unavailable on input line 59.
+LaTeX Warning: \oval, \circle, or \line size unavailable on input line 74.
 
-<imgs/jdk_2.png, id=518, 387.69844pt x 295.1025pt>
+<imgs/jdk_2.png, id=542, 387.69844pt x 295.1025pt>
 File: imgs/jdk_2.png Graphic file (type png)
  <use imgs/jdk_2.png>
-Package pdftex.def Info: imgs/jdk_2.png used on input line 61.
+Package pdftex.def Info: imgs/jdk_2.png used on input line 76.
 (pdftex.def)             Requested size: 390.79141pt x 297.46127pt.
 
 
-LaTeX Warning: \oval, \circle, or \line size unavailable on input line 61.
+LaTeX Warning: \oval, \circle, or \line size unavailable on input line 76.
 
-<imgs/jdk_3.png, id=519, 386.94562pt x 292.09125pt>
+<imgs/jdk_3.png, id=543, 386.94562pt x 292.09125pt>
 File: imgs/jdk_3.png Graphic file (type png)
  <use imgs/jdk_3.png>
-Package pdftex.def Info: imgs/jdk_3.png used on input line 62.
+Package pdftex.def Info: imgs/jdk_3.png used on input line 77.
 (pdftex.def)             Requested size: 390.79141pt x 294.99644pt.
 
 
-LaTeX Warning: \oval, \circle, or \line size unavailable on input line 62.
+LaTeX Warning: \oval, \circle, or \line size unavailable on input line 77.
 
-<imgs/jdk_4.png, id=520, 386.19281pt x 294.34969pt>
+<imgs/jdk_4.png, id=544, 386.19281pt x 294.34969pt>
 File: imgs/jdk_4.png Graphic file (type png)
  <use imgs/jdk_4.png>
-Package pdftex.def Info: imgs/jdk_4.png used on input line 63.
+Package pdftex.def Info: imgs/jdk_4.png used on input line 78.
 (pdftex.def)             Requested size: 390.79141pt x 297.85674pt.
 
 
-LaTeX Warning: \oval, \circle, or \line size unavailable on input line 63.
+LaTeX Warning: \oval, \circle, or \line size unavailable on input line 78.
 
-<imgs/jdk_5.png, id=521, 386.94562pt x 294.34969pt>
+<imgs/jdk_5.png, id=545, 386.94562pt x 294.34969pt>
 File: imgs/jdk_5.png Graphic file (type png)
  <use imgs/jdk_5.png>
-Package pdftex.def Info: imgs/jdk_5.png used on input line 64.
+Package pdftex.def Info: imgs/jdk_5.png used on input line 79.
 (pdftex.def)             Requested size: 390.79141pt x 297.27734pt.
 
 
-LaTeX Warning: \oval, \circle, or \line size unavailable on input line 64.
+LaTeX Warning: \oval, \circle, or \line size unavailable on input line 79.
 
-[8] [9 <D:/trabajoFin/PlantillaTFG/imgs/jdk_1.png> <D:/trabajoFin/PlantillaTFG/
-imgs/jdk_2.png>]) [10 <D:/trabajoFin/PlantillaTFG/imgs/jdk_3.png>] [11 <D:/trab
-ajoFin/PlantillaTFG/imgs/jdk_4.png>] [12 <D:/trabajoFin/PlantillaTFG/imgs/jdk_5
-.png>]
+) [9 <D:/trabajoFin/PlantillaTFG/imgs/jdk_1.png>] [10 <D:/trabajoFin/PlantillaT
+FG/imgs/jdk_2.png>] [11 <D:/trabajoFin/PlantillaTFG/imgs/jdk_3.png>] [12 <D:/tr
+abajoFin/PlantillaTFG/imgs/jdk_4.png>] [13 <D:/trabajoFin/PlantillaTFG/imgs/jdk
+_5.png>] [14
+
+]
 Cap\'{\i }tulo 5.
-(D:\trabajoFin\PlantillaTFG\5estadoDelArte.tex) [13
-
-] [14
+(D:\trabajoFin\PlantillaTFG\5estadoDelArte.tex) [15] [16
 
 ]
 Cap\'{\i }tulo 6.
-(D:\trabajoFin\PlantillaTFG\6aspectosRelevantes.tex) [15] [16
+(D:\trabajoFin\PlantillaTFG\6aspectosRelevantes.tex) [17] [18
 
 ]
 Cap\'{\i }tulo 7.
-(D:\trabajoFin\PlantillaTFG\7conclusionesYfuturo.tex) [17] [18
+(D:\trabajoFin\PlantillaTFG\7conclusionesYfuturo.tex [19]) [20] [21] [22
 
 ]
 No file main.bbl.
@@ -1012,26 +1012,33 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 140.
 (D:\trabajoFin\PlantillaTFG\main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 140.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 140.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8ADBF47EF2F3024FF2CFB2A935D01997;1367.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 230F772F1F4A58E5630117C3BA1396B4;1625
+(rerunfilecheck)             After:  7BE32427AF7B5E382F13317F1B102880;2109.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 140.
  ) 
 Here is how much of TeX's memory you used:
- 15257 strings out of 493921
- 228025 string characters out of 3154500
- 413592 words of memory out of 3000000
- 18097 multiletter control sequences out of 15000+200000
- 66811 words of font info for 117 fonts, out of 3000000 for 9000
+ 15312 strings out of 493921
+ 228565 string characters out of 3154500
+ 411591 words of memory out of 3000000
+ 18101 multiletter control sequences out of 15000+200000
+ 68241 words of font info for 139 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 55i,9n,54p,326b,604s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,9n,54p,619b,604s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/miktex/fonts/enc/dvips/fontname/8r.enc}<D:/miktex/fonts/type1/public/amsf
 onts/latxfont/lcirclew.pfb><D:/miktex/fonts/type1/public/amsfonts/symbols/msam1
 0.pfb><D:/miktex/fonts/type1/urw/helvetic/uhvb8a.pfb><D:/miktex/fonts/type1/urw
 /helvetic/uhvr8a.pfb><D:/miktex/fonts/type1/urw/times/utmb8a.pfb><D:/miktex/fon
 ts/type1/urw/times/utmr8a.pfb><D:/miktex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (30 pages, 865279 bytes).
+Output written on main.pdf (34 pages, 878740 bytes).
 PDF statistics:
- 612 PDF objects out of 1000 (max. 8388607)
- 62 named destinations out of 1000 (max. 500000)
- 35004 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 664 PDF objects out of 1000 (max. 8388607)
+ 80 named destinations out of 1000 (max. 500000)
+ 35028 words of extra memory for PDF output out of 35830 (max. 10000000)
 
