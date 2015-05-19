@@ -1,8 +1,10 @@
 \label{chap:Introduccion}
-El objetivo principal del proyecto es crear un prototipo de aplicacion que se compondra de dos partes.
+El objetivo principal del proyecto consiste en la creación de una aplicación de soporte para personas con dificultades de visión.
 
-La primera sera el servidor, el cual recibira una imagen y la procesara para devolver como resultado  una frase que describa lo que la imagen representa.
+La aplicación de soporte para los usuarios será desarrollada en Android y constará de una interfaz y funcionamiento orientada al uso por personas con dificultades de visión, además de guiará al usuario a través de la aplicación con un asistente de voz que irá diciendo al usuario qué debe hacer y en qué punto de la aplicación se encuentra.
 
-La segunda parte sera un cliente en Android que sera con el que mandemos la imagen al servidor y recibiremos la respuesta. Esta sera leida en voz alta gracias a un API de lectura.
+La aplicación tendrá como objetivo inicial mandar una foto tomada por el usuario a un servidor que la procesará y extraerá una predicción que le dirá al usuario lo que se puede observar en la imagen que él ha elegido. La predicción será una frase que describa la imagen y está será leída por la aplicación.
 
-La aplicacion esta destinada a personas con dificultades de vision para que puedan tener una idea algo concreta de lo que con la camara han captad. Por tanto el cliente estara orientado en lo maxixmo posible a una interfaz de usuario que pueda ser usada por una persona con dificultades de vision.
+Por otra parte en el lado del servidor usaremos algoritmos de machine learning para el procesado de la imagen y la extracción de la predicción. El servidor recibirá una petición de tipo POST y cargará la imagen, la cuál será procesada y en respuesta devolverá una frase en español que describa la imagen.
+
+El principal objetivo del proyecto es conseguir crear un prototipo de esta aplicación que tenga un correcto funcionamiento y que sirva como base para desarrollar sobre él una aplicación más optimizada y de aún mejor funcionamiento.

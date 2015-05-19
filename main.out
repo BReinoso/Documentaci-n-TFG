@@ -1,28 +1,32 @@
 \BOOKMARK [0][-]{chapter.4}{Introducci\363n}{}% 1
 \BOOKMARK [0][-]{chapter.5}{Objetivos del proyecto}{}% 2
 \BOOKMARK [1][-]{section.6}{Objetivos funcionales}{chapter.5}% 3
-\BOOKMARK [0][-]{chapter.7}{Conceptos te\363ricos}{}% 4
-\BOOKMARK [0][-]{chapter.8}{T\351cnicas y herramientas}{}% 5
-\BOOKMARK [1][-]{section.9}{T\351cnicas de desarrollo}{chapter.8}% 6
-\BOOKMARK [1][-]{section.10}{Herramientas utilizadas}{chapter.8}% 7
-\BOOKMARK [2][-]{subsection.11}{Gestor de Tareas: VersionOne}{section.10}% 8
-\BOOKMARK [2][-]{subsection.13}{Gestor de Versiones: Git Hub}{section.10}% 9
-\BOOKMARK [2][-]{subsection.15}{IDEL de desarrollo: Android Studio}{section.10}% 10
-\BOOKMARK [2][-]{subsection.17}{Herramienta de Generaci\363n de Documentaci\363n: LaTeX}{section.10}% 11
-\BOOKMARK [2][-]{subsection.18}{Herramientas de Deep Learning: NeuralTalk}{section.10}% 12
-\BOOKMARK [2][-]{subsection.20}{Herramientas de Deep Learning: Caffe}{section.10}% 13
-\BOOKMARK [2][-]{subsection.21}{Herramientas de desarrollo de servidores: Flask}{section.10}% 14
-\BOOKMARK [2][-]{subsection.23}{Manual del Programador}{section.10}% 15
-\BOOKMARK [0][-]{chapter.31}{Estado del arte}{}% 16
-\BOOKMARK [0][-]{chapter.32}{Aspectos relevantes del desarrollo del proyecto}{}% 17
-\BOOKMARK [1][-]{section.33}{Resolviendo puzles en un ordenador}{chapter.32}% 18
-\BOOKMARK [0][-]{chapter.34}{Conclusiones y l\355neas de trabajo futuras}{}% 19
-\BOOKMARK [1][-]{section.35}{Dificultades encontradas}{chapter.34}% 20
-\BOOKMARK [2][-]{subsection.36}{Dificultades con GSOAP y Apache}{section.35}% 21
-\BOOKMARK [2][-]{subsection.40}{Dificultades con DeepBeliefSDK}{section.35}% 22
-\BOOKMARK [2][-]{subsection.41}{Dificultades en la instalaci\363n de Herramientas}{section.35}% 23
-\BOOKMARK [2][-]{subsection.42}{Dificultades con NeuralTalk}{section.35}% 24
-\BOOKMARK [2][-]{subsection.43}{Dificultades con Android}{section.35}% 25
-\BOOKMARK [1][-]{section.44}{Conclusiones del Proyecto}{chapter.34}% 26
-\BOOKMARK [1][-]{section.45}{Lineas de trabajo Futuras}{chapter.34}% 27
-\BOOKMARK [0][-]{section.45}{Anexos}{}% 28
+\BOOKMARK [2][-]{subsection.7}{Objetivos funcionales en el cliente Android}{section.6}% 4
+\BOOKMARK [2][-]{subsection.8}{Objetivos funcionales en el servidor Flask}{section.6}% 5
+\BOOKMARK [0][-]{chapter.9}{Conceptos te\363ricos}{}% 6
+\BOOKMARK [0][-]{chapter.10}{T\351cnicas y herramientas}{}% 7
+\BOOKMARK [1][-]{section.11}{T\351cnicas de desarrollo}{chapter.10}% 8
+\BOOKMARK [2][-]{subsection.12}{Metodolog\355a de desarrollo \341gil}{section.11}% 9
+\BOOKMARK [1][-]{section.13}{Herramientas utilizadas}{chapter.10}% 10
+\BOOKMARK [2][-]{subsection.14}{Gestor de Tareas: VersionOne}{section.13}% 11
+\BOOKMARK [2][-]{subsection.16}{Gestor de Versiones: Git Hub}{section.13}% 12
+\BOOKMARK [2][-]{subsection.18}{IDEL de desarrollo: Android Studio}{section.13}% 13
+\BOOKMARK [2][-]{subsection.20}{Herramienta de Generaci\363n de Documentaci\363n: LaTeX}{section.13}% 14
+\BOOKMARK [2][-]{subsection.21}{Herramientas de Deep Learning: NeuralTalk}{section.13}% 15
+\BOOKMARK [2][-]{subsection.23}{Herramientas de Deep Learning: Caffe}{section.13}% 16
+\BOOKMARK [2][-]{subsection.24}{Herramientas de programaci\363n: MATLAB}{section.13}% 17
+\BOOKMARK [2][-]{subsection.25}{Herramientas de desarrollo de servidores: Flask}{section.13}% 18
+\BOOKMARK [2][-]{subsection.27}{Manual del Programador}{section.13}% 19
+\BOOKMARK [0][-]{chapter.35}{Estado del arte}{}% 20
+\BOOKMARK [0][-]{chapter.36}{Aspectos relevantes del desarrollo del proyecto}{}% 21
+\BOOKMARK [1][-]{section.37}{Resolviendo puzles en un ordenador}{chapter.36}% 22
+\BOOKMARK [0][-]{chapter.38}{Conclusiones y l\355neas de trabajo futuras}{}% 23
+\BOOKMARK [1][-]{section.39}{Dificultades encontradas}{chapter.38}% 24
+\BOOKMARK [2][-]{subsection.40}{Dificultades con GSOAP y Apache}{section.39}% 25
+\BOOKMARK [2][-]{subsection.44}{Dificultades con DeepBeliefSDK}{section.39}% 26
+\BOOKMARK [2][-]{subsection.45}{Dificultades en la instalaci\363n de Herramientas}{section.39}% 27
+\BOOKMARK [2][-]{subsection.46}{Dificultades con NeuralTalk}{section.39}% 28
+\BOOKMARK [2][-]{subsection.47}{Dificultades con Android}{section.39}% 29
+\BOOKMARK [1][-]{section.48}{Conclusiones del Proyecto}{chapter.38}% 30
+\BOOKMARK [1][-]{section.49}{Lineas de trabajo Futuras}{chapter.38}% 31
+\BOOKMARK [0][-]{section.49}{Anexos}{}% 32

@@ -1,4 +1,17 @@
 \section{Objetivos funcionales}
-
-
-El principal objetivo del proyecto es:
+El principal objetivo del proyecto es tener un prototipo de la aplicación que funcione de manera adecuada,para esto tenemos que tener en cuenta tanto los objetivos del lado del servidor como del lado del cliente.
+\subsection{Objetivos funcionales en el cliente Android}
+El principal objetivo que podemos encontrarnos en el lado del cliente es el disponer de un prototipo de aplicación Android con la que el usuario pueda mandar de manera intuitiva una imagen al servidor y recibir de él la predicción esperada. Para que esto funcione de manera adecuada se han propuesto una serie de requisitos que deben cumplirse:
+\begin{itemize}
+    \item Para poder enviar la imagen al servidor y recibir de él la predicción, se debe establecer una conexión con el desde la aplicación Android y hacer un correcta petición de tipo POST. Para ello usamos la librería de Apache con el módulo MultipartEntityBuilder, que nos permite establecer de manera bastante sencilla la conexión y mandar la petición POST. Además por especficaciones de Android esto deberá realizarse en un hilo separado del hilo principal.
+    \item Para que la persona que lo utilice no tenga por qué saber la estructura de la interfaz gráfica de la aplicación para poder usarla sin problemas, nos apoyaremos sobre los eventos ontouch de Android y evitaremos lo máximo posible que el usuario tenga que saber cómo es la interfaz.
+    \item Para ofrecer una guía fácil y útil para el usuario a lo largo de su experiencia usando la aplicación, usaremos la librería Text2Speech para ir guiando al usuario con instrucciones en voz alta explicándole lo que debe hacer en cada momento. Finalmente le devolveremos la predicción y se le dirá cuáles son sus opciones.
+    \item Para poder tomar la imagen se requerirá de un dispositivo con cámara de fotos y se tendrá que establecer los permisos sobre la aplicación para el uso de la misma. 
+\end{itemize}
+\subsection{Objetivos funcionales en el servidor Flask}
+En el lado del servidor tenemos un objetivo claro y es el de recibir una imagen a través de una petición POST desde un cliente, procesarla y, finalmente, devolver la predicción en español. Para conseguir todo esto tenemos una serie de requisitos y objetivos que tenemos que cumplir:
+\begin{itemize}
+	\item Para poder recibir las peticiones y mandar respuestas tenemos que tener un servidor con la capacidad de gestionar este tipo de operaciones, para ello se ha decidido usar Flask para programar el servidor. Con Flask se creará un servidor que gestione la petición post sobre un URL concreto .
+	\item Para poder procesar la imagen se necesita una red neuronal a través de la cual pasar la imagen y extraer la predicción. Para ello se ha elegido un proyecto desarrollado por \href{https://github.com/karpathy}{Karpathy} y su proyecto \href{https://github.com/karpathy/neuraltalk}{Neuraltalk}. Para ello se instalará el proyecto en la máquina servidora y todas las dependencias del mismo. Además se hará todas las modificaciones necesarias para su correcto funcionamiento sobre nuestra aplicación.
+	\item Una vez la predicción haya sido extraída esta viene en inglés, así que el servidor se deberá encargar de traducirla al español para enviarla al cliente. Para ello se usa una conexión con el traductor de Google. 
+\end{itemize}

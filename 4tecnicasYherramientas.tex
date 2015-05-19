@@ -1,10 +1,8 @@
 En este apartado se indicarán las técnicas y herramientas utilizadas durante la realización del proyecto.
-
-
-
 \section{Técnicas de desarrollo}
 
-En esta sección\dots
+En esta sección se indicarán las técnicas de desarrollo utilizadas a lo largo del proyecto.
+\subsection{Metodología de desarrollo ágil}
 
 \section{Herramientas utilizadas}
 
@@ -19,6 +17,8 @@ Se ha estudiado entre varias posibles herramientas, entre ellas están:
 \end{itemize}
 \paragraph{}Se ha optado por la herramienta VersionOne, que ofrece unas condiciones notablemente mejores a las otras en su versión gratuita y además resulta bastante intuitiva y fácil de usar.
 
+Con esta herramienta nos encargaremos de generar los Sprints del proyecto y se gestionará las tareas dentro de cada uno. Esta herramienta es usada en el desarrollo ágil, que es el tipo de desarrollo que se llevará acabo en el proyecto, además de que con la herramienta podemos, posteriormente, generar una serie de gráficos e informes que nos serán de gran ayuda a la hora de documentar el proyecto y de gestionar el avance del mismo.
+
 \subsection{Gestor de Versiones: Git Hub}
 
 Se ha estudiado entre varias posibles herramientas, entre ellas están:
@@ -28,6 +28,8 @@ Se ha estudiado entre varias posibles herramientas, entre ellas están:
     \item \href{http://sourceforge.net/}{Sourcefroge}
 \end{itemize}
 \paragraph{}Finalmente se decidió que se iba a usar la herramienta GitHub porque se tenía experiencia previa en el uso de la misma, ofrece unas condiciones bastante razonables en su versión gratuita y se puede hace un buen seguimiento del proyecto con ella.
+Además de que es bastante sencilla la generación de commits en Windows porque dispone de una aplicación con la que lo commits se realizan de manera sencilla. Se puede ver de una manera bastante clara cómo ha ido avanzando el proyecto y se puede extraer unos gráficos muy útiles a la hora de documentar y determinar cómo ha avanzado el proyecto.
+Además al estar en su versión gratuita los miembros del jurado y cualquier persona que desee el acceso al proyecto sólo necesitará el link del mismo para poder verlo y comprobar la asiduidad de los commits y cómo ha sido la evolución del proyecto.
 \subsection{IDEL de desarrollo: Android Studio}
 Se ha estudiado entre varias posibles herramientas, entre ellas están:
 \begin{itemize}
@@ -35,9 +37,10 @@ Se ha estudiado entre varias posibles herramientas, entre ellas están:
     \item \href{http://developer.android.com/sdk/index.html}{Android Studio}
 \end{itemize}
 \paragraph{}La elección de Android Studio ha sido porque no sólo es una herramienta exclusivamente dedicada a aplicaciones Android, sino que resultaba más prometedora que Eclipse; la cuál pensamos que puede quedar obsoleta para este tipo de aplicaciones.
+También vemos que Android Studio ofrece un gestor de instalación de paquetes de kit de desarrollo y plugins, lo cuál puede resultar muy útil a la hora de la configuración del entorno de desarrollo. Además en Android Studio no puede sólo usarse máquinas virtuales de móviles, sino que puedes conectar un dispositivo móvil al ordenador e ir ejecutando tu aplicación sobre el contando con un debugger y un logcat para errores, lo cual facilita en gran medida la programación.
 
 \subsection{Herramienta de Generación de Documentación: \LaTeX}
-Se ha elegido esta herramienta debido a su facilidad de uso y a que optimiza automáticamente la estructura del producto final para ofrecer el mejor resultado visual.
+Se ha elegido esta herramienta debido a su facilidad de uso y a que optimiza automáticamente la estructura del producto final para ofrecer el mejor resultado visual. También prevemos que el uso de esta herramienta facilitará en gran medida la carga de trabajo al realizar la documentación lo que permitirá ahorrarse tiempo en este apartado, producir un resultado mas eficiente y bueno y, finalmente, se podrá usar el tiempo ahorrado en otras cosas para el avance del proyecto.
 
 \subsection{Herramientas de Deep Learning: NeuralTalk}
 
@@ -48,6 +51,7 @@ Se ha estudiado entre varias posibles herramientas, entre ellas están:
     \item \href{https://github.com/jetpacapp/DeepBeliefSDK}{Deep Belief SDK}
 \end{itemize}
 \paragraph{}Esta herramienta ha sido elegida porque venía en el mismo idioma en el que se iba a programar el servidor, además de que su aplicación en nuestro proyecto era mucho mas práctico, pues devuelve una frase descriptiva de lo que en una imagen hay.
+Lamentablemente su funcionamiento e instalación son algo enrevesadas y requiere de una configuración que  depende mucho de la máquina en la que se trabaje y de la estructura de directorios que esta tenga, pero una vez configurada su funcionamiento es el esperado.
 
 \subsection{Herramientas de Deep Learning: Caffe}
 
@@ -67,14 +71,14 @@ Se ha estudiado entre varias posibles herramientas, entre ellas están:
     \item \href{http://tomcat.apache.org/}{Tomcat}
 \end{itemize}
 \paragraph{}Se ha escogido esta herramienta en concreto porque sobre todas las demás su funcionamiento era muy inmediato y además se escribe en Python, que es un idioma muy versátil y fácil de usar. El hecho de que esta herramienta tenga un funcionamiento y programación tan sencilla la hace una herramienta que, a nuestro parecer, destaca sobre el resto y es interesante trabajar con ella.
-
-
+Además tiene una documentación sencilla, repleta de ejemplos y explicaciones para poder realizar tu servidor. Sus ejemplos son muy útiles y funcionan a la primera, sin tener que configurar casi nada. Tiene una forma de establecer los URLs de forma muy sencilla y es fácil estructurar tu servidor con esta API.
+A pesar de ser una API tan fácil de usar tiene una gran potencia y se pueden construir con ella servidores bastante grandes y fácilmente escalables, por tanto se convierte en la herramienta perfecta para la programación de nuestro servidor.
 \subsection{Manual del Programador}
 En esta sección se procederá a la explicación detallada de cómo instalar las herramientas necesarias y qué herramientas son necesarias para trabajar sobre este proyecto.
 \subsubsection{Instalación del JDK}
 La primera, y más esencial de las herramientas, es el JDK de java, que es el set o conjunto de herramientas y librerías para los desarolladores de java.
 
-\paragraph{} Primero deberemos ir a la página de \href{http://cs.stanford.edu/people/karpathy/rcnn/}{Oracle} en la que descargaremos el jdk, la página debería tener un aspecto más o menos como este
+\paragraph{} Primero deberemos ir a la página de \href{http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html?ssSourceSiteId=otnes}{Oracle} en la que descargaremos el jdk, la página debería tener un aspecto más o menos como este
 \figura{1}{imgs/jdk_1.png}{Página de descarga del JDK de Java}{figImagen1}{}\\
 En dicha página tendremos que aceptar la licencia y posteriormente descargar el JDK que sirva para nuestra máquina. Una vez hemos descargado dicho archivo, lo ejecutamos. Una vez ejecutado seguimos los siguientes pasos para su instalación.
 \figura{1}{imgs/jdk_2.png}{Instalación del JDK, paso 1.}{figImagen2}{}\\
