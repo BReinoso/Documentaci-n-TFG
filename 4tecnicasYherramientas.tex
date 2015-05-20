@@ -3,7 +3,30 @@ En este apartado se indicarán las técnicas y herramientas utilizadas durante la 
 
 En esta sección se indicarán las técnicas de desarrollo utilizadas a lo largo del proyecto.
 \subsection{Metodología de desarrollo ágil}
+Para llevar a cabo este proyecto hemos seguido una metodología ágil de desarrollo de proyectos. 
 
+\paragraph{}El uso de una metodología ágil de desarrollo viene justificada por el hecho de que los datos respecto a los últimos años, la inmensa mayoría de los proyectos informáticos que se desarrollaron con una metodología clásica de gestión de proyectos han fracasado o no se han llegado a terminar. Ante este problema se ha ideado una nueva e innovadora metodología de gestión de proyectos, esta es llamada metodología de desarrollo ágil.
+
+\paragraph{}La metodología de desarrollo ágil se tiene como objetivo el evitar el fracaso de los proyectos, para ello se pretende que los proyectos sigan un nuevo método de desarrollo llamado \textit{Scrum}. Las principales características del \textit{Scrum} son:
+\begin{itemize}
+	\item Adopta una estrategia de desarrollo incremental en contra partida a la ejecución completa del producto que se da en la gestión clásica de proyectos.
+	\item Basa la calidad del resultado más en el conocimiento de las personas en equipos autoorganizados, que en la calidad de los procesos empleados a lo largo del proyecto.
+	\item En el desarrollo ágil podemos observar un claro solapamiento de las fases de desarrollo, mientras que en la gestión clásica estas se producen de manera secuencial o en cascada.
+\end{itemize}
+Al usarse la metodología de desarrollo \textit{Scrum} podemos dividir el proceso en varias partes:
+\begin{itemize}
+	\item En primer lugar el desarrollo ha sido guiado a través de iteraciones, que han sido delimitadas como \textit{Sprints}. Estos \textit{Spints} tienen una duración de entre 1 o 2 semanas.
+	\item En cada \textit{Sprint} se propone una serie de tareas y objetivos a completar antes de la finalización del mismo.
+	\item Al final de cada \textit{Sprint} se ha realizado una reunión en la que se establecía los objetivos que se han cumplido en ese \textit{Sprint}, esto ha sido reflejado en la planificación del proyecto como \textit{Retrospective Meeting}; seguidamente se proponía los nuevos objetivos para el siguiente \textit{Sprint}, esto esta representado en la planificación del proyecto como \textit{Sprint planning}.
+\end{itemize}
+\paragraph{}Creemos que gracias al uso de este tipo de metodología el proyecto tiene mayores posibilidades de terminar de manera exitosa.
+\subsection{Desarrollo Software con control de versiones}
+El control de versiones en desarrollo software se puede describir como la gestión de los cambios que se producen en nuestro software o en la configuración del mismo. Entendiéndose como versión el estado en el que se encuentra el software en un determinado momento.
+\paragraph{}En el proyecto se ha usado el control de versiones sobre el software a programar por parte del alumno. Para realizar el control de versiones se ha creado un repositorio público en \href{https://github.com/}{GitHub}.
+\paragraph{}En \href{https://github.com/}{GitHub} las versiones se van determinando a través de \textit{commits}. Lo \textit{commits} son una actualización del estado actual del proyecto, estas actualizaciones llevan un título y un comentario para poder identificar los cambios del software y qué documentos han sido añadidos en qué \textit{commit}.
+\paragraph{}En el proyecto la asiduidad de los \textit{commits} no sigue ningún procedimiento estricto, sino que cuando se determinará que se ha producido un cambio en el software lo suficientemente importante se realizaría un \textit{commit} con un comentario descriptivo del cambio que se ha producido en el software.
+\paragraph{}Lo interesante del uso de este tipo de metodología junto con la herramienta es que se pueden extraer gráficos y datos que nos aportan información bastante representativa de cómo ha ido evolucionando el proyecto en el aspecto software. También nos asegura que los cambios realizados no se pierden en caso de que la máquina falle o en caso de habernos equivocado al hacer un \textit{commit} este puede ser deshecho.
+En conclusión el uso de control de versiones aporta muchas ventajas y datos con los que posteriormente podremos analizar más en profundidad la evolución del proyecto y usarlo como \textit{feedback} para posteriores proyectos que se vayan a realizar.
 \section{Herramientas utilizadas}
 
 En este apartado se mostrará las distintas herramientas utilizadas para el desarrollo del proyecto.
@@ -73,17 +96,3 @@ Se ha estudiado entre varias posibles herramientas, entre ellas están:
 \paragraph{}Se ha escogido esta herramienta en concreto porque sobre todas las demás su funcionamiento era muy inmediato y además se escribe en Python, que es un idioma muy versátil y fácil de usar. El hecho de que esta herramienta tenga un funcionamiento y programación tan sencilla la hace una herramienta que, a nuestro parecer, destaca sobre el resto y es interesante trabajar con ella.
 Además tiene una documentación sencilla, repleta de ejemplos y explicaciones para poder realizar tu servidor. Sus ejemplos son muy útiles y funcionan a la primera, sin tener que configurar casi nada. Tiene una forma de establecer los URLs de forma muy sencilla y es fácil estructurar tu servidor con esta API.
 A pesar de ser una API tan fácil de usar tiene una gran potencia y se pueden construir con ella servidores bastante grandes y fácilmente escalables, por tanto se convierte en la herramienta perfecta para la programación de nuestro servidor.
-\subsection{Manual del Programador}
-En esta sección se procederá a la explicación detallada de cómo instalar las herramientas necesarias y qué herramientas son necesarias para trabajar sobre este proyecto.
-\subsubsection{Instalación del JDK}
-La primera, y más esencial de las herramientas, es el JDK de java, que es el set o conjunto de herramientas y librerías para los desarolladores de java.
-
-\paragraph{} Primero deberemos ir a la página de \href{http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html?ssSourceSiteId=otnes}{Oracle} en la que descargaremos el jdk, la página debería tener un aspecto más o menos como este
-\figura{1}{imgs/jdk_1.png}{Página de descarga del JDK de Java}{figImagen1}{}\\
-En dicha página tendremos que aceptar la licencia y posteriormente descargar el JDK que sirva para nuestra máquina. Una vez hemos descargado dicho archivo, lo ejecutamos. Una vez ejecutado seguimos los siguientes pasos para su instalación.
-\figura{1}{imgs/jdk_2.png}{Instalación del JDK, paso 1.}{figImagen2}{}\\
-\figura{1}{imgs/jdk_3.png}{Instalación del JDK, paso 2.}{figImagen3}{}
-\figura{1}{imgs/jdk_4.png}{Instalación del JDK, paso 3.}{figImagen4}{}\\
-\figura{1}{imgs/jdk_5.png}{Instalación del JDK, paso 4.}{figImagen5}{}
-
-
