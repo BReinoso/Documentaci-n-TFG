@@ -4,33 +4,38 @@
 \BOOKMARK [2][-]{subsection.7}{Objetivos funcionales en el cliente Android}{section.6}% 4
 \BOOKMARK [2][-]{subsection.8}{Objetivos funcionales en el servidor Flask}{section.6}% 5
 \BOOKMARK [0][-]{chapter.9}{Conceptos te\363ricos}{}% 6
-\BOOKMARK [0][-]{chapter.10}{T\351cnicas y herramientas}{}% 7
-\BOOKMARK [1][-]{section.11}{T\351cnicas de desarrollo}{chapter.10}% 8
-\BOOKMARK [2][-]{subsection.12}{Metodolog\355a de desarrollo \341gil}{section.11}% 9
-\BOOKMARK [2][-]{subsection.16}{Desarrollo Software con control de versiones}{section.11}% 10
-\BOOKMARK [1][-]{section.21}{Herramientas utilizadas}{chapter.10}% 11
-\BOOKMARK [2][-]{subsection.22}{Gestor de Tareas: VersionOne}{section.21}% 12
-\BOOKMARK [2][-]{subsection.24}{Gestor de Versiones: Git Hub}{section.21}% 13
-\BOOKMARK [2][-]{subsection.26}{IDEL de desarrollo: Android Studio}{section.21}% 14
-\BOOKMARK [2][-]{subsection.28}{Herramienta de Generaci\363n de Documentaci\363n: LaTeX}{section.21}% 15
-\BOOKMARK [2][-]{subsection.29}{Herramientas de Deep Learning: NeuralTalk}{section.21}% 16
-\BOOKMARK [2][-]{subsection.31}{Herramientas de Deep Learning: Caffe}{section.21}% 17
-\BOOKMARK [2][-]{subsection.32}{Herramientas de programaci\363n: MATLAB}{section.21}% 18
-\BOOKMARK [2][-]{subsection.33}{Herramientas de desarrollo de servidores: Flask}{section.21}% 19
-\BOOKMARK [0][-]{chapter.35}{Estado del arte}{}% 20
-\BOOKMARK [0][-]{chapter.36}{Aspectos relevantes del desarrollo del proyecto}{}% 21
-\BOOKMARK [1][-]{section.37}{Resolviendo puzles en un ordenador}{chapter.36}% 22
-\BOOKMARK [0][-]{chapter.38}{Conclusiones y l\355neas de trabajo futuras}{}% 23
-\BOOKMARK [1][-]{section.39}{Dificultades encontradas}{chapter.38}% 24
-\BOOKMARK [2][-]{subsection.40}{Dificultades con GSOAP y Apache}{section.39}% 25
-\BOOKMARK [2][-]{subsection.44}{Dificultades con DeepBeliefSDK}{section.39}% 26
-\BOOKMARK [2][-]{subsection.45}{Dificultades en la instalaci\363n de Herramientas}{section.39}% 27
-\BOOKMARK [2][-]{subsection.46}{Dificultades con NeuralTalk}{section.39}% 28
-\BOOKMARK [2][-]{subsection.47}{Dificultades con Android}{section.39}% 29
-\BOOKMARK [1][-]{section.48}{Conclusiones del Proyecto}{chapter.38}% 30
-\BOOKMARK [1][-]{section.49}{Lineas de trabajo Futuras}{chapter.38}% 31
-\BOOKMARK [0][-]{section.49}{Anexos}{}% 32
-\BOOKMARK [0][-]{chapter.50}{Manual del programador}{}% 33
-\BOOKMARK [1][-]{section.51}{Manual del programador}{chapter.50}% 34
-\BOOKMARK [2][-]{subsection.52}{Instalaci\363n del JDK}{section.51}% 35
-\BOOKMARK [2][-]{subsection.59}{Instalaci\363n de Anrdoid Studio}{section.51}% 36
+\BOOKMARK [1][-]{section.10}{Conceptos te\363ricos en el lado del Servidor}{chapter.9}% 7
+\BOOKMARK [2][-]{subsection.11}{Machine Learning}{section.10}% 8
+\BOOKMARK [2][-]{subsection.15}{Deep Learning}{section.10}% 9
+\BOOKMARK [2][-]{subsection.17}{Conceptos usados en Caffe}{section.10}% 10
+\BOOKMARK [1][-]{section.21}{Conceptos te\363ricos en el lado del Cliente}{chapter.9}% 11
+\BOOKMARK [0][-]{chapter.22}{T\351cnicas y herramientas}{}% 12
+\BOOKMARK [1][-]{section.23}{T\351cnicas de desarrollo}{chapter.22}% 13
+\BOOKMARK [2][-]{subsection.24}{Metodolog\355a de desarrollo \341gil}{section.23}% 14
+\BOOKMARK [2][-]{subsection.28}{Desarrollo Software con control de versiones}{section.23}% 15
+\BOOKMARK [1][-]{section.33}{Herramientas utilizadas}{chapter.22}% 16
+\BOOKMARK [2][-]{subsection.34}{Gestor de Tareas: VersionOne}{section.33}% 17
+\BOOKMARK [2][-]{subsection.36}{Gestor de Versiones: Git Hub}{section.33}% 18
+\BOOKMARK [2][-]{subsection.38}{IDEL de desarrollo: Android Studio}{section.33}% 19
+\BOOKMARK [2][-]{subsection.40}{Herramienta de Generaci\363n de Documentaci\363n: LaTeX}{section.33}% 20
+\BOOKMARK [2][-]{subsection.41}{Herramientas de Deep Learning: NeuralTalk}{section.33}% 21
+\BOOKMARK [2][-]{subsection.43}{Herramientas de Deep Learning: Caffe}{section.33}% 22
+\BOOKMARK [2][-]{subsection.44}{Herramientas de programaci\363n: MATLAB}{section.33}% 23
+\BOOKMARK [2][-]{subsection.45}{Herramientas de desarrollo de servidores: Flask}{section.33}% 24
+\BOOKMARK [0][-]{chapter.47}{Estado del arte}{}% 25
+\BOOKMARK [0][-]{chapter.48}{Aspectos relevantes del desarrollo del proyecto}{}% 26
+\BOOKMARK [1][-]{section.49}{Resolviendo puzles en un ordenador}{chapter.48}% 27
+\BOOKMARK [0][-]{chapter.50}{Conclusiones y l\355neas de trabajo futuras}{}% 28
+\BOOKMARK [1][-]{section.51}{Dificultades encontradas}{chapter.50}% 29
+\BOOKMARK [2][-]{subsection.52}{Dificultades con GSOAP y Apache}{section.51}% 30
+\BOOKMARK [2][-]{subsection.56}{Dificultades con DeepBeliefSDK}{section.51}% 31
+\BOOKMARK [2][-]{subsection.57}{Dificultades en la instalaci\363n de Herramientas}{section.51}% 32
+\BOOKMARK [2][-]{subsection.58}{Dificultades con NeuralTalk}{section.51}% 33
+\BOOKMARK [2][-]{subsection.59}{Dificultades con Android}{section.51}% 34
+\BOOKMARK [1][-]{section.60}{Conclusiones del Proyecto}{chapter.50}% 35
+\BOOKMARK [1][-]{section.61}{Lineas de trabajo Futuras}{chapter.50}% 36
+\BOOKMARK [0][-]{section.61}{Anexos}{}% 37
+\BOOKMARK [0][-]{chapter.62}{Manual del programador}{}% 38
+\BOOKMARK [1][-]{section.63}{Manual del programador}{chapter.62}% 39
+\BOOKMARK [2][-]{subsection.64}{Instalaci\363n del JDK}{section.63}% 40
+\BOOKMARK [2][-]{subsection.71}{Instalaci\363n de Anrdoid Studio}{section.63}% 41

@@ -1,1 +1,56 @@
-En este apartado se profundizará\dots
+En este apartado se profundizará en los conceptos teóricos con los que se ha trabajado a lo largo de todo el proyecto.
+\section{Conceptos teóricos en el lado del Servidor}
+En este apartado se pretende explicar todos  los conceptos teóricos que se utilizan en el lado del servidor, tanto directamente usados por el alumno como los que se usan en proyectos o librerías de apoyo que se usan en el proyecto.
+\subsection{Machine Learning}
+El \textit{Machine Learing} o también conocido como aprendizaje computacional, entre otros nombres, es una rama de la inteligencia artificial que pretende conseguir el objetivo de que los computadores puedan aprender de manera automática. De forma más general se podría decir que en el \textit{machine learning} se pretende crear programas informáticos capaces de generalizar comportamientos a partir de una información no estructurara que suele estar suministrada en forma de ejemplos.
+
+\paragraph{}El \textit{machine learning} tiene muchísimas aplicaciones y es ahora mismo un campo de la inteligencia artificial que se encuentra en estudio y del que se suceden bastantes proyectos.
+
+\subsubsection{Tipos de algoritmos}
+Podemos dividir los algoritmos en tres tipos, aunque puede haber más pero los más importantes o con los que se puede clasificar a todos los algoritmos o programas que nos encontremos:
+\begin{itemize}
+	\item \textbf{Aprendizaje Supervisado:} Este algoritmo es modelado con una serie de ejemplos que son la entrada del sistema, pero también tienen una etiqueta de salida para cada ejemplo. El sistema lo que intenta es predecir la salida que se corresponde con cada ejemplo a través de su entrada, en función del error o acierto a la hora de predecir, el algoritmo va modificando sus valores para generar cada vez una predicción que se espera sea correcta o menos errónea.
+	\item \textbf{Aprendizaje no Supervisado:} En estos tipos de algoritmo se lleva a cabo el modelado con una serie ejemplos que tan sólo constan con sus valores de entrada, mientras que el sistema desconoce a qué clase o qué salida debiera surgir por cada ejemplo. Esto obliga al algoritmo a tener la capacidad de reconocimiento de patrones y ser capaz de diferenciar entre los ejemplos y dividirlos en grupos, en el que la salida será el grupo al que pertenece cada ejemplo.
+	\item \textbf{Aprendizaje semisupervisado:} Este tipo de algoritmos son sólo una combinación de los dos anteriores, tiene en cuenta tanto los ejemplos etiquetados como los no etiquetados.
+\end{itemize}
+\subsubsection{Enfoques}
+Dentro de esta rama de la inteligencia artificial se pueden tomar varios enfoques a la hora de la creación de algoritmos y programas para la resolución de los problemas planteados:
+\begin{itemize}
+	\item Árboles de decisión
+	\item Reglas de asociación
+	\item Algoritmos genéticas
+	\item Redes neuronales artificiales
+	\item Máquinas de vectores de soporte
+	\item Algoritmos de agrupamiento
+	\item Redes bayesianas
+	\item Aprendizaje por refuerzo
+\end{itemize}
+\subsection{Deep Learning}
+Es un conjunto de algoritmos en \textit{machine learning} que intenta modelar abstracciones de alto nivel en datos usando arquitecturas compuestas de transformaciones no-lineales múltiples.
+
+No existe una única definición de aprendizaje profundo. En general se trata de una clase de algoritmos para aprendizaje máquina. A partir de este punto común, diferentes publicaciones se centran en un conjunto de características diferentes, por ejemplo:
+\begin{itemize}
+	\item usar una cascada de capas con unidades de procesamiento no lineal para extraer y transformar características. Cada capa usa la salida de la capa anterior como entrada. Los algoritmos pueden utilizar aprendizaje supervisado o no supervisado, y las aplicaciones incluyen reconocimiento de patrones y clasificación estadística.
+	\item estar basados en el aprendizaje (no supervisado) de múltiples niveles de características o representaciones de datos. Las características de más alto nivel se derivan de las características de nivel inferior para formar una representación jerárquica.
+	\item formar parte del campo del aprendizaje máquina para aprender representaciones de datos.
+	\item aprender múltiples niveles de representación que corresponden con diferentes niveles de abstracción. Estos niveles forman una jerarquía de conceptos.
+\end{itemize}
+
+Todas estas maneras de definir el aprendizaje profundo tienen en común múltiples capas de procesamiento no lineal y el aprendizaje supervisado o no supervisado de representaciones de características en cada capa. Las capas forman una jerarquía de características desde un nivel de abstracción más bajo a uno más alto.
+\paragraph{}Los algoritmos de aprendizaje profundo contrastan con los algoritmos de aprendizaje poco profundo por el número de transformaciones aplicadas a la señal mientras se propaga desde la capa de entrada a la capa de salida. Cada una de estas transformaciones incluye parámetros que se pueden entrenar como pesos y umbrales. No existe un estándar de facto para el número de transformaciones (o capas) que convierte a un algoritmo en profundo, pero la mayoría de investigadores en el campo considera que aprendizaje profundo implica más de dos transformaciones intermedias.
+\subsection{Conceptos usados en Caffe}
+Caffe es un arquitectura para el \textit{deep learning} que está programada en C++ puro y en CUDA, pero también se puede usar en línea de comandos en un sistema Unix y cuenta con \textit{wrappers} para Python y MATLAB.
+Sus principales características que lo convierten en un proyecto que destaca sobre los demás son:
+\begin{itemize}
+	\item Es una arquitectura que funciona de manera especialmente rápida.
+	\item Su código está bien testeado.
+	\item Tiene buenas herramientas, modelos de referencia, demos y repositorios.
+	\item Posibilidad de ejecutarlo tanto en CPU como en GPU
+\end{itemize}
+\subsubsection{Anatomía de un modelo Caffe}
+La \textit{deep networks} o redes profundas son modelos compositivos que se representand e forma natural como un conjunto o una colección de capas interconectadas que trabajan sobre fragmentos de datos. Caffe define una red capa a capa en su propio esquema de modelo. La red define el modelo entero desde abajo hasta arriba a partir de unos datos de entrada. Como los datos y sus derivados fluyen a través de la red en el \textit{Forward and Backward}, Caffe guarda, comunica y manipula la información como burbujas: la burbuja es una matriz estándar y una interfaz de memoria unificada para el \textit{framework}. La capa que sigue es tratada como la base tanto del modelo como de la computación. La red se considera como un conjunto de capas y de sus intercionexiones. Los detalles dentro de cada burbuja describen como la información será guardada y cómo esta será enviada a través de las distintas capas y redes.
+
+\paragraph{}La forma en que se resuelve la predicción es configurada a parte para desacoplar el modelo de la optimización del mismo.
+
+\paragraph{}Vamos a tratar los detalles de cada componente con mas precisión.
+\section{Conceptos teóricos en el lado del Cliente}
