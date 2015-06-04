@@ -1,0 +1,130 @@
+\section{Plan de Proyecto Software}
+Este apartado está dedicado al plan de proyecto software donde se comenta todo el proceso de planificación del proyecto.
+
+\subsection{Introducción}
+La planificación del proyecto se lleva a cabo de forma ágil, con la metodología SCRUM. Y la plataforma sobre la que se ha trabajado para realizar la planificación es \href{http://www.versionone.com/}{VersionOne}. Y la planificación se ha dividido en \textit{sprints} o iteraciones, las cuáles tienen la mayoría una duración de una semana, aunque por problemas algunas han durado más.
+
+\subsubsection{Problemas encontrados}
+Debido a que las primeras dos iteraciones se realizan de forma simulada, osea después del tiempo previsto, por eso no se pueden sacar sus gráficos \textit{burn-down}. Además de que al día 30 de uso del \href{http://www.versionone.com/}{VersionOne} se caducó la prueba y perdí todos los datos del proyecto, pero contactando con el soporte de \href{http://www.versionone.com/}{VersionOne} estos me reabrieron la prueba por una semana para extraer los datos necesarios, pero debido a la tardanza en su respuesta hay un \textit{sprint} que dura 3 semanas y  no podemos extraer su gráfico \textit{burn-down} tampoco.
+
+\subsection{Planificación temporal del proyecto}
+En este apartado se presentan los distintos \textit{sprints} y las tareas de cada uno.
+
+\subsubsection{Sprint 1:23 de Diciembre al 12 de Febrero}
+Este \textit{sprint} es de una duración bastante mayor al resto porque se empezó con mucha antelación y su objetivo era el de documentarse. Se estudió los distintos aspectos del proyecto y se tomo contacto con el mismo.
+
+\paragraph{}Este \textit{sprint} es importante porque es donde se asientan las bases del proyecto y se empieza a tomar contacto con el proyecto. Sin este \textit{sprint} se hubiera empezado sin ninguna base y el comienzo del proyecto hubiera sido más tardío y , por tanto, su avance más lento.
+
+\subsubsection{Sprint 2:12 de Febrero al 26 de Febrero}
+Esta iteración se dedicó exclusivamente a la decisión de las herramientas que se van a usar en el proyecto y a la familiarización con las mismas. 
+
+Aquí se decidió:
+\begin{itemize}
+	\item Gestor de versiones: \href{https://github.com/}{GitHub}
+	\item Gestor de Tareas: \href{http://www.versionone.com/}{VersionOne}
+	\item Entorno de desarrollo: \href{http://developer.android.com/sdk/index.html}{Android Studio}
+	\item Herramienta de ofimática: \LaTeX con su editor TeXMaker
+\end{itemize}
+
+\subsubsection{Sprint 3:26 de Febrero al 6 de Marzo}
+En este \textit{sprint} se instalaron y se crearon cuentas de las herramientas del anterior \textit{sprint}. Se dividió en distintas tareas:
+\begin{itemize}
+	\item Crear cuenta \href{http://www.versionone.com/}{VersionOne}
+	\item Crear cuenta en \href{https://github.com/}{GitHub}
+	\item Instalar \href{http://developer.android.com/sdk/index.html}{Android Studio}
+	\item Instalar librería DeepBeliefSDK
+\end{itemize}
+\paragraph{}Además se procedió a invitar a los tutores a \href{http://www.versionone.com/}{VersionOne}, realizar el primer commit en GitHub, probar ejemplos de Android y del DeepBeliefSDK y, finalmente, se generó la documentación asociada a este \textit{sprint}.
+\figura{1}{imgs/S1_1.png}{Burn-down del sprint 3}{Sprint1}{}\\
+
+Podemos ver el gráfico \textit{burn-down} de este sprint en la imagen \ref{Sprint1}.
+
+\subsubsection{Sprint 4:6 de Marzo al 13 de Marzo}
+En esta iteración se profundiza, sobretodo, en la utilización de la librería DeepBeliefSDK, se probarán ejemplos y trabajarán sobre ellos. Además se generará la documentación asociada al \textit{sprint}.
+
+Se identifican las tareas:
+\begin{itemize}
+	\item Consulta de la documentación de Android: se pasa a avanzar en la programación de Android y se empiezan a realizar las primeras aplicaciones de prueba con ayuda de la documentación de Android.
+	\item Instalación Linux: Se procede a instalar un Linux con su distribución Ubuntu en una máquina virtual sobre la que trabajar.
+	\item Impresiones de Pantalla: Se hacen capturas de pantalla del proceso de instalación de las herramientas para la futura documentación en la sección: Manual del programador (\ref{anx:ManualProgramador})
+\end{itemize}
+
+\paragraph{}Este fue el primer \textit{sprint} en el que añadimos el \textit{Retrospective Meeting} y el \textit{Sprint Planning} al \href{http://www.versionone.com/}{VersionOne}, pese a que sí que habíamos hecho estas reuniones.
+
+\paragraph{}En el \textit{Retrospective Meeting} se determino que:
+
+\begin{itemize}
+	\item Se estudió el funcionamiento de la librería DeepBeliefSDK
+	\item Se hicieron las impresiones de pantalla para la documentación
+	\item Se hicieron más pruebas con Android.
+	\item Se envió invitaciones a los profesores a VersionOne y Github
+\end{itemize}
+
+\paragraph{}El \textit{Sprint Planning} simplemente sirvió para determinar las tareas a realizar en esta iteración, las cuáles ya han sido comentadas antes.
+
+\figura{1}{imgs/S2_1.png}{Burn-down del sprint 4}{Sprint2}{}
+\paragraph{}Además esta iteración viene acompañada con un gráfico \textit{burn-down}s el cuál puede verse en la imagen \ref{Sprint2}
+
+\subsection{Sprint 5:13 de Marzo al 27 de Marzo}
+Este \textit{sprint} está dedicado en su  mayoría al aprendizaje de \href{http://www.cs.fsu.edu/~engelen/soap.html}{GSOAP}, que es un \textit{framework} para poder programar servidores en código C y C#. El estudió de esta herramienta llevó bastante tiempo debido a que su documentación, no solo estaba puramente en inglés, sino que además no era lo suficientemente precisa como para alguien que estuviera empezando a programar servicios WEB.
+
+En el \textit{Sprint Planning} se propuso como objetivos a tener en el siguiente \textit{sprint}:
+\begin{itemize}
+	\item Evaluar si usar Axiss2/c o GSOAP para el servidor
+	\item Continuar con la documentación
+	\item Ejemplos de Android
+\end{itemize}
+
+En este \textit{sprint} podemos identificar las siguientes tareas que finalmente se definieron en la herramienta VersionOne:
+\begin{itemize}
+	\item Pruebas en Linux: Se hacen pruebas de la librería GSOAP en la máquina virtual de Linux, en su distribución Ubuntu.
+	\item Pruebas en Android: Se hacen pruebas de distintos códigos y aplicaciones en Android que posteriormente nos puedan servir
+	\item Primera versión del Cliente: Se genera la primera versión del cliente Android para el proyecto. Esta sólo es una interfaz sencilla que toma una foto con el móvil y la guarda.
+	\item Estudio de WSDL y SOAP: Se estudia estas dos especificaciones de XML, junto con un pequeño repaso de XML. Estas dos especificaciones son totalmente necesarias para el desarrollo de la aplicación, aunque al final puede que no se lleguen a usar directamente, el conocimiento de las mismas es requisito indispensable para conocer cómo trabaja el servidor internamente.
+	\item Descargar materiales: Para el estudio y trabajo con la librería GSOAP es necesario una serie de archivos, esta tarea es en la que nos descargamos todos los necesarios.
+	\item Primera versión del fichero WSDL: Un versión inicial de un fichero WSDL con el que generar archivos \textit{stubs} con la herramienta GSOAP. Este fichero contiene las especificaciones de los servicios que dará el servidor al cliente y qué tipo de datos admite y devuelve.
+	\item Generar documentación:Como en todas las iteraciones se procura generar la documentación asociada.
+\end{itemize}
+
+En el \textit{Retrospective Meeting} se determina qué tareas del \textit{sprint} han sido terminadas, cuáles no y el avance de la iteración. En este caso se identificó lo siguiente:
+\begin{itemize}
+	\item Se decidió usar GSOAP porque era más sencillo.
+	\item Se estudió GSOAP y se consiguió implementar un cliente en Linux de un ejemplo básico de calculadora.
+	\item Se continuó con ejemplos de Android creando el proyecto del cliente en su primera versión, aunque este no hacía nada más que mostrar una imagen por pantalla.
+\end{itemize}
+
+\figura{1}{imgs/S3_1.png}{Burn-down del sprint 5}{Sprint3}{}
+Esta iteración también tiene un gráfico de tipo \textit{burn-down} asociado y se puede ver en la imagen \ref{Sprint3}
+
+\subsubsection{Sprint 6: 28 de Marzo al 22 de Abril}
+En esta iteración se procedió a crear prototipos, tanto de cliente como de servidor, del proyecto para poder empezar con el desarrollo software del mismo.
+
+En la planificación dentro del \textit{Sprint Planning} se determinó:
+\begin{itemize}
+	\item Tratar de implementar el ejemplo básico de servidor, con el que podamos hacer las primeras pruebas.
+	\item Tratar de hacer el cliente en Android, que se conectara al ejemplo básico de servido. Con esto empezaremos a establecer cómo se realizará la conexión entre cliente y servidor.
+	\item Tratar de hacer el prototipo con DeepBeliefSDK para empezar a intentar conectarlo con el servidor.
+	\item Continuar con la documentación.
+\end{itemize}
+
+Esos fueron los objetivos fijados para este \textit{sprint}, que es inusualmente largo debido a la serie de problemas que se encontraron en el mismo y que son explicados enn el \textit{Retrospective Meeting}.
+
+Mientras que en VersionOne lo que tenemos definido es:
+\begin{itemize}
+	\item Instalar Apache y demás herramientas: Nos encontramos con que el servidor de GSOAP necesitaba de Apache para poder ejecutarlo en localhost y así establecer la conexión con el cliente Android, así que procedimos a la instalación de las herramientas necesarias.
+	\item Construcción del servidor: Se montó el servidor con un ejemplo de calculadora básico y se comprobó con las propias herramientas de GSOAP, que este estaba bien definido.
+	\item Construcción del cliente: Se montó un cliente GSOAP con el que también se probo el ejemplo básico de servidor, este y el servidor funcionaban de manera adecuada.
+	
+	\item Pruebas con distintos servicios en Linux: Se remontaron varias veces el cliente y el servidor, pero con distintas especificaciones SOAP, para probar varios tipos de datos en el envío.
+	\item Primera versión del Servidor: Después de construir el ejemplo básico se paso a conectar el DeepBeliefSDK con el servidor y este con Apache. Se empezó por probar la conexión con Apache, la cuál resultó un rotundo fracaso.
+	\item Escritura de la documentación: Se genera, como siempre, la documentación asociada a la iteración.
+\end{itemize}
+Finalmente tenemos nuestro \textit{Retrospective Meeting}, en el que determinamos lo siguiente:
+\begin{itemize}
+	\item No se consiguió conectar GSOAP con Apache
+	\item La documentación para el proceso de conectar Apache y GSOAP es escasa y la poca que hay no nos enseña un procedimiento correcto para hacer funcionar esto.
+	\item Se decide abandonar la programación en C y la librería DeepBeliefSDK
+	\item Conclusión: No se consiguieron los objetivos y se decide tomar un nuevo rumbo con el proyecto.
+\end{itemize}
+\figura{1}{imgs/S4_1.png}{Burn-down del sprint 6}{Sprint4}{}
+\paragraph{}Podemos observar el gráfico de la imagen \ref{Sprint2}, en el que observamos el gráfico \textit{burn-down} del \textit{sprint}.

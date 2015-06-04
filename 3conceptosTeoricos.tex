@@ -38,19 +38,8 @@ No existe una única definición de aprendizaje profundo. En general se trata de u
 
 Todas estas maneras de definir el aprendizaje profundo tienen en común múltiples capas de procesamiento no lineal y el aprendizaje supervisado o no supervisado de representaciones de características en cada capa. Las capas forman una jerarquía de características desde un nivel de abstracción más bajo a uno más alto.
 \paragraph{}Los algoritmos de aprendizaje profundo contrastan con los algoritmos de aprendizaje poco profundo por el número de transformaciones aplicadas a la señal mientras se propaga desde la capa de entrada a la capa de salida. Cada una de estas transformaciones incluye parámetros que se pueden entrenar como pesos y umbrales. No existe un estándar de facto para el número de transformaciones (o capas) que convierte a un algoritmo en profundo, pero la mayoría de investigadores en el campo considera que aprendizaje profundo implica más de dos transformaciones intermedias.
-\subsection{Conceptos usados en Caffe}
-Caffe es un arquitectura para el \textit{deep learning} que está programada en C++ puro y en CUDA, pero también se puede usar en línea de comandos en un sistema Unix y cuenta con \textit{wrappers} para Python y MATLAB.
-Sus principales características que lo convierten en un proyecto que destaca sobre los demás son:
-\begin{itemize}
-	\item Es una arquitectura que funciona de manera especialmente rápida.
-	\item Su código está bien testeado.
-	\item Tiene buenas herramientas, modelos de referencia, demos y repositorios.
-	\item Posibilidad de ejecutarlo tanto en CPU como en GPU
-\end{itemize}
-\subsubsection{Anatomía de un modelo Caffe}
-La \textit{deep networks} o redes profundas son modelos compositivos que se representand e forma natural como un conjunto o una colección de capas interconectadas que trabajan sobre fragmentos de datos. Caffe define una red capa a capa en su propio esquema de modelo. La red define el modelo entero desde abajo hasta arriba a partir de unos datos de entrada. Como los datos y sus derivados fluyen a través de la red en el \textit{Forward and Backward}, Caffe guarda, comunica y manipula la información como burbujas: la burbuja es una matriz estándar y una interfaz de memoria unificada para el \textit{framework}. La capa que sigue es tratada como la base tanto del modelo como de la computación. La red se considera como un conjunto de capas y de sus intercionexiones. Los detalles dentro de cada burbuja describen como la información será guardada y cómo esta será enviada a través de las distintas capas y redes.
+\subsection{Servidor Web}
 
-\paragraph{}La forma en que se resuelve la predicción es configurada a parte para desacoplar el modelo de la optimización del mismo.
-
-\paragraph{}Vamos a tratar los detalles de cada componente con mas precisión.
 \section{Conceptos teóricos en el lado del Cliente}
+\subsection{Funcionamiento de las librerías Text2Speech}
+

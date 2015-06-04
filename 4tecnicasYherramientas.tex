@@ -80,6 +80,18 @@ Lamentablemente su funcionamiento e instalación son algo enrevesadas y requiere 
 
 Esta herramienta es usada en nuestro proyecto debido a que la herramienta NeuralTalk tiene dependencia de este proyecto para extraer características de las imágenes y luego poder realizar una predicción con ellas.
 Además este proyecto está bien estructurado y en si se sigue correctamente su documentación es relativamente fácil de instalar.
+Caffe es un arquitectura para el \textit{deep learning} que está programada en C++ puro y en CUDA, pero también se puede usar en línea de comandos en un sistema Unix y cuenta con \textit{wrappers} para Python y MATLAB.
+Sus principales características que lo convierten en un proyecto que destaca sobre los demás son:
+\begin{itemize}
+	\item Es una arquitectura que funciona de manera especialmente rápida.
+	\item Su código está bien testeado.
+	\item Tiene buenas herramientas, modelos de referencia, demos y repositorios.
+	\item Posibilidad de ejecutarlo tanto en CPU como en GPU
+\end{itemize}
+\subsubsection{Anatomía de un modelo Caffe}
+La \textit{deep networks} o redes profundas son modelos compositivos que se representand e forma natural como un conjunto o una colección de capas interconectadas que trabajan sobre fragmentos de datos. Caffe define una red capa a capa en su propio esquema de modelo. La red define el modelo entero desde abajo hasta arriba a partir de unos datos de entrada. Como los datos y sus derivados fluyen a través de la red en el \textit{Forward and Backward}, Caffe guarda, comunica y manipula la información como burbujas: la burbuja es una matriz estándar y una interfaz de memoria unificada para el \textit{framework}. La capa que sigue es tratada como la base tanto del modelo como de la computación. La red se considera como un conjunto de capas y de sus intercionexiones. Los detalles dentro de cada burbuja describen como la información será guardada y cómo esta será enviada a través de las distintas capas y redes.
+
+\paragraph{}La forma en que se resuelve la predicción es configurada a parte para desacoplar el modelo de la optimización del mismo.
 
 \subsection{Herramientas de programación: MATLAB}
 
@@ -96,3 +108,9 @@ Se ha estudiado entre varias posibles herramientas, entre ellas están:
 \paragraph{}Se ha escogido esta herramienta en concreto porque sobre todas las demás su funcionamiento era muy inmediato y además se escribe en Python, que es un idioma muy versátil y fácil de usar. El hecho de que esta herramienta tenga un funcionamiento y programación tan sencilla la hace una herramienta que, a nuestro parecer, destaca sobre el resto y es interesante trabajar con ella.
 Además tiene una documentación sencilla, repleta de ejemplos y explicaciones para poder realizar tu servidor. Sus ejemplos son muy útiles y funcionan a la primera, sin tener que configurar casi nada. Tiene una forma de establecer los URLs de forma muy sencilla y es fácil estructurar tu servidor con esta API.
 A pesar de ser una API tan fácil de usar tiene una gran potencia y se pueden construir con ella servidores bastante grandes y fácilmente escalables, por tanto se convierte en la herramienta perfecta para la programación de nuestro servidor.
+
+\subsection{Librería Text2Speech para Android}
+
+\subsection{Librería de Apache para conexiones Http para Android}
+
+\subsection{Librería de Google para la traducción de texto}

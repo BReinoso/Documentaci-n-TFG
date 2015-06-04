@@ -1,5 +1,27 @@
 En este apartado se introducen los aspectos más relevantes del proyecto.
 
-\section{Resolviendo puzles en un ordenador}
-
-La resolución\dots
+\section{Dificultades encontradas}
+Durante el desarrollo del proyecto nos hemos  encontrado varias dificultades que han hecho que el proyecto se retrase considerablemente y su avance no haya sido ni fácil ni rápido.
+\subsection{Dificultades con GSOAP y Apache}
+Este fallo es el que más ha retrasado al proyecto y ha supuesto una dificultad enorme a la hora de llevar a cabo el mismo.
+\paragraph{}Empezamos con que para usar \href{http://www.cs.fsu.edu/~engelen/soap.html}{GSOAP} se tuvo que estudiar una serie de cosas para poder adquirir los conocimientos necesarios para usar la herramienta, dichos conocimientos serán listados aquí:
+\begin{itemize}
+    \item \href{http://axis.apache.org/axis2/c/core/}{XML:} Se tuvo que coger un nivel adecuado en el uso de XML ya que la herramienta GSOAP se basa en el uso de este tipo de archivos como medio de comunicación en las distintas peticiones y respuestas que procesa. Además el XML también es necesario para comprender el funcionamiento de SOAP y de WSDL, los cuales son completamente necesarios para entender el funcionamiento de la herramienta GSOAP.
+    \item \href{http://www.cs.fsu.edu/~engelen/soap.html}{SOAP:} Esta especificación se tuvo que estudiar para comprender el funcionamiento de la herramienta GSOAP y en qué se basaba su funcionamiento, entender el por qué debía funcionar la herramienta y como se realiza la comunicación gracias a ella. Aunque el SOAP no es usado directamente cuando usas GSOAP es necesario conocer esta especificación ya que GSOAP sí que usa WSDL, para el cual tenemos que tener un conocimiento básico, al menos, de SOAP para poder usarlo.
+    \item \href{http://tomcat.apache.org/}{WSDL:} Esta otra especificación sí que se usa directamente en la herramienta GSOAP y básicamente con ella vertebras toda la aplicación que vas a hacer, de hecho tienes dos opciones:
+    \subitem La primera es usar un archivo WSDL donde especificas las operaciones que el  servidor va a realizar, después con la herramienta GSOAP generas todos los stubs y documentos necesarios para hacer tu aplicación.
+    \subitem La segunda sería a través de un documento de tipo .h o una cabecera de C. Con el cuál también generas los stubs y documentos necesarios para programar tu servidor, entre dichos documentos se econtrará un archivo WSDL que contendrá la especificación de las operaciones que hay dentro del fichero cabecera que hayas usado. Pero incluso en esta opción necesitas entender SOAP y WSDL porque a través de comentarios tienes que especificar características que irán directamente al fichero WSDL, y que serán necesarios para el correcto funcionamiento del servidor.
+\end{itemize}
+\paragraph{}Una vez se ha estudiado lo anterior se paso al estudio de la documentación de la herramienta GSOAP, además de el intento de hacer que funcionen sus ejemplos.Cuando se consiguió que funcionarán sus ejemplos se paso a la programación de un servidor propio, una vez se programo y se hicieron las pruebas de que estaba bien programado se procedió a intentar que este funcionará desde un cliente GSOAP.
+Para que funcionará con el cliente GSOAP se hizo una investigación de cómo hacer que el servidor funcionará en localhost y, siguiendo la recomendación que en la documentación de GSOAP encontramos, se instaló Apache y se inteto usar el módulo de Apache para su funcionamiento con GSOAP.
+\paragraph{}Como conclusión sacamos que, tras una larga investigación y mucho tiempo dedicada a esta herramienta, esta herramienta no tenia la documentación suficiente como para poder hacerla funcionar con Apache y, a pesar de haberlo intentado  muchas veces, no conseguimos que el servidor GSOAP programado por nosotros devolviera alguna vez un resultado coherente al cliente.
+Finalmente desechamos la opción de trabajar con esta herramienta y le dimos un giro al proyecto con el que esperábamos tener avances más rápidos y mejores, optamos por la programación de un servidor en Flask.
+\subsection{Dificultades con DeepBeliefSDK}
+Al final no se pudo usar.
+\subsection{Dificultades en la instalación de Herramientas}
+Caffe tuvimos problemas de compatibilidad con open-cv
+Neuraltalk tuvimos problemas con la cantidad de dependencias que tenía.
+\subsection{Dificultades con NeuralTalk}
+Tuvimos problemas con la herramienta de MATLAB al ejecutar un script desde el servidor.
+\subsection{Dificultades con Android}
+Problemas al conectarnos con el servidor.

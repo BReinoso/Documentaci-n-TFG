@@ -12,61 +12,81 @@
 \contentsline {subsubsection}{Enfoques}{6}{subsubsection*.14}
 \contentsline {subsection}{\numberline {3.1.2}Deep Learning}{6}{subsection.15}
 \contentsline {paragraph}{}{6}{paragraph*.16}
-\contentsline {subsection}{\numberline {3.1.3}Conceptos usados en Caffe}{7}{subsection.17}
-\contentsline {subsubsection}{Anatom\IeC {\'\i }a de un modelo Caffe}{7}{subsubsection*.18}
-\contentsline {paragraph}{}{7}{paragraph*.19}
-\contentsline {paragraph}{}{7}{paragraph*.20}
-\contentsline {section}{\numberline {3.2}Conceptos te\'oricos en el lado del Cliente}{7}{section.21}
-\contentsline {chapter}{\numberline {4}T\'ecnicas y herramientas}{9}{chapter.22}
-\contentsline {section}{\numberline {4.1}T\'ecnicas de desarrollo}{9}{section.23}
-\contentsline {subsection}{\numberline {4.1.1}Metodolog\IeC {\'\i }a de desarrollo \'agil}{9}{subsection.24}
-\contentsline {paragraph}{}{9}{paragraph*.25}
-\contentsline {paragraph}{}{9}{paragraph*.26}
+\contentsline {subsection}{\numberline {3.1.3}Servidor Web}{7}{subsection.17}
+\contentsline {section}{\numberline {3.2}Conceptos te\'oricos en el lado del Cliente}{7}{section.18}
+\contentsline {subsection}{\numberline {3.2.1}Funcionamiento de las librer\IeC {\'\i }as Text2Speech}{7}{subsection.19}
+\contentsline {chapter}{\numberline {4}T\'ecnicas y herramientas}{9}{chapter.20}
+\contentsline {section}{\numberline {4.1}T\'ecnicas de desarrollo}{9}{section.21}
+\contentsline {subsection}{\numberline {4.1.1}Metodolog\IeC {\'\i }a de desarrollo \'agil}{9}{subsection.22}
+\contentsline {paragraph}{}{9}{paragraph*.23}
+\contentsline {paragraph}{}{9}{paragraph*.24}
+\contentsline {paragraph}{}{10}{paragraph*.25}
+\contentsline {subsection}{\numberline {4.1.2}Desarrollo Software con control de versiones}{10}{subsection.26}
 \contentsline {paragraph}{}{10}{paragraph*.27}
-\contentsline {subsection}{\numberline {4.1.2}Desarrollo Software con control de versiones}{10}{subsection.28}
+\contentsline {paragraph}{}{10}{paragraph*.28}
 \contentsline {paragraph}{}{10}{paragraph*.29}
 \contentsline {paragraph}{}{10}{paragraph*.30}
-\contentsline {paragraph}{}{10}{paragraph*.31}
-\contentsline {paragraph}{}{10}{paragraph*.32}
-\contentsline {section}{\numberline {4.2}Herramientas utilizadas}{10}{section.33}
-\contentsline {subsection}{\numberline {4.2.1}Gestor de Tareas: VersionOne}{10}{subsection.34}
+\contentsline {section}{\numberline {4.2}Herramientas utilizadas}{10}{section.31}
+\contentsline {subsection}{\numberline {4.2.1}Gestor de Tareas: VersionOne}{10}{subsection.32}
+\contentsline {paragraph}{}{11}{paragraph*.33}
+\contentsline {subsection}{\numberline {4.2.2}Gestor de Versiones: Git Hub}{11}{subsection.34}
 \contentsline {paragraph}{}{11}{paragraph*.35}
-\contentsline {subsection}{\numberline {4.2.2}Gestor de Versiones: Git Hub}{11}{subsection.36}
+\contentsline {subsection}{\numberline {4.2.3}IDEL de desarrollo: Android Studio}{11}{subsection.36}
 \contentsline {paragraph}{}{11}{paragraph*.37}
-\contentsline {subsection}{\numberline {4.2.3}IDEL de desarrollo: Android Studio}{11}{subsection.38}
-\contentsline {paragraph}{}{11}{paragraph*.39}
-\contentsline {subsection}{\numberline {4.2.4}Herramienta de Generaci\'on de Documentaci\'on: \textlatin {\LaTeX }}{12}{subsection.40}
-\contentsline {subsection}{\numberline {4.2.5}Herramientas de Deep Learning: NeuralTalk}{12}{subsection.41}
-\contentsline {paragraph}{}{12}{paragraph*.42}
-\contentsline {subsection}{\numberline {4.2.6}Herramientas de Deep Learning: Caffe}{12}{subsection.43}
-\contentsline {subsection}{\numberline {4.2.7}Herramientas de programaci\'on: MATLAB}{12}{subsection.44}
-\contentsline {subsection}{\numberline {4.2.8}Herramientas de desarrollo de servidores: Flask}{12}{subsection.45}
+\contentsline {subsection}{\numberline {4.2.4}Herramienta de Generaci\'on de Documentaci\'on: \textlatin {\LaTeX }}{12}{subsection.38}
+\contentsline {subsection}{\numberline {4.2.5}Herramientas de Deep Learning: NeuralTalk}{12}{subsection.39}
+\contentsline {paragraph}{}{12}{paragraph*.40}
+\contentsline {subsection}{\numberline {4.2.6}Herramientas de Deep Learning: Caffe}{12}{subsection.41}
+\contentsline {subsubsection}{Anatom\IeC {\'\i }a de un modelo Caffe}{12}{subsubsection*.42}
+\contentsline {paragraph}{}{13}{paragraph*.43}
+\contentsline {subsection}{\numberline {4.2.7}Herramientas de programaci\'on: MATLAB}{13}{subsection.44}
+\contentsline {subsection}{\numberline {4.2.8}Herramientas de desarrollo de servidores: Flask}{13}{subsection.45}
 \contentsline {paragraph}{}{13}{paragraph*.46}
-\contentsline {chapter}{\numberline {5}Estado del arte}{15}{chapter.47}
-\contentsline {chapter}{\numberline {6}Aspectos relevantes del desarrollo del proyecto}{17}{chapter.48}
-\contentsline {section}{\numberline {6.1}Resolviendo puzles en un ordenador}{17}{section.49}
-\contentsline {chapter}{\numberline {7}Conclusiones y l\IeC {\'\i }neas de trabajo futuras}{19}{chapter.50}
-\contentsline {section}{\numberline {7.1}Dificultades encontradas}{19}{section.51}
-\contentsline {subsection}{\numberline {7.1.1}Dificultades con GSOAP y Apache}{19}{subsection.52}
-\contentsline {paragraph}{}{19}{paragraph*.53}
-\contentsline {paragraph}{}{20}{paragraph*.54}
-\contentsline {paragraph}{}{20}{paragraph*.55}
-\contentsline {subsection}{\numberline {7.1.2}Dificultades con DeepBeliefSDK}{20}{subsection.56}
-\contentsline {subsection}{\numberline {7.1.3}Dificultades en la instalaci\'on de Herramientas}{20}{subsection.57}
-\contentsline {subsection}{\numberline {7.1.4}Dificultades con NeuralTalk}{20}{subsection.58}
-\contentsline {subsection}{\numberline {7.1.5}Dificultades con Android}{20}{subsection.59}
-\contentsline {section}{\numberline {7.2}Conclusiones del Proyecto}{21}{section.60}
-\contentsline {section}{\numberline {7.3}Lineas de trabajo Futuras}{21}{section.61}
-\contentsline {chapter}{Anexos}{21}{section.61}
-\contentsline {chapter}{\numberline {I}Manual del programador}{23}{chapter.62}
-\contentsline {section}{\numberline {I.1}Manual del programador}{23}{section.63}
-\contentsline {subsection}{\numberline {I.1.1}Instalaci\'on del JDK}{23}{subsection.64}
-\contentsline {paragraph}{}{23}{paragraph*.65}
-\contentsline {paragraph}{}{23}{paragraph*.69}
-\contentsline {subsection}{\numberline {I.1.2}Instalaci\'on de Anrdoid Studio}{23}{subsection.71}
-\contentsline {paragraph}{}{23}{paragraph*.72}
-\contentsline {paragraph}{}{27}{paragraph*.78}
-\contentsline {paragraph}{}{27}{paragraph*.79}
-\contentsline {paragraph}{}{27}{paragraph*.80}
-\contentsline {paragraph}{}{27}{paragraph*.81}
-\contentsline {paragraph}{}{27}{paragraph*.82}
+\contentsline {subsection}{\numberline {4.2.9}Librer\IeC {\'\i }a Text2Speech para Android}{13}{subsection.47}
+\contentsline {subsection}{\numberline {4.2.10}Librer\IeC {\'\i }a de Apache para conexiones Http para Android}{13}{subsection.48}
+\contentsline {subsection}{\numberline {4.2.11}Librer\IeC {\'\i }a de Google para la traducci\'on de texto}{13}{subsection.49}
+\contentsline {chapter}{\numberline {5}Estado del arte}{15}{chapter.50}
+\contentsline {chapter}{\numberline {6}Aspectos relevantes del desarrollo del proyecto}{17}{chapter.51}
+\contentsline {section}{\numberline {6.1}Dificultades encontradas}{17}{section.52}
+\contentsline {subsection}{\numberline {6.1.1}Dificultades con GSOAP y Apache}{17}{subsection.53}
+\contentsline {paragraph}{}{17}{paragraph*.54}
+\contentsline {paragraph}{}{18}{paragraph*.55}
+\contentsline {paragraph}{}{18}{paragraph*.56}
+\contentsline {subsection}{\numberline {6.1.2}Dificultades con DeepBeliefSDK}{18}{subsection.57}
+\contentsline {subsection}{\numberline {6.1.3}Dificultades en la instalaci\'on de Herramientas}{18}{subsection.58}
+\contentsline {subsection}{\numberline {6.1.4}Dificultades con NeuralTalk}{18}{subsection.59}
+\contentsline {subsection}{\numberline {6.1.5}Dificultades con Android}{18}{subsection.60}
+\contentsline {chapter}{\numberline {7}Conclusiones y l\IeC {\'\i }neas de trabajo futuras}{19}{chapter.61}
+\contentsline {section}{\numberline {7.1}Conclusiones del Proyecto}{19}{section.62}
+\contentsline {section}{\numberline {7.2}Lineas de trabajo Futura}{19}{section.63}
+\contentsline {chapter}{Anexos}{19}{section.63}
+\contentsline {chapter}{\numberline {I}Plan del proyecto software}{21}{chapter.64}
+\contentsline {section}{\numberline {I.1}Plan de Proyecto Software}{21}{section.65}
+\contentsline {subsection}{\numberline {I.1.1}Introducci\'on}{21}{subsection.66}
+\contentsline {subsubsection}{Problemas encontrados}{21}{subsubsection*.67}
+\contentsline {subsection}{\numberline {I.1.2}Planificaci\'on temporal del proyecto}{21}{subsection.68}
+\contentsline {subsubsection}{Sprint 1:23 de Diciembre al 12 de Febrero}{21}{subsubsection*.69}
+\contentsline {paragraph}{}{21}{paragraph*.70}
+\contentsline {subsubsection}{Sprint 2:12 de Febrero al 26 de Febrero}{22}{subsubsection*.71}
+\contentsline {subsubsection}{Sprint 3:26 de Febrero al 6 de Marzo}{22}{subsubsection*.72}
+\contentsline {paragraph}{}{22}{paragraph*.73}
+\contentsline {subsubsection}{Sprint 4:6 de Marzo al 13 de Marzo}{23}{subsubsection*.75}
+\contentsline {paragraph}{}{23}{paragraph*.76}
+\contentsline {paragraph}{}{23}{paragraph*.77}
+\contentsline {paragraph}{}{23}{paragraph*.78}
+\contentsline {paragraph}{}{24}{paragraph*.80}
+\contentsline {subsection}{\numberline {I.1.3}Sprint 5:13 de Marzo al 27 de Marzo}{24}{subsection.81}
+\contentsline {subsubsection}{Sprint 6: 28 de Marzo al 22 de Abril}{25}{subsubsection*.83}
+\contentsline {paragraph}{}{26}{paragraph*.85}
+\contentsline {chapter}{\numberline {II}Manual del programador}{27}{chapter.86}
+\contentsline {section}{\numberline {II.1}Manual del programador}{27}{section.87}
+\contentsline {subsection}{\numberline {II.1.1}Instalaci\'on del JDK}{27}{subsection.88}
+\contentsline {paragraph}{}{27}{paragraph*.89}
+\contentsline {paragraph}{}{27}{paragraph*.93}
+\contentsline {subsection}{\numberline {II.1.2}Instalaci\'on de Anrdoid Studio}{27}{subsection.95}
+\contentsline {paragraph}{}{27}{paragraph*.96}
+\contentsline {paragraph}{}{31}{paragraph*.102}
+\contentsline {paragraph}{}{31}{paragraph*.103}
+\contentsline {paragraph}{}{31}{paragraph*.104}
+\contentsline {paragraph}{}{31}{paragraph*.105}
+\contentsline {paragraph}{}{31}{paragraph*.106}
