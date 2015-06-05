@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.5.19)  4 JUN 2015 22:59
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.5.19)  5 JUN 2015 09:31
 entering extended mode
 **main.tex
 (D:\Documentaci-n-TFG\main.tex
@@ -814,7 +814,7 @@ LaTeX Info: Redefining \nameref on input line 45.
 (D:\Documentaci-n-TFG\main.out) (D:\Documentaci-n-TFG\main.out)
 \@outlinefile=\write6
 
-<imgs/cabecera.pdf, id=198, 617.67549pt x 135.51413pt>
+<imgs/cabecera.pdf, id=194, 617.67549pt x 135.51413pt>
 File: imgs/cabecera.pdf Graphic file (type pdf)
  <use imgs/cabecera.pdf>
 Package pdftex.def Info: imgs/cabecera.pdf used on input line 50.
@@ -856,7 +856,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (C:\Users\Bryan\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-<imgs/escudoInfor.pdf, id=199, 618.11432pt x 737.07487pt>
+<imgs/escudoInfor.pdf, id=195, 618.11432pt x 737.07487pt>
 File: imgs/escudoInfor.pdf Graphic file (type pdf)
 
 <use imgs/escudoInfor.pdf>
@@ -983,7 +983,7 @@ Cap\'{\i }tulo 7.
 ]
 Anexo I.
 (D:\Documentaci-n-TFG\anexo1PlanDeProyectoSoftware.tex [21]
-<imgs/S1_1.png, id=779, 1260.96094pt x 444.15938pt>
+<imgs/S1_1.png, id=780, 1260.96094pt x 444.15938pt>
 File: imgs/S1_1.png Graphic file (type png)
  <use imgs/S1_1.png>
 Package pdftex.def Info: imgs/S1_1.png used on input line 38.
@@ -1003,7 +1003,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--39
 Underfull \vbox (badness 4060) has occurred while \output is active []
 
  [22 <D:/Documentaci-n-TFG/imgs/S1_1.png>]
-<imgs/S2_1.png, id=793, 1266.23062pt x 458.46281pt>
+<imgs/S2_1.png, id=794, 1266.23062pt x 458.46281pt>
 File: imgs/S2_1.png Graphic file (type png)
  <use imgs/S2_1.png>
 Package pdftex.def Info: imgs/S2_1.png used on input line 65.
@@ -1013,19 +1013,10 @@ Package pdftex.def Info: imgs/S2_1.png used on input line 65.
 LaTeX Warning: \oval, \circle, or \line size unavailable on input line 65.
 
 [23 <D:/Documentaci-n-TFG/imgs/S2_1.png>]
-! You can't use `macro parameter character #' in horizontal mode.
-l.69 ...oder programar servidores en código C y C#
-                                                  . El estudió de esta herra...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2435) has occurred while \output is active []
 
  [24]
-<imgs/S3_1.png, id=810, 1255.69125pt x 449.42906pt>
+<imgs/S3_1.png, id=812, 1255.69125pt x 449.42906pt>
 File: imgs/S3_1.png Graphic file (type png)
  <use imgs/S3_1.png>
 Package pdftex.def Info: imgs/S3_1.png used on input line 96.
@@ -1035,13 +1026,10 @@ Package pdftex.def Info: imgs/S3_1.png used on input line 96.
 LaTeX Warning: \oval, \circle, or \line size unavailable on input line 96.
 
 
-LaTeX Warning: Reference `Sprint3' on page 25 undefined on input line 97.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [25 <D:/Documentaci-n-TFG/imgs/S3_1.png>]
-<imgs/S4_1.png, id=819, 1260.96094pt x 433.62pt>
+<imgs/S4_1.png, id=821, 1260.96094pt x 433.62pt>
 File: imgs/S4_1.png Graphic file (type png)
  <use imgs/S4_1.png>
 Package pdftex.def Info: imgs/S4_1.png used on input line 129.
@@ -1050,10 +1038,22 @@ Package pdftex.def Info: imgs/S4_1.png used on input line 129.
 
 LaTeX Warning: \oval, \circle, or \line size unavailable on input line 129.
 
-) [26 <D:/Documentaci-n-TFG/imgs/S4_1.png>]
+[26 <D:/Documentaci-n-TFG/imgs/S4_1.png>]
+<imgs/S5_1.png, id=830, 1263.21938pt x 448.67625pt>
+File: imgs/S5_1.png Graphic file (type png)
+ <use imgs/S5_1.png>
+Package pdftex.def Info: imgs/S5_1.png used on input line 156.
+(pdftex.def)             Requested size: 390.79141pt x 138.80066pt.
+
+
+LaTeX Warning: \oval, \circle, or \line size unavailable on input line 156.
+
+) [27 <D:/Documentaci-n-TFG/imgs/S5_1.png>] [28
+
+]
 Anexo II.
 (D:\Documentaci-n-TFG\anexo4ManualDelProgramador.tex
-<imgs/jdk_1.png, id=830, 1391.1975pt x 758.835pt>
+<imgs/jdk_1.png, id=844, 1391.1975pt x 758.835pt>
 File: imgs/jdk_1.png Graphic file (type png)
  <use imgs/jdk_1.png>
 Package pdftex.def Info: imgs/jdk_1.png used on input line 9.
@@ -1066,13 +1066,13 @@ LaTeX Warning: \oval, \circle, or \line size unavailable on input line 9.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 10.
 
-<imgs/jdk_2.png, id=831, 387.69844pt x 295.1025pt>
+<imgs/jdk_2.png, id=845, 387.69844pt x 295.1025pt>
 File: imgs/jdk_2.png Graphic file (type png)
  <use imgs/jdk_2.png>
 Package pdftex.def Info: imgs/jdk_2.png used on input line 16.
 (pdftex.def)             Requested size: 175.85493pt x 133.85757pt.
 
-<imgs/jdk_3.png, id=832, 386.94562pt x 292.09125pt>
+<imgs/jdk_3.png, id=846, 386.94562pt x 292.09125pt>
 File: imgs/jdk_3.png Graphic file (type png)
  <use imgs/jdk_3.png>
 Package pdftex.def Info: imgs/jdk_3.png used on input line 17.
@@ -1085,13 +1085,13 @@ LaTeX Warning: \oval, \circle, or \line size unavailable on input line 23.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 26.
 
-<imgs/jdk_4.png, id=833, 386.19281pt x 294.34969pt>
+<imgs/jdk_4.png, id=847, 386.19281pt x 294.34969pt>
 File: imgs/jdk_4.png Graphic file (type png)
  <use imgs/jdk_4.png>
 Package pdftex.def Info: imgs/jdk_4.png used on input line 32.
 (pdftex.def)             Requested size: 175.85493pt x 134.03261pt.
 
-<imgs/jdk_5.png, id=834, 386.94562pt x 294.34969pt>
+<imgs/jdk_5.png, id=848, 386.94562pt x 294.34969pt>
 File: imgs/jdk_5.png Graphic file (type png)
  <use imgs/jdk_5.png>
 Package pdftex.def Info: imgs/jdk_5.png used on input line 33.
@@ -1100,7 +1100,7 @@ Package pdftex.def Info: imgs/jdk_5.png used on input line 33.
 
 LaTeX Warning: \oval, \circle, or \line size unavailable on input line 39.
 
-<imgs/sdk_1.png, id=837, 1398.72563pt x 736.25063pt>
+<imgs/sdk_1.png, id=851, 1398.72563pt x 736.25063pt>
 File: imgs/sdk_1.png Graphic file (type png)
  <use imgs/sdk_1.png>
 Package pdftex.def Info: imgs/sdk_1.png used on input line 44.
@@ -1118,13 +1118,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--45
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 47.
 
-<imgs/sdk_2.png, id=840, 383.18156pt x 298.86656pt>
+<imgs/sdk_2.png, id=854, 383.18156pt x 298.86656pt>
 File: imgs/sdk_2.png Graphic file (type png)
  <use imgs/sdk_2.png>
 Package pdftex.def Info: imgs/sdk_2.png used on input line 53.
 (pdftex.def)             Requested size: 175.85493pt x 137.16106pt.
 
-<imgs/sdk_3.png, id=841, 386.94562pt x 298.11375pt>
+<imgs/sdk_3.png, id=855, 386.94562pt x 298.11375pt>
 File: imgs/sdk_3.png Graphic file (type png)
  <use imgs/sdk_3.png>
 Package pdftex.def Info: imgs/sdk_3.png used on input line 54.
@@ -1137,13 +1137,13 @@ LaTeX Warning: \oval, \circle, or \line size unavailable on input line 60.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 63.
 
-<imgs/sdk_4.png, id=842, 386.19281pt x 297.36093pt>
+<imgs/sdk_4.png, id=856, 386.19281pt x 297.36093pt>
 File: imgs/sdk_4.png Graphic file (type png)
  <use imgs/sdk_4.png>
 Package pdftex.def Info: imgs/sdk_4.png used on input line 69.
 (pdftex.def)             Requested size: 175.85493pt x 135.4038pt.
 
-<imgs/sdk_5.png, id=843, 385.44pt x 298.11375pt>
+<imgs/sdk_5.png, id=857, 385.44pt x 298.11375pt>
 File: imgs/sdk_5.png Graphic file (type png)
  <use imgs/sdk_5.png>
 Package pdftex.def Info: imgs/sdk_5.png used on input line 70.
@@ -1156,13 +1156,13 @@ LaTeX Warning: \oval, \circle, or \line size unavailable on input line 76.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 79.
 
-<imgs/sdk_6.png, id=844, 385.44pt x 299.61937pt>
+<imgs/sdk_6.png, id=858, 385.44pt x 299.61937pt>
 File: imgs/sdk_6.png Graphic file (type png)
  <use imgs/sdk_6.png>
 Package pdftex.def Info: imgs/sdk_6.png used on input line 85.
 (pdftex.def)             Requested size: 175.85493pt x 136.69734pt.
 
-<imgs/sdk_7.png, id=845, 386.94562pt x 298.86656pt>
+<imgs/sdk_7.png, id=859, 386.94562pt x 298.86656pt>
 File: imgs/sdk_7.png Graphic file (type png)
  <use imgs/sdk_7.png>
 Package pdftex.def Info: imgs/sdk_7.png used on input line 86.
@@ -1175,13 +1175,13 @@ LaTeX Warning: \oval, \circle, or \line size unavailable on input line 92.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 95.
 
-<imgs/sdk_8.png, id=846, 385.44pt x 299.61937pt>
+<imgs/sdk_8.png, id=860, 385.44pt x 299.61937pt>
 File: imgs/sdk_8.png Graphic file (type png)
  <use imgs/sdk_8.png>
 Package pdftex.def Info: imgs/sdk_8.png used on input line 101.
 (pdftex.def)             Requested size: 175.85493pt x 136.69734pt.
 
-<imgs/sdk_9.png, id=847, 385.44pt x 296.60812pt>
+<imgs/sdk_9.png, id=861, 385.44pt x 296.60812pt>
 File: imgs/sdk_9.png Graphic file (type png)
  <use imgs/sdk_9.png>
 Package pdftex.def Info: imgs/sdk_9.png used on input line 102.
@@ -1194,13 +1194,13 @@ LaTeX Warning: \oval, \circle, or \line size unavailable on input line 108.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 111.
 
-<imgs/sdk_10.png, id=848, 386.94562pt x 297.36093pt>
+<imgs/sdk_10.png, id=862, 386.94562pt x 297.36093pt>
 File: imgs/sdk_10.png Graphic file (type png)
  <use imgs/sdk_10.png>
 Package pdftex.def Info: imgs/sdk_10.png used on input line 117.
 (pdftex.def)             Requested size: 175.85493pt x 135.14063pt.
 
-<imgs/sdk_11.png, id=849, 981.6675pt x 626.34pt>
+<imgs/sdk_11.png, id=863, 981.6675pt x 626.34pt>
 File: imgs/sdk_11.png Graphic file (type png)
  <use imgs/sdk_11.png>
 Package pdftex.def Info: imgs/sdk_11.png used on input line 118.
@@ -1209,17 +1209,15 @@ Package pdftex.def Info: imgs/sdk_11.png used on input line 118.
 
 LaTeX Warning: \oval, \circle, or \line size unavailable on input line 124.
 
-[27
-
-] [28 <D:/Documentaci-n-TFG/imgs/jdk_1.png> <D:/Documentaci-n-TFG/imgs/jdk_2.pn
-g> <D:/Documentaci-n-TFG/imgs/jdk_3.png> <D:/Documentaci-n-TFG/imgs/jdk_4.png> 
-<D:/Documentaci-n-TFG/imgs/jdk_5.png>] [29 <D:/Documentaci-n-TFG/imgs/sdk_1.png
-> <D:/Documentaci-n-TFG/imgs/sdk_2.png> <D:/Documentaci-n-TFG/imgs/sdk_3.png> <
-D:/Documentaci-n-TFG/imgs/sdk_4.png> <D:/Documentaci-n-TFG/imgs/sdk_5.png>]
-[30 <D:/Documentaci-n-TFG/imgs/sdk_6.png> <D:/Documentaci-n-TFG/imgs/sdk_7.png>
+[29] [30 <D:/Documentaci-n-TFG/imgs/jdk_1.png> <D:/Documentaci-n-TFG/imgs/jdk_2
+.png> <D:/Documentaci-n-TFG/imgs/jdk_3.png> <D:/Documentaci-n-TFG/imgs/jdk_4.pn
+g> <D:/Documentaci-n-TFG/imgs/jdk_5.png>] [31 <D:/Documentaci-n-TFG/imgs/sdk_1.
+png> <D:/Documentaci-n-TFG/imgs/sdk_2.png> <D:/Documentaci-n-TFG/imgs/sdk_3.png
+> <D:/Documentaci-n-TFG/imgs/sdk_4.png> <D:/Documentaci-n-TFG/imgs/sdk_5.png>]
+[32 <D:/Documentaci-n-TFG/imgs/sdk_6.png> <D:/Documentaci-n-TFG/imgs/sdk_7.png>
  <D:/Documentaci-n-TFG/imgs/sdk_8.png> <D:/Documentaci-n-TFG/imgs/sdk_9.png> <D
 :/Documentaci-n-TFG/imgs/sdk_10.png> <D:/Documentaci-n-TFG/imgs/sdk_11.png>])
-[31] [32
+[33] [34
 
 ]
 No file main.bbl.
@@ -1228,71 +1226,28 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 140.
 (D:\Documentaci-n-TFG\main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 140.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 140.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: D634FAD7F2535D6D650AD5AB3643880E;3846
-(rerunfilecheck)             After:  DBFA4A74CF6C2178AE9279D08C70520E;3846.
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 2AEB4C61336D261B4ACAEFE96FA16C7D;3760.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 140.
  ) 
 Here is how much of TeX's memory you used:
  15641 strings out of 493921
- 238185 string characters out of 3147282
+ 238178 string characters out of 3147282
  418579 words of memory out of 3000000
- 18205 multiletter control sequences out of 15000+200000
+ 18209 multiletter control sequences out of 15000+200000
  78471 words of font info for 223 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  55i,16n,54p,985b,651s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{figure.caption.96} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.95} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.93} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.88} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.87} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.86} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.91} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.84} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.83} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.82} has been referenced but does not exist,
- replaced by a fixed one
-
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/amsfonts/latxfont/lcirclew.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/time
-s/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (44 pages, 1741965 bytes).
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/latxfont/lcirclew.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ti
+mes/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (46 pages, 1765189 bytes).
 PDF statistics:
- 969 PDF objects out of 1000 (max. 8388607)
- 161 named destinations out of 1000 (max. 500000)
- 35831 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 972 PDF objects out of 1000 (max. 8388607)
+ 156 named destinations out of 1000 (max. 500000)
+ 35828 words of extra memory for PDF output out of 35830 (max. 10000000)
 

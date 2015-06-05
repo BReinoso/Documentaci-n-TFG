@@ -65,8 +65,8 @@ Se identifican las tareas:
 \figura{1}{imgs/S2_1.png}{Burn-down del sprint 4}{Sprint2}{}
 \paragraph{}Además esta iteración viene acompañada con un gráfico \textit{burn-down}s el cuál puede verse en la imagen \ref{Sprint2}
 
-\subsection{Sprint 5:13 de Marzo al 27 de Marzo}
-Este \textit{sprint} está dedicado en su  mayoría al aprendizaje de \href{http://www.cs.fsu.edu/~engelen/soap.html}{GSOAP}, que es un \textit{framework} para poder programar servidores en código C y C#. El estudió de esta herramienta llevó bastante tiempo debido a que su documentación, no solo estaba puramente en inglés, sino que además no era lo suficientemente precisa como para alguien que estuviera empezando a programar servicios WEB.
+\subsubsection{Sprint 5:13 de Marzo al 27 de Marzo}
+Este \textit{sprint} está dedicado en su  mayoría al aprendizaje de \href{http://www.cs.fsu.edu/~engelen/soap.html}{GSOAP}, que es un \textit{framework} para poder programar servidores en código C y C++. El estudió de esta herramienta llevó bastante tiempo debido a que su documentación, no solo estaba puramente en inglés, sino que además no era lo suficientemente precisa como para alguien que estuviera empezando a programar servicios WEB.
 
 En el \textit{Sprint Planning} se propuso como objetivos a tener en el siguiente \textit{sprint}:
 \begin{itemize}
@@ -107,7 +107,7 @@ En la planificación dentro del \textit{Sprint Planning} se determinó:
 	\item Continuar con la documentación.
 \end{itemize}
 
-Esos fueron los objetivos fijados para este \textit{sprint}, que es inusualmente largo debido a la serie de problemas que se encontraron en el mismo y que son explicados enn el \textit{Retrospective Meeting}.
+Esos fueron los objetivos fijados para este \textit{sprint}, que es inusualmente largo debido a la serie de problemas que se encontraron en el mismo y que son explicados en el \textit{Retrospective Meeting}.
 
 Mientras que en VersionOne lo que tenemos definido es:
 \begin{itemize}
@@ -128,3 +128,30 @@ Finalmente tenemos nuestro \textit{Retrospective Meeting}, en el que determinamo
 \end{itemize}
 \figura{1}{imgs/S4_1.png}{Burn-down del sprint 6}{Sprint4}{}
 \paragraph{}Podemos observar el gráfico de la imagen \ref{Sprint2}, en el que observamos el gráfico \textit{burn-down} del \textit{sprint}.
+\subsubsection{Sprint 7: 22 de Abril al 27 de Abril}
+Después del anterior \textit{sprint} se procedió a cambiar totalmente el rumbo del proyecto, para ello se ha tomado la decisión de continuar el proyecto en Python, con una librería nueva y con un \textit{framework} nuevo.
+
+En el \textit{Sprint Planning} se determinó los siguientes objetivos:
+\begin{itemize}
+	\item Crear prototipo inicial de servidor con Python y Flask
+	\item Estudio del funcionamiento de la librería NeuralTalk
+	\item Prototipo del cliente en Android
+\end{itemize}
+
+En VersionOne se definieron una serie de tareas para llevar a cabo estos objetivos, las tareas definidas dentro de la herramienta de gestión de tareas son:
+\begin{itemize}
+	\item Instalación de NeuralTalk y sus dependencias: Se procede a la instalación del proyecto de GitHub Neuraltalk, además de empezar a hacer pruebas con él y leer la documentación.
+	\item Instalación de Flask y Python: Para la programación del servidor es necesario la instalación de Flask y de Python.
+	\item Primera versión del servidor: Se procede a la creación de una primera versión del servidor que reciba una imagen y la guarde en el sistema, posteriormente esta será procesada por la herramienta de predicción que se haya elegido.
+\end{itemize}
+Una vez se han definido las tareas estas se realizaron a lo largo de la semana, aunque como veremos en ele gráfico \textit{burn-down} producido que al final, debido a problemas a la hora de trabajar con NeuralTalk, se ve aumentado el trabajo por hacer ya que surgen tareas no planificadas, las cuáles pasarán a ser resueltas en el siguiente \textit{sprint}.
+
+\paragraph{}Finalmente, en el \textit{Retrospective Meeting} se determinó lo siguiente:
+\begin{itemize}
+	\item Se instalaron NeuralTalk y sus dependencias, lo cuál resultó bastante costoso ya que al final este proyecto era dependiente de otro que estudiamos al principio, Caffe.
+	\item Se instaló correctamente Python, Flask y todas sus dependencias.
+	\item Se programo la primera versión del servidor tal y como se había planificado.
+	\item En el trabajo con la herramienta NeuralTalk se vio que esta era más compleja de lo esperado, pues no se podía simplemente predecir la imagen que uno quisiera sino que tendría que modificarse lo que en el proyecto original había para el caso de uso en el que nos encontramos.
+\end{itemize}
+\figura{1}{imgs/S5_1.png}{Burn-down del sprint 7}{Sprint5}{}
+Finalmente vamos a ver un gráfico de tipo \textit{burn-down} asociado a esta iteración y generado por la herramienta VersionOne, el gráfico se puede observar en la imagen \ref{Sprint5}.
