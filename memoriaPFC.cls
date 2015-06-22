@@ -219,7 +219,7 @@ TFG del Grado en Ingeniería Informática\vspace{.6cm}\\
 {%
 \noindent\huge
 Presentado por \@autorUno{}\\%
-en Universidad de Burgos --- Julio de 2014\\
+en Universidad de Burgos --- Julio de 2015\\
 \@tutor{}\\
 }%
 \end{center}%

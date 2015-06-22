@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.5.19)  5 JUN 2015 09:31
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.5.19)  22 JUN 2015 20:56
 entering extended mode
 **main.tex
 (D:\Documentaci-n-TFG\main.tex
@@ -814,7 +814,7 @@ LaTeX Info: Redefining \nameref on input line 45.
 (D:\Documentaci-n-TFG\main.out) (D:\Documentaci-n-TFG\main.out)
 \@outlinefile=\write6
 
-<imgs/cabecera.pdf, id=194, 617.67549pt x 135.51413pt>
+<imgs/cabecera.pdf, id=274, 617.67549pt x 135.51413pt>
 File: imgs/cabecera.pdf Graphic file (type pdf)
  <use imgs/cabecera.pdf>
 Package pdftex.def Info: imgs/cabecera.pdf used on input line 50.
@@ -856,7 +856,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (C:\Users\Bryan\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-<imgs/escudoInfor.pdf, id=195, 618.11432pt x 737.07487pt>
+<imgs/escudoInfor.pdf, id=275, 618.11432pt x 737.07487pt>
 File: imgs/escudoInfor.pdf Graphic file (type pdf)
 
 <use imgs/escudoInfor.pdf>
@@ -900,7 +900,7 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <20.74> not available
 Package tocbasic Info: character protrusion at toc deactivated on input line 52
 .
  (D:\Documentaci-n-TFG\main.toc
-Underfull \vbox (badness 1533) has occurred while \output is active []
+Underfull \vbox (badness 1360) has occurred while \output is active []
 
  [7])
 \tf@toc=\write7
@@ -954,42 +954,118 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
  [3]) [4]
 Cap\'{\i }tulo 3.
 (D:\Documentaci-n-TFG\3conceptosTeoricos.tex
+<imgs/classi.png, id=760, 803.0pt x 865.2325pt>
+File: imgs/classi.png Graphic file (type png)
+ <use imgs/classi.png>
+Package pdftex.def Info: imgs/classi.png used on input line 11.
+(pdftex.def)             Requested size: 177.3957pt x 191.14388pt.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 11.
+
+
+LaTeX Warning: \oval, \circle, or \line size unavailable on input line 11.
+
+<imgs/regre.png, id=762, 439.6425pt x 290.08376pt>
+File: imgs/regre.png Graphic file (type png)
+ <use imgs/regre.png>
+Package pdftex.def Info: imgs/regre.png used on input line 12.
+(pdftex.def)             Requested size: 177.3957pt x 117.04506pt.
+
+
+LaTeX Warning: \oval, \circle, or \line size unavailable on input line 12.
+
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 12.
- [5
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 14.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 17.
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 17.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 17.
 
-] [6]) [7] [8
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd"
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `pcr' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 
-]
+
+LaTeX Warning: Citation `wiki:ML' on page 5 undefined on input line 17.
+
+[5
+
+] [6 <D:/Documentaci-n-TFG/imgs/classi.png> <D:/Documentaci-n-TFG/imgs/regre.pn
+g>]
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+[][][][][]$\T1/pcr/m/n/9 https : / / regularizer . wordpress . com / 2014 / 11 
+/ 18 / deep -[] learning -[] with -[] decision -[]$
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7]
+
+LaTeX Warning: Citation `wiki:AP' on page 8 undefined on input line 42.
+
+
+LaTeX Warning: Citation `wiki:AP' on page 8 undefined on input line 43.
+
+[8] <imgs/TTS.png, id=806, 3199.955pt x 2056.68375pt>
+File: imgs/TTS.png Graphic file (type png)
+ <use imgs/TTS.png>
+Package pdftex.def Info: imgs/TTS.png used on input line 62.
+(pdftex.def)             Requested size: 390.79141pt x 251.15356pt.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 62.
+
+
+LaTeX Warning: \oval, \circle, or \line size unavailable on input line 62.
+
+
+Underfull \vbox (badness 1838) has occurred while \output is active []
+
+ [9 <D:/Documentaci-n-TFG/imgs/TTS.png (PNG copy)>]) [10]
 Cap\'{\i }tulo 4.
-(D:\Documentaci-n-TFG\4tecnicasYherramientas.tex [9] [10]
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <8> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 65.
- [11] [12]) [13]
-[14
+(D:\Documentaci-n-TFG\4tecnicasYherramientas.tex [11
+
+] [12] [13]
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+[][][][][]$\T1/pcr/m/n/9 http : / / libccv . org / post / with -[] a -[] sub -[
+] 10 -[] image -[] classifier -[] a -[] decent -[] face -[]$
+ []
+
+[14] [15] [16]) [17] [18
 
 ]
 Cap\'{\i }tulo 5.
-(D:\Documentaci-n-TFG\5estadoDelArte.tex) [15] [16
+(D:\Documentaci-n-TFG\5estadoDelArte.tex) [19] [20
 
 ]
 Cap\'{\i }tulo 6.
-(D:\Documentaci-n-TFG\6aspectosRelevantes.tex [17]) [18]
-Cap\'{\i }tulo 7.
-(D:\Documentaci-n-TFG\7conclusionesYfuturo.tex) [19
+(D:\Documentaci-n-TFG\6aspectosRelevantes.tex [21] [22] [23] [24]
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
+[][][][][]$\T1/pcr/m/n/9 http : / / stackoverflow . com / questions / 28538078 
+/ java -[] lang -[] nosuchfielderror -[] org -[]$
+ []
 
-] [20
+[25]) [26]
+Cap\'{\i }tulo 7.
+(D:\Documentaci-n-TFG\7conclusionesYfuturo.tex) [27
+
+] [28
 
 ]
 Anexo I.
-(D:\Documentaci-n-TFG\anexo1PlanDeProyectoSoftware.tex [21]
-<imgs/S1_1.png, id=780, 1260.96094pt x 444.15938pt>
+(D:\Documentaci-n-TFG\anexo1PlanDeProyectoSoftware.tex [29]
+<imgs/S1_1.png, id=1029, 1260.96094pt x 444.15938pt>
 File: imgs/S1_1.png Graphic file (type png)
  <use imgs/S1_1.png>
 Package pdftex.def Info: imgs/S1_1.png used on input line 38.
 (pdftex.def)             Requested size: 390.79141pt x 137.65408pt.
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 38.
 
 
 LaTeX Warning: \oval, \circle, or \line size unavailable on input line 38.
@@ -1000,10 +1076,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--39
  []
 
 
-Underfull \vbox (badness 4060) has occurred while \output is active []
+Underfull \vbox (badness 2261) has occurred while \output is active []
 
- [22 <D:/Documentaci-n-TFG/imgs/S1_1.png>]
-<imgs/S2_1.png, id=794, 1266.23062pt x 458.46281pt>
+ [30 <D:/Documentaci-n-TFG/imgs/S1_1.png>]
+<imgs/S2_1.png, id=1039, 1266.23062pt x 458.46281pt>
 File: imgs/S2_1.png Graphic file (type png)
  <use imgs/S2_1.png>
 Package pdftex.def Info: imgs/S2_1.png used on input line 65.
@@ -1012,11 +1088,11 @@ Package pdftex.def Info: imgs/S2_1.png used on input line 65.
 
 LaTeX Warning: \oval, \circle, or \line size unavailable on input line 65.
 
-[23 <D:/Documentaci-n-TFG/imgs/S2_1.png>]
-Underfull \vbox (badness 2435) has occurred while \output is active []
+[31 <D:/Documentaci-n-TFG/imgs/S2_1.png>]
+Underfull \vbox (badness 1127) has occurred while \output is active []
 
- [24]
-<imgs/S3_1.png, id=812, 1255.69125pt x 449.42906pt>
+ [32]
+<imgs/S3_1.png, id=1056, 1255.69125pt x 449.42906pt>
 File: imgs/S3_1.png Graphic file (type png)
  <use imgs/S3_1.png>
 Package pdftex.def Info: imgs/S3_1.png used on input line 96.
@@ -1026,10 +1102,10 @@ Package pdftex.def Info: imgs/S3_1.png used on input line 96.
 LaTeX Warning: \oval, \circle, or \line size unavailable on input line 96.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 5374) has occurred while \output is active []
 
- [25 <D:/Documentaci-n-TFG/imgs/S3_1.png>]
-<imgs/S4_1.png, id=821, 1260.96094pt x 433.62pt>
+ [33 <D:/Documentaci-n-TFG/imgs/S3_1.png>]
+<imgs/S4_1.png, id=1063, 1260.96094pt x 433.62pt>
 File: imgs/S4_1.png Graphic file (type png)
  <use imgs/S4_1.png>
 Package pdftex.def Info: imgs/S4_1.png used on input line 129.
@@ -1038,8 +1114,8 @@ Package pdftex.def Info: imgs/S4_1.png used on input line 129.
 
 LaTeX Warning: \oval, \circle, or \line size unavailable on input line 129.
 
-[26 <D:/Documentaci-n-TFG/imgs/S4_1.png>]
-<imgs/S5_1.png, id=830, 1263.21938pt x 448.67625pt>
+[34 <D:/Documentaci-n-TFG/imgs/S4_1.png>]
+<imgs/S5_1.png, id=1071, 1263.21938pt x 448.67625pt>
 File: imgs/S5_1.png Graphic file (type png)
  <use imgs/S5_1.png>
 Package pdftex.def Info: imgs/S5_1.png used on input line 156.
@@ -1048,206 +1124,267 @@ Package pdftex.def Info: imgs/S5_1.png used on input line 156.
 
 LaTeX Warning: \oval, \circle, or \line size unavailable on input line 156.
 
-) [27 <D:/Documentaci-n-TFG/imgs/S5_1.png>] [28
+[35 <D:/Documentaci-n-TFG/imgs/S5_1.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [36]
+<imgs/S6_1.png, id=1086, 1262.46657pt x 459.96844pt>
+File: imgs/S6_1.png Graphic file (type png)
+ <use imgs/S6_1.png>
+Package pdftex.def Info: imgs/S6_1.png used on input line 190.
+(pdftex.def)             Requested size: 390.79141pt x 142.37817pt.
+
+
+LaTeX Warning: \oval, \circle, or \line size unavailable on input line 190.
+
+[37 <D:/Documentaci-n-TFG/imgs/S6_1.png>]
+Underfull \vbox (badness 1127) has occurred while \output is active []
+
+ [38])
+[39] [40
 
 ]
 Anexo II.
 (D:\Documentaci-n-TFG\anexo4ManualDelProgramador.tex
-<imgs/jdk_1.png, id=844, 1391.1975pt x 758.835pt>
+<imgs/jdk_1.png, id=1110, 1391.1975pt x 758.835pt>
 File: imgs/jdk_1.png Graphic file (type png)
  <use imgs/jdk_1.png>
-Package pdftex.def Info: imgs/jdk_1.png used on input line 9.
+Package pdftex.def Info: imgs/jdk_1.png used on input line 8.
 (pdftex.def)             Requested size: 390.79141pt x 213.1555pt.
 
 
-LaTeX Warning: \oval, \circle, or \line size unavailable on input line 9.
+LaTeX Warning: \oval, \circle, or \line size unavailable on input line 8.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 10.
+               Default added (so using `tbp') on input line 9.
 
-<imgs/jdk_2.png, id=845, 387.69844pt x 295.1025pt>
+<imgs/jdk_2.png, id=1111, 387.69844pt x 295.1025pt>
 File: imgs/jdk_2.png Graphic file (type png)
  <use imgs/jdk_2.png>
-Package pdftex.def Info: imgs/jdk_2.png used on input line 16.
+Package pdftex.def Info: imgs/jdk_2.png used on input line 15.
 (pdftex.def)             Requested size: 175.85493pt x 133.85757pt.
 
-<imgs/jdk_3.png, id=846, 386.94562pt x 292.09125pt>
+<imgs/jdk_3.png, id=1112, 386.94562pt x 292.09125pt>
 File: imgs/jdk_3.png Graphic file (type png)
  <use imgs/jdk_3.png>
-Package pdftex.def Info: imgs/jdk_3.png used on input line 17.
+Package pdftex.def Info: imgs/jdk_3.png used on input line 16.
 (pdftex.def)             Requested size: 175.85493pt x 132.74571pt.
 
 
-LaTeX Warning: \oval, \circle, or \line size unavailable on input line 23.
+LaTeX Warning: \oval, \circle, or \line size unavailable on input line 22.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 26.
+               Default added (so using `tbp') on input line 25.
 
-<imgs/jdk_4.png, id=847, 386.19281pt x 294.34969pt>
+<imgs/jdk_4.png, id=1113, 386.19281pt x 294.34969pt>
 File: imgs/jdk_4.png Graphic file (type png)
  <use imgs/jdk_4.png>
-Package pdftex.def Info: imgs/jdk_4.png used on input line 32.
+Package pdftex.def Info: imgs/jdk_4.png used on input line 31.
 (pdftex.def)             Requested size: 175.85493pt x 134.03261pt.
 
-<imgs/jdk_5.png, id=848, 386.94562pt x 294.34969pt>
+<imgs/jdk_5.png, id=1114, 386.94562pt x 294.34969pt>
 File: imgs/jdk_5.png Graphic file (type png)
  <use imgs/jdk_5.png>
-Package pdftex.def Info: imgs/jdk_5.png used on input line 33.
+Package pdftex.def Info: imgs/jdk_5.png used on input line 32.
 (pdftex.def)             Requested size: 175.85493pt x 133.77211pt.
 
 
-LaTeX Warning: \oval, \circle, or \line size unavailable on input line 39.
+LaTeX Warning: \oval, \circle, or \line size unavailable on input line 38.
 
-<imgs/sdk_1.png, id=851, 1398.72563pt x 736.25063pt>
+<imgs/sdk_1.png, id=1117, 1398.72563pt x 736.25063pt>
 File: imgs/sdk_1.png Graphic file (type png)
  <use imgs/sdk_1.png>
-Package pdftex.def Info: imgs/sdk_1.png used on input line 44.
+Package pdftex.def Info: imgs/sdk_1.png used on input line 43.
 (pdftex.def)             Requested size: 390.79141pt x 205.69939pt.
 
 
-LaTeX Warning: \oval, \circle, or \line size unavailable on input line 44.
+LaTeX Warning: \oval, \circle, or \line size unavailable on input line 43.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--45
+Underfull \hbox (badness 10000) in paragraph at lines 42--44
 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 47.
+               Default added (so using `tbp') on input line 46.
 
-<imgs/sdk_2.png, id=854, 383.18156pt x 298.86656pt>
+<imgs/sdk_2.png, id=1120, 383.18156pt x 298.86656pt>
 File: imgs/sdk_2.png Graphic file (type png)
  <use imgs/sdk_2.png>
-Package pdftex.def Info: imgs/sdk_2.png used on input line 53.
+Package pdftex.def Info: imgs/sdk_2.png used on input line 52.
 (pdftex.def)             Requested size: 175.85493pt x 137.16106pt.
 
-<imgs/sdk_3.png, id=855, 386.94562pt x 298.11375pt>
+<imgs/sdk_3.png, id=1121, 386.94562pt x 298.11375pt>
 File: imgs/sdk_3.png Graphic file (type png)
  <use imgs/sdk_3.png>
-Package pdftex.def Info: imgs/sdk_3.png used on input line 54.
+Package pdftex.def Info: imgs/sdk_3.png used on input line 53.
 (pdftex.def)             Requested size: 175.85493pt x 135.48276pt.
 
 
-LaTeX Warning: \oval, \circle, or \line size unavailable on input line 60.
+LaTeX Warning: \oval, \circle, or \line size unavailable on input line 59.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 63.
+               Default added (so using `tbp') on input line 62.
 
-<imgs/sdk_4.png, id=856, 386.19281pt x 297.36093pt>
+<imgs/sdk_4.png, id=1122, 386.19281pt x 297.36093pt>
 File: imgs/sdk_4.png Graphic file (type png)
  <use imgs/sdk_4.png>
-Package pdftex.def Info: imgs/sdk_4.png used on input line 69.
+Package pdftex.def Info: imgs/sdk_4.png used on input line 68.
 (pdftex.def)             Requested size: 175.85493pt x 135.4038pt.
 
-<imgs/sdk_5.png, id=857, 385.44pt x 298.11375pt>
+<imgs/sdk_5.png, id=1123, 385.44pt x 298.11375pt>
 File: imgs/sdk_5.png Graphic file (type png)
  <use imgs/sdk_5.png>
-Package pdftex.def Info: imgs/sdk_5.png used on input line 70.
+Package pdftex.def Info: imgs/sdk_5.png used on input line 69.
 (pdftex.def)             Requested size: 175.85493pt x 136.01042pt.
 
 
-LaTeX Warning: \oval, \circle, or \line size unavailable on input line 76.
+LaTeX Warning: \oval, \circle, or \line size unavailable on input line 75.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 79.
+               Default added (so using `tbp') on input line 78.
 
-<imgs/sdk_6.png, id=858, 385.44pt x 299.61937pt>
+<imgs/sdk_6.png, id=1124, 385.44pt x 299.61937pt>
 File: imgs/sdk_6.png Graphic file (type png)
  <use imgs/sdk_6.png>
-Package pdftex.def Info: imgs/sdk_6.png used on input line 85.
+Package pdftex.def Info: imgs/sdk_6.png used on input line 84.
 (pdftex.def)             Requested size: 175.85493pt x 136.69734pt.
 
-<imgs/sdk_7.png, id=859, 386.94562pt x 298.86656pt>
+<imgs/sdk_7.png, id=1125, 386.94562pt x 298.86656pt>
 File: imgs/sdk_7.png Graphic file (type png)
  <use imgs/sdk_7.png>
-Package pdftex.def Info: imgs/sdk_7.png used on input line 86.
+Package pdftex.def Info: imgs/sdk_7.png used on input line 85.
 (pdftex.def)             Requested size: 175.85493pt x 135.82487pt.
 
 
-LaTeX Warning: \oval, \circle, or \line size unavailable on input line 92.
+LaTeX Warning: \oval, \circle, or \line size unavailable on input line 91.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 95.
+               Default added (so using `tbp') on input line 94.
 
-<imgs/sdk_8.png, id=860, 385.44pt x 299.61937pt>
+<imgs/sdk_8.png, id=1126, 385.44pt x 299.61937pt>
 File: imgs/sdk_8.png Graphic file (type png)
  <use imgs/sdk_8.png>
-Package pdftex.def Info: imgs/sdk_8.png used on input line 101.
+Package pdftex.def Info: imgs/sdk_8.png used on input line 100.
 (pdftex.def)             Requested size: 175.85493pt x 136.69734pt.
 
-<imgs/sdk_9.png, id=861, 385.44pt x 296.60812pt>
+<imgs/sdk_9.png, id=1127, 385.44pt x 296.60812pt>
 File: imgs/sdk_9.png Graphic file (type png)
  <use imgs/sdk_9.png>
-Package pdftex.def Info: imgs/sdk_9.png used on input line 102.
+Package pdftex.def Info: imgs/sdk_9.png used on input line 101.
 (pdftex.def)             Requested size: 175.85493pt x 135.3235pt.
 
 
-LaTeX Warning: \oval, \circle, or \line size unavailable on input line 108.
+LaTeX Warning: \oval, \circle, or \line size unavailable on input line 107.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 111.
+               Default added (so using `tbp') on input line 110.
 
-<imgs/sdk_10.png, id=862, 386.94562pt x 297.36093pt>
+<imgs/sdk_10.png, id=1128, 386.94562pt x 297.36093pt>
 File: imgs/sdk_10.png Graphic file (type png)
  <use imgs/sdk_10.png>
-Package pdftex.def Info: imgs/sdk_10.png used on input line 117.
+Package pdftex.def Info: imgs/sdk_10.png used on input line 116.
 (pdftex.def)             Requested size: 175.85493pt x 135.14063pt.
 
-<imgs/sdk_11.png, id=863, 981.6675pt x 626.34pt>
+<imgs/sdk_11.png, id=1129, 981.6675pt x 626.34pt>
 File: imgs/sdk_11.png Graphic file (type png)
  <use imgs/sdk_11.png>
-Package pdftex.def Info: imgs/sdk_11.png used on input line 118.
+Package pdftex.def Info: imgs/sdk_11.png used on input line 117.
 (pdftex.def)             Requested size: 175.85493pt x 112.20113pt.
 
 
-LaTeX Warning: \oval, \circle, or \line size unavailable on input line 124.
+LaTeX Warning: \oval, \circle, or \line size unavailable on input line 123.
 
-[29] [30 <D:/Documentaci-n-TFG/imgs/jdk_1.png> <D:/Documentaci-n-TFG/imgs/jdk_2
+[41] [42 <D:/Documentaci-n-TFG/imgs/jdk_1.png> <D:/Documentaci-n-TFG/imgs/jdk_2
 .png> <D:/Documentaci-n-TFG/imgs/jdk_3.png> <D:/Documentaci-n-TFG/imgs/jdk_4.pn
-g> <D:/Documentaci-n-TFG/imgs/jdk_5.png>] [31 <D:/Documentaci-n-TFG/imgs/sdk_1.
+g> <D:/Documentaci-n-TFG/imgs/jdk_5.png>] [43 <D:/Documentaci-n-TFG/imgs/sdk_1.
 png> <D:/Documentaci-n-TFG/imgs/sdk_2.png> <D:/Documentaci-n-TFG/imgs/sdk_3.png
 > <D:/Documentaci-n-TFG/imgs/sdk_4.png> <D:/Documentaci-n-TFG/imgs/sdk_5.png>]
-[32 <D:/Documentaci-n-TFG/imgs/sdk_6.png> <D:/Documentaci-n-TFG/imgs/sdk_7.png>
+[44 <D:/Documentaci-n-TFG/imgs/sdk_6.png> <D:/Documentaci-n-TFG/imgs/sdk_7.png>
  <D:/Documentaci-n-TFG/imgs/sdk_8.png> <D:/Documentaci-n-TFG/imgs/sdk_9.png> <D
 :/Documentaci-n-TFG/imgs/sdk_10.png> <D:/Documentaci-n-TFG/imgs/sdk_11.png>])
-[33] [34
+[45] [46
+
+] (D:\Documentaci-n-TFG\main.bbl
+
+LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
+               before end of `thebibliography' environment on input line 3.
+
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 140.
+ [47
 
 ]
-No file main.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 140.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 140.
-(D:\Documentaci-n-TFG\main.aux)
+ (D:\Documentaci-n-TFG\main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 140.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 140.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2AEB4C61336D261B4ACAEFE96FA16C7D;3760.
+(rerunfilecheck)             Checksum: 17C7B0D096D9CEF5C349ADBB08405700;5555.
+
+
+LaTeX Warning: There were undefined references.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 140.
  ) 
 Here is how much of TeX's memory you used:
- 15641 strings out of 493921
- 238178 string characters out of 3147282
- 418579 words of memory out of 3000000
- 18209 multiletter control sequences out of 15000+200000
- 78471 words of font info for 223 fonts, out of 3000000 for 9000
+ 15880 strings out of 493921
+ 241454 string characters out of 3147282
+ 419889 words of memory out of 3000000
+ 18336 multiletter control sequences out of 15000+200000
+ 85629 words of font info for 245 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  55i,16n,54p,985b,651s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/latxfont/lcirclew.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ti
-mes/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (46 pages, 1765189 bytes).
+pdfTeX warning (dest): name{Hfootnote.79} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.72} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.70} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.63} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.62} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.61} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.56} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.52} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.50} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.41} has been referenced but does not exis
+t, replaced by a fixed one
+
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/amsfonts/latxfont/lcirclew.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw
+/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr
+8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/urw/times/utmri8a.pfb>
+Output written on main.pdf (59 pages, 2014224 bytes).
 PDF statistics:
- 972 PDF objects out of 1000 (max. 8388607)
- 156 named destinations out of 1000 (max. 500000)
- 35828 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 1267 PDF objects out of 1440 (max. 8388607)
+ 223 named destinations out of 1000 (max. 500000)
+ 43176 words of extra memory for PDF output out of 51595 (max. 10000000)
 

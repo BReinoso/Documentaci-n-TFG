@@ -8,38 +8,71 @@ El \textit{Machine Learing} o también conocido como aprendizaje computacional, e
 
 \subsubsection{Tipos de algoritmos}
 Podemos dividir los algoritmos en tres tipos, aunque puede haber más pero los más importantes o con los que se puede clasificar a todos los algoritmos o programas que nos encontremos:
+\figura{0.5}{imgs/classi.png}{Ejemplo de clasificación.}{clasificacion}{}
+\figura{0.5}{imgs/regre.png}{Ejemplo de regresión lineal.}{regresion}{}
 \begin{itemize}
-	\item \textbf{Aprendizaje Supervisado:} Este algoritmo es modelado con una serie de ejemplos que son la entrada del sistema, pero también tienen una etiqueta de salida para cada ejemplo. El sistema lo que intenta es predecir la salida que se corresponde con cada ejemplo a través de su entrada, en función del error o acierto a la hora de predecir, el algoritmo va modificando sus valores para generar cada vez una predicción que se espera sea correcta o menos errónea.
+	\item \textbf{Aprendizaje Supervisado:} Este tipo de algoritmos crea una función que relaciona las entradas al sistema con las salidas del mismo.
+	Aquí tendremos dos tipos de problemas a resolver, los cuáles son:	
+	\begin{itemize}
+		\item Clasificación: El problema de clasificación se trata de que a través de un conjunto de datos, entrenamos nuestro modelo para que este devuelva como resultado una clase que clasifique al valor de entrada. Internamente estamos creando una función que nos devolverá la clase perteneciente a cada ejemplo con el menor error posible. Ver \ref{clasificacion} \footnote{\url{https://en.wikipedia.org/?title=Machine_learning}}\cite{wiki:ML}.
+		
+		Ejemplo: Tenemos un conjunto de datos con una estructura del tipo (altitud, presión{ALTA, BAJA}). El modelo será entrenado para recibir un valor cualquiera de altitud, y este devolverá o bien, clase0 = Presión baja o, clase1= Presión alta. Lo que el modelo está preparado para devolver es una clase.
+		\item Regresión: Este problema es bastante similar al de clasificación, pudiendo llegar a considerarse al de clasificación como un tipo de regresión. La principal diferencia de este con el de clasificación es que no esperamos una clase, sino un valor devuelto por la función construida, donde dicho valor será la predicción correspondiente al ejemplo. Internamente también creamos una función, pero esta está diseñada para devolver un valor numérico intentando predecir el estado del ejemplo, en función de los parámetros de entrada. Osea, la regresión nos devolverá un número como resultado, mientras que la clasificación devolverá una variable categórica.Ver imagen \ref{regresion}\footnote{\url{https://es.wikipedia.org/wiki/Regresión_lineal}}.
+		
+		Ejemplo: Tenemos un conjunto de datos del tipo (Altitud,Presión), en este caso tanto la altitud como la presión toman valores numéricos reales. El modelo se preparará para buscar una función que se ajuste mejor a los datos de entrenamiento. Ante un ejemplo para predecir, el modelo devolverá un número real, que será el valor esperado de la presión a esa altitud y no una clase.
+	\end{itemize}
 	\item \textbf{Aprendizaje no Supervisado:} En estos tipos de algoritmo se lleva a cabo el modelado con una serie ejemplos que tan sólo constan con sus valores de entrada, mientras que el sistema desconoce a qué clase o qué salida debiera surgir por cada ejemplo. Esto obliga al algoritmo a tener la capacidad de reconocimiento de patrones y ser capaz de diferenciar entre los ejemplos y dividirlos en grupos, en el que la salida será el grupo al que pertenece cada ejemplo.
-	\item \textbf{Aprendizaje semisupervisado:} Este tipo de algoritmos son sólo una combinación de los dos anteriores, tiene en cuenta tanto los ejemplos etiquetados como los no etiquetados.
+	\item \textbf{Aprendizaje semisupervisado:} Este tipo de algoritmos son una combinación de los dos anteriores, tiene en cuenta tanto los ejemplos etiquetados como los no etiquetados.
 \end{itemize}
-\subsubsection{Enfoques}
-Dentro de esta rama de la inteligencia artificial se pueden tomar varios enfoques a la hora de la creación de algoritmos y programas para la resolución de los problemas planteados:
+
+Dentro de este tipo de algoritmos, que son los que serán usados en el proyecto; podemos identificar los más significativos y relacionados con el proyecto:
 \begin{itemize}
-	\item Árboles de decisión
-	\item Reglas de asociación
-	\item Algoritmos genéticas
-	\item Redes neuronales artificiales
-	\item Máquinas de vectores de soporte
-	\item Algoritmos de agrupamiento
-	\item Redes bayesianas
-	\item Aprendizaje por refuerzo
+	\item Máquinas de vectores de soporte: Se trata de un conjunto de algoritmos de aprendizaje supervisad, que son capaces de predecir la clase de un ejemplo nuevo que entre en el modelo. Aunque este tipo de algoritmos pueden ser usados tanto para regresión como para clasificación.
+	
+	En lo que se basan estos algoritmos es en que una máquina de vectores de soporte constituye un hiperplano, el cuál posee una dimensión muy elevada. Dentro de ese hiperplano se producen divisiones resultantes del entrenamiento del modelo, las cuáles cuanto mejor dividan el espacio, mejor será la clasificación\footnote{\url{https://es.wikipedia.org/wiki/Máquinas_de_vectores_de_soporte}}.
+	\item Árboles: Los árboles de decisión son unos de los primeros métodos del \textit{machine learning}. Estos árboles están compuestos por una serie de nodos internos de decisión y unos nodos hojas, que se corresponden con la predicción o el resultado del modelo.\footnote{\url{https://regularizer.wordpress.com/2014/11/18/deep-learning-with-decision-trees/}}.
+	\item Redes neuronales: Es un conjunto de algoritmos de aprendizaje tanto supervisado como no supervisado, los cuales usan el concepto biológico de la neurona y de las interconexiones neuronales para crear un modelo de neurona artificial y las redes neuronales. La neurona artificial tendrá una serie de entradas, que son procesadas por la función de activación de la neurona y devuelve una salida que será el parte o el resultado del modelo o bien podría ser la entrada a otra neurona, formando con ello grandes redes den neuronas artificiales.
 \end{itemize}
 \subsection{Deep Learning}
-Es un conjunto de algoritmos en \textit{machine learning} que intenta modelar abstracciones de alto nivel en datos usando arquitecturas compuestas de transformaciones no-lineales múltiples.
+Se trata de un conjunto de algoritmos cuyo objetivo es intentar modelar abstracciones de alto nivel sobre los datos, usando para ello arquitecturas compuestas. Estas arquitecturas son de transformaciones no lineales y múltiples.
 
-No existe una única definición de aprendizaje profundo. En general se trata de una clase de algoritmos para aprendizaje máquina. A partir de este punto común, diferentes publicaciones se centran en un conjunto de características diferentes, por ejemplo:
+La definición de aprendizaje profundo o \textit{machine learning} no está muy clara, ya que existe más de una definición. Por norma general, hace referencia a algoritmos centrados en el aprendizaje de manera automática. Aún teniendo este punto en común, podemos encontrar diferentes algoritmos cuyas características los puede clasificar de la siguiente manera:
 \begin{itemize}
-	\item usar una cascada de capas con unidades de procesamiento no lineal para extraer y transformar características. Cada capa usa la salida de la capa anterior como entrada. Los algoritmos pueden utilizar aprendizaje supervisado o no supervisado, y las aplicaciones incluyen reconocimiento de patrones y clasificación estadística.
-	\item estar basados en el aprendizaje (no supervisado) de múltiples niveles de características o representaciones de datos. Las características de más alto nivel se derivan de las características de nivel inferior para formar una representación jerárquica.
-	\item formar parte del campo del aprendizaje máquina para aprender representaciones de datos.
-	\item aprender múltiples niveles de representación que corresponden con diferentes niveles de abstracción. Estos niveles forman una jerarquía de conceptos.
+	\item Usar un conjunto de capas en forma de cascada, o puestas de manera consecutiva una tras de otra, lo que significa que la salida de una capa será la entrada de la capa posterior. Los algoritmos de este tipo se enmarcan dentro del aprendizaje supervisado como en el no supervisado, esto implica la necesidad de que algunos algoritmos tengan la capacidad de detectar patrones.
+	\item estar basados en el aprendizaje (no supervisado) de múltiples niveles de características o representaciones de datos. Las características de más alto nivel se derivan de las características de nivel inferior para formar una representación jerárquica \cite{wiki:AP}.
+	\item aprender múltiples niveles de representación que corresponden con diferentes niveles de abstracción. Estos niveles forman una jerarquía de conceptos \cite{wiki:AP}.
 \end{itemize}
 
-Todas estas maneras de definir el aprendizaje profundo tienen en común múltiples capas de procesamiento no lineal y el aprendizaje supervisado o no supervisado de representaciones de características en cada capa. Las capas forman una jerarquía de características desde un nivel de abstracción más bajo a uno más alto.
-\paragraph{}Los algoritmos de aprendizaje profundo contrastan con los algoritmos de aprendizaje poco profundo por el número de transformaciones aplicadas a la señal mientras se propaga desde la capa de entrada a la capa de salida. Cada una de estas transformaciones incluye parámetros que se pueden entrenar como pesos y umbrales. No existe un estándar de facto para el número de transformaciones (o capas) que convierte a un algoritmo en profundo, pero la mayoría de investigadores en el campo considera que aprendizaje profundo implica más de dos transformaciones intermedias.
-\subsection{Servidor Web}
+Los algoritmos de aprendizaje profundo contrastan con los algoritmos de aprendizaje poco profundo por el número de transformaciones aplicadas a la señal mientras se propaga desde la capa de entrada a la capa de salida. Cada una de estas transformaciones incluye parámetros que se pueden entrenar como pesos y umbrales. No existe un estándar de facto para el número de transformaciones (o capas) que convierte a un algoritmo en profundo, pero la mayoría de investigadores en el campo considera que aprendizaje profundo implica más de dos transformaciones intermedias.
+\subsection{Servicio Web}
+\label{ConTeoServicioWeb}
+Se trata de una tecnología que nos permite el correcto intercambio de datos entre distintas aplicaciones, para esto usa una serie de protocolos y estándares. El objetivo principal al usar este tipo de tecnología es conseguir que aplicaciones que trabajan en con distintos software, distinto idioma de programación, distinta localización e incluso con distinta plataforma de instalación; puedan comunicarse de manera adecuada y correcta consiguiendo que el paso de datos de una a otra sea posible no sólo de manera adecuada sino, también, correcta. Para conseguir este objetivo, los servicios web utilizan estándares abiertos, osea, que es accesible para todos.\footnote{\url{https://es.wikipedia.org/wiki/Servicio_web}}
 
+Entre estos estándares los más relevantes con el proyecto y su desarrollo han sido:
+\begin{itemize}
+	\item XML: El formato de este tipo de documentos lo ha llevado a ser muy usado, incluso llega a ser la base para la definición de otros estándares.
+	\item SOAP: Protocolos para establecer el intercambio de datos entre distintas aplicaciones. Hace referencia al tipo de dato.
+	\item WSDL: Lenguaje para los servicios web con el que establecemos la comunicación con estos, en el se especifican los datos del servidor y los servicios que este ofrece, determinando los tipos de datos de respuesta y petición, los cuáles están establecidos en la especificación SOAP. Este  lenguaje esta basado en XML.
+	\item REST: Protocolo que usa Http para establecer la conexión con el servidor y que, gracias a los distintos tipos de peticiones que posee, puede realizar las distintas operaciones en función de lo servicios que aporte el servicio web.
+\end{itemize}
 \section{Conceptos teóricos en el lado del Cliente}
 \subsection{Funcionamiento de las librerías Text2Speech}
+\label{ConTeoTTS}
+Se tiene la intención de usar una librería para que el dispositivo lea las frases deseadas en voz alta, para esto se usa una librería del tipo \textit{text to speech}. Este tipo de librerías lo que hace es procesar los datos que se quieren leer y convertirlo en un clip de audio, en el que podemos escuchar una voz que lee lo deseado.
+\figura{1}{imgs/TTS.png}{Gráfico de librería \textit{Text to Speech}}{TTS}{}
 
+Para entender el funcionamiento de este tipo de librerías se ayuda de un pequeño gráfico (\ref{TTS})\footnote{\url{https://www.google.com/patents/US6865533}}, además se procede a poner una serie de pasos a través de los cuáles tienen que pasar los datos para llegar al clip final:
+\begin{itemize}
+	\item En primer lugar se almacena el texto en la memoria del dispositivo en el que se va a procesar con esta librería.
+	\item Se procede a aplicar una serie de reglas de análisis léxico para convertir el texto en un conjunto de componentes de pluralidad.
+	\item Se asocia la información de pronunciado y de significado a esta serie de componentes.
+	
+	\item El analizador fonético enmarca el texto usando las reglas de análisis fonético.
+	\item Guardamos el conjunto de sonidos en memoria, cada sonido guardado es asociado con alguna información de pronunciación.
+	\item Se recogen los sonidos asociados a los componentes para generar una fila o conjunto de sonidos que se asocian con el analizador fonético y con las reglas de análisis expresivo para generar la salida final.
+\end{itemize}
+\section{Conceptos teóricos asociados a los artículos de investigación}
+En apartados posteriores en la documentación (ver \ref{chap:EstadoArte}) se explicará de manera más o menos detallada los artículos de investigación asociados a las herramientas que se han utilizado, dentro de estos artículos tenemos conceptos teóricos algo avanzados, que se considera oportuno explicar en esta apartado para el posterior entendimiento de dichos artículos.
+\subsection{Convolutional Neural Networks o Redes Neuronales Convolucionales}
+
+\subsection{Recurrent Neural Networks o Redes Neuronales Recurrentes}

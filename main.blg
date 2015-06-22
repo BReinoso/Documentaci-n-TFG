@@ -1,8 +1,6 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
 The style file: plainurl.bst
 Database file #1: referencias.bib
-Repeated entry---line 373 of file referencias.bib
- : %@book{ScrumManager
- :                    ,
-I'm skipping whatever remains of this entry
-(There was 1 error message)
+Warning--I didn't find a database entry for "wiki:ML"
+Warning--I didn't find a database entry for "wiki:AP"
+(There were 2 warnings)

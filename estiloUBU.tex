@@ -106,6 +106,12 @@
   \end{figure}%
 }
 
+%Comando para hacer referencias la misma nota al pie de página
+%Su uso es \footnoteref{label}
+%La nota a pie de página a referenciar tiene que tener un \label en su interior.
+\makeatletter
+\newcommand\footnoteref[1]{\protected@xdef\@thefnmark{\ref{#1}}\@footnotemark}
+\makeatother
 %
 % Nuevo comando para tablas pequeñas (menos de una página).
 \newcommand{\tablaSmall}[5]{%

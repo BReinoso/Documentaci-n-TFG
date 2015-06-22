@@ -1,14 +1,23 @@
+\label{chap:AspectosRelevantes}
 En este apartado se introducen los aspectos más relevantes del proyecto.
 
 \section{Dificultades encontradas}
 Durante el desarrollo del proyecto nos hemos  encontrado varias dificultades que han hecho que el proyecto se retrase considerablemente y su avance no haya sido ni fácil ni rápido.
+\subsection{Dificultades con DeepBeliefSDK}
+\label{subchap:RelevDeepBelief}
+En principio se intentó su uso directamente en Android, pero se encontró que fue excesivamente difícil para el alumno usarlo en Android. Aunque viene un ejemplo en Android, este se intentó hacer funcionar a través de la herramienta Android Studio, pero no funcionaba correctamente el ejemplo al intentarlo.
+
+Se intentó en un principio, siguiendo los ejemplos aportados por el autor, hacer una aplicación lo más sencilla posible para un dispositivo Android. No se obtuvo un resultado satisfactorio, pues no se consiguió que se compilara de manera correcta la aplicación. Entonces se procedió al intento de compilar el ejemplo ofrecido en el proyecto, el cuál resulto que tampoco compilaba y era bastante más complejo que la aplicación de prueba inicial como para poder arreglar los errores.
+
+En conclusión vimos que la ejecución en Android de esta aplicación iba a dar muchos problemas y determinamos que se programaría un servidor para que el cliente subiera ahí la foto y la librería se ejecutará en el lado del servidor. Cabe destacar que después de un par de intentos de instalación del proyecto, los ejemplos, que estaban en la máquina Linux donde se alojaría el servidor, funcionaron de manera adecuada.
 \subsection{Dificultades con GSOAP y Apache}
+\label{subchap:RelevGSOAP}
 Este fallo es el que más ha retrasado al proyecto y ha supuesto una dificultad enorme a la hora de llevar a cabo el mismo.
-\paragraph{}Empezamos con que para usar \href{http://www.cs.fsu.edu/~engelen/soap.html}{GSOAP} se tuvo que estudiar una serie de cosas para poder adquirir los conocimientos necesarios para usar la herramienta, dichos conocimientos serán listados aquí:
+\paragraph{}Empezamos con que para usar GSOAP\footnote{\url{http://www.cs.fsu.edu/~engelen/soap.html}} se tuvo que estudiar una serie de cosas para poder adquirir los conocimientos necesarios para usar la herramienta, dichos conocimientos serán listados aquí:
 \begin{itemize}
-    \item \href{http://axis.apache.org/axis2/c/core/}{XML:} Se tuvo que coger un nivel adecuado en el uso de XML ya que la herramienta GSOAP se basa en el uso de este tipo de archivos como medio de comunicación en las distintas peticiones y respuestas que procesa. Además el XML también es necesario para comprender el funcionamiento de SOAP y de WSDL, los cuales son completamente necesarios para entender el funcionamiento de la herramienta GSOAP.
-    \item \href{http://www.cs.fsu.edu/~engelen/soap.html}{SOAP:} Esta especificación se tuvo que estudiar para comprender el funcionamiento de la herramienta GSOAP y en qué se basaba su funcionamiento, entender el por qué debía funcionar la herramienta y como se realiza la comunicación gracias a ella. Aunque el SOAP no es usado directamente cuando usas GSOAP es necesario conocer esta especificación ya que GSOAP sí que usa WSDL, para el cual tenemos que tener un conocimiento básico, al menos, de SOAP para poder usarlo.
-    \item \href{http://tomcat.apache.org/}{WSDL:} Esta otra especificación sí que se usa directamente en la herramienta GSOAP y básicamente con ella vertebras toda la aplicación que vas a hacer, de hecho tienes dos opciones:
+    \item \textbf{XML:}\footnote{\url{http://www.w3schools.com/xml/}} Se tuvo que coger un nivel adecuado en el uso de XML ya que la herramienta GSOAP se basa en el uso de este tipo de archivos como medio de comunicación en las distintas peticiones y respuestas que procesa. Además el XML también es necesario para comprender el funcionamiento de SOAP y de WSDL, los cuales son completamente necesarios para entender el funcionamiento de la herramienta GSOAP.
+    \item \textbf{SOAP:}\footnote{\url{http://www.cs.fsu.edu/~engelen/soap.html}} Esta especificación se tuvo que estudiar para comprender el funcionamiento de la herramienta GSOAP y en qué se basaba su funcionamiento, entender el por qué debía funcionar la herramienta y como se realiza la comunicación gracias a ella. Aunque el SOAP no es usado directamente cuando usas GSOAP es necesario conocer esta especificación ya que GSOAP sí que usa WSDL, para el cual tenemos que tener un conocimiento básico, al menos, de SOAP para poder usarlo.
+    \item \textbf{WSDL:}\footnote{\url{http://www.w3schools.com/webservices/ws_wsdl_documents.asp}} Esta otra especificación sí que se usa directamente en la herramienta GSOAP y básicamente con ella vertebras toda la aplicación que vas a hacer, de hecho tienes dos opciones:
     \subitem La primera es usar un archivo WSDL donde especificas las operaciones que el  servidor va a realizar, después con la herramienta GSOAP generas todos los stubs y documentos necesarios para hacer tu aplicación.
     \subitem La segunda sería a través de un documento de tipo .h o una cabecera de C. Con el cuál también generas los stubs y documentos necesarios para programar tu servidor, entre dichos documentos se econtrará un archivo WSDL que contendrá la especificación de las operaciones que hay dentro del fichero cabecera que hayas usado. Pero incluso en esta opción necesitas entender SOAP y WSDL porque a través de comentarios tienes que especificar características que irán directamente al fichero WSDL, y que serán necesarios para el correcto funcionamiento del servidor.
 \end{itemize}
@@ -16,12 +25,63 @@ Este fallo es el que más ha retrasado al proyecto y ha supuesto una dificultad e
 Para que funcionará con el cliente GSOAP se hizo una investigación de cómo hacer que el servidor funcionará en localhost y, siguiendo la recomendación que en la documentación de GSOAP encontramos, se instaló Apache y se inteto usar el módulo de Apache para su funcionamiento con GSOAP.
 \paragraph{}Como conclusión sacamos que, tras una larga investigación y mucho tiempo dedicada a esta herramienta, esta herramienta no tenia la documentación suficiente como para poder hacerla funcionar con Apache y, a pesar de haberlo intentado  muchas veces, no conseguimos que el servidor GSOAP programado por nosotros devolviera alguna vez un resultado coherente al cliente.
 Finalmente desechamos la opción de trabajar con esta herramienta y le dimos un giro al proyecto con el que esperábamos tener avances más rápidos y mejores, optamos por la programación de un servidor en Flask.
-\subsection{Dificultades con DeepBeliefSDK}
-Al final no se pudo usar.
 \subsection{Dificultades en la instalación de Herramientas}
-Caffe tuvimos problemas de compatibilidad con open-cv
-Neuraltalk tuvimos problemas con la cantidad de dependencias que tenía.
+En este proyecto nos encontramos con que la instalación de las herramientas que se van a usar en el lado del servidor conllevan una carga de trabajo bastante grande. Un ejemplo claro es, que descartamos la herramienta Caffe por la cantidad de dependencias que esta poseía y su complejidad y, finalmente, la herramienta elegida, NeuralTalk, dependía a su vez de Caffe. Por tanto, la instalación de NeuralTalk conllevaba la instalación de Caffe y su cantidad de dependencias.
+
+\subsubsection{Instalando Caffe}
+En un primer intento de instalar Caffe, se fueron instalando una a una las dependencias de este según íbamos encontrando los errores en instalación. Esto llevo mucho tiempo ya que cada dependencia tenía a su vez su manera de instalarse y no siempre era de manera directa y limpia, un claro ejemplo fue open-cv, el cuál instalamos de manera manual pero a su vez requería otra instalación y la instalación final resultó no se adecuada.
+
+El problema de la instalación de open-cv llevo a que la instalación completa de Caffe fallara. Lo que nos obligo a limpiar la máquina de toda dependencia de Caffe instalada y empezar desde cero. Afortunadamente nos topamos con un tutorial de cómo instalar PyCaffe en una máquina virtual, el cuál era lo suficientemente útil como para que nos sirva a nosotros; que realmente necesitábamos instalar MaCaffe (el \textit{wrappper} de Caffe para MATLAB)\footnote{\url{https://github.com/BVLC/caffe/wiki/Ubuntu-14.04-VirtualBox-VM}}.
+
+Gracias a que seguimos esos pasos se resolvió el error de instalación del open-cv, cabe destacar que llegar a este punto lleva un proceso que puede superar fácilmente la hora por la cantidad de dependencias que se deben instalar aquí. El siguiente problema a tener en cuenta es que debíamos instalar MATLAB, por suerte se contaba con una licencia que la Universidad de Burgos había facilitado a los alumnos, de modo que la instalación de esta herramienta no fue realmente muy compleja, aunque puede tardar sobre otra media hora o incluso más.
+
+Una vez se ha pasado el calvario de la instalación de las dependencias llega el proceso de configurar el makefile de Caffe para instalarlo definitivamente en tu máquina. El tutorial anteriormente mencionado nos serviría para algunos aspectos pero la definición de MATLAB la teníamos que hacer nosotros. Se debía definir el directorio en el que se encontraba el ejecutable de MATLAB, o eso ponía en la documentación. La definición del directorio tal y como ponía en la documentación falló, y se tuvo que intentar con distintos directorios hasta que se llego a la solución correcta. Hay que tener en cuenta que cada intento rondaba los 15 minutos porque había que limpiar la anterior instalación del makefile y rehacer todas las comprobaciones del mismo.
+
+Una vez se ha superado todos estos contratiempos, se puede decir que tienes Caffe instalado en tu máquina y que está listo para ser usado. La dificultad de esto es que no hay una guía paso a paso de todo lo que hay que hacer y, en muchos casos, tienes que investigar por tu cuenta cómo instalar cada cosa, lo que conlleva una pérdida de tiempo enorme.
+
+\subsection{Instalando NeutalTalk}
+La instalación de NeuralTalk lleva consigo la carga de instalar Caffe por detrás. Pero una vez instalado no puedes realizar ningún tipo de prueba debido a que no tienes entrenada la red. El entrenamiento de la red es inmediato porque la documentación es clara en cuanto a esto, pero el entrenamiento de la red puede tardar bastantes horas.
+
+Durante el proyecto se intento entrenar la red por nuestra parte, pero las horas que esto conllevaban podías llegar a sumar días. De modo que se tuvo que buscar alguna red pre-entrenada. Por suerte la solución también fue encontrada en la documentación de la herramienta y se descargo una red pre-entrenada\footnote{\url{http://cs.stanford.edu/people/karpathy/neuraltalk/}} para proceder a hacer pruebas con la herramienta.
 \subsection{Dificultades con NeuralTalk}
-Tuvimos problemas con la herramienta de MATLAB al ejecutar un script desde el servidor.
+\label{subchap:RelevNeuralTalk}
+El trabajo que se ahorro en la instalación de NeuralTalk lo tuvimos que invertir en hacer que este funcione de manera que nosotros queremos. Puesto que NeuralTalk inicialmente sólo viene predispuesto para ser probado con las imágenes que ya tiene y devuelve un fichero HTML como resultado. No había la opción de trabajar sobre imágenes propias.
+
+Mientras que la documentación de instalación de NeuralTalk era sencilla, la documentación para la configuración de este era muy precaria y sólo se podía encontrar a modo de comentario en los ficheros del proyecto. Además de que no encontrabas todo documentado en un sólo fichero, sino que un fichero documentaba una parte y hacía referencia a documentación que se encontraba en un comentario de otro fichero. Esto hizo que el proceso de configuración de NeuralTalk fuera lento y pesado.
+
+En primer lugar se leyó la documentación del fichero que hacía las predicciones. En el ponía que se usaba scripts de MATLAB para la preparación de las imágenes, este script cogía el nombre de las imágenes de un fichero de texto llamado tasks.txt. El primer problema es que el script dependía de la cómo estaba estructurado los ficheros de NeuralTalk, osea que teníamos que adaptarlo a nuestro caso de uso; para ello se tuvo que leer el código y diferenciar dónde debíamos y qué debíamos cambiar para que se adaptara a nuestro caso de eso. Este proceso fue lento y pesado, porque los comentarios no eran lo suficientemente concisos como para poder interpretarlo de manera inmediata, sino que se tuvo que entender el código casi en su totalidad para poder entender qué se debía modificar y por qué. Además de que tuvimos que añadirle líneas para que encontrara a Caffe dentro de nuestro sistema, sino, no funcionaba.
+En este script nos encontramos además que la definición del objeto de Caffe está mal hecha o no funcionaba en nuestra máquina, de modo que se tuvo que recurrir a la documentación de Caffe. Otra vez se tuvo que indagar en los comentarios dentro del código, porque esto no estaba explicado dentro de la documentación que se encontró, y Caffe es un proyecto más extenso y complejo por lo que llevo mucho tiempo llegar a la solución.
+
+Resuelto el problema anteriormente descrito se procede a la programación del servidor, este tiene que:
+\begin{itemize}
+	\item Escribir en el fichero tasks.txt el nombre de la imagen a procesar: Esto fue sencillo, ya que trabajar con ficheros en Python es bastante fácil.
+	\item Ejecutar el script de MATLAB: El script de matlab no predecía, sino que extrae características de la imagen para poder usarla con NeuralTalk. El problema que surgió aquí es que MATLAB nos daba un error de licencia ya que el servidor se ejecutada como superusuario, pero MATLAB detectaba la licencia a nombre del usuario normal. Además se tuvo que investigar la secuencia de comandos correcta para que el script se ejecutara, una vez más la documentación no decía exactamente cómo se debía ejecutar este.
+	
+	Finalmente cuando se descubrió cómo ejecutar el script, se tuvo que buscar una solución al problema con la licencia. Se intento cambiar la licencia o reinstalar MATLAB, pero no dio resultado. Finalmente se opto a hacer un script bash y ejecutarlo desde el servidor usando el nombre de usuario que sí aceptaba MATLAB en su licencia.
+	\item Seguidamente se tenía que coger el fichero HTML que devolvía NeuralTalk y procesarlo para convertir todos esos datos en la cadena que queríamos, esto no llevo demasiado tiempo porque con la función \textit{split} de cadenas de texto y la facilidad de Python para trabajar con ficheros, se convirtió en una tarea bastante sencilla.
+\end{itemize}
+Finalmente se  consiguió que integrar así el servidor con NeuralTalk, pero la carga de trabajo que esto llevo fue bastante grande.
 \subsection{Dificultades con Android}
-Problemas al conectarnos con el servidor.
+\label{subchap:RelevAndroid}
+Con Android encontramos los problemas más destacables a la hora de realizar la conexión con el servidor y enviarle los datos. Estos son fácilmente numerables por lo que vamos a tratarlos por puntos:
+\subsubsection{Usando la librería de Apache para HTTP}
+El primer problema de todos es que para usar esta librería era necesario instalarla de manera externa y en la documentación de Apache o Android no se encontraba la solución de manera clara. Se tuvo que investigar durante bastante tiempo hasta dar la solución en un foro de Internet\footnote{\url{http://stackoverflow.com/questions/28538078/java-lang-nosuchfielderror-org-apache-http-message-basicheadervalueformatter-in}}.
+
+Después se procedió a programar la conexión y  se hizo con la documentación que se encontró de manera más usual, pero esta resultó estar obsoleta y, por lo tanto, no funcionaba al compilar y ejecutar la aplicación. Se tuvo que buscar información de manera más exhaustiva para dar con la solución correcta y que no se encuentra obsoleta.
+
+Una vez se ha cambiado el código nos encontramos con el problema de que nuestra imagen daba incompatibilidades con el tipo de dato que se tenía que definir en la petición de tipo POST, de manera que se recurrió otra vez a una búsqueda bastante exhaustiva hasta dar con la solución de cómo se tenía que tratar la imagen para mandarla dentro de una petición POST a un servidor.
+
+Finalmente descubrimos que, debido a estándares establecidos por Android, lo que habíamos programado no se podía ejecutar porque esto no debía hacerse en el hilo principal de ejecución, sino que debía ser lanzado en un hilo diferente. De manera que se tuvo que reestructurar todo el código para adaptarlo a esta especificación, una vez más se tuvo que realizar una investigación de cómo se realizaba esto y por qué. 
+\subsubsection{Localizando la imagen}
+Después de haber programado la conexión de manera correcta, la petición hacia el servidor se realizaba de manera incorrecta devolviendo un código de error. Descubrimos el origen de este error ayudándonos de los mensajes de error que devolvían las Excepciones que se producían.
+
+Descubrimos que el error se encontraba al pasar los datos de la imagen desde un hilo a otro, de manera que tuvimos que investigar la manera de conseguir solucionar esto. Resulta que este tipo de problemas es bastante complejo de solucionar porque al intercambiar los datos de un hilo a otro se pierde la dirección en la que se encuentra la imagen. Para solucionar esto se ha puesto la imagen en memoria compartida y se crea la imagen con la dirección de la misma, para extraer esta dirección se tiene que crear una función que extraiga la dirección de la imagen. Al trabajar con la dirección y no con la cabecera de la imagen, no se pierde la imagen durante el proceso.
+\subsection{Dificultades con Librería de Traducción en el servidor}
+\label{subchap:RelevTraduccion}
+El problema que se encontró es que el API de traducción de Google resulto ser de pago, por lo tanto no era del todo adecuado para su uso en este proyecto. Pero se encontró una solución alternativa.
+
+La solución alternativa consistía en simular una conexión a través de navegador e la página de traducción de Google y recibir como respuesta la cadena ya traducida. Esta solución es bastante interesante ya que usa conceptos de los servicios web y más concretamente de los servicios web con una especificación de tipo REST.
+
+Se mandará una petición a la página de Google a través de un url, como sabemos la dificultad está en cómo decir a la página qué queremos traducir y de qué a qué idioma lo queremos traducir. Pues bien, esto se hace definiendo un url. En este url se tiene que hacer uso de la construcción de url, porque en el url es donde van definido los parámetros que se pasan a la página web. Una vez se construye el url, se procede a lanzar la petición con lo parámetros establecidos.
+
+Finalmente, se recibe una respuesta que es recibida en un dato de tipo json, este tipo de dato es fácilmente convertido a un dato de cadena de caracteres en Python y, finalmente, se extrae de ese conjunto de caracteres la cadena que contiene la traducción del texto.
