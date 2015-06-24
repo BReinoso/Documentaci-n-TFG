@@ -74,5 +74,26 @@ Para entender el funcionamiento de este tipo de librerías se ayuda de un pequeño
 \section{Conceptos teóricos asociados a los artículos de investigación}
 En apartados posteriores en la documentación (ver \ref{chap:EstadoArte}) se explicará de manera más o menos detallada los artículos de investigación asociados a las herramientas que se han utilizado, dentro de estos artículos tenemos conceptos teóricos algo avanzados, que se considera oportuno explicar en esta apartado para el posterior entendimiento de dichos artículos.
 \subsection{Convolutional Neural Networks o Redes Neuronales Convolucionales}
+En este apartado de los conceptos teóricos se procederá a explicar las Redes Neuronales Convolucionales\footnote{\url{http://cs231n.github.io/convolutional-networks/}}, las cuáles son muy importantes debido a que en el tratamiento de imágenes es una herramienta básica para el procesado de las mismas.
+
+Las Redes Neuronales Convolucionales, CNNs a partir de ahora, son muy similares a las Redes Neuronales Multicapa. Poseen varias capas conectadas totalmente entre si, están formadas por un conjunto de neuronas artificiales, poseen pesos y bias que cambian en el entrenamiento de la red. Cada neurona recibe algunas entradas y obtiene el producto escalar de estas. La red entera posee una función objetivo. También posee una función de pérdida y se aplican todos los pasos normales que posee una Red Neuronal Multicapa común.
+
+Parece que las CNNs no tienen nada nuevo en principio, pero la diferencia está en que la CNN lo que hace es dar por hecho que el input de la red es una imagen. Dar por hecho que la entrada de la red es una imagen nos aporta grandes beneficios, puesto que podemos configurar el resto de la red para tratar exclusivamente con este tipo de dato.
+\subsubsection{Visión Global de la arquitectura de las CNNs}
+Las CNNs toma ventaja de que el dato de entrada son imágenes y no otra cosa, lo que hace que la arquitectura de este tipo de redes sean restringidas de una manera más sensata. En particular, a diferencia de una red neuronal normal, las CNNs tienes sus neuronas organizadas en capas que conforman tres dimensiones:Altura, Anchura y Profundidad (la profundidad hace referencia al número de canales que tiene la imagen de entrada, pudiendo ser inclusive uno). 
+\subsubsection{Ejemplo de una CNN}
+Cada capa de una CNNN transforma un volumen de activaciones (la entrada de la capa, que pasa a través de las neuronas y su función de activación) es transformado en otro volumen con el uso de una función diferencial. Las CNNs tienen tres tipos principales de capas: \textbf{Capa Convolucional, Capa de puesta en común o  de \textit{Pooling} y Capa Completamente Conectada}. Si juntamos estas tras capas, entonces formamos una CNN completa.
+
+Vamos a ver un pequeño ejemplo, aunque se detallará la explicación de las capas más adelante. Este ejemplo será para la clasificación de una y imagen y tiene una arquitectura [INPUT-CONV-RELU-POOL-FC] y unas 10 clases. La explicación de las capas será:
+\begin{itemize}
+	\item \textbf{INPUT[32X32X3]:} Esta capa es la de entrada y contendrá los píxeles de la imagen que se vaya a procesar, la imagen tendrá una resolución de 32 de altura por 32 de anchura; además podemos ver que tendrá 3 canales, que podrían ser RGB.
+	\item \textbf{CONV:} Esta capa computará las salidas de cada neurona que están conectadas a regiones locales de la entrada, cada computación realiza un producto escalar entre los pesos y la región a la que están conectadas en el volumen de entrada. El resultado dará una matriz de tamaño [32X32X12].
+	\item \textbf{RELU:} Esta capa aplicará una función de activación, que podría ser como la función max(0,x) con umbral cero. Esta capa no afectará al tamaño de la matriz resultante.
+	\item \textbf{POOL:} Esta capa hará un cómputo que reducirá la resolución de la matriz, lo que deja la matriz con tamaño [16X16X12].
+	\item \textbf{FC:} (\textit{fully-connected} o completamente conectada) Esta capa los resultados de clases, lo que provoca una matriz de tamaño [1X1X10], donde cada uno de los 10 números se corresponde con el resultado para cada clase.
+\end{itemize}
+\figura{1}{imgs/convnet.jpeg}{Gráfico de una CNN \cite{CNN}}{CNN}{}
+
+Por lo tanto, la CNN transforma la imagen original en una matriz de resultados para cada clase, que contiene la probabilidad de que la imagen de entrada pertenezca a esa clase. Para verlo de manera gráfica podemos ver la imagen \ref{CNN}.
 
 \subsection{Recurrent Neural Networks o Redes Neuronales Recurrentes}
