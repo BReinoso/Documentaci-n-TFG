@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{berg2010large}
 Alex Berg, Jia Deng, and L~Fei-Fei.
@@ -9,6 +9,29 @@ Dan~C Cire{\c{s}}an, Ueli Meier, Jonathan Masci, Luca~M Gambardella, and
   J{\"u}rgen Schmidhuber.
 \newblock High-performance neural networks for visual object classification.
 \newblock {\em arXiv preprint arXiv:1102.0183}, 2011.
+
+\bibitem{deng2009imagenet}
+Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Li~Fei-Fei.
+\newblock Imagenet: A large-scale hierarchical image database.
+\newblock In {\em Computer Vision and Pattern Recognition, 2009. CVPR 2009.
+  IEEE Conference on}, pages 248--255. IEEE, 2009.
+
+\bibitem{girshick2014rich}
+Ross Girshick, Jeff Donahue, Trevor Darrell, and Jagannath Malik.
+\newblock Rich feature hierarchies for accurate object detection and semantic
+  segmentation.
+\newblock In {\em Computer Vision and Pattern Recognition (CVPR), 2014 IEEE
+  Conference on}, pages 580--587. IEEE, 2014.
+
+\bibitem{iyerwe}
+Asha Iyer, Christof Koch, and Pietro Perona.
+\newblock What do we perceive in a glance of a real-world scene?
+\newblock In {\em J Vision}.
+
+\bibitem{karpathy2014deep}
+Andrej Karpathy and Li~Fei-Fei.
+\newblock Deep visual-semantic alignments for generating image descriptions.
+\newblock {\em arXiv preprint arXiv:1412.2306}, 2014.
 
 \bibitem{NIPS2012_4824}
 Alex Krizhevsky, Ilya Sutskever, and Geoffrey~E. Hinton.
@@ -24,6 +47,12 @@ Vinod Nair and Geoffrey~E Hinton.
 \newblock Rectified linear units improve restricted boltzmann machines.
 \newblock In {\em Proceedings of the 27th International Conference on Machine
   Learning (ICML-10)}, pages 807--814, 2010.
+
+\bibitem{russakovsky2014imagenet}
+Olga Russakovsky, Jia Deng, Hao Su, Jonathan Krause, Sanjeev Satheesh, Sean Ma,
+  Zhiheng Huang, Andrej Karpathy, Aditya Khosla, Michael Bernstein, et~al.
+\newblock Imagenet large scale visual recognition challenge.
+\newblock {\em International Journal of Computer Vision}, pages 1--42, 2014.
 
 \bibitem{russell2008labelme}
 Bryan~C Russell, Antonio Torralba, Kevin~P Murphy, and William~T Freeman.

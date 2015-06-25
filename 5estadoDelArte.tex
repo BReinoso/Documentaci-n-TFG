@@ -23,7 +23,7 @@ ILSVRC-2010 es la única versión del ILSVRC  que tiene disponibles los \textit{la
 
 ImageNet consiste en un conjunto de imágenes, cuya resolución es variable. Sin embargo, para el modelo, se necesitan imágenes con una resolución continua, osea, que todas las imágenes tengan la misma resolución (ver sección \ref{ConTeoCNN}). Por  lo tanto, se ha procedido a cambiar la resolución de las imágenes a una resolución común, 256X256. Las imágenes no se preprocesan de ninguna otra manera, excepto para extraer la actividad principal sobre el conjunto de entrenamiento a partir de cada pixel, por lo tanto, las imágenes son tratadas con los valores de sus filas RGB, se trabaja con los tres canales de color.
 \subsection{Arquitectura}
-La arquitectura de la red se puede ver en la imagen img. Contiene en total ocho capas de aprendizaje, de las cuales son cinco convolucionales y tres son capas totalmente conectadas (\textit{fully-connected}).
+Contiene en total ocho capas de aprendizaje, de las cuales son cinco convolucionales y tres son capas totalmente conectadas (\textit{fully-connected}).
 \subsubsection{ReLU de no linealidad}
 El método normal para modelar la salida de una neurona como función aplicada sobre la entrada,
 \begin{equation}
@@ -43,9 +43,82 @@ Este trabajo no es el primero en considerar el uso de de modelos de neuronas dif
 \subsubsection{Entrenamiento en múltiples GPUs}
 El uso de una tarjeta gráfica GTX 580 que tiene sólo 3GB de memoria, limita el tamaño máximo de las redes que pueden ser entrenadas sobre esta. Si añadimos el problema de que con uno coma dos millones de ejemplos de entrenamiento son suficientes para que la red resultante sea demasiado grande como para que esta pueda ser entrenada sobre una sola GPU. Por lo tanto, el modelo ha sido entrenado sobre dos GPUs. Las GPUs actuales están bien preparadas para la paralelización, puesto que estas pueden acceder a la memoria de otra sin necesidad de pasar por la memoria principal del sistema. La paralelización usada en el modelo, básicamente entrena la mitad de neuronas en cada GPU, pero estaas solo pueden comunicarse con capas específicas de la otra GPU. Esto significa que si tenemos una capa 2 que se comunica con la capa 3 en su totalidad, estando estas dos en la misma capa, y tenemos una capa 4, esta se podrá conectar sólo con algunas neuronas de la capa 3, la capa 4 se encuentra en otra GPU. Elegir el patrón de comunicación es un problema para la validación cruzada pero hacerlo permite modificar la cantidad de comunicación  hasta que esta equivalga una fracción aceptable de cantidad de computo.
 
-Como resultado la arquitectura que se obtiene es una arquitectura similar la CNN "columnar" empleada por Cire\c san \cite{cirecsan2011high},la cual tenía en su estructura capa opcional de preprocesado de imagen, capa convolucional, capa de tipo \textit{Max-Pooling} y una capa de clasificación; pero la diferencia es que las columnas de este modelo no son independientes. Esto reduce el error top-1 en 1,7\% y el error top-5 en 1,2\%. 
+Como resultado la arquitectura que se obtiene es una arquitectura similar la CNN ``columnar'' empleada por Cire\c san \cite{cirecsan2011high},la cual tenía en su estructura capa opcional de preprocesado de imagen, capa convolucional, capa de tipo \textit{Max-Pooling} y una capa de clasificación; pero la diferencia es que las columnas de este modelo no son independientes. Esto reduce el error top-1 en 1,7\% y el error top-5 en 1,2\%.
+\subsubsection{Respuesta local a la Normalización}
+Lo más destacable de este apartado es que como se  utilizan neuronas de tipo ReLU, la normalización no es necesaria para evitar el saturamiento de las neuronas.
+\subsubsection{Overlapping Pooling o Puesta en común superpuesta}
+El trabajo de las capas de \textit{pooling} o puesta en común, es la de resumir las salidas de los grupos de neuronas vecinos que le corresponde. Tradicionalmente los vecindarios de neuronas al ser resumidos no se superponían. Para que quede más claro, una capa de \textit{pooling} está formada por una cuadrícula de unidades de \textit{pooling} que están separadas entre si por un número X de píxeles, y cada resumen realizado se hace sobre un vecindario de tamaño Y * Y. 
+\figura{0.7}{imgs/ReLU.png}{Overlapping Pooling}{Over}{}
+Si la separación entre unidades de \textit{pooling} es igual que Y, entonces la capa de puesta en común es la tradicional; pero si nos encontramos con que la separación es menor que el valor Y, entonces las unidades de \textit{pooling} se superponen al resumir vecindarios y así obtenemos una capa de puesta en común superpuesta(ver \ref{Over}.
+
+En conclusión se obtiene que el error en top-1 y top-5 se reduce en 0.4\% y 0.3\%, respectivamente. Por eso esta red usa un valor de dos para X y de tres para Y.
+\subsubsection{Arquitectura}
+Como se ha dicho antes la arquitectura de la red está formada por ocho capas, de las cuáles las cinco primeras con convolucionales y las tres restantes son tres capas completamente conectadas. La salida de la última capa completamente conectada es una matriz de 1000 datos, que se corresponde con las 1000 \textit{labels} de clase que tenemos.
+
+Las capas dos, cuatro y cinco convolucionales están únicamente conectadas con la capa anterior, la cual está situada en la misma GPU. La capa 3, por el contrario, está completamente conectada con la segunda capa. Capas de normalización están después de la primera y segunda capa convolucional. Capas de \textit{pooling} están después de las de normalización y después de la quina capa convolucional. La ReLU, función de no linealidad, se aplica en todas las capas, tanto convolucionales como las completamente  conectadas.
+
+\subsubsection{Reduciendo el sobreajuste}
+Debido a la cantidad de parámetros de la red neuronal, unos sesenta millones, y a la cantidad de clases que contiene el conjunto de datos, se hace imposible entrenar una red sin poder tener en cuenta la probabilidad de que se produzca un sobreajuste.
+
+Para evitar el sobreajuste de la red hemos usado dos métodos:
+\begin{itemize}
+	\item El primero es aumentar el conjunto de datos original, esto se hace creando nuevas imágenes a partir de las imágenes originales pero conservando su etiqueta. Las dos formas para hacer esto que se ha usado en este artículos son:
+		\subitem 1- Hacer traslaciones en la imagen y reflexiones horizontales a través de los cuáles obtenemos una nueva imagen.
+		\subitem 2- Se ha aumentado la intensidad de los canales RGB de la imagen para obtener otra imagen que sea distinta para el modelo.
+	\item Se usa un nuevo método llamado \textit{dropout} el que consiste en poner a cero la salida de las neuronas de la capa oculta con una probabilidad de 0.5. Las neuronas que sean abandonadas en este proceso, entonces no participaran en la propagación hacia atrás.
+\end{itemize}
+\subsubsection{Detalles del aprendizaje}
+Se inicializan los pesos de cada capa a partir de una distribución Gaussiana con una derivación estándar de 0.01. Los bias de las neuronas en las capas dos, cuatro y cinco con una constante de 1. Esta inicialización lo que hace es acelerar el proceso de aprendizaje en los pasos tempranos daando a las ReLUs entradas positivas. En el resto de capas los bias se inicializan cero.
+
+Se ha  usado el ratio de aprendizaje igual para todas las capas y este es ajustado de forma manual. La heurística que se ha seguido es que el ratio de aprendizaje es dividido entre diez cuanto el ratio del error de validación deja de mejorar con el ratio de aprendizaje actual. El ratio de entrenamiento se inicializa a 0.01. LA red ha sido entrenada en 90 ciclos con un conjunto de imágenes de 1.2 millones de tamaño, el cuál tomó 5 o 6 días en finalizar sobre las dos tarjetas gráficas ya mencionadas.
+\subsubsection{Resultados}
+El resultado sobre el dataset ILSVRC-2010 ha conseguido, sobre el conjunto de test, unos ratio de error top-1 y top-5 de 37,5\% y 17\%. Teniendo en cuenta que en la competición de 2010 se consiguió el mejor rendimiento como un 47,1\% y de 28.2\%, se puede decir que este modelo tiene bastante mejor resultados.
+\subsubsection{Conclusión}
+Las conclusiones más importantes que se pueden sacar del artículo es que una red neuronal convolucional profunda, siempre que sea lo suficientemente grande, es capaz de romper los récords sobre los resultados ya existentes. También es interesante el hecho de que si alguna de las capas convolucionales es quitada o añadida a este modelo, entonces su error ratio se incrementa; por alguna razón la profundidad de la red es importante a la hora de mejorar los ratio de error.
 \section{Artículo del NeuralTalk}
 \label{subchap:EstadoNeuralTalk}
+En este apartado se procederá a resumir el artículo asociado a la herramienta NeuralTalk\cite{karpathy2014deep}.
+\subsection{Introducción}
+Una vistazo rápido es suficiente para el humano para poder extraer una inmensa cantidad de detalles de la escena que este presenciando\cite{iyerwe}.Sin embargo está tarea es muy compleja para nuestros modelos de reconocimiento visual. Hasta ahora los esfuerzos en el reconocimiento de imágenes ha sido  el de etiquetar imágenes a través de un conjunto fijo de categorías, el cuál ha progresado bastante. Sin embargo, estos métodos tienen un vocabulario muy restrictivo en comparación con el vocabulario descriptivo que tiene el ser humano.
+
+Algunos pioneros se acercan a resolver el reto de generar descripciones de imágenes. Sin embargo, a estos modelos usualmente tienen ciertas deficiencias que les impide alcanzar una gran variedad en el reconocimiento. Por otra parte, el tema central de estos trabajos ha sido reducir la complejidad de las imagines en una sola sentencia.
+
+Este trabajo tiene el objetivo de generar descripciones complejas a partir de una imagen. El principal reto de este trabajo es diseñar un modelo lo suficientemente rico para a la vez razonar sobre el contenido de la imagen y su representación en lenguaje natural. El segundo reto es el de encontrar un \textit{dataset} lo suficientemente grande sobre el que trabajar.
+
+La idea central es que podemos aprovechar estos grandes conjuntos de datos mediante el tratamiento de las frases como etiquetas débiles, en la que los segmentos contiguos de palabras corresponden a algunos en particular, pero la ubicación es desconocida en la imagen. Para esto, la contribución es doble:
+\begin{itemize}
+	\item Se desarrolla un modelo de red neuronal que es capaz de relacionar los segmentos de frases con la región de la imagen que esta describiendo.
+	\item Se introduce una arquitectura de red neuronal recurrente multimodal que es capaz de generar una descripcion en texto a partir de una imagen que toma como entrada.
+\end{itemize}
+\subsection{El modelo}
+El objetivo final es generar descripciones de regiones de imágenes. Durante el entrenamiento, la entrada del modelo es un conjunto de imágenes y sus correspondientes \textit{labels}, que son frases en lenguaje natural. En primer lugar se presenta un modelo que asocia fragmentos de oraciones a regiones de la imagen. A continuación, se tratan estas asociaciones como datos de entrenamiento para una segunda red, que aprende a generar los fragmentos de las oraciones.
+\subsubsection{Aprendiendo a relacionar datos visuales con datos de lenguaje}
+El modelo de alineación necesita una entrada de un conjunto de imágenes con sus respectivas frases descriptivas. La idea principal de este modelo es que las personas puede escribir frases referentes a la imagen, pero no sabemos a que parte de la imagen se refieren estas. Asumimos, entonces, que existe una relación entre la frase y el objeto que se describe de la imagen; por tanto intentamos encontrar estas relaciones para posteriormente aprender a generar estos fragmentos de imágenes a los que las oraciones se refieren.
+
+Primero creamos una red neuronal que asocie las palabras con las regiones de la imagen. Entonces, el siguiente objetivo sera relacionar semánticamente estas palabras.
+\subsubsection{Representando imágenes}
+Observamos que las frases hacen referencias frecuentes a los atributos de los objetos que están describiendo. Así, siguiendo el método de Girshick\cite{girshick2014rich} para la detección de objetos en todas las imágenes se usa una Red Neuronal Convolucional. La CNN es pre-entrenada con el \textit{dataset} de ImageNet\cite{deng2009imagenet}, y afinada sobre las 200 clases del ImageNet Detection Challenge\cite{russakovsky2014imagenet}.
+\subsubsection{Representando frases}
+Para establecer las relaciones inter-modales, sería conveniente representar las palabras de las frases en el mismo espacio dimensional que ocupan en la región de la imagen. El enfoque más simple podría ser proyectar cada palabra en este espacio. Debido a que lo anterior presenta ciertos defectos, se podría usar una extensión de este método, que sería el uso de bigramas de palabras o el uso de relaciones de dependencia. Sin embargo, esto sigue imponiendo un tamaño máximo arbitrario de la imagen y requiere el uso de Árboles de Dependencia, que debe ser entrenada con texto no relacionado.
+
+Para conseguir este propósito en el modelo de este trabajo se usa una Red Neuronal Recurrente Bidireccional (ver sección \ref{ConTeoRNN}) para computar las representaciones de las palabras.
+\begin{itemize}
+\item Objetivo de alineamiento:
+\subitem Se ha descrito las transformaciones que asocian a cada imagen con la frase en conjunto de vectores en común, dentro de un mismo espacio dimensional. Como la extracción y la predicción se realizan sobre la imagen y la frase entera, se creó una puntuación imagen-frase como una función de las puntuaciones región-palabra individuales. Intuitivamente, una predicción del tipo imagen-frase, tendrá una puntuación elevada si sus puntuaciones región-palabra son elevadas, osea se relacionan bien y tienen buen soporte.
+\item Decodificando segmentos de texto alineados a imágenes:
+\subitem Lo que se pretende es generar secuencias de palabras que estén asociadas a una imagen, no una palabra suelta asociada a la misma; además estas deben estar relacionadas semánticamente entre ellas por lo tanto se meten en una ``caja'' para posteriormente generar la secuencia con esa relación semántica exigida.
+\end{itemize}
+\subsubsection{Red Neuronal Recurrente Multimodal para la generación de descripciones}
+En esta sección se toma en cuenta que la entrada sera un conjunto de imágenes y sus correspondientes descripciones. Estas pueden ser imágenes y su frase descriptiva o regiones y fragmentos de texto, como se ha comentado anteriormente. El desafío clave es diseñar un modelo que pueda sacar como predicción a través de una imagen, que consiste en una secuencia variable (la frase que describa la imagen). En anteriores trabajos basados en RNN, esto se conseguía obteniendo una probabilidad de cuál sería la siguiente palabra en una secuencia, teniendo disponible la palabra actual y el contexto anterior (dado por las conexiones recurrentes). En este trabajo se usa una pequeña extensión de estas redes.
+\begin{itemize}
+\item Entrenando la RNN:
+\subitem LA RNN está entrenada para predecir la siguiente palabra usando la palabra actual y el contexto en el tiempo anterior. Se condiciona las predicciones de la RNN a través de la interacción con su \textit{bias} en los primeros pasos de la predicción. El entrenamiento funciona de la siguiente manera: Se empieza con una palabra especial para determinar el comienzo de la predicción, y la primera predicción obtenida será la primera palabra de la frase a obtener. La siguiente palabra se traduce tomando la palabra actual como la recién predicha y el contexto anterior, esperando que el modelo prediga la siguiente palabra como la segunda; y así sucesivamente. Cuando se llega a la última palabra, la palabra predicha será una palabra reservada para determinar el fin de la predicción.
+\item Testeando la RNN:
+\subitem Para predecir una frase, se computa la representación de la imagen y se empieza con la palabra reservada que determina el comienzo de la predicción. Se muestra una palabra de la distribución, que se toma como palabra actual y se procede a predecir la siguiente palabra; esto se repite hasta obtener la palabra reservada que determina el fin de la frase.
+\end{itemize}
+
+\subsubsection{Conclusiones}
+Se ha creado un modelo capaz de generar frases a partir de imágenes, pero tiene la gran limitación de que estas sólo pueden tener una resolución fija. Por último, hay que tener en cuenta que este modelo en realidad consiste en dos modelos, uno que preprocesa las imágenes para extraer las palabras asociadas a regiones de la imagen y el segundo es la RNN que predice las frases.
 
 \section{Artículo del Arctic Caption}
 \label{subchap:EstadoArctic}
