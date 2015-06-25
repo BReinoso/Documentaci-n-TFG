@@ -1,3 +1,34 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{berg2010large}
+Alex Berg, Jia Deng, and L~Fei-Fei.
+\newblock Large scale visual recognition challenge 2010, 2010.
+
+\bibitem{cirecsan2011high}
+Dan~C Cire{\c{s}}an, Ueli Meier, Jonathan Masci, Luca~M Gambardella, and
+  J{\"u}rgen Schmidhuber.
+\newblock High-performance neural networks for visual object classification.
+\newblock {\em arXiv preprint arXiv:1102.0183}, 2011.
+
+\bibitem{NIPS2012_4824}
+Alex Krizhevsky, Ilya Sutskever, and Geoffrey~E. Hinton.
+\newblock Imagenet classification with deep convolutional neural networks.
+\newblock In F.~Pereira, C.J.C. Burges, L.~Bottou, and K.Q. Weinberger,
+  editors, {\em Advances in Neural Information Processing Systems 25}, pages
+  1097--1105. Curran Associates, Inc., 2012.
+\newblock URL:
+  \url{http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf}.
+
+\bibitem{nair2010rectified}
+Vinod Nair and Geoffrey~E Hinton.
+\newblock Rectified linear units improve restricted boltzmann machines.
+\newblock In {\em Proceedings of the 27th International Conference on Machine
+  Learning (ICML-10)}, pages 807--814, 2010.
+
+\bibitem{russell2008labelme}
+Bryan~C Russell, Antonio Torralba, Kevin~P Murphy, and William~T Freeman.
+\newblock Labelme: a database and web-based tool for image annotation.
+\newblock {\em International journal of computer vision}, 77(1-3):157--173,
+  2008.
 
 \end{thebibliography}

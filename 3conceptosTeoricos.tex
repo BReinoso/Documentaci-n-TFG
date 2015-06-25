@@ -72,6 +72,7 @@ Para entender el funcionamiento de este tipo de librerías se ayuda de un pequeño
 	\item Se recogen los sonidos asociados a los componentes para generar una fila o conjunto de sonidos que se asocian con el analizador fonético y con las reglas de análisis expresivo para generar la salida final.
 \end{itemize}
 \section{Conceptos teóricos asociados a los artículos de investigación}
+\label{ConTeoCNN}
 En apartados posteriores en la documentación (ver \ref{chap:EstadoArte}) se explicará de manera más o menos detallada los artículos de investigación asociados a las herramientas que se han utilizado, dentro de estos artículos tenemos conceptos teóricos algo avanzados, que se considera oportuno explicar en esta apartado para el posterior entendimiento de dichos artículos.
 \subsection{Convolutional Neural Networks o Redes Neuronales Convolucionales}
 En este apartado de los conceptos teóricos se procederá a explicar las Redes Neuronales Convolucionales\footnote{\url{http://cs231n.github.io/convolutional-networks/}}, las cuáles son muy importantes debido a que en el tratamiento de imágenes es una herramienta básica para el procesado de las mismas.
@@ -97,3 +98,21 @@ Vamos a ver un pequeño ejemplo, aunque se detallará la explicación de las capas 
 Por lo tanto, la CNN transforma la imagen original en una matriz de resultados para cada clase, que contiene la probabilidad de que la imagen de entrada pertenezca a esa clase. Para verlo de manera gráfica podemos ver la imagen \ref{CNN}.
 
 \subsection{Recurrent Neural Networks o Redes Neuronales Recurrentes}
+En el siguiente apartado se procede a explicar las Redes Neuronales Recurrentes \footnote{\url{http://karpathy.github.io/2015/05/21/rnn-effectiveness/}}, RNN a partir de ahora. Esta clase de redes se usan en varios de los artículos que se procederá a explicar en el apartado de Estado del Arte (\ref{chap:EstadoArte}).
+
+Las RNNs se consideran un caso especial de redes neuronales también, esto se debe a que en general las redes neuronales tienen un conexión entre las capas de tal manera que la comunicación entre capas se hace sólo hacia delante. Por otro lado, las RNNs permiten conexiones recurrentes entre las distintas capas, esto significa que la información ya no viaja sólo en dirección hacia delante sino que existe una propagación de esta información hacia atrás (\textit{back-propagation}). El hecho de permitir que exista este tipo de conexiones entre las distintas capas de la red neuronal añade un elemento temporal a la red, entonces esta puede predecir eventos adelante en el tiempo.
+
+Cuando hablamos de una RNN, entonces estamos hablando de un tipo de red cuyo dato de entrada será siempre un vector, osea una secuencia de datos. La salida de esta red es también un vector de datos. En principio pudiera llegar a parecer extraño que tanto los datos de entrada como los de salida sean tratados como vectores o secuencias de datos, pero esto nos permite que la red procese los datos de una manera secuencial.
+
+\subsubsection{Visión global de la arquitectura de las RNNs}
+La arquitectura de las RNNs no tiene diferencia, en cuanto a capas se refiere, con las redes neuronales normales. La redes recurrentes poseen las mismas características que estas, estas tienen una función de activación dentro de la neurona, tienen capa de entrada, capas ocultas y capa de salida, poseen una serie de pesos que van cambiando en función del entrenamiento de la red.
+
+\figura{0.7}{imgs/NeuronCon.png}{Gráfico de conexiones recurrentes en una RNN}{RNNCon}{}
+La diferencia de una RNN respecto de una red neuronal común o básica se encuentra en el modo en el que están conectadas las neuronas con respecto al resto de neuronas. En las redes básicas las neuronas están conectadas solamente con las capas posteriores, lo que significa que la propagación de la información se hace únicamente hacia a delante sin que exista ningún tipo de retroalimentación. En cambio, las neuronas de una RNN posee también conexiones recurrentes, las conexiones recurrentes pueden ser de tres tipos, se puede ver de forma gráfica en la imagen \ref{RNNCon}:
+\begin{itemize}
+	\item \textbf{1.-} Una conexión de una neurona de una capa A con otra neurona de la misma capa A
+	\item \textbf{2.-} Una conexión de una neurona de una capa A con otra neurona de otra capa B, pero que se encuentra en un instante  de tiempo anterior a esta, osea, se produce una propagación hacia atrás de los datos.
+	\item \textbf{3.-} Una conexión de una neurona de cualquier capa con ella misma, una conexión a ella misma.
+\end{itemize}
+
+El hecho de añadir todos estas posibles conexiones también provoca que se añadan más pesos para formalizar la red y se necesite el uso de más memoria, además de que los pesos de las capas en una conexión recurrente son guardados en un estado intermedio al cuál acceden las neuronas objetivo de la conexión recurrente para producir predicciones temporales.
