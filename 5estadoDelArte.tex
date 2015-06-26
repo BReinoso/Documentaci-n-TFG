@@ -122,6 +122,48 @@ Se ha creado un modelo capaz de generar frases a partir de imágenes, pero tiene 
 
 \section{Artículo del Arctic Caption}
 \label{subchap:EstadoArctic}
+En este apartado se hablará del proyecto Arctic Caption, para ello se va a proceder a resumir el artículo que viene asociado a este \cite{xu2015show}.
 
-\section{Artículo del Google}
+\subsection{Introducción}
+La generación de frases automáticamente a través de una imagen dada es  una tarea muy cercana al corazón del entendimiento de una escena, que es uno de las primeras metas de la visión por computadora. No sólo los modelos que realizan estas operaciones deben ser lo suficientemente potentes para enfrentar la carga computacional que lleva el hecho de detectar qué objetos hay en una imagen, sino que también deben ser capaz de relacionar estos objetos a través del lenguaje natural. Por estas razonas la generación de frases ha sido considerado como un problema de extrema dificultad. Es uno de los retos más importantes del \textit{machine learning}, el imitar la capacidad humana de comprender grandes cantidades de información visual y transcribirla a lenguaje natural.
+
+A pesar de la complicación que esta tarea conlleva, ha habido un reciente aumento de estudios que están tratando de resolver este tipo de problem. Esto se debe a la mejora en los algoritmos de aprendizaje máquina y el aumento de conjuntos de datos sobre los que poder trabajar. Trabajos recientes han mejorado la calidad de la generación de frases a través de la combinación de CNNs, que obtienen una representación vectorial de la imagen, y de RNNs, que decodifican las representaciones de las CNN y las convierten en frases en lenguaje natural.
+
+El humano tiene la capacidad de centrar la atención sólo en ciertas partes de una image, gracias a esto es capaz de trabajar incluso con imágenes muy desordenadas. En trabajos anteriores se ha usado las CNNs para la extracción de estas imágenes y con esto formar la frase, lo que ha proporcionado un resultado bastante satisfactorio. Pero, esto tiene una desventaja y es la pérdida de información que pudiera llegar a ser necesaria para formar frases aún más descriptivas. Para evitar esta pérdida de información se podrían usar un mayor número de representaciones a bajo nivel. Sin embargo, hay que encontrar un modelo y un mecanismo que sea capaz de trabajar con todas estas características.
+
+En este artículo se explica un intento de insertar una forma de mecanismo de atención en el reconocimiento de las imágenes, este mecanismo tiene dos variantes: un mecanismo de atención ``fuerte'' y un mecanismo de atención ``débil''. 
+
+Las aportaciones de este artículo son las siguientes:
+\begin{itemize}
+	\item Se introduce dos generadores de frase basados en  la atención hacia la imagen en un mismo  \textit{framnework}:
+		\subitem 1) Un mecanismo de atención determinista ``débil'', que puede ser entrenado con técnicas normales de propagación hacia atrás.
+		\subitem 2) Un método de atención estocástico ``fuerte'', que puede entrenarse con el método descrito en el artículo de Ronald J. Williams\cite{williams1992simple}, que se conoce por el nombre de REINFORCE.
+	\item Se muestra cómo interpretar los resultados, visualizando dónde y en qué se centro la atención.
+	\item Finalmente se valida cuantitativamente la utilidad de la atención en la generación de frases. Se hace a través de tres conjuntos de datos.
+\end{itemize}
+\subsection{Generación de Frases de Imágenes con un Mecanismo de Atención}
+\subsubsection{Detalles del modelo}
+En esta sección se describe las dos variantes del modelo de atención de las que se ha hablado previamente. La principal diferencia se encuentra en la función de activación de las neuronas.
+
+Para detallar el modelo, se ha dividido la sección en dos partes:
+\begin{itemize}
+	\item 1- Codificador: Características convolucionales
+	\subitem El modelo toma una imagen en forma de vector y genera una frase Y codificada como una secuencia de 1 a K palabras codificadas. 
+	\begin{equation}
+	  y=\{y_{1},...,y_{c}\}, \forall y_{i}\in{ \mathbb{R}^{K}}
+	    \end{equation}
+	    En la ecuación, K es el tamaño del lenguaje, el número de posibles palabras. C es la longitud de la frase. Y es la frase formada por una serie de palabras.
+	    
+	    Se ha usado una CNN para extraer el conjunto de vectores de características de la imagen. El extractor de características produce L número de vectores, cada uno de los cuáles es una representación D-dimensional correspondiente a una parte de la imagen.
+	    \begin{equation}
+	    a=\{a_{1},...,a_{L}\}, \forall a_{i}\in{ \mathbb{R}^{D}}
+	    \end{equation}
+	    Con la intención de obtener la correspondencia de los vectores de características y las porciones de la imagen, se extrae las características de la capa convolucional más baja a diferencia de los trabajos previos, que usaban una capa totalmente conectada. Esto permite al decodificador centrarse de forma selectiva en ciertas partes de la imagen seleccionado un subconjunto de todos los vectores de características, osea un subvector del vector a de la ecuación anterior.
+	\item 2- Decodificador: Red de Memoria Largo Corto Plazo (LSTM)
+	\subitem Se usa una LTSM, que produce un frase a partir de un vector de contexto, el estado de la capa escondida anterior y las palabras generadas anteriormente. 
+	La LTSM trabaja de manera que, para cada región de la imagen genera un peso positivo que puede ser interpretado como la probabilidad de que la región en la que nos estamos centrando sea la correcta para generar la siguiente palabra. Este peso es computado por el modelo de atención,  para el que se ha usado un Perceptrón Multicapa que está condicionado por el estado de su capa previa. Hay que destacar que el estado de la capa previa varia en función de las palabras que ya han sido generadas.	
+\end{itemize}
+\subsection{Conclusiones}
+Se ha propuesto un modelo de generación de frases a partir de imágenes que está basado en un método de atención, el cual puede ser fuerte o débil. Se espera que este trabajo incentive a futuros trabajos a utilizar una metodología basada en la atención en las imágenes, la cuál está basada en la capacidad de el ser humano de prestar atención a ciertas partes de la imagen.
+\section{Artículo de Google}
 \label{subchap:EstadoGoogle}

@@ -60,4 +60,17 @@ Bryan~C Russell, Antonio Torralba, Kevin~P Murphy, and William~T Freeman.
 \newblock {\em International journal of computer vision}, 77(1-3):157--173,
   2008.
 
+\bibitem{williams1992simple}
+Ronald~J Williams.
+\newblock Simple statistical gradient-following algorithms for connectionist
+  reinforcement learning.
+\newblock {\em Machine learning}, 8(3-4):229--256, 1992.
+
+\bibitem{xu2015show}
+Kelvin Xu, Jimmy Ba, Ryan Kiros, Aaron Courville, Ruslan Salakhutdinov, Richard
+  Zemel, and Yoshua Bengio.
+\newblock Show, attend and tell: Neural image caption generation with visual
+  attention.
+\newblock {\em arXiv preprint arXiv:1502.03044}, 2015.
+
 \end{thebibliography}
