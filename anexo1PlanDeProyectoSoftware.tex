@@ -2,10 +2,10 @@
 Este apartado está dedicado al plan de proyecto software donde se comenta todo el proceso de planificación del proyecto.
 
 \section{Introducción}
-La planificación del proyecto se lleva a cabo de forma ágil, con la metodología SCRUM. Y la plataforma sobre la que se ha trabajado para realizar la planificación es \href{http://www.versionone.com/}{VersionOne}. Y la planificación se ha dividido en \textit{sprints} o iteraciones, las cuáles tienen la mayoría una duración de una semana, aunque por problemas algunas han durado más.
+La planificación del proyecto se lleva a cabo de forma ágil, con la metodología SCRUM. Y la plataforma sobre la que se ha trabajado para realizar la planificación es VersionOne\footnote{\label{note1}\url{http://www.versionone.com/}}. La planificación se ha dividido en \textit{sprints} o iteraciones, las cuáles tienen la mayoría una duración de una semana, aunque por problemas algunas han durado más.
 
 \subsection{Problemas encontrados}
-Debido a que las primeras dos iteraciones se realizan de forma simulada, osea después del tiempo previsto, por eso no se pueden sacar sus gráficos \textit{burn-down}. Además de que al día 30 de uso del \href{http://www.versionone.com/}{VersionOne} se caducó la prueba y perdí todos los datos del proyecto, pero contactando con el soporte de \href{http://www.versionone.com/}{VersionOne} estos me reabrieron la prueba por una semana para extraer los datos necesarios, pero debido a la tardanza en su respuesta hay un \textit{sprint} que dura 3 semanas y  no podemos extraer su gráfico \textit{burn-down} tampoco.
+Debido a que las primeras dos iteraciones se realizan de forma simulada, osea después del tiempo previsto, por eso no se pueden sacar sus gráficos \textit{burn-down}. Además de que al día 30 de uso del VersionOne\footnoteref{note1} se caducó la prueba y perdí todos los datos del proyecto, pero contactando con el soporte de VersionOne\footnoteref{note1} estos me reabrieron la prueba por una semana para extraer los datos necesarios, pero debido a la tardanza en su respuesta hay un \textit{sprint} que dura 3 semanas y  no podemos extraer su gráfico \textit{burn-down} tampoco.
 
 \section{Planificación temporal del proyecto}
 En este apartado se presentan los distintos \textit{sprints} y las tareas de cada uno.
@@ -15,32 +15,38 @@ Este \textit{sprint} es de una duración bastante mayor al resto porque se empezó
 
 \paragraph{}Este \textit{sprint} es importante porque es donde se asientan las bases del proyecto y se empieza a tomar contacto con el proyecto. Sin este \textit{sprint} se hubiera empezado sin ninguna base y el comienzo del proyecto hubiera sido más tardío y , por tanto, su avance más lento.
 
+Documentarse consistió en la lectura, en primer lugar, de historia de \textit{machine learninng} y de sus avances para situarse en el contexto de lo que se iba a trabajar en este proyecto. Además, se tuvo que leer las definiciones y las herramientas más usadas en el aprendizaje máquina. Se leyó, sobretodo, información en Internet a través de páginas que hablan del tema y que tienen bien estructurada su información siendo, además, fiable.
+
+También se buscó en este \textit{sprint} una serie de herramientas con las que se iban  a poder trabajar, situándonos un poco en el panorama del proyecto; para hacernos una idea de cómo se iba a realizar el proyecto.
+
+Por lo tanto, el objetivo clave del proyecto era llegar a la segunda iteración con una idea base de cómo realizar el proyecto y con qué tipo de herramientas se podía acabar trabajando, para evitar que la carga inicial sea más grande.
+
 \subsection{Sprint 2:12 de Febrero al 26 de Febrero}
 Esta iteración se dedicó exclusivamente a la decisión de las herramientas que se van a usar en el proyecto y a la familiarización con las mismas. 
 
 Aquí se decidió:
 \begin{itemize}
-	\item Gestor de versiones: \href{https://github.com/}{GitHub}
-	\item Gestor de Tareas: \href{http://www.versionone.com/}{VersionOne}
-	\item Entorno de desarrollo: \href{http://developer.android.com/sdk/index.html}{Android Studio}
-	\item Herramienta de ofimática: \LaTeX con su editor TeXMaker
+	\item Gestor de versiones: Github\footnote{\label{note2}\url{//github.com/}}
+	\item Gestor de Tareas: VersionOne\footnoteref{note1}
+	\item Entorno de desarrollo: Android Studio\footnote{\label{note3}\url{http://developer.android.com/sdk/index.html}}
+	\item Herramienta de ofimática: \LaTeX con su editor \TeX Maker
 \end{itemize}
 
 \subsection{Sprint 3:26 de Febrero al 6 de Marzo}
 En este \textit{sprint} se instalaron y se crearon cuentas de las herramientas del anterior \textit{sprint}. Se dividió en distintas tareas:
 \begin{itemize}
-	\item Crear cuenta \href{http://www.versionone.com/}{VersionOne}
-	\item Crear cuenta en \href{https://github.com/}{GitHub}
-	\item Instalar \href{http://developer.android.com/sdk/index.html}{Android Studio}
-	\item Instalar librería DeepBeliefSDK
+	\item Crear cuenta VersionOne\footnoteref{note1}
+	\item Crear cuenta en GitHub\footnoteref{note2}
+	\item Instalar Android Studio\footnoteref{note3}
+	\item Instalar librería DeepBeliefSDK\footnote{\label{note4}\url{https://github.com/jetpacapp/DeepBeliefSDK}}
 \end{itemize}
-\paragraph{}Además se procedió a invitar a los tutores a \href{http://www.versionone.com/}{VersionOne}, realizar el primer commit en GitHub, probar ejemplos de Android y del DeepBeliefSDK y, finalmente, se generó la documentación asociada a este \textit{sprint}.
+\paragraph{}Además se procedió a invitar a los tutores a VersionOne\footnoteref{note1}, realizar el primer \textit{commit} en GitHub\footnoteref{note2}, probar ejemplos de Android y del DeepBeliefSDK\footnoteref{note4} y, finalmente, se generó la documentación asociada a este \textit{sprint}.
 \figura{1}{imgs/S1_1.png}{Burn-down del sprint 3}{Sprint1}{}\\
 
 Podemos ver el gráfico \textit{burn-down} de este sprint en la imagen \ref{Sprint1}.
 
 \subsection{Sprint 4:6 de Marzo al 13 de Marzo}
-En esta iteración se profundiza, sobretodo, en la utilización de la librería DeepBeliefSDK, se probarán ejemplos y trabajarán sobre ellos. Además se generará la documentación asociada al \textit{sprint}.
+En esta iteración se profundiza, sobretodo, en la utilización de la librería DeepBeliefSDK\footnoteref{note4}, se probarán ejemplos y trabajarán sobre ellos. Además se generará la documentación asociada al \textit{sprint}.
 
 Se identifican las tareas:
 \begin{itemize}
@@ -49,15 +55,15 @@ Se identifican las tareas:
 	\item Impresiones de Pantalla: Se hacen capturas de pantalla del proceso de instalación de las herramientas para la futura documentación en la sección: Manual del programador (\ref{anx:ManualProgramador})
 \end{itemize}
 
-\paragraph{}Este fue el primer \textit{sprint} en el que añadimos el \textit{Retrospective Meeting} y el \textit{Sprint Planning} al \href{http://www.versionone.com/}{VersionOne}, pese a que sí que habíamos hecho estas reuniones.
+\paragraph{}Este fue el primer \textit{sprint} en el que añadimos el \textit{Retrospective Meeting} y el \textit{Sprint Planning} al VersionOne\footnoteref{note1}, pese a que sí que habíamos hecho estas reuniones.
 
 \paragraph{}En el \textit{Retrospective Meeting} se determino que:
 
 \begin{itemize}
-	\item Se estudió el funcionamiento de la librería DeepBeliefSDK
+	\item Se estudió el funcionamiento de la librería DeepBeliefSDK\footnoteref{note4}
 	\item Se hicieron las impresiones de pantalla para la documentación
 	\item Se hicieron más pruebas con Android.
-	\item Se envió invitaciones a los profesores a VersionOne y Github
+	\item Se envió invitaciones a los profesores a VersionOne\footnoteref{note1} y Github\footnoteref{note2}
 \end{itemize}
 
 \paragraph{}El \textit{Sprint Planning} simplemente sirvió para determinar las tareas a realizar en esta iteración, las cuáles ya han sido comentadas antes.
@@ -66,30 +72,30 @@ Se identifican las tareas:
 \paragraph{}Además esta iteración viene acompañada con un gráfico \textit{burn-down}s el cuál puede verse en la imagen \ref{Sprint2}
 
 \subsection{Sprint 5:13 de Marzo al 27 de Marzo}
-Este \textit{sprint} está dedicado en su  mayoría al aprendizaje de \href{http://www.cs.fsu.edu/~engelen/soap.html}{GSOAP}, que es un \textit{framework} para poder programar servidores en código C y C++. El estudió de esta herramienta llevó bastante tiempo debido a que su documentación, no solo estaba puramente en inglés, sino que además no era lo suficientemente precisa como para alguien que estuviera empezando a programar servicios WEB.
+Este \textit{sprint} está dedicado en su  mayoría al aprendizaje de GSOAP\footnote{\label{note5}\url{http://www.cs.fsu.edu/~engelen/soap.html}}, que es un \textit{framework} para poder programar servidores en código C y C++. El estudió de esta herramienta llevó bastante tiempo debido a que su documentación, no solo estaba puramente en inglés, sino que además no era lo suficientemente precisa como para alguien que estuviera empezando a programar servicios WEB.
 
 En el \textit{Sprint Planning} se propuso como objetivos a tener en el siguiente \textit{sprint}:
 \begin{itemize}
-	\item Evaluar si usar Axiss2/c o GSOAP para el servidor
+	\item Evaluar si usar Axiss2/c o GSOAP\footnoteref{note5} para el servidor
 	\item Continuar con la documentación
 	\item Ejemplos de Android
 \end{itemize}
 
-En este \textit{sprint} podemos identificar las siguientes tareas que finalmente se definieron en la herramienta VersionOne:
+En este \textit{sprint} podemos identificar las siguientes tareas que finalmente se definieron en la herramienta VersionOne\footnoteref{note1}:
 \begin{itemize}
-	\item Pruebas en Linux: Se hacen pruebas de la librería GSOAP en la máquina virtual de Linux, en su distribución Ubuntu.
+	\item Pruebas en Linux: Se hacen pruebas de la librería GSOAP\footnoteref{note5} en la máquina virtual de Linux, en su distribución Ubuntu.
 	\item Pruebas en Android: Se hacen pruebas de distintos códigos y aplicaciones en Android que posteriormente nos puedan servir
 	\item Primera versión del Cliente: Se genera la primera versión del cliente Android para el proyecto. Esta sólo es una interfaz sencilla que toma una foto con el móvil y la guarda.
 	\item Estudio de WSDL y SOAP: Se estudia estas dos especificaciones de XML, junto con un pequeño repaso de XML. Estas dos especificaciones son totalmente necesarias para el desarrollo de la aplicación, aunque al final puede que no se lleguen a usar directamente, el conocimiento de las mismas es requisito indispensable para conocer cómo trabaja el servidor internamente.
-	\item Descargar materiales: Para el estudio y trabajo con la librería GSOAP es necesario una serie de archivos, esta tarea es en la que nos descargamos todos los necesarios.
-	\item Primera versión del fichero WSDL: Un versión inicial de un fichero WSDL con el que generar archivos \textit{stubs} con la herramienta GSOAP. Este fichero contiene las especificaciones de los servicios que dará el servidor al cliente y qué tipo de datos admite y devuelve.
+	\item Descargar materiales: Para el estudio y trabajo con la librería GSOAP\footnoteref{note5} es necesario una serie de archivos, esta tarea es en la que nos descargamos todos los necesarios.
+	\item Primera versión del fichero WSDL: Un versión inicial de un fichero WSDL con el que generar archivos \textit{stubs} con la herramienta GSOAP\footnoteref{note5}. Este fichero contiene las especificaciones de los servicios que dará el servidor al cliente y qué tipo de datos admite y devuelve.
 	\item Generar documentación:Como en todas las iteraciones se procura generar la documentación asociada.
 \end{itemize}
 
 En el \textit{Retrospective Meeting} se determina qué tareas del \textit{sprint} han sido terminadas, cuáles no y el avance de la iteración. En este caso se identificó lo siguiente:
 \begin{itemize}
-	\item Se decidió usar GSOAP porque era más sencillo.
-	\item Se estudió GSOAP y se consiguió implementar un cliente en Linux de un ejemplo básico de calculadora.
+	\item Se decidió usar GSOAP\footnoteref{note5} porque era más sencillo. Esta herramienta era para programar un servidor y poder ejecutar DeepBeliefSDK\footnoteref{note4} en el lado del servidor y que el cliente sólo mande una foto.
+	\item Se estudió GSOAP\footnoteref{note5} y se consiguió implementar un cliente en Linux de un ejemplo básico de calculadora.
 	\item Se continuó con ejemplos de Android creando el proyecto del cliente en su primera versión, aunque este no hacía nada más que mostrar una imagen por pantalla.
 \end{itemize}
 
@@ -103,7 +109,7 @@ En la planificación dentro del \textit{Sprint Planning} se determinó:
 \begin{itemize}
 	\item Tratar de implementar el ejemplo básico de servidor, con el que podamos hacer las primeras pruebas.
 	\item Tratar de hacer el cliente en Android, que se conectara al ejemplo básico de servido. Con esto empezaremos a establecer cómo se realizará la conexión entre cliente y servidor.
-	\item Tratar de hacer el prototipo con DeepBeliefSDK para empezar a intentar conectarlo con el servidor.
+	\item Tratar de hacer el prototipo con DeepBeliefSDK\footnoteref{note4} para empezar a intentar conectarlo con el servidor.
 	\item Continuar con la documentación.
 \end{itemize}
 
@@ -123,7 +129,7 @@ Finalmente tenemos nuestro \textit{Retrospective Meeting}, en el que determinamo
 \begin{itemize}
 	\item No se consiguió conectar GSOAP con Apache
 	\item La documentación para el proceso de conectar Apache y GSOAP es escasa y la poca que hay no nos enseña un procedimiento correcto para hacer funcionar esto.
-	\item Se decide abandonar la programación en C y la librería DeepBeliefSDK
+	\item Se decide abandonar la programación en C y la librería DeepBeliefSDK\footnoteref{note4}
 	\item Conclusión: No se consiguieron los objetivos y se decide tomar un nuevo rumbo con el proyecto.
 \end{itemize}
 \figura{1}{imgs/S4_1.png}{Burn-down del sprint 6}{Sprint4}{}
@@ -152,6 +158,8 @@ Una vez se han definido las tareas estas se realizaron a lo largo de la semana, 
 	\item Se instaló correctamente Python, Flask y todas sus dependencias.
 	\item Se programo la primera versión del servidor tal y como se había planificado.
 	\item En el trabajo con la herramienta NeuralTalk se vio que esta era más compleja de lo esperado, pues no se podía simplemente predecir la imagen que uno quisiera sino que tendría que modificarse lo que en el proyecto original había para el caso de uso en el que nos encontramos.
+	
+	Esto se debió a que la herramienta venía, en principio, preparada sólo para poder ser usada con las imágenes que ya venían en sus ejemplos y no se podían procesar por separado, sino que había que procesarlas juntas porque la herramienta no lo permitía de otra manera. Además de que la devolución se hacía en un documento HTML y no como nosotros lo necesitábamos.
 \end{itemize}
 \figura{1}{imgs/S5_1.png}{Burn-down del sprint 7}{Sprint5}{}
 Finalmente vamos a ver un gráfico de tipo \textit{burn-down} asociado a esta iteración y generado por la herramienta VersionOne, el gráfico se puede observar en la imagen \ref{Sprint5}.
@@ -199,18 +207,18 @@ En la reunión de \textit{Sprint Planning} se determinaron los siguientes objetiv
 	\item Buscar herramientas de pruebas: Se buscarán herramientas con la que hacer teses sobre la aplicación software para asegurar sus buen funcionamiento.
 \end{itemize}
 
-Las tareas VersionOne y las tareas del \textit{Sprint Planning} coinciden en este caso, así que no se volverán a escribir.
+Las tareas VersionOne\footnoteref{note1} y las tareas del \textit{Sprint Planning} coinciden en este caso, así que no se volverán a escribir.
 
 Y, en el \textit{Retrospective Meeting}, se definió que:
 \begin{itemize}
 	\item Hacer documentación del Proyecto: \textbf{Hecho}. Aunque no se terminó la documentación entera del proyecto, sí que se hizo las partes que se tenían planificadas por hacer.
 	\item Instalar Caffe con Octave: \textbf{Fallo}. Se comprobó que no se podía instalar Caffe con Octave porque la instalación misma de MatCaffe, que es el \textit{wrapper} para Matlab de Caffe, necesita del compilador mex de Matlab.
-	\item Buscar Herramientas de prueba: \textbf{No hecho}. Debido a que se dedicó mucho tiempo  a la documentación y a que la prueba de VersionOne llegó a su fin, esta tarea quedó aplazada para futuros \textit{sprints}.
+	\item Buscar Herramientas de prueba: \textbf{No hecho}. Debido a que se dedicó mucho tiempo  a la documentación y a que la prueba de VersionOne\footnoteref{note1} llegó a su fin, esta tarea quedó aplazada para futuros \textit{sprints}.
 	\item Probar servidor con GPU: \textbf{No hecho}. No se terminó la instalación del proyecto en una máquina anfitriona porque hubo problemas hardware, se perdieron todos los datos del disco duro y no se pudo trabajar sobre esto en este \textit{sprint}.
 \end{itemize}
 Esta iteración no lleva asociado ningún gráfico ya que, debido a que se terminó la prueba en VersionOne, no se pudo actualizar día a día el progreso del \textit{sprint} y, por tanto, no se genera ningún gráfico útil.
 \subsection{Sprint 10: 15 de Mayo al 5 de Junio}
-En este \textit{sprint} se tuvieron varios problemas, entre ellos  que  se seguía sin saber por qué no funcionaba VersionOne y se descubrió a mitad de la iteración. Por lo que este \textit{sprint} no dispone de ningún gráfico representativo, ni tampoco de una planificación muy correcta en VersionOne.
+En este \textit{sprint} se tuvieron varios problemas, entre ellos  que  se seguía sin saber por qué no funcionaba VersionOne y se descubrió a mitad de la iteración. Por lo que este \textit{sprint} no dispone de ningún gráfico representativo, ni tampoco de una planificación muy correcta en VersionOne\footnoteref{note1}.
 
 En el \textit{Sprint Planning} se determinó que los objetivos de la iteración son:
 \begin{itemize}
@@ -225,5 +233,5 @@ En el \textit{Retrospective Meeting} se determinó lo siguiente:
 \begin{itemize}
 	\item Se avanzó bastante en la documentación, sobretodo en la parte de Plan de Proyecto Software (\ref{anx:PlanProyectoSoftware}).
 	\item Se instaló lo máximo posible de la herramienta en anfitrión, pero se detectó la necesidad de modificar el cliente Android y el servidor Flask  para facilitar su instalación y portabilidad.
-	\item Se descubrió que VersionOne dejó de funcionar por haber terminado el período de prueba de este, así que se pidió que lo extendieran un poco; consiguiendo dos semanas más. Por lo que se tiene que sacar todos los datos que se pueda de VersionOne y, si es posible, migrar el proyecto a una nueva versión de prueba de este.
+	\item Se descubrió que VersionOne dejó de funcionar por haber terminado el período de prueba de este, así que se pidió que lo extendieran un poco; consiguiendo dos semanas más. Por lo que se tiene que sacar todos los datos que se pueda de VersionOne \footnoteref{note1}y, si es posible, migrar el proyecto a una nueva versión de prueba de este.
 \end{itemize}

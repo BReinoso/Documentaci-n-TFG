@@ -42,35 +42,38 @@
 \BOOKMARK [2][-]{subsection.121}{Introducci\363n}{section.120}% 42
 \BOOKMARK [2][-]{subsection.122}{Generaci\363n de Frases de Im\341genes con un Mecanismo de Atenci\363n}{section.120}% 43
 \BOOKMARK [2][-]{subsection.126}{Conclusiones}{section.120}% 44
-\BOOKMARK [1][-]{section.127}{Art\355culo de Google}{chapter.92}% 45
-\BOOKMARK [0][-]{chapter.128}{Aspectos relevantes del desarrollo del proyecto}{}% 46
-\BOOKMARK [1][-]{section.129}{Dificultades encontradas}{chapter.128}% 47
-\BOOKMARK [2][-]{subsection.130}{Dificultades con DeepBeliefSDK}{section.129}% 48
-\BOOKMARK [2][-]{subsection.131}{Dificultades con GSOAP y Apache}{section.129}% 49
-\BOOKMARK [2][-]{subsection.139}{Dificultades en la instalaci\363n de Herramientas}{section.129}% 50
-\BOOKMARK [2][-]{subsection.142}{Instalando NeutalTalk}{section.129}% 51
-\BOOKMARK [2][-]{subsection.144}{Dificultades con NeuralTalk}{section.129}% 52
-\BOOKMARK [2][-]{subsection.145}{Dificultades con Android}{section.129}% 53
-\BOOKMARK [2][-]{subsection.149}{Dificultades con Librer\355a de Traducci\363n en el servidor}{section.129}% 54
-\BOOKMARK [0][-]{chapter.150}{Conclusiones y l\355neas de trabajo futuras}{}% 55
-\BOOKMARK [1][-]{section.151}{Conclusiones del Proyecto}{chapter.150}% 56
-\BOOKMARK [1][-]{section.152}{Lineas de trabajo Futura}{chapter.150}% 57
-\BOOKMARK [0][-]{section.152}{Anexos}{}% 58
-\BOOKMARK [0][-]{chapter.153}{Plan del proyecto software}{}% 59
-\BOOKMARK [1][-]{section.154}{Introducci\363n}{chapter.153}% 60
-\BOOKMARK [2][-]{subsection.155}{Problemas encontrados}{section.154}% 61
-\BOOKMARK [1][-]{section.156}{Planificaci\363n temporal del proyecto}{chapter.153}% 62
-\BOOKMARK [2][-]{subsection.157}{Sprint 1:23 de Diciembre al 12 de Febrero}{section.156}% 63
-\BOOKMARK [2][-]{subsection.159}{Sprint 2:12 de Febrero al 26 de Febrero}{section.156}% 64
-\BOOKMARK [2][-]{subsection.160}{Sprint 3:26 de Febrero al 6 de Marzo}{section.156}% 65
-\BOOKMARK [2][-]{subsection.163}{Sprint 4:6 de Marzo al 13 de Marzo}{section.156}% 66
-\BOOKMARK [2][-]{subsection.169}{Sprint 5:13 de Marzo al 27 de Marzo}{section.156}% 67
-\BOOKMARK [2][-]{subsection.171}{Sprint 6: 28 de Marzo al 22 de Abril}{section.156}% 68
-\BOOKMARK [2][-]{subsection.174}{Sprint 7: 22 de Abril al 27 de Abril}{section.156}% 69
-\BOOKMARK [2][-]{subsection.177}{Sprint 8: 27 de Abril al 8 de Mayo}{section.156}% 70
-\BOOKMARK [2][-]{subsection.179}{Sprint 9: 9 de Mayo al 15 de Mayo}{section.156}% 71
-\BOOKMARK [2][-]{subsection.180}{Sprint 10: 15 de Mayo al 5 de Junio}{section.156}% 72
-\BOOKMARK [0][-]{chapter.181}{Manual del programador}{}% 73
-\BOOKMARK [1][-]{section.182}{Instalaci\363n del JDK}{chapter.181}% 74
-\BOOKMARK [1][-]{section.189}{Instalaci\363n de Anrdoid Studio}{chapter.181}% 75
-\BOOKMARK [0][-]{paragraph*.200}{Bibliograf\355a \(Libros y art\355culos\)}{}% 76
+\BOOKMARK [0][-]{chapter.127}{Aspectos relevantes del desarrollo del proyecto}{}% 45
+\BOOKMARK [1][-]{section.128}{Dificultades encontradas}{chapter.127}% 46
+\BOOKMARK [2][-]{subsection.129}{Dificultades con DeepBeliefSDK}{section.128}% 47
+\BOOKMARK [2][-]{subsection.130}{Dificultades con GSOAP y Apache}{section.128}% 48
+\BOOKMARK [2][-]{subsection.138}{Dificultades en la instalaci\363n de Herramientas}{section.128}% 49
+\BOOKMARK [2][-]{subsection.141}{Instalando NeutalTalk}{section.128}% 50
+\BOOKMARK [2][-]{subsection.143}{Dificultades con NeuralTalk}{section.128}% 51
+\BOOKMARK [2][-]{subsection.144}{Dificultades con Android}{section.128}% 52
+\BOOKMARK [2][-]{subsection.148}{Dificultades con Librer\355a de Traducci\363n en el servidor}{section.128}% 53
+\BOOKMARK [0][-]{chapter.149}{Conclusiones y l\355neas de trabajo futuras}{}% 54
+\BOOKMARK [1][-]{section.150}{Conclusiones del Proyecto}{chapter.149}% 55
+\BOOKMARK [1][-]{section.151}{Lineas de trabajo Futura}{chapter.149}% 56
+\BOOKMARK [2][-]{subsection.152}{L\355neas de trabajo futuras en el aspecto te\363rico}{section.151}% 57
+\BOOKMARK [0][-]{subsubsection*.153}{Anexos}{}% 58
+\BOOKMARK [0][-]{chapter.154}{Plan del proyecto software}{}% 59
+\BOOKMARK [1][-]{section.155}{Introducci\363n}{chapter.154}% 60
+\BOOKMARK [2][-]{subsection.157}{Problemas encontrados}{section.155}% 61
+\BOOKMARK [1][-]{section.160}{Planificaci\363n temporal del proyecto}{chapter.154}% 62
+\BOOKMARK [2][-]{subsection.161}{Sprint 1:23 de Diciembre al 12 de Febrero}{section.160}% 63
+\BOOKMARK [2][-]{subsection.163}{Sprint 2:12 de Febrero al 26 de Febrero}{section.160}% 64
+\BOOKMARK [2][-]{subsection.167}{Sprint 3:26 de Febrero al 6 de Marzo}{section.160}% 65
+\BOOKMARK [2][-]{subsection.177}{Sprint 4:6 de Marzo al 13 de Marzo}{section.160}% 66
+\BOOKMARK [2][-]{subsection.188}{Sprint 5:13 de Marzo al 27 de Marzo}{section.160}% 67
+\BOOKMARK [2][-]{subsection.199}{Sprint 6: 28 de Marzo al 22 de Abril}{section.160}% 68
+\BOOKMARK [2][-]{subsection.204}{Sprint 7: 22 de Abril al 27 de Abril}{section.160}% 69
+\BOOKMARK [2][-]{subsection.207}{Sprint 8: 27 de Abril al 8 de Mayo}{section.160}% 70
+\BOOKMARK [2][-]{subsection.209}{Sprint 9: 9 de Mayo al 15 de Mayo}{section.160}% 71
+\BOOKMARK [2][-]{subsection.212}{Sprint 10: 15 de Mayo al 5 de Junio}{section.160}% 72
+\BOOKMARK [0][-]{chapter.215}{Especificaci\363n de requisitos}{}% 73
+\BOOKMARK [0][-]{chapter.216}{Especificaci\363n de dise\361o}{}% 74
+\BOOKMARK [0][-]{chapter.217}{Manual del programador}{}% 75
+\BOOKMARK [1][-]{section.218}{Instalaci\363n del JDK}{chapter.217}% 76
+\BOOKMARK [1][-]{section.226}{Instalaci\363n de Android Studio}{chapter.217}% 77
+\BOOKMARK [0][-]{chapter.239}{Manual del usuario}{}% 78
+\BOOKMARK [0][-]{chapter.239}{Bibliograf\355a}{}% 79

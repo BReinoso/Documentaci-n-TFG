@@ -117,7 +117,7 @@
 }
 \AtEndDocument{%
 % Aparecen todas las fuentes, no solo las que citemos explicitamente en el texto
-\nocite{*}
+%\nocite{*}
 \nociteotras{*}
 }
 
@@ -220,6 +220,40 @@ TFG del Grado en Ingeniería Informática\vspace{.6cm}\\
 \noindent\huge
 Presentado por \@autorUno{}\\%
 en Universidad de Burgos --- Julio de 2015\\
+\@tutor{}\\
+}%
+\end{center}%
+
+\end{titlepage}%
+}
+
+
+\newcommand{\ubuportadaAnexo}{%
+\definecolor{cpardoBox}{HTML}{E6E6FF}
+\begin{titlepage}%
+% Cabecera ----------------
+\noindent\includegraphics[width=\textwidth]{imgs/cabecera}\vspace{1cm}%
+\vfill
+% Título proyecto y escudo informática ----------------
+\colorbox{cpardoBox}{%
+\begin{minipage}{.72\textwidth}
+\LARGE\bf
+\begin{center}
+Anexos:\vspace{.6cm}\\
+\@title{}
+\end{center}
+\end{minipage}
+}%
+\hfill\begin{minipage}{.20\textwidth}
+\includegraphics[width=\textwidth]{imgs/escudoInfor}
+\end{minipage}
+\vfill
+% Datos de alumno, curso y tutores ------------------
+\begin{center}%
+{%
+\noindent\huge
+Presentado por \@autorUno{}\\%
+en Universidad de Burgos --- Julio de 2014\\
 \@tutor{}\\
 }%
 \end{center}%
@@ -530,19 +564,19 @@ en Universidad de Burgos --- Julio de 2015\\
         \begin{minipage}{\anchoFloat}%
           \begin{center}%
 
-        	\begin{subfigure}[b]{\anchoFigura}
+        	\begin{subfigure}[t]{\anchoFigura}
 				#3
         	\end{subfigure}
         	\hspace*{#7}
-        	\begin{subfigure}[b]{\anchoFigura}
+        	\begin{subfigure}[t]{\anchoFigura}
 				#4
         	\end{subfigure}
         	\hspace*{#7}
-			\begin{subfigure}[b]{\anchoFigura}
+			\begin{subfigure}[t]{\anchoFigura}
 				#5
         	\end{subfigure}
         	\hspace*{#7}
-        	\begin{subfigure}[b]{\anchoFigura}
+        	\begin{subfigure}[t]{\anchoFigura}
 				#6
         	\end{subfigure}
           
@@ -570,15 +604,15 @@ en Universidad de Burgos --- Julio de 2015\\
         \begin{minipage}{\anchoFloat}%
           \begin{center}%
 
-        	\begin{subfigure}[b]{\anchoFigura}
+        	\begin{subfigure}[t]{\anchoFigura}
 				#3
         	\end{subfigure}
         	\hspace*{#6}
-        	\begin{subfigure}[b]{\anchoFigura}
+        	\begin{subfigure}[t]{\anchoFigura}
 				#4
         	\end{subfigure}
         	\hspace*{#6}
-			\begin{subfigure}[b]{\anchoFigura}
+			\begin{subfigure}[t]{\anchoFigura}
 				#5
         	\end{subfigure}
         	
@@ -767,8 +801,8 @@ en Universidad de Burgos --- Julio de 2015\\
 % Comandos para insertar comodamente las dos bibliografias de la memoria:
 % la de libros y articulos, y la de 'otras fuentes'.
 \newcommand{\bibliografia}[1]{%
-\cleardoublepage \addcontentsline{toc}{chapter}{Bibliografí­a (Libros y artículos)}
-\renewcommand{\bibname}{BIBLIOGRAFÍA (LIBROS Y ARTÍCULOS)}
+\cleardoublepage \addcontentsline{toc}{chapter}{Bibliografí­a}
+\renewcommand{\bibname}{BIBLIOGRAFÍA}
 %\renewcommand{\bibname}{Bibliografía (Libros y artículos)}
 %\renewcommand{\bibname}{BIBLIOGRAFÍA}
 %
