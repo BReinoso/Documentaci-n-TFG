@@ -63,8 +63,10 @@ Debido a la cantidad de parámetros de la red neuronal, unos sesenta millones, y 
 Para evitar el sobreajuste de la red hemos usado dos métodos:
 \begin{itemize}
 	\item El primero es aumentar el conjunto de datos original, esto se hace creando nuevas imágenes a partir de las imágenes originales pero conservando su etiqueta. Las dos formas para hacer esto que se ha usado en este artículos son:
-		\subitem 1- Hacer traslaciones en la imagen y reflexiones horizontales a través de los cuáles obtenemos una nueva imagen.
-		\subitem 2- Se ha aumentado la intensidad de los canales RGB de la imagen para obtener otra imagen que sea distinta para el modelo.
+	\begin{itemize}
+		\item Hacer traslaciones en la imagen y reflexiones horizontales a través de los cuáles obtenemos una nueva imagen.
+		\item Se ha aumentado la intensidad de los canales RGB de la imagen para obtener otra imagen que sea distinta para el modelo.
+	\end{itemize}
 	\item Se usa un nuevo método llamado \textit{dropout} el que consiste en poner a cero la salida de las neuronas de la capa oculta con una probabilidad de 0.5. Las neuronas que sean abandonadas en este proceso, entonces no participaran en la propagación hacia atrás.
 \end{itemize}
 \subsubsection{Detalles del aprendizaje}
@@ -136,8 +138,10 @@ En este artículo se explica un intento de insertar una forma de mecanismo de ate
 Las aportaciones de este artículo son las siguientes:
 \begin{itemize}
 	\item Se introduce dos generadores de frase basados en  la atención hacia la imagen en un mismo  \textit{framnework}:
-		\subitem 1) Un mecanismo de atención determinista ``débil'', que puede ser entrenado con técnicas normales de propagación hacia atrás.
-		\subitem 2) Un método de atención estocástico ``fuerte'', que puede entrenarse con el método descrito en el artículo de Ronald J. Williams\cite{williams1992simple}, que se conoce por el nombre de REINFORCE.
+	\begin{itemize}
+		\item Un mecanismo de atención determinista ``débil'', que puede ser entrenado con técnicas normales de propagación hacia atrás.
+		\item Un método de atención estocástico ``fuerte'', que puede entrenarse con el método descrito en el artículo de Ronald J. Williams\cite{williams1992simple}, que se conoce por el nombre de REINFORCE.
+	\end{itemize}
 	\item Se muestra cómo interpretar los resultados, visualizando dónde y en qué se centro la atención.
 	\item Finalmente se valida cuantitativamente la utilidad de la atención en la generación de frases. Se hace a través de tres conjuntos de datos.
 \end{itemize}

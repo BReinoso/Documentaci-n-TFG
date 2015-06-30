@@ -121,17 +121,22 @@
 \contentsline {subsection}{\numberline {I.2.9}Sprint 9: 9 de Mayo al 15 de Mayo}{52}{subsection.209}
 \contentsline {subsection}{\numberline {I.2.10}Sprint 10: 15 de Mayo al 5 de Junio}{53}{subsection.212}
 \contentsline {chapter}{\numberline {II}Especificaci\'on de requisitos}{55}{chapter.215}
-\contentsline {chapter}{\numberline {III}Especificaci\'on de dise\~no}{57}{chapter.216}
-\contentsline {chapter}{\numberline {IV}Manual del programador}{59}{chapter.217}
-\contentsline {section}{\numberline {IV.1}Instalaci\'on del JDK}{59}{section.218}
-\contentsline {paragraph}{}{59}{paragraph*.219}
-\contentsline {paragraph}{}{59}{paragraph*.224}
-\contentsline {section}{\numberline {IV.2}Instalaci\'on de Android Studio}{59}{section.226}
-\contentsline {paragraph}{}{59}{paragraph*.227}
+\contentsline {section}{\numberline {II.1}Introducci\'on}{55}{section.216}
+\contentsline {section}{\numberline {II.2}Requisitos Funcionales}{55}{section.217}
+\contentsline {subsection}{\numberline {II.2.1}Requisitos Funcionales en el Servidor}{55}{subsection.218}
+\contentsline {subsection}{\numberline {II.2.2}Requisitos Funcionales en el Cliente}{55}{subsection.219}
+\contentsline {section}{\numberline {II.3}Diagrama de casos de uso}{56}{section.220}
+\contentsline {chapter}{\numberline {III}Especificaci\'on de dise\~no}{61}{chapter.226}
+\contentsline {chapter}{\numberline {IV}Manual del programador}{63}{chapter.227}
+\contentsline {section}{\numberline {IV.1}Instalaci\'on del JDK}{63}{section.228}
+\contentsline {paragraph}{}{63}{paragraph*.229}
 \contentsline {paragraph}{}{63}{paragraph*.234}
-\contentsline {paragraph}{}{63}{paragraph*.235}
-\contentsline {paragraph}{}{63}{paragraph*.236}
+\contentsline {section}{\numberline {IV.2}Instalaci\'on de Android Studio}{63}{section.236}
 \contentsline {paragraph}{}{63}{paragraph*.237}
-\contentsline {paragraph}{}{63}{paragraph*.238}
-\contentsline {chapter}{\numberline {V}Manual del usuario}{65}{chapter.239}
-\contentsline {chapter}{Bibliograf\IeC {\'\i }\discretionary {-}{}{}a}{67}{chapter.239}
+\contentsline {paragraph}{}{67}{paragraph*.244}
+\contentsline {paragraph}{}{67}{paragraph*.245}
+\contentsline {paragraph}{}{67}{paragraph*.246}
+\contentsline {paragraph}{}{67}{paragraph*.247}
+\contentsline {paragraph}{}{67}{paragraph*.248}
+\contentsline {chapter}{\numberline {V}Manual del usuario}{69}{chapter.249}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }\discretionary {-}{}{}a}{71}{chapter.249}

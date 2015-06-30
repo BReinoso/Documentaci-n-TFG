@@ -1,0 +1,121 @@
+\section{Introducción}
+En este anexo se presentarán los distintos requisitos funcionales de la aplicación de ejemplo que se ha desarrollado. Se expondrán tanto los requisitos como los diagramas de caso de uso, plantillas de caso de uso.
+\section{Requisitos Funcionales}
+Los requisitos que se establecen son las funcionalidades mínimas que se han propuesto como objetivos en la aplicación.
+\subsection{Requisitos Funcionales en el Servidor}
+Estos son los requisitos que se han establecido para que el servidor se considere que cumple con la funcionalidad exigida.
+\begin{itemize}
+	\item \textbf{RF1 Recibir Imagen:} El servidor deberá ser capaz de, a través de una petición de tipo POST, recibir una imagen correctamente y guardarla en el sistema. Cuando este reciba una petición de tipo POST procederá a recibir los datos, seguidamente se guardarán los datos en el sistema de almacenamiento de la máquina en la que este alojado el servidor. Además deberá comprobar que lo que está recibiendo es una imagen para evitar que se nos envíe archivos maliciosos con extensiones no permitidas.
+	\item \textbf{RF2 Procesar Imagen:} El servidor ejecutará la herramienta de predicción sobre los datos recibidos previamente. Deberá tener la configuración adecuada para que la herramienta funcione de manera adecuada y que ejecute una predicción sobre la imagen. La dificultad se centra en la configuración de una herramienta tan compleja como puede ser las de tratamiento de imágenes en \textit{machine learning}.
+	\item \textbf{RF3 Devolver Predicción:} El servidor deberá ser capaz de devolver una frase en español que sea el resultante de la predicción sobre la imagen. Para ello tiene otro requisito funcional subyacente a él.
+	\begin{itemize}
+		\item \textbf{RF3.1 Traducir Predicción:} El servidor deberá ser capaz de traducir la predicción del inglés al español, ya que las herramientas que se pueden utilizar para esta aplicación trabajan todas en inglés. 
+	\end{itemize}
+\end{itemize}
+\subsection{Requisitos Funcionales en el Cliente}
+Se presentan ahora los requisitos que se han establecido en el cliente.
+\begin{itemize}
+	\item \textbf{RF4 Solicitar Preedicción:} El cliente Android deberá permitir al usuario tomar una foto. Teniendo en cuenta que la persona a la que va dirigida la aplicación es una persona con dificultades de visión o invidente, esta deberá permitir al usuario tomar la foto sin que este deba tener conocimiento alguno de la interfaz o de si hay un botón que este deba pulsar. Por tanto, la aplicación mostrará una pantalla sin interfaz que está a la espera de que el usuario simplemente toque la pantalla, entonces la aplicación tomará automáticamente la foto.
+	\begin{itemize}
+		\item \textbf{RF4.1 Tomar Foto:} La aplicación tomará un foto de manera automática sin necesidad de que el usuario tenga que interactuar con la interfaz de manera específica, sino que podrá hacerlo sin saber qué se encuentra en la pantalla, tan sólo deberá tocar cualquier punto de la pantalla.
+		\item \textbf{RF4.2 Mandar Foto:} La aplicación cliente deberá ejecutar una petición de tipo POST hacia un servidor y mandar correctamente la imagen para que esta sea procesada por el servidor. Mientras el servidor procesa y recibe la imagen, la aplicación mostrará una ventana que informe de de la imagen se esta procesando, esta ventana no es con el objetivo de que el usuario la vea, sino de que la aplicación este a la espera de que la imagen sea procesada y que el usuario no tenga la capacidad de realizar nada en ese período. Esto asegurará que la aplicación no falle mientras se procesa la imagen.
+		\item \textbf{RF4.3 Leer Predicción:} Una vez se ha procesado la imagen la aplicación deberá ser capaz de recibir la predicción del servidor y, debido a que la persona que la use no tendrá la capacidad de leerla, la aplicación leerá la aplicación en alto a través de una librería \textit{text to speech}.
+	\end{itemize}
+\end{itemize}
+\section{Diagrama de casos de uso}
+En este apartado se procede a presentar el diagrama o diagramas de caso de uso de la aplicación, además de las correspondientes tablas asociadas a cada uno de los requisitos funcionales del sistema.
+
+El diagrama de casos de uso se puede ver en la imagen \ref{CasoUso1}.
+
+Mientras que las tablas de cada uno de los requisitos funcionales se pueden ver en:
+\begin{itemize}
+	\item \textbf{RF1 Recibir Imagen}: Se puede ver en la tabla \ref{tabla:RF1}.
+	\item \textbf{RF2 Procesar Imagen:} Se puede ver en la tabla \ref{tabla:RF2}.
+	\item \textbf{RF3 Devolver Predicción:} Se puede ver en la tabla \ref{tabla:RF3}.
+	\begin{itemize}
+		\item \textbf{RF3.1 Traducir Predicción:} Se puede ver en la tabla \ref{tabla:RF3.1}.
+	\end{itemize}
+\end{itemize}
+\figura{1}{imgs/CasoUso1.png}{Diagrama de caso de uso del RF4}{CasoUso1}{}
+\tablaSmallSinColores{Caso de uso: RF1 Recibir imagen}{p{3cm} p{.75cm} p{9.5cm}}{RF1}{
+  \multicolumn{3}{l}{RF1  Recibir imagen} \\
+ }
+ {
+  Descripción                            & \multicolumn{2}{l}{Se recibirá una imagen enviada desde un cliente y se guardará.} \\\hline
+  Precondiciones                         & \multicolumn{2}{l}{Deberá haberse recibido una petición de tipo POST} \\\hline
+  \multirow{4}{3.5cm}{Secuencia normal}  & Paso & Acción \\\cline{2-3}
+                                         & 1    & Se detecta una petición POST \\\cline{2-3}
+                                         & 2    & Se comprueba que el fichero recibido es una imagen \\\cline{2-3}
+                                         & 3    & Si es imagen, se guarda, sino, se descarta. \\\hline
+  Postcondiciones                        & \multicolumn{2}{l}{Si se ha recibido una imagen, esta deberá estar guardada} \\\hline
+  \multirow{2}{3.5cm}{Excepciones}       & Paso & Acción \\\cline{2-3}
+                                         &      &  \\\hline
+  Rendimiento                            &      & \\\hline
+  Frecuencia                             & \alta{2} \\\hline
+  Importancia                            & \alta{2} \\\hline
+  Urgencia                               & \alta{2} \\\hline
+  Comentarios                            & \multicolumn{2}{l}{Sólo se reciben imágennes tipo: jpg, jpeg y png} \\
+}
+\tablaSmallSinColores{Caso de uso: RF2 Procesar imagen}{p{3cm} p{.75cm} p{9.5cm}}{RF2}{
+  \multicolumn{3}{l}{RF2  Procesar imagen} \\
+ }
+ {
+  Descripción                            & \multicolumn{2}{l}{La imagen será procesada a través de la herramienta elegida.} \\\hline
+  Precondiciones                         & \multicolumn{2}{l}{Se deberá haber guardado una imagen recibida por el usuario} \\\hline
+  \multirow{4}{3.5cm}{Secuencia normal}  & Paso & Acción \\\cline{2-3}
+                                         & 1    & Se escribe nombre de la imagen en fichero de procesado ``tasks.txt'' \\\cline{2-3}
+                                         & 2    & Se ejecuta \textit{script} de  extracción de características de la imagen \\\cline{2-3}
+                                         & 3    & Se lanza la extracción de frase. \\\hline
+  Postcondiciones                        & \multicolumn{2}{l}{Se tiene un documento ``result.html'' con la predicción} \\\hline
+  \multirow{2}{3.5cm}{Excepciones}       & Paso & Acción \\\cline{2-3}
+                                         &      &  \\\hline
+  Rendimiento                            &      & \\\hline
+  Frecuencia                             & \alta{2} \\\hline
+  Importancia                            & \alta{2} \\\hline
+  Urgencia                               & \media{2} \\\hline
+  Comentarios                            & \multicolumn{2}{l}{El fichero tiene dentro la frase que se quiere obtener} \\
+}
+\tablaSmallSinColores{Caso de uso: RF3 Devolver predicción}{p{3cm} p{.75cm} p{9.5cm}}{RF3}{
+  \multicolumn{3}{l}{RF3 Devolver predicción} \\
+ }
+ {
+  Descripción                            & \multicolumn{2}{l}{Se recogerá la predicción sobre la imagen y como respuesta a la petición esta será devuelta.} \\\hline
+  \multirow{3}{*}{Precondiciones}		& 1	&Se deberá haber guardado una imagen recibida por el usuario \\\cline{2-3}
+  										& 2 & Deberá existir el documento ``result.html'' \\\cline{2-3}
+  										& 3 & Deberá traducirse la cadena al español \\\hline
+  \multirow{5}{3.5cm}{Secuencia normal}  & Paso & Acción \\\cline{2-3}
+                                         & 1    & Se abre el fichero ``result.html'' si existe. \\\cline{2-3}
+                                         & 2    & Se extrae la cadena en inglés. \\\cline{2-3}
+                                         & 3    & Se Traduce la cadena al español \\\cline{2-3}
+                                         & 4	& Se devuelve la cadena como resultado de la petición POST \\\hline
+  Postcondiciones                        & \multicolumn{2}{l}{Se ha devuelto una cadena de texto, correspondiente a la predicción.} \\\hline
+  \multirow{2}{3.5cm}{Excepciones}       & Paso & Acción \\\cline{2-3}
+                                         &  1   & Si el fichero ``result.html'' no existe se genera un error. \\\hline
+  Rendimiento                            &      & \\\hline
+  Frecuencia                             & \alta{2} \\\hline
+  Importancia                            & \alta{2} \\\hline
+  Urgencia                               & \media{2} \\\hline
+  Comentarios                            &  \\
+}
+\tablaSmallSinColores{Caso de uso: RF3.1 Traducir predicción}{p{3cm} p{.75cm} p{9.5cm}}{RF3.1}{
+  \multicolumn{3}{l}{RF3.1 Traducir predicción} \\
+ }
+ {
+  Descripción                            & \multicolumn{2}{l}{A partir de una cadena de caracteres en inglés, se traducirá al español.} \\\hline
+  \multirow{2}{*}{Precondiciones}		& 1	& La cadena no deberá ser nula\\\cline{2-3}
+  										& 2 & La cadena deberá estar en inglés \\\hline
+  \multirow{6}{3.5cm}{Secuencia normal}  & Paso & Acción \\\cline{2-3}
+                                         & 1    & Se crea url con cabecera para la traducción. \\\cline{2-3}
+                                         & 2    & Se manda petición a la página de Google traductor. \\\cline{2-3}
+                                         & 3    & Se reciben los datos en un json \\\cline{2-3}
+                                         & 4	& Se extrae la cadena del json\\\cline{2-3}
+                                         & 5	& Se devuelve la cadena traducida\\\hline
+  Postcondiciones                        & \multicolumn{2}{l}{Se ha devuelto una cadena de texto, correspondiente a la predicción.} \\\hline
+  \multirow{2}{3.5cm}{Excepciones}       & Paso & Acción \\\cline{2-3}
+                                         &      & \\\hline
+  Rendimiento                            &      & \\\hline
+  Frecuencia                             & \alta{2} \\\hline
+  Importancia                            & \media{2} \\\hline
+  Urgencia                               & \baja{2} \\\hline
+  Comentarios                            &  \multicolumn{2}{l}{Se simula un conexión vía navegador para la traducción}\\
+}

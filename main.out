@@ -71,9 +71,14 @@
 \BOOKMARK [2][-]{subsection.209}{Sprint 9: 9 de Mayo al 15 de Mayo}{section.160}% 71
 \BOOKMARK [2][-]{subsection.212}{Sprint 10: 15 de Mayo al 5 de Junio}{section.160}% 72
 \BOOKMARK [0][-]{chapter.215}{Especificaci\363n de requisitos}{}% 73
-\BOOKMARK [0][-]{chapter.216}{Especificaci\363n de dise\361o}{}% 74
-\BOOKMARK [0][-]{chapter.217}{Manual del programador}{}% 75
-\BOOKMARK [1][-]{section.218}{Instalaci\363n del JDK}{chapter.217}% 76
-\BOOKMARK [1][-]{section.226}{Instalaci\363n de Android Studio}{chapter.217}% 77
-\BOOKMARK [0][-]{chapter.239}{Manual del usuario}{}% 78
-\BOOKMARK [0][-]{chapter.239}{Bibliograf\355a}{}% 79
+\BOOKMARK [1][-]{section.216}{Introducci\363n}{chapter.215}% 74
+\BOOKMARK [1][-]{section.217}{Requisitos Funcionales}{chapter.215}% 75
+\BOOKMARK [2][-]{subsection.218}{Requisitos Funcionales en el Servidor}{section.217}% 76
+\BOOKMARK [2][-]{subsection.219}{Requisitos Funcionales en el Cliente}{section.217}% 77
+\BOOKMARK [1][-]{section.220}{Diagrama de casos de uso}{chapter.215}% 78
+\BOOKMARK [0][-]{chapter.226}{Especificaci\363n de dise\361o}{}% 79
+\BOOKMARK [0][-]{chapter.227}{Manual del programador}{}% 80
+\BOOKMARK [1][-]{section.228}{Instalaci\363n del JDK}{chapter.227}% 81
+\BOOKMARK [1][-]{section.236}{Instalaci\363n de Android Studio}{chapter.227}% 82
+\BOOKMARK [0][-]{chapter.249}{Manual del usuario}{}% 83
+\BOOKMARK [0][-]{chapter.249}{Bibliograf\355a}{}% 84
