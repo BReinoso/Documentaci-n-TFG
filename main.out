@@ -76,9 +76,19 @@
 \BOOKMARK [2][-]{subsection.218}{Requisitos Funcionales en el Servidor}{section.217}% 76
 \BOOKMARK [2][-]{subsection.219}{Requisitos Funcionales en el Cliente}{section.217}% 77
 \BOOKMARK [1][-]{section.220}{Diagrama de casos de uso}{chapter.215}% 78
-\BOOKMARK [0][-]{chapter.226}{Especificaci\363n de dise\361o}{}% 79
-\BOOKMARK [0][-]{chapter.227}{Manual del programador}{}% 80
-\BOOKMARK [1][-]{section.228}{Instalaci\363n del JDK}{chapter.227}% 81
-\BOOKMARK [1][-]{section.236}{Instalaci\363n de Android Studio}{chapter.227}% 82
-\BOOKMARK [0][-]{chapter.249}{Manual del usuario}{}% 83
-\BOOKMARK [0][-]{chapter.249}{Bibliograf\355a}{}% 84
+\BOOKMARK [0][-]{chapter.230}{Especificaci\363n de dise\361o}{}% 79
+\BOOKMARK [1][-]{section.231}{Introducci\363n}{chapter.230}% 80
+\BOOKMARK [1][-]{section.232}{Dise\361o en el Servidor}{chapter.230}% 81
+\BOOKMARK [2][-]{subsection.233}{API RESTful}{section.232}% 82
+\BOOKMARK [0][-]{chapter.249}{Manual del programador}{}% 83
+\BOOKMARK [1][-]{section.250}{Instalaci\363n del JDK}{chapter.249}% 84
+\BOOKMARK [1][-]{section.258}{Instalaci\363n de Android Studio}{chapter.249}% 85
+\BOOKMARK [1][-]{section.271}{SDK Manager, instalando herramientas}{chapter.249}% 86
+\BOOKMARK [1][-]{section.274}{Importando Cliente en Android Studio}{chapter.249}% 87
+\BOOKMARK [1][-]{section.279}{Instalaci\363n de Matlab}{chapter.249}% 88
+\BOOKMARK [2][-]{subsection.287}{Activar MATLAB}{section.279}% 89
+\BOOKMARK [1][-]{section.290}{Instalaci\363n de CUDA}{chapter.249}% 90
+\BOOKMARK [1][-]{section.317}{Instalando Servidor y sus Dependencias}{chapter.249}% 91
+\BOOKMARK [1][-]{section.362}{Configuraci\363n del Servidor}{chapter.249}% 92
+\BOOKMARK [0][-]{chapter.397}{Manual del usuario}{}% 93
+\BOOKMARK [0][-]{chapter.397}{Bibliograf\355a}{}% 94

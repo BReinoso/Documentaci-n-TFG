@@ -1,5 +1,11 @@
 \begin{thebibliography}{10}
 
+\bibitem{addison2005text}
+Edwin~R Addison, H~Donald Wilson, Gary Marple, Anthony~H Handal, and Nancy
+  Krebs.
+\newblock Text to speech, March~8 2005.
+\newblock US Patent 6,865,533.
+
 \bibitem{berg2010large}
 Alex Berg, Jia Deng, and L~Fei-Fei.
 \newblock Large scale visual recognition challenge 2010, 2010.
@@ -27,6 +33,29 @@ Ross Girshick, Jeff Donahue, Trevor Darrell, and Jagannath Malik.
 Asha Iyer, Christof Koch, and Pietro Perona.
 \newblock What do we perceive in a glance of a real-world scene?
 \newblock In {\em J Vision}.
+
+\bibitem{jia2014caffe}
+Yangqing Jia, Evan Shelhamer, Jeff Donahue, Sergey Karayev, Jonathan Long, Ross
+  Girshick, Sergio Guadarrama, and Trevor Darrell.
+\newblock Caffe: Convolutional architecture for fast feature embedding.
+\newblock {\em arXiv preprint arXiv:1408.5093}, 2014.
+
+\bibitem{Wiki}
+Andrej Karpathy.
+\newblock {GitHub Wiki} ubuntu 14.04 virtualbox vm.
+\newblock \url{https://github.com/BVLC/caffe/wiki/Ubuntu-14.04-VirtualBox-VM}.
+
+\bibitem{cs231nConv}
+Andrej Karpathy.
+\newblock Cs231n: Convolutional neural networks for visual recognition,
+  2014-2015.
+\newblock URL: \url{http://cs231n.github.io/convolutional-networks/}.
+
+\bibitem{cs231nRec}
+Andrej Karpathy.
+\newblock The unreasonable effectiveness of recurrent neural networks,
+  2014-2015.
+\newblock URL: \url{http://karpathy.github.io/2015/05/21/rnn-effectiveness/}.
 
 \bibitem{karpathy2014deep}
 Andrej Karpathy and Li~Fei-Fei.
@@ -59,6 +88,24 @@ Bryan~C Russell, Antonio Torralba, Kevin~P Murphy, and William~T Freeman.
 \newblock Labelme: a database and web-based tool for image annotation.
 \newblock {\em International journal of computer vision}, 77(1-3):157--173,
   2008.
+
+\bibitem{wiki:ML}
+Wikipedia.
+\newblock Aprendizaje automático --- wikipedia{,} la enciclopedia libre, 2015.
+\newblock URL:
+  \url{https://es.wikipedia.org/w/index.php?title=Aprendizaje_autom%C3%A1tico&oldid=83177301}.
+
+\bibitem{wiki:AP}
+Wikipedia.
+\newblock Aprendizaje profundo --- wikipedia{,} la enciclopedia libre, 2015.
+\newblock URL:
+  \url{https://es.wikipedia.org/w/index.php?title=Aprendizaje_profundo&oldid=83177869}.
+
+\bibitem{wiki:ServW}
+Wikipedia.
+\newblock Servicio web --- wikipedia{,} la enciclopedia libre, 2015.
+\newblock URL:
+  \url{https://es.wikipedia.org/w/index.php?title=Servicio_web&oldid=83082613}.
 
 \bibitem{williams1992simple}
 Ronald~J Williams.

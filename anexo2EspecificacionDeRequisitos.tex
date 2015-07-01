@@ -35,6 +35,12 @@ Mientras que las tablas de cada uno de los requisitos funcionales se pueden ver 
 	\begin{itemize}
 		\item \textbf{RF3.1 Traducir Predicción:} Se puede ver en la tabla \ref{tabla:RF3.1}.
 	\end{itemize}
+	\item \textbf{RF4 Solicitar Predicción:} Se puede ver en la tabla \ref{tabla:RF4}.
+	\begin{itemize}
+		\item \textbf{RF4.1 Tomar Foto:} Se puede ver en la tabla \ref{tabla:RF4.1}.
+		\item \textbf{RF4.2 Mandar Foto:} Se puede ver en la tabla \ref{tabla:RF4.2}.
+		\item \textbf{RF4.3 Leer Predicción:} Se puede ver en la tabla \ref{tabla:RF4.3}.
+	\end{itemize}
 \end{itemize}
 \figura{1}{imgs/CasoUso1.png}{Diagrama de caso de uso del RF4}{CasoUso1}{}
 \tablaSmallSinColores{Caso de uso: RF1 Recibir imagen}{p{3cm} p{.75cm} p{9.5cm}}{RF1}{
@@ -118,4 +124,92 @@ Mientras que las tablas de cada uno de los requisitos funcionales se pueden ver 
   Importancia                            & \media{2} \\\hline
   Urgencia                               & \baja{2} \\\hline
   Comentarios                            &  \multicolumn{2}{l}{Se simula un conexión vía navegador para la traducción}\\
+}
+\tablaSmallSinColores{Caso de uso: RF4 Solicitar predicción}{p{3cm} p{.75cm} p{9.5cm}}{RF4}{
+  \multicolumn{3}{l}{RF4 Solicitar predicción} \\
+ }
+ {
+  Descripción                            & \multicolumn{2}{l}{El usuario solicitará una predicción cuando toque la pantalla.} \\\hline
+  Precondiciones
+  										&  &  \\\hline
+  \multirow{8}{3.5cm}{Secuencia normal}  & Paso & Acción \\\cline{2-3}
+                                         & 1    & Se muestra pantalla en blanco a la espera de que el usuario la toque para tomar la foto. \\\cline{2-3}
+                                         & 2    & Cuando el usuario toca la pantalla se toma automáticamente una foto. \\\cline{2-3}
+                                         & 3    & Se guarda la imagen en el dispositivo \\\cline{2-3}
+                                         & 4	& Se crea la petición POST y se manda\\\cline{2-3}
+                                         & 5	& Se recibe la predicción como respuesta a la petición POST\\\cline{2-3}
+                                         & 6	& Se muestra la predicción en pantalla junto con la imagen\\\cline{2-3}
+                                         & 7	& Se lee la predicción con la librería \textit{Text to Speech}\\\hline
+  Postcondiciones                        & \multicolumn{2}{l}{Se ha leído en voz alta el resultado de la ejecución.} \\\hline
+  \multirow{2}{3.5cm}{Excepciones}       & Paso & Acción \\\cline{2-3}
+                                         & 1    & Si no se puede conectar con el servidor, se lee un mensaje de error en voz alta. \\\hline
+  Rendimiento                            &      & \\\hline
+  Frecuencia                             & \alta{2} \\\hline
+  Importancia                            & \media{2} \\\hline
+  Urgencia                               & \media{2} \\\hline
+  Comentarios                            &  \multicolumn{2}{l}{Este requisito es con el que interactúa el usuario.}\\
+}
+\tablaSmallSinColores{Caso de uso: RF4.1 Tomar Foto}{p{3cm} p{.75cm} p{9.5cm}}{RF4.1}{
+  \multicolumn{3}{l}{RF4.1 Tomar Foto} \\
+ }
+ {
+  Descripción                            & \multicolumn{2}{l}{Cuando el usuario ha solicitado la predicción, el sistema toma una foto de manera automática.} \\\hline
+  Precondiciones
+  										&  \multicolumn{2}{l}{El usuario debe haber tocado la pantalla}  \\\hline
+  \multirow{6}{3.5cm}{Secuencia normal}  & Paso & Acción \\\cline{2-3}
+                                         & 1    & Se inicia la previsualización de la cámara. \\\cline{2-3}
+                                         & 2    & Se toma la foto. \\\cline{2-3}
+                                         & 3    & Se trata los datos recibidos para guardarlos en el dispositivo \\\cline{2-3}
+                                         & 4	& Se crea la petición POST y se manda\\\cline{2-3}
+                                         & 5	& Se cierra la previsualización\\\hline
+  Postcondiciones                        & \multicolumn{2}{l}{Se ha guardado la imagen en el sistema.} \\\hline
+  \multirow{2}{3.5cm}{Excepciones}       & Paso & Acción \\\cline{2-3}
+                                         & 1    & Si la cámara no está disponible se genera un error. \\\hline
+  Rendimiento                            &      & \\\hline
+  Frecuencia                             & \alta{2} \\\hline
+  Importancia                            & \media{2} \\\hline
+  Urgencia                               & \media{2} \\\hline
+  Comentarios                            &  \multicolumn{2}{l}{Se usará la API Camera de Android para poder hacer la foto de manera automática.}\\
+}
+\tablaSmallSinColores{Caso de uso: RF4.2 Mandar Foto}{p{3cm} p{.75cm} p{9.5cm}}{RF4.2}{
+  \multicolumn{3}{l}{RF4.2 Mandar Foto} \\
+ }
+ {
+  Descripción                            & \multicolumn{2}{l}{Se manda la foto al servidor a través de una petición de tipo POST.} \\\hline
+  Precondiciones
+  										&  \multicolumn{2}{l}{Se ha tomado la foto correctamente}  \\\hline
+  \multirow{6}{3.5cm}{Secuencia normal}  & Paso & Acción \\\cline{2-3}
+                                         & 1    & Se construye la petición POST y todos los objetos necesarios para poder ejecutar dicha petición. \\\cline{2-3}
+                                         & 2    & Antes de ejecutarla se crea una ventana para privar al usuario de hacer acciones innecesarias sobre la aplicación,pero esta no se muestra aún. \\\cline{2-3}
+                                         & 3    & Se pone en ejecución la petición POST \\\cline{2-3}
+                                         & 4	& Se muestra la ventana para que el usuario no pueda hacer acciones innecesarias.\\\cline{2-3}
+                                         & 5	& Una vez se ha terminado la petición, se recibe el resultado y se almacena. \\\cline{2-3}
+                                         & 6	& Se quita la ventana de privación de acciones. \\\hline
+  Postcondiciones                        & \multicolumn{2}{l}{Se ha obtenido el resultado de la predicción.} \\\hline
+  \multirow{2}{3.5cm}{Excepciones}       & Paso & Acción \\\cline{2-3}
+                                         & 1    & Si no se conecta con el servidor se lee un mensaje de error en vez de la predicción. \\\hline
+  Rendimiento                            &      & \\\hline
+  Frecuencia                             & \alta{2} \\\hline
+  Importancia                            & \alta{2} \\\hline
+  Urgencia                               & \media{2} \\\hline
+  Comentarios                            &  \multicolumn{2}{l}{Se usará la API Http de Apache para poder hacer la petición POST de manera adecuada.}\\
+}
+\tablaSmallSinColores{Caso de uso: RF4.3 Leer predicción}{p{3cm} p{.75cm} p{9.5cm}}{RF4.3}{
+  \multicolumn{3}{l}{RF4.3 Leer predicción} \\
+ }
+ {
+  Descripción                            & \multicolumn{2}{l}{Se lee en voz alta la predicción que se ha obtenido.} \\\hline
+  Precondiciones
+  										&  \multicolumn{2}{l}{Se tiene una cadena para leer}  \\\hline
+  \multirow{3}{3.5cm}{Secuencia normal}  & Paso & Acción \\\cline{2-3}
+                                         & 1    & Se llama al objeto de lectura con la cadena a leer. \\\cline{2-3}
+                                         & 2    & Se lee en voz alta.  \\\hline
+  Postcondiciones                        & \multicolumn{2}{l}{Se ha leído el mensaje disponible para lectura.} \\\hline
+  \multirow{2}{3.5cm}{Excepciones}       & Paso & Acción \\\cline{2-3}
+                                         &      & \\\hline
+  Rendimiento                            &      & \\\hline
+  Frecuencia                             & \alta{2} \\\hline
+  Importancia                            & \alta{2} \\\hline
+  Urgencia                               & \baja{2} \\\hline
+  Comentarios                            &  \multicolumn{2}{l}{Se usará la API \textit{Text to Speech} de Android para poder leer el mensaje.}\\
 }

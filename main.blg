@@ -1,9 +1,10 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
 The style file: plainurl.bst
 Database file #1: referencias.bib
-Warning--I didn't find a database entry for "CNN"
-Warning--I didn't find a database entry for "wiki:ML"
-Warning--I didn't find a database entry for "wiki:AP"
-Warning--I didn't find a database entry for ""
+I was expecting a `,' or a `}'---line 95 of file referencias.bib
+ : 
+ : @misc{wiki:ML,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--empty year in iyerwe
-(There were 5 warnings)
+(There was 1 error message)

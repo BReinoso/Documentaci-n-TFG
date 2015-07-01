@@ -129,3 +129,381 @@ En la imagen \ref{figImagen2} vemos el primer paso para la instalación del \text
 \paragraph{}Pasaremos entonces al tercer paso de la instalación, la cual puede ser vista en la imagen \ref{figImagen7}. En la primera pantalla de este paso tendremos que elegir la cantidad de memoria \textit{RAM} que asignaremos a nuestro \textit{Android Studio}, podemos dejar la cantidad recomendada o podemos asignarle más cantidad, si disponemos de ella, para que tenga un funcionamiento más fluido. Una vez establecido esto, se pulsara el botón \textit{next}. En nuestra segunda pantalla nos pregunta el directorio en el que se iniciará la aplicación y puedes poner la opción de no crear un acceso directo, nosotros hemos dejado la configuración por defecto. Finalmente pulsamos el botón \textit{Install}.
 \paragraph{}Ahora en el paso 4, el cual está representado en la imagen \ref{figImagen8}, solamente tendremos que observar cómo avanza la instalación, esto se nos irá mostrando a través de una barra de progreso. Una vez se la barra se ha llenado podremos hacer \textit{click} en el botón \textit{Next} para pasar al último paso de nuestra instalación.
 \paragraph{}En nuestro quinto y último paso, el cual podemos ver en la imagen \ref{figImagen9}, se nos informará de que la instalación ha terminado y tendremos la opción de iniciar nuestro \textit{Android Studio} nada más acabar la instalación. Entonces pulsamos al botón \textit{Finish}, se nos abrirá nuestro \textit{Android Studio} y con esto la instalación se considera terminada.
+\section{SDK Manager, instalando herramientas}
+      \begin{figure}[]
+    \begin{center}%
+      \Ovalbox{%
+        \begin{minipage}{\anchoFloat}%
+          \begin{center}%
+            \begin{tabular}{ l r}
+ 				\includegraphics[width=0.45\textwidth]{imgs/mng1.png} & 
+ 				\includegraphics[width=0.45\textwidth]{imgs/mng2.png} \\
+			\end{tabular}
+            \caption{SDK Manager paso 1.}%
+            \label{mng1}%
+          \end{center}%
+        \end{minipage}
+      }%
+    \end{center}%
+  \end{figure}%
+  \figura{1}{imgs/mng3.png}{SDK Manager paso 2.}{mng2}{}
+Para que la futura importación del proyecto se haga de manera correcta hay que instalar una serie de herramientas, estas pueden ser instaladas a través del SDK \textit{Manager} del Android Studio. Para abrir el SDK \textit{Manager}, debemos hacer click sobre el botón resaltado en la primera imagen (\ref{mng1}). Seguidamente se nos abrirá una ventana gestora de paquetes de instalación, que  se puede ver en la segunda imagen (\ref{mng1}). Entonces se seleccionan los paquetes a instalar, se abrirá una nueva ventana (\ref{mng2}) para aceptar las licencias, las aceptas y le das a instalar.
+
+Los paquetes que necesitaremos serám:
+\begin{itemize}
+	\item Android SDK Tools
+	\item Android SDK Platform-tools
+	\item Android SDK Build-tools
+	\item Todo el paquete Android 5.1.1(API 22)
+	\item Android Support Repository
+	\item Android Support Library
+	\item Google Repository
+	\item Google USB Driver
+	\item Google Web Driver
+\end{itemize}
+\section{Importando Cliente en Android Studio}
+\figura{1}{imgs/Import1.png}{Importando proyecto en Android Studio}{import1}{}
+\figura{1}{imgs/Import2.png}{Importando proyecto en Android Studio}{import2}{}
+\figura{0.60}{imgs/Import3.png}{Importando proyecto en Android Studio}{import3}{}
+\figura{1}{imgs/Import4.png}{Importando proyecto en Android Studio}{import4}{}
+Se procede a explicar la manera de importar el proyecto en Android Studio, que es la aplicación con la que se ha trabajado y con la que mejor se puede trabajar sobre el proyecto. Primero deberemos iniciar el Android Studio (\ref{import1}), seguidamente le damos a \textit{File} o Archivo -> \textit{Open\dots } o Abrir\dots (\ref{import2}). Entonces se nos abrirá una ventana (\ref{import3}) en la que deberemos navegas hasta la carpeta en la que tenemos almacenado el proyecto, seleccionamos el archivo con nombre Imagen y que tiene el icono de Android Studio. Entonces le damos a aceptar y el programa procederá a importar el sólo todo el proyecto (\ref{import4}), al finalizar podremos ponernos enseguida a trabajar.
+
+\section{Instalación de Matlab}
+\label{MATLAB}
+Para poder ejecutar el \textit{script} de instalación del servidor, el cuál se instala en Ubuntu, debemos tener como pre-instalado Matlab. Para ello necesitaremos una licencia, en este proyecto se ha trabajado con la licencia de estudiante de la UBU.
+
+Al trabajar en Ubuntu de 64 bit, hemos descargado el instalador para Linux de Matlab. Hay que recordar que Caffe sólo trabaja con ciertas versiones de Matlab a la hora de descargar el instalador (2014a/b, 2013a/b, and 2012b). Una vez se ha descargado el instalador se tiene que ejecutar el archivo\textit{install} del conjunto de archivos que hemos descargado (\ref{lst:install}).
+\begin{lstlisting}[frame=none,language=bash,caption={Ejecutando \textit{install} de Matlab},basicstyle=\large,label={lst:install}]
+sudo ./install
+\end{lstlisting}
+Entonces nos aparecerá una ventana a través de la cual guiaremos nuestra instalación.
+
+Con nuestra licencia, la instalación sería. Primero debemos elegir la primera opción de la primera imagen y después aceptar la licencia de la segunda imagen en el paso 1 (\ref{mat1}). 
+
+Seguidamente, en el segundo paso de instalación. deberemos aportar nuestras credenciales, nuestra cuenta de MathWorks, como se muestra en la primera imagen y después seleccionar el lugar de instalación, tal y como se muestra en la segunda imagen del paso 2 (\ref{mat2}). Se recomienda dejar la carpeta de destino de la instalación a la que viene por defecto, porque evitará futuros problemas de configuración cuando instalemos el servidor y sus dependencias.
+
+En el tercer paso de la instalación decidiremos si creamos un link para invocar a Matlab desde el terminal, esto se recomienda hacerlo y dejar el link en la ruta por defecto del instalador, como podemos ver en la primera imagen. Después se nos pedirá seleccionar los paquetes que queremos instalar a Matlab, seleccionaremos los básicos, como se ve en la imagen dos del tercer paso (\ref{mat3}).
+
+En el cuarto paso se nos pide la confirmación de los paquetes que hemos solicitado instalar en el paso previo, esto puede verse en la primera imagen; comprobaremos que tenemos los paquetes que deseamos y le damos a confirmar. En la segunda imagen vemos la barra de progreso de la instalación que se nos muestra mientras Matlab es instalado (\ref{mat4}).
+
+En el quinto y último paso se te muestra la ventana de instalación satisfactoria y te comunica que debes activar Matlab para poder usarlo. Dejamos la opción de ``Activar MATLAB'' marcada y le damos a siguiente. Así concluimos la instalación de Matlab, pero se tiene que activar antes (\ref{mat5}).
+
+  \begin{figure}[]
+    \begin{center}%
+      \Ovalbox{%
+        \begin{minipage}{\anchoFloat}%
+          \begin{center}%
+            \begin{tabular}{ l r}
+ 				\includegraphics[width=0.45\textwidth]{imgs/matlab1.png} & 
+ 				\includegraphics[width=0.45\textwidth]{imgs/matlab2.png} \\
+			\end{tabular}
+            \caption{Instalación de Matlab paso 1.}%
+            \label{mat1}%
+          \end{center}%
+        \end{minipage}
+      }%
+    \end{center}%
+  \end{figure}%
+  \begin{figure}[]
+    \begin{center}%
+      \Ovalbox{%
+        \begin{minipage}{\anchoFloat}%
+          \begin{center}%
+            \begin{tabular}{ l r}
+ 				\includegraphics[width=0.45\textwidth]{imgs/matlab3.png} & 
+ 				\includegraphics[width=0.45\textwidth]{imgs/matlab4.png} \\
+			\end{tabular}
+            \caption{Instalación de Matlab paso 2.}%
+            \label{mat2}%
+          \end{center}%
+        \end{minipage}
+      }%
+    \end{center}%
+  \end{figure}%
+  \begin{figure}[]
+    \begin{center}%
+      \Ovalbox{%
+        \begin{minipage}{\anchoFloat}%
+          \begin{center}%
+            \begin{tabular}{ l r}
+ 				\includegraphics[width=0.45\textwidth]{imgs/matlab5.png} & 
+ 				\includegraphics[width=0.45\textwidth]{imgs/matlab6.png} \\
+			\end{tabular}
+            \caption{Instalación de Matlab paso 3.}%
+            \label{mat3}%
+          \end{center}%
+        \end{minipage}
+      }%
+    \end{center}%
+  \end{figure}%
+  \begin{figure}[]
+    \begin{center}%
+      \Ovalbox{%
+        \begin{minipage}{\anchoFloat}%
+          \begin{center}%
+            \begin{tabular}{ l r}
+ 				\includegraphics[width=0.45\textwidth]{imgs/matlab7.png} & 
+ 				\includegraphics[width=0.45\textwidth]{imgs/matlab8.png} \\
+			\end{tabular}
+            \caption{Instalación de Matlab paso 4.}%
+            \label{mat4}%
+          \end{center}%
+        \end{minipage}
+      }%
+    \end{center}%
+  \end{figure}%
+ \figura{1}{imgs/matlab9.png}{Instalación de Matlab paso 5}{mat5}{}
+ \subsection{Activar MATLAB}
+ \label{ActMATLAB}
+  \begin{figure}[]
+    \begin{center}%
+      \Ovalbox{%
+        \begin{minipage}{\anchoFloat}%
+          \begin{center}%
+            \begin{tabular}{ l r}
+ 				\includegraphics[width=0.45\textwidth]{imgs/Activation1.png} & 
+ 				\includegraphics[width=0.45\textwidth]{imgs/Activation2.png} \\
+			\end{tabular}
+            \caption{Activación de Matlab paso 1.}%
+            \label{act1}%
+          \end{center}%
+        \end{minipage}
+      }%
+    \end{center}%
+  \end{figure}%
+  \begin{figure}[]
+    \begin{center}%
+      \Ovalbox{%
+        \begin{minipage}{\anchoFloat}%
+          \begin{center}%
+            \begin{tabular}{ l r}
+ 				\includegraphics[width=0.45\textwidth]{imgs/Activation3.png} & 
+ 				\includegraphics[width=0.45\textwidth]{imgs/ActivationF.png} \\
+			\end{tabular}
+            \caption{Activación de Matlab paso 2.}%
+            \label{act2}%
+          \end{center}%
+        \end{minipage}
+      }%
+    \end{center}%
+  \end{figure}%
+Después de la instalación de Matlab se debe haber recibido la solicitud de activación del mismo, por lo que se nos abre una ventana de activación como se puede ver en la primera imagen del paso 1(\ref{act1}). Esta ventana es sólo informativa, por lo que daremos al botón de siguiente. En la segunda imagen del paso 1 podemos ver que nos pide el nombre de usuario con el que se va a querer activar Matlab, se aconseja poner el nombre de usuario normal, no root. Una vez decidido el nombre con el que se va a activar Matlab se pulsa al botón de siguiente.
+
+En el transcurso del primer paso hasta el segundo paso, el activador habrá hecho algunas comprobaciones con nuestra licencia y nos muestra una ventana de confirmación, comprobamos que los datos son correctos y pulsamos el botón confirmar, esto se puede ver en la primera imagen del paso 2 (\ref{act2}). Final mente nos muestra una ventana informativa explicando que la activación ha sido un éxito, como vemos en la segunda imagen del paso 2.
+\section{Instalación de CUDA}
+\label{CUDA}
+Si no nos encontramos en una máquina virtual y queremos instalar los \textit{drivers} de NVIDIA en nuestra máquina junto con CUDA, entonces tenemos que seguir unos pasos especiales para hacerlos, los cuáles serán explicados en este apartado para el caso de querer instalar controladores de NVIDIA, de lo contrario, sólo se tendrá que descomentar las siguientes líneas del \textit{script} de instalación del servidor y sus dependencias:
+\begin{lstlisting}[frame=none,language=bash,caption={Instalación de CUDA en \textit{script}},basicstyle=\large,label={lst:install}]
+sudo apt-get install curl
+cd ~/Downloads/
+curl -O "http://developer.download.nvidia.com/compute/cuda/6_5/rel/installers/cuda_6.5.14_linux_64.run"
+chmod +x cuda_6.5.14_linux_64.run
+./cuda_6.5.14_linux_64.run --kernel-source-path=/usr/src/linux-headers-`uname -r`/
+\end{lstlisting}
+
+En caso de querer instalar los controladores de NVIDIA, entonces tendremos que proceder a realizar una operación más compleja para realizar su instalación, debido a que para instalar los controladores no debemos estar en modo interfaz gráfica y tener desactivadas ciertos servicios.
+
+Primero tendremos que desinstalar cualquier rastro de algún controlador de NVIDIA que tengamos previamente en nuestra máquina, lo hacemos con el siguiente comando:
+\begin{lstlisting}[frame=none,language=sh,caption={Instalación \textit{driver} de NVIDIA paso 1},basicstyle=\large]
+sudo apt-get remove --purge nvidia* 
+\end{lstlisting}
+Después de esto se deberá desactivar el controlador libre ``noveau'', el cual lo desactivamos de la siguiente manera:
+\begin{itemize}
+	 \item Primero, se tiene que ejecutar el siguiente comando en tu shell:
+	 \begin{lstlisting}[frame=none,language=sh,caption={Instalación \textit{driver} de NVIDIA paso 2},basicstyle=\large]
+	 sudo nano /etc/modprobe.d/blacklist.conf
+	 \end{lstlisting}
+	 \item Segundo, debes añadir lo siguiente al final del fichero, que se ha abierto tras ejecutar el anterior comando, y guardar los cambios:
+	 \begin{lstlisting}[frame=none,language=sh,caption={Instalación \textit{driver} de NVIDIA paso 3},basicstyle=\large]
+	 blacklist nouveau
+	 \end{lstlisting}
+	 \item Tercero, una vez realizado esto tienes que ejecutar los siguientes comando para que los cambios hagan efecto, aunque si no lo hacen tendrás que reiniciar el ordenador:
+	 \begin{lstlisting}[frame=none,language=sh,caption={Instalación \textit{driver} de NVIDIA paso 4},basicstyle=\large]
+	 echo options nouveau modeset=0 | sudo tee -a /etc/modprobe.d/nouveau-kms.conf
+	 update-initramfs -u
+	 \end{lstlisting}
+\end{itemize}
+
+Ahora que se ha desactivado el controlador libre ``noveau'', procedemos a la instalación del \textit{driver}, pero este debe ser sin interfaz gráfica. Para trabajar sin interfaz gráfica, primero, debemos pulsar la secuencia de teclas: CTRL+ALT+F1. Esto iniciará un shell sin interfaz gráfica.
+
+Antes que nada debemos identificarnos ante el sistema, para identificarnos deberemos introducir nuestro nombre de usuario y la contraseña, la contraseña se te solicitará una vez hayas introducido el nombre de usuario.
+
+Una vez en el shell se procede a detener el demonio, controlador interno de Unix, que se encarga de mantener en ejecución la interfaz gráfica, para ello tenemos que ejecutar la siguiente orden en el shell:
+\begin{lstlisting}[frame=none,language=sh,caption={Instalación \textit{driver} de NVIDIA paso 5},basicstyle=\large]
+sudo service gdm stop
+\end{lstlisting}
+Ahora se procede a descargar el \textit{driver} con la secuencia que antes hemos comentado sobre el \textit{script} de instalación:
+\begin{lstlisting}[frame=none,language=bash,caption={Instalación \textit{driver} de NVIDIA paso 6},basicstyle=\large,label={lst:install}]
+sudo apt-get install curl
+cd ~/Downloads/
+curl -O "http://developer.download.nvidia.com/compute/cuda/6_5/rel/installers/cuda_6.5.14_linux_64.run"
+chmod +x cuda_6.5.14_linux_64.run
+./cuda_6.5.14_linux_64.run --kernel-source-path=/usr/src/linux-headers-`uname -r`/
+\end{lstlisting}
+Una vez ejecutado esto, se iniciará la instalación y deberás aceptar la licencia e instalar todo lo que se te propone, los controladores NVIDIA, CUDA y los ejemplos, todos deben ser instalados en sus directorios por defecto.
+
+Cuando esto haya terminado tendrás ya instalado los \textit{drivers} de NVIDIA, pero aún queda hacer un par de pasos, lanzar el demonio de la interfaz de nuevo y reiniciar el sistema, hazlo con los siguientes comandos:
+\begin{lstlisting}[frame=none,language=bash,caption={Instalación \textit{driver} de NVIDIA paso 7},basicstyle=\large,label={lst:install}]
+sudo service gdm start
+sudo reboot
+\end{lstlisting}
+
+Con esto ya tendremos el controlador de NVIDIA y CUDA instalados, siendo CUDA necesario para la instalación de las dependencias del servidor y las herramientas.
+\section{Instalando Servidor y sus Dependencias}
+Para instalar el servidor se ha usado en parte una pequeña guía\footnote{\url{https://github.com/BVLC/caffe/wiki/Ubuntu-14.04-VirtualBox-VM}}. Gracias a esta guía se instaló correctamente las dependencias, a la que podrás acceder mirando la bibliografía\cite{Wiki}.
+
+Para usar el \textit{script} de instalación deberás haber seguido los dos anteriores pasos (\ref{CUDA}) (\ref{MATLAB}). Ahora para iniciar el proceso de instalación deberás ejecutar el siguiente comando en el \textit{shell}:
+\begin{lstlisting}[frame=none,language=bash,caption={Instalar Servidor},basicstyle=\large,label={lst:installS}]
+sudo . ./install.sh
+\end{lstlisting}
+
+\textbf{IMPORTANTE:} Si te encuentras en una máquina virtual, deberás ir al \textit{script} de instalación y modificarlo \textbf{antes de ejecutar la instalación}. Deberás cambiar la linea 47 de la siguiente manera:
+\begin{lstlisting}[frame=none,language=bash,caption={Cambio para máquinas virtuales},basicstyle=\large,label={lst:vm}]
+#Esta es la línea original en el script:
+cp ~/Proyecto-Fin-de-Grado/servidor/Install/Makefile.config ~/caffe
+
+#Esto es lo que se debe poner:
+cp ~/Proyecto-Fin-de-Grado/servidor/Install/MaquinaVirtual/Makefile.config ~/caffe
+\end{lstlisting}
+
+Si tienes algún problema con la instalación o con el \textit{script}, se procede a explicar paso a paso qué hace el programa de instalación y qué deberías hacer tú para instalarlo sin el uso del \textit{script}. Todo esto debe ser siempre realizado tras haber hecho los anteriores dos pasos (\ref{CUDA}) (\ref{MATLAB}).
+
+En primer lugar se va a un directorio por defecto para hacer la instalación y seguidamente se instala la herramienta ``git'' para clonar los proyectos desde Github.
+\begin{lstlisting}[frame=none,language=bash,caption={Explicación Instalación 1},basicstyle=\large,label={lst:exp1}]
+cd ~
+apt-get install git
+\end{lstlisting}
+Vemos que hemos hecho la acción de irnos a un directorio por defecto, este directorio sera la base de toda la instalación y, por tanto, no se recomienda cambiarlo para que la configuración del servidor sea más sencilla.
+
+Ahora se procede a instalar los paquetes esenciales de Linux, además de actualizar las cabeceras del \textit{kernel} a su última versión para evitar errores futuros.
+\begin{lstlisting}[frame=none,language=bash,caption={Explicación Instalación 2},basicstyle=\large,label={lst:exp2}]
+apt-get install build-essential
+apt-get install linux-headers-`uname -r`
+\end{lstlisting}
+En este paso clonaremos nuestro proyecto al directorio principal de instalación.
+\begin{lstlisting}[frame=none,language=bash,caption={Explicación Instalación 3},basicstyle=\large,label={lst:exp3}]
+cd ~
+git clone https://github.com/garfio1/Proyecto-Fin-de-Grado.git
+\end{lstlisting}
+
+En el siguiente paso se ha copiado la línea de instalación de dependencias de la Wiki\cite{Wiki} de Github para instalar Caffe. Esto instalará todas las dependencias necesarias para Caffe.
+\begin{lstlisting}[frame=none,language=bash,caption={Explicación Instalación 4},basicstyle=\large,label={lst:exp4}]
+apt-get install -y libprotobuf-dev libleveldb-dev libsnappy-dev libopencv-dev libboost-all-dev libhdf5-serial-dev protobuf-compiler gfortran libjpeg62 libfreeimage-dev libatlas-base-dev git python-dev python-pip libgoogle-glog-dev libbz2-dev libxml2-dev libxslt-dev libffi-dev libssl-dev libgflags-dev liblmdb-dev python-yaml
+easy_install pillow
+\end{lstlisting}
+
+Ahora se procede a clonar Caffe\cite{jia2014caffe} en nuestro directorio principal de instalación.
+\begin{lstlisting}[frame=none,language=bash,caption={Explicación Instalación 5},basicstyle=\large,label={lst:exp5}]
+cd ~
+git clone https://github.com/BVLC/caffe.git
+\end{lstlisting}
+
+Ahora se instalan todos los requisitos para poder instalar PyCaffe, esto no debería ser necesario porque no usamos PyCaffe, pero la evolución del proyecto NeuralTalk apunta a que acabará usando esta librería de Caffe para Python, así que se instala aquí también para tener trabajo ya hecho.
+\begin{lstlisting}[frame=none,language=bash,caption={Explicación Instalación 5},basicstyle=\large,label={lst:exp5}]
+cd caffe
+cat python/requirements.txt | xargs -L 1 sudo pip install
+\end{lstlisting}
+
+Ahora se procede a hacer unos enlaces con los nombres de las librerías Python para que PyCaffe funcione de manera adecuada y correcta.
+
+\begin{lstlisting}[frame=none,language=bash,caption={Explicación Instalación 6},basicstyle=\large,label={lst:exp6}]
+sudo ln -s /usr/include/python2.7/ /usr/local/include/python2.7
+sudo ln -s /usr/local/lib/python2.7/dist-packages/numpy/core/include/numpy/ /usr/local/include/python2.7/numpy
+\end{lstlisting}
+
+En el siguiente paso el programa de instalación supone que has seguido todos los pasos hasta ahora como se han ido comentando y sustituye el Makefile.config de Caffe por el que viene en el proyecto. Puesto que si has instalado las cosas según se han ido comentando, este archivo debería servirte para poder hacer los \textit{make} (instalación a través de un Makefile) de Caffe.
+\begin{lstlisting}[frame=none,language=bash,caption={Explicación Instalación 7},basicstyle=\large,label={lst:exp7}]
+rm ~/caffe/Makefile.config
+cp ~/Proyecto-Fin-de-Grado/servidor/Install/Makefile.config ~/caffe
+\end{lstlisting}
+
+Finalmente se ejecuta la instalación de Caffe a través de la herramienta make, se instalan tanto MatCaffe como PyCaffe.
+\begin{lstlisting}[frame=none,language=bash,caption={Explicación Instalación 8},basicstyle=\large,label={lst:exp8}]
+make pycaffe
+make matcaffe
+make all
+make test
+\end{lstlisting}
+
+En este punto nos falta el clonado del proyecto NeuralTalk en nuestra máquina, por tanto, es lo que se procede a hacer en el penúltimo paso de la instalación
+\begin{lstlisting}[frame=none,language=bash,caption={Explicación Instalación 9},basicstyle=\large,label={lst:exp9}]
+cd ~
+git clone https://github.com/karpathy/neuraltalk.git
+\end{lstlisting}
+
+Finalmente nos resta únicamente instalar las librerías específicas usadas en el servidor para pasar a la configuración del proyecto para que funcione de manera adecuada.
+\begin{lstlisting}[frame=none,language=bash,caption={Explicación Instalación 10},basicstyle=\large,label={lst:exp10}]
+pip install beautifulsoup
+pip install flask
+\end{lstlisting}
+
+Con esto tenemos instalado en nuestra máquina todas las herramientas necesarias para el funcionamiento del servidor. Ahora hay que pasar a la configuración  del mismo. Como se ha explicado en el apartado de Aspectos Relevantes (\ref{chap:AspectosRelevantes}), la configuración no ha sido nada sencilla; pero se ha preparado para que ahora sea mucho más sencilla y rápida.
+\section{Configuración del Servidor}
+En este paso se procederá a explicar cómo se configura el servidor para que funcione, ahora resulta una tarea bastante sencilla porque se han preparado una serie de variables y ficheros para que esto sea así.
+
+En primer lugar, y lo más importante, es tener claro el directorio principal de la instalación, pues todas las herramientas deberían estar instaladas en él. Si se ha seguido correctamente los pasos y se h mantenido el mismo directorio principal de instalación, deberías ser capaz de obtenerlo con la siguiente secuencia de comandos:
+\begin{lstlisting}[frame=none,language=bash,caption={Configurando el servidor 1},basicstyle=\large,label={lst:conf1}]
+cd ~
+pwd
+\end{lstlisting}
+\figura{1}{imgs/Paso1.png}{Comprobando directorio principal de instalación}{dirPrin}{}
+El resultante de ejecutar los anteriores comandos es una cadena de caracteres que te comunican cuál es el directorio principal de la instalación, por ejemplo a mi me devuelve ``/home/bryan'', como se puede ver en la imagen \ref{dirPrin}.
+
+Antes de continuar con la instalación, debemos cambiar los permisos de las carpetas NeuralTalk y Proyecto-Fin-de-Grado para poder hacer la configuración sobre ellas,  esto se hace de la siguiente manera:
+lugar ejecutaremos el siguiente comando para empezar con la configuración:
+\begin{lstlisting}[frame=none,language=bash,caption={Configurando el servidor 2},basicstyle=\large,label={lst:conf2}]
+chmod -R 777 ~/Proyecto-Fin-de-Grado
+chmod -R 777 ~/neuraltalk
+\end{lstlisting}
+
+Una vez se ha detectado este directorio, podemos empezar con la configuración del servidor. En primer lugar ejecutaremos el siguiente comando para empezar con la configuración:
+\begin{lstlisting}[frame=none,language=bash,caption={Configurando el servidor 3},basicstyle=\large,label={lst:conf3}]
+cd ~/Proyecto-Fin-de-Grado/servidor
+\end{lstlisting}
+Con el anterior comando nos situamos en la carpeta en la que tendremos el primer documento a modificar. Tendremos que abrir con un editor de texto el archivo ``serv.py'' que nos encontramos en dicha carpeta. Podemos hacerlo con el siguiente comando si queremos, aunque el procesador de texto es a elección del usuario:
+\begin{lstlisting}[frame=none,language=bash,caption={Configurando el servidor 4},basicstyle=\large,label={lst:conf4}]
+vi serv.py
+\end{lstlisting}
+Una vez tengamos abierto el archivo, deberemos localizar dos líneas en concreto. Las líneas a localizar con en las que se define la ruta del directorio principal de instalación y en la que se define el usuario definido en la licencia de MATLAB. Podemos ver las líneas a continuación:
+\begin{lstlisting}[frame=none,language=Python,caption={Configurando el servidor 5},basicstyle=\large,label={lst:conf5}]
+#Deberían estar en las líneas 12 y 24 respectivamente pero si no lo están sólo busca lo siguiente:
+ROOT='/home/bryan'
+
+USER='bryan'
+\end{lstlisting}
+Una vez hemos localizado las líneas anteriores, en la constante ``ROOT'' deberás poner el directorio que obtuviste en \ref{lst:conf1} o tu directorio principal de instalación, el código está preparado para que, si has instalado las herramientas en el directorio correcto, no tengas que modificar más variables ni que estar picando el código en busca de problemas; y en la constante ``USER'', deberás poner el nombre de usuario que utilizaste al realizar el paso de Activación de MATLAB(\ref{ActMATLAB}). Con estas modificaciones ya hemos configurado la mitad del servidor, sólo nos queda ahora hacer las modificaciones pertinentes para que la herramienta NeuralTalk funcione en nuestra máquina.
+
+Para empezar, junto con el proyecto se facilita una copia del archivo ``extract\_ features.m'' de NeuralTalk, sólo que este archivo está modificado para que la configuración se muy sencilla. Lo que haremos será borrar el archivo que viene por defecto junto con la herramienta NeuralTalk y se copiará el que viene adjunto con el proyecto, lo haremos de la siguiente manera:
+\begin{lstlisting}[frame=none,language=bash,caption={Configurando el servidor 6},basicstyle=\large,label={lst:conf6}]
+rm ~/neuraltalk/matlab_features_reference/extract_features.m
+cp ~/Proyecto-Fin-de-Grado/servidor/Install/extract_features.m ~/neuraltalk/matlab_features_reference/
+\end{lstlisting}
+
+Ahora debemos dirigirnos a la carpeta en la que acabamos de copiar el fichero y abrirlo para proceder a modificarlo, esto se puede hacer vía comandos de shell o puede el usuario abrirlo con cualquier procesador de texto que el prefiera:
+\begin{lstlisting}[frame=none,language=bash,caption={Configurando el servidor 7},basicstyle=\large,label={lst:conf7}]
+cd ~/neuraltalk/matlab_features_reference/
+vi extract_features.m
+\end{lstlisting}
+
+Una vez tenemos el fichero abierto para su modificación debemos buscar una línea si estamos en una máquina anfitriona, dos si estamos en una máquina virtual:
+\begin{lstlisting}[frame=none,language=Matlab,caption={Configurando el servidor 8},basicstyle=\large,label={lst:conf8}]
+%Si estamos en máquina virtual buscamos también la siguiente línea, típicamente está en la línea 3:
+use_gpu = 1;
+
+%Debería estar en la línea 5
+root='/home/bryan';
+\end{lstlisting}
+
+Si nos encontramos en una máquina virtual, la variable ``use\_ gpu''  deberíamos ponerla con el valor  0. Mientras que lo siguiente se hace tanto para máquina virtual como para máquina anfitriona, se cambiará la variable ``root'' por el directorio que se obtuvo en \ref{lst:conf1}.
+
+Con esto ya tenemos hecho las modificaciones pertinentes para que el servidor funcione correctamente, sólo nos queda descargar un fichero necesario para la ejecución del \textit{script} de MATLAB. El fichero en cuestión será descargado de la siguiente manera:
+\begin{lstlisting}[frame=none,language=Matlab,caption={Configurando el servidor 9},basicstyle=\large,label={lst:conf9}]
+cd ~/Proyecto-Fin-de-Grado/servidor/uploads
+wget "http://www.robots.ox.ac.uk/~vgg/software/very_deep/caffe/VGG_ILSVRC_16_layers.caffemodel"
+\end{lstlisting}
+
+Ahora ya podemos ejecutar el servidor, para ello podremos ejecutar los siguientes comandos:
+\begin{lstlisting}[frame=none,language=Matlab,caption={Ejecutando el servidor},basicstyle=\large,label={lst:ex}]
+cd ~/Proyecto-Fin-de-Grado/servidor
+sudo python serv.py
+\end{lstlisting}

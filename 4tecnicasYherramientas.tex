@@ -83,8 +83,7 @@ Lamentablemente su funcionamiento e instalación son algo enrevesadas y requiere 
 Aunque cabe destacar que se uso la herramienta DeepBeliefSDK\footnoteref{note4} en gran parte del proyecto, puesto que sus pruebas fueron correctas y funcionaba de manera bastante adecuada. Pero finalmente desistimos de su uso como herramienta principal debido a que al intentar combinarlo con la herramienta GSOAP\footnote{\label{note5}\url{http://www.cs.fsu.edu/~engelen/soap.html}}, acabo no teniendo un correcto funcionamiento debido a que el módulo de GSOAP\footnoteref{note5} para Apache no era bueno y su documentación bastante floja. Esto está explicado de forma mucho más detallada en el apartado de Aspectos Relevantes (\ref{subchap:RelevGSOAP}).
 
 \subsection{Herramientas de Deep Learning: Caffe}
-
-Esta herramienta es usada en nuestro proyecto debido a que la herramienta NeuralTalk tiene dependencia de este proyecto para extraer características de las imágenes y luego poder realizar una predicción con ellas.
+Esta herramienta\cite{jia2014caffe} es usada en nuestro proyecto debido a que la herramienta NeuralTalk tiene dependencia de este proyecto para extraer características de las imágenes y luego poder realizar una predicción con ellas.
 Además este proyecto está bien estructurado y en si se sigue correctamente su documentación es relativamente fácil de instalar.
 Caffe es un arquitectura para el \textit{deep learning} que está programada en C++ puro y en CUDA, pero también se puede usar en línea de comandos en un sistema Unix y cuenta con \textit{wrappers} para Python y MATLAB.
 Sus principales características que lo convierten en un proyecto que destaca sobre los demás son:

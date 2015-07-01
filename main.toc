@@ -18,7 +18,7 @@
 \contentsline {subsection}{\numberline {3.3.1}Convolutional Neural Networks o Redes Neuronales Convolucionales}{10}{subsection.29}
 \contentsline {subsubsection}{Visi\'on Global de la arquitectura de las CNNs}{10}{subsubsection*.31}
 \contentsline {subsubsection}{Ejemplo de una CNN}{11}{subsubsection*.32}
-\contentsline {subsection}{\numberline {3.3.2}Recurrent Neural Networks o Redes Neuronales Recurrentes}{12}{subsection.34}
+\contentsline {subsection}{\numberline {3.3.2}Recurrent Neural Networks o Redes Neuronales Recurrentes}{11}{subsection.34}
 \contentsline {subsubsection}{Visi\'on global de la arquitectura de las RNNs}{12}{subsubsection*.36}
 \contentsline {chapter}{\numberline {4}T\'ecnicas y herramientas}{15}{chapter.38}
 \contentsline {section}{\numberline {4.1}T\'ecnicas de desarrollo}{15}{section.39}
@@ -98,45 +98,55 @@
 \contentsline {subsection}{\numberline {7.2.1}L\IeC {\'\i }neas de trabajo futuras en el aspecto te\'orico}{42}{subsection.152}
 \contentsline {subsubsection}{L\IeC {\'\i }neas de trabajo futuras en el aspecto te\'orico}{42}{subsubsection*.153}
 \contentsline {chapter}{Anexos}{42}{subsubsection*.153}
-\contentsline {chapter}{\numberline {I}Plan del proyecto software}{43}{chapter.154}
-\contentsline {section}{\numberline {I.1}Introducci\'on}{43}{section.155}
-\contentsline {subsection}{\numberline {I.1.1}Problemas encontrados}{43}{subsection.157}
-\contentsline {section}{\numberline {I.2}Planificaci\'on temporal del proyecto}{43}{section.160}
-\contentsline {subsection}{\numberline {I.2.1}Sprint 1:23 de Diciembre al 12 de Febrero}{43}{subsection.161}
-\contentsline {paragraph}{}{43}{paragraph*.162}
-\contentsline {subsection}{\numberline {I.2.2}Sprint 2:12 de Febrero al 26 de Febrero}{44}{subsection.163}
-\contentsline {subsection}{\numberline {I.2.3}Sprint 3:26 de Febrero al 6 de Marzo}{44}{subsection.167}
-\contentsline {paragraph}{}{44}{paragraph*.172}
-\contentsline {subsection}{\numberline {I.2.4}Sprint 4:6 de Marzo al 13 de Marzo}{45}{subsection.177}
-\contentsline {paragraph}{}{45}{paragraph*.179}
-\contentsline {paragraph}{}{45}{paragraph*.181}
-\contentsline {paragraph}{}{45}{paragraph*.185}
-\contentsline {paragraph}{}{46}{paragraph*.187}
-\contentsline {subsection}{\numberline {I.2.5}Sprint 5:13 de Marzo al 27 de Marzo}{46}{subsection.188}
-\contentsline {subsection}{\numberline {I.2.6}Sprint 6: 28 de Marzo al 22 de Abril}{47}{subsection.199}
-\contentsline {paragraph}{}{48}{paragraph*.203}
-\contentsline {subsection}{\numberline {I.2.7}Sprint 7: 22 de Abril al 27 de Abril}{49}{subsection.204}
-\contentsline {paragraph}{}{49}{paragraph*.205}
-\contentsline {subsection}{\numberline {I.2.8}Sprint 8: 27 de Abril al 8 de Mayo}{50}{subsection.207}
-\contentsline {subsection}{\numberline {I.2.9}Sprint 9: 9 de Mayo al 15 de Mayo}{52}{subsection.209}
-\contentsline {subsection}{\numberline {I.2.10}Sprint 10: 15 de Mayo al 5 de Junio}{53}{subsection.212}
-\contentsline {chapter}{\numberline {II}Especificaci\'on de requisitos}{55}{chapter.215}
-\contentsline {section}{\numberline {II.1}Introducci\'on}{55}{section.216}
-\contentsline {section}{\numberline {II.2}Requisitos Funcionales}{55}{section.217}
-\contentsline {subsection}{\numberline {II.2.1}Requisitos Funcionales en el Servidor}{55}{subsection.218}
-\contentsline {subsection}{\numberline {II.2.2}Requisitos Funcionales en el Cliente}{55}{subsection.219}
-\contentsline {section}{\numberline {II.3}Diagrama de casos de uso}{56}{section.220}
-\contentsline {chapter}{\numberline {III}Especificaci\'on de dise\~no}{61}{chapter.226}
-\contentsline {chapter}{\numberline {IV}Manual del programador}{63}{chapter.227}
-\contentsline {section}{\numberline {IV.1}Instalaci\'on del JDK}{63}{section.228}
-\contentsline {paragraph}{}{63}{paragraph*.229}
-\contentsline {paragraph}{}{63}{paragraph*.234}
-\contentsline {section}{\numberline {IV.2}Instalaci\'on de Android Studio}{63}{section.236}
-\contentsline {paragraph}{}{63}{paragraph*.237}
-\contentsline {paragraph}{}{67}{paragraph*.244}
-\contentsline {paragraph}{}{67}{paragraph*.245}
-\contentsline {paragraph}{}{67}{paragraph*.246}
-\contentsline {paragraph}{}{67}{paragraph*.247}
-\contentsline {paragraph}{}{67}{paragraph*.248}
-\contentsline {chapter}{\numberline {V}Manual del usuario}{69}{chapter.249}
-\contentsline {chapter}{Bibliograf\IeC {\'\i }\discretionary {-}{}{}a}{71}{chapter.249}
+\contentsline {chapter}{\numberline {I}Plan del proyecto software}{45}{chapter.154}
+\contentsline {section}{\numberline {I.1}Introducci\'on}{45}{section.155}
+\contentsline {subsection}{\numberline {I.1.1}Problemas encontrados}{45}{subsection.157}
+\contentsline {section}{\numberline {I.2}Planificaci\'on temporal del proyecto}{45}{section.160}
+\contentsline {subsection}{\numberline {I.2.1}Sprint 1:23 de Diciembre al 12 de Febrero}{45}{subsection.161}
+\contentsline {paragraph}{}{45}{paragraph*.162}
+\contentsline {subsection}{\numberline {I.2.2}Sprint 2:12 de Febrero al 26 de Febrero}{46}{subsection.163}
+\contentsline {subsection}{\numberline {I.2.3}Sprint 3:26 de Febrero al 6 de Marzo}{46}{subsection.167}
+\contentsline {paragraph}{}{46}{paragraph*.172}
+\contentsline {subsection}{\numberline {I.2.4}Sprint 4:6 de Marzo al 13 de Marzo}{47}{subsection.177}
+\contentsline {paragraph}{}{47}{paragraph*.179}
+\contentsline {paragraph}{}{47}{paragraph*.181}
+\contentsline {paragraph}{}{47}{paragraph*.185}
+\contentsline {paragraph}{}{48}{paragraph*.187}
+\contentsline {subsection}{\numberline {I.2.5}Sprint 5:13 de Marzo al 27 de Marzo}{48}{subsection.188}
+\contentsline {subsection}{\numberline {I.2.6}Sprint 6: 28 de Marzo al 22 de Abril}{49}{subsection.199}
+\contentsline {paragraph}{}{50}{paragraph*.203}
+\contentsline {subsection}{\numberline {I.2.7}Sprint 7: 22 de Abril al 27 de Abril}{51}{subsection.204}
+\contentsline {paragraph}{}{51}{paragraph*.205}
+\contentsline {subsection}{\numberline {I.2.8}Sprint 8: 27 de Abril al 8 de Mayo}{52}{subsection.207}
+\contentsline {subsection}{\numberline {I.2.9}Sprint 9: 9 de Mayo al 15 de Mayo}{54}{subsection.209}
+\contentsline {subsection}{\numberline {I.2.10}Sprint 10: 15 de Mayo al 5 de Junio}{55}{subsection.212}
+\contentsline {chapter}{\numberline {II}Especificaci\'on de requisitos}{59}{chapter.215}
+\contentsline {section}{\numberline {II.1}Introducci\'on}{59}{section.216}
+\contentsline {section}{\numberline {II.2}Requisitos Funcionales}{59}{section.217}
+\contentsline {subsection}{\numberline {II.2.1}Requisitos Funcionales en el Servidor}{59}{subsection.218}
+\contentsline {subsection}{\numberline {II.2.2}Requisitos Funcionales en el Cliente}{59}{subsection.219}
+\contentsline {section}{\numberline {II.3}Diagrama de casos de uso}{60}{section.220}
+\contentsline {chapter}{\numberline {III}Especificaci\'on de dise\~no}{69}{chapter.230}
+\contentsline {section}{\numberline {III.1}Introducci\'on}{69}{section.231}
+\contentsline {section}{\numberline {III.2}Dise\~no en el Servidor}{69}{section.232}
+\contentsline {subsection}{\numberline {III.2.1}API RESTful}{69}{subsection.233}
+\contentsline {chapter}{\numberline {IV}Manual del programador}{73}{chapter.249}
+\contentsline {section}{\numberline {IV.1}Instalaci\'on del JDK}{73}{section.250}
+\contentsline {paragraph}{}{73}{paragraph*.251}
+\contentsline {paragraph}{}{73}{paragraph*.256}
+\contentsline {section}{\numberline {IV.2}Instalaci\'on de Android Studio}{73}{section.258}
+\contentsline {paragraph}{}{73}{paragraph*.259}
+\contentsline {paragraph}{}{77}{paragraph*.266}
+\contentsline {paragraph}{}{77}{paragraph*.267}
+\contentsline {paragraph}{}{77}{paragraph*.268}
+\contentsline {paragraph}{}{77}{paragraph*.269}
+\contentsline {paragraph}{}{77}{paragraph*.270}
+\contentsline {section}{\numberline {IV.3}SDK Manager, instalando herramientas}{77}{section.271}
+\contentsline {section}{\numberline {IV.4}Importando Cliente en Android Studio}{79}{section.274}
+\contentsline {section}{\numberline {IV.5}Instalaci\'on de Matlab}{81}{section.279}
+\contentsline {subsection}{\numberline {IV.5.1}Activar MATLAB}{82}{subsection.287}
+\contentsline {section}{\numberline {IV.6}Instalaci\'on de CUDA}{84}{section.290}
+\contentsline {section}{\numberline {IV.7}Instalando Servidor y sus Dependencias}{86}{section.317}
+\contentsline {section}{\numberline {IV.8}Configuraci\'on del Servidor}{88}{section.362}
+\contentsline {chapter}{\numberline {V}Manual del usuario}{95}{chapter.397}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }\discretionary {-}{}{}a}{97}{chapter.397}

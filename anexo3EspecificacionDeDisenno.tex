@@ -1,0 +1,36 @@
+\section{Introducción}
+En este apartado se procederá a explicar las especificaciones de diseño que se han ido utilizando para el desarrollo de la aplicación.
+
+
+\section{Diseño en el Servidor}
+En primer lugar se introducirá las especificaciones que se han seguido para desarrollar el servidor.
+\subsection{API RESTful}
+Se ha construido el servidor de manera que siga, en la medida de lo posible, las especificaciones de la API RESTful. Esto se puede observar en el hecho de que se ha usado Flask para programar el servidor, que es un \textit{framework} que permite la programación de peticiones de la API RESTful de manera muy sencilla. Además, tiene soporte para el uso de urls a la hora de trabajar con peticiones y funciones.
+
+En el servidor se ha trabajado sólo con una url, la url principal del servidor. En la imagen (\ref{lst:URL}) se puede observar cómo se ha definido la url base para el servidor. Además podemos ver que esta soporta dos tipos de métodos, o bien la petición de tipo GET, o bien la petición de tipo POST.
+\begin{lstlisting}[frame=none,language=Python,caption={Url única y principal del servidor},basicstyle=\large,label={lst:URL}]
+@app.route("/", methods=['GET', 'POST'])
+def index():
+\end{lstlisting}
+Si nos fijamos, tenemos una función justo debajo de la notación ``app.route'', esto implica que al acceder a esa url, se ejecuta esta función y es ahí donde se determina qué hace el servidor en cada caso.
+
+En el servidor, la función trata de manera predeterminada la petición como una petición de tipo GET, así que habrá que tratar el método POST de alguna manera (\ref{lst:POST}).
+\begin{lstlisting}[frame=none,language=Python,caption={Tratando el método POST},basicstyle=\large,label={lst:POST}]
+if request.method == 'POST':
+	#Aquí lo que se haría si es método POST
+	return "la respuesta de la operación"
+#Aquí lo que se haría si es método GET
+return "respuesta de un método GET"
+\end{lstlisting}
+EL objeto ``request'' es un objeto que usa Flask internamente y representa la petición que se está recibiendo. Para acceder a qué tipo de petición es, accedemos a su variable ``method'' en la que obtendremos la respuesta y con este valor se trabaja la petición POST.
+
+Para asegurar la seguridad del sistema se ha usado una lista (\ref{lst:TIPOS}) de tipo de archivos admisibles por el servidor, lo que impide que se nos mande archivos maliciosos con extensiones extrañas, pues si el archivo tiene una extensión incorrecta este descarta la petición.
+\begin{lstlisting}[frame=none,language=Python,caption={Tipos admitidos por el servidor},basicstyle=\large,label={lst:TIPOS}]
+ALLOWED_EXTENSIONS = set(['jpg','JPG','jpeg','JPEG'])
+\end{lstlisting}
+Posteriormente se define una función que se encarga de comprobar si el tipo es uno de los permitidos y si se cumple la condición, entonces se continúa el proceso, de lo contrario se descarta el archivo recibido.
+\begin{lstlisting}[frame=none,language=Python,caption={Comprobando tipos},basicstyle=\large,label={lst:FLAG}]
+def allowed_file(filename):
+    return '.' in filename and \
+           filename.rsplit('.', 1)[1] in ALLOWED_EXTENSIONS
+\end{lstlisting}

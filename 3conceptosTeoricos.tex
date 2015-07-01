@@ -46,7 +46,7 @@ La definición de aprendizaje profundo o \textit{machine learning} no está muy cl
 Los algoritmos de aprendizaje profundo contrastan con los algoritmos de aprendizaje poco profundo por el número de transformaciones aplicadas a la señal mientras se propaga desde la capa de entrada a la capa de salida. Cada una de estas transformaciones incluye parámetros que se pueden entrenar como pesos y umbrales. No existe un estándar de facto para el número de transformaciones (o capas) que convierte a un algoritmo en profundo, pero la mayoría de investigadores en el campo considera que aprendizaje profundo implica más de dos transformaciones intermedias.
 \subsection{Servicio Web}
 \label{ConTeoServicioWeb}
-Se trata de una tecnología que nos permite el correcto intercambio de datos entre distintas aplicaciones, para esto usa una serie de protocolos y estándares. El objetivo principal al usar este tipo de tecnología es conseguir que aplicaciones que trabajan en con distintos software, distinto idioma de programación, distinta localización e incluso con distinta plataforma de instalación; puedan comunicarse de manera adecuada y correcta consiguiendo que el paso de datos de una a otra sea posible no sólo de manera adecuada sino, también, correcta. Para conseguir este objetivo, los servicios web utilizan estándares abiertos, osea, que es accesible para todos.\footnote{\url{https://es.wikipedia.org/wiki/Servicio_web}}
+Se trata de una tecnología que nos permite el correcto intercambio de datos entre distintas aplicaciones, para esto usa una serie de protocolos y estándares. El objetivo principal al usar este tipo de tecnología es conseguir que aplicaciones que trabajan en con distintos software, distinto idioma de programación, distinta localización e incluso con distinta plataforma de instalación; puedan comunicarse de manera adecuada y correcta consiguiendo que el paso de datos de una a otra sea posible no sólo de manera adecuada sino, también, correcta. Para conseguir este objetivo, los servicios web utilizan estándares abiertos, osea, que es accesible para todos.\footnote{\url{https://es.wikipedia.org/wiki/Servicio_web}}\cite{wiki:ServW}
 
 Entre estos estándares los más relevantes con el proyecto y su desarrollo han sido:
 \begin{itemize}
@@ -59,7 +59,7 @@ Entre estos estándares los más relevantes con el proyecto y su desarrollo han si
 \subsection{Funcionamiento de las librerías Text2Speech}
 \label{ConTeoTTS}
 Se tiene la intención de usar una librería para que el dispositivo lea las frases deseadas en voz alta, para esto se usa una librería del tipo \textit{text to speech}. Este tipo de librerías lo que hace es procesar los datos que se quieren leer y convertirlo en un clip de audio, en el que podemos escuchar una voz que lee lo deseado.
-\figura{1}{imgs/TTS.png}{Gráfico de librería \textit{Text to Speech}}{TTS}{}
+\figura{1}{imgs/TTS.png}{Gráfico de librería \textit{Text to Speech\cite{addison2005text}}}{TTS}{}
 
 Para entender el funcionamiento de este tipo de librerías se ayuda de un pequeño gráfico (\ref{TTS})\footnote{\url{https://www.google.com/patents/US6865533}}, además se procede a poner una serie de pasos a través de los cuáles tienen que pasar los datos para llegar al clip final:
 \begin{itemize}
@@ -93,12 +93,12 @@ Vamos a ver un pequeño ejemplo, aunque se detallará la explicación de las capas 
 	\item \textbf{POOL:} Esta capa hará un cómputo que reducirá la resolución de la matriz, lo que deja la matriz con tamaño [16X16X12].
 	\item \textbf{FC:} (\textit{fully-connected} o completamente conectada) Esta capa los resultados de clases, lo que provoca una matriz de tamaño [1X1X10], donde cada uno de los 10 números se corresponde con el resultado para cada clase.
 \end{itemize}
-\figura{1}{imgs/convnet.jpeg}{Gráfico de una CNN \cite{CNN}}{CNN}{}
+\figura{1}{imgs/convnet.jpeg}{Gráfico de una CNN \cite{cs231nConv}}{CNN}{}
 
 Por lo tanto, la CNN transforma la imagen original en una matriz de resultados para cada clase, que contiene la probabilidad de que la imagen de entrada pertenezca a esa clase. Para verlo de manera gráfica podemos ver la imagen \ref{CNN}.
 
 \subsection{Recurrent Neural Networks o Redes Neuronales Recurrentes}
-En el siguiente apartado se procede a explicar las Redes Neuronales Recurrentes \footnote{\url{http://karpathy.github.io/2015/05/21/rnn-effectiveness/}}, RNN a partir de ahora. Esta clase de redes se usan en varios de los artículos que se procederá a explicar en el apartado de Estado del Arte (\ref{chap:EstadoArte}).
+En el siguiente apartado se procede a explicar las Redes Neuronales Recurrentes \footnote{\url{http://karpathy.github.io/2015/05/21/rnn-effectiveness/}}\cite{cs231nRec}, RNN a partir de ahora. Esta clase de redes se usan en varios de los artículos que se procederá a explicar en el apartado de Estado del Arte (\ref{chap:EstadoArte}).
 
 Las RNNs se consideran un caso especial de redes neuronales también, esto se debe a que en general las redes neuronales tienen un conexión entre las capas de tal manera que la comunicación entre capas se hace sólo hacia delante. Por otro lado, las RNNs permiten conexiones recurrentes entre las distintas capas, esto significa que la información ya no viaja sólo en dirección hacia delante sino que existe una propagación de esta información hacia atrás (\textit{back-propagation}). El hecho de permitir que exista este tipo de conexiones entre las distintas capas de la red neuronal añade un elemento temporal a la red, entonces esta puede predecir eventos adelante en el tiempo.
 

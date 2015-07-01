@@ -291,7 +291,7 @@ en Universidad de Burgos --- Julio de 2014\\
  \end{center}%
  % Directores
  \begin{textblock*}{13cm}(3.7cm, 25.5cm)%
-  {\noindent\sffamily\Large\bf \@director{}}\\%
+  {\noindent\sffamily\Large\bf \@tutor{}}\\%
  \end{textblock*}%
 \end{titlepage}
 }
