@@ -70,25 +70,30 @@
 \BOOKMARK [2][-]{subsection.207}{Sprint 8: 27 de Abril al 8 de Mayo}{section.160}% 70
 \BOOKMARK [2][-]{subsection.209}{Sprint 9: 9 de Mayo al 15 de Mayo}{section.160}% 71
 \BOOKMARK [2][-]{subsection.212}{Sprint 10: 15 de Mayo al 5 de Junio}{section.160}% 72
-\BOOKMARK [0][-]{chapter.215}{Especificaci\363n de requisitos}{}% 73
-\BOOKMARK [1][-]{section.216}{Introducci\363n}{chapter.215}% 74
-\BOOKMARK [1][-]{section.217}{Requisitos Funcionales}{chapter.215}% 75
-\BOOKMARK [2][-]{subsection.218}{Requisitos Funcionales en el Servidor}{section.217}% 76
-\BOOKMARK [2][-]{subsection.219}{Requisitos Funcionales en el Cliente}{section.217}% 77
-\BOOKMARK [1][-]{section.220}{Diagrama de casos de uso}{chapter.215}% 78
-\BOOKMARK [0][-]{chapter.230}{Especificaci\363n de dise\361o}{}% 79
-\BOOKMARK [1][-]{section.231}{Introducci\363n}{chapter.230}% 80
-\BOOKMARK [1][-]{section.232}{Dise\361o en el Servidor}{chapter.230}% 81
-\BOOKMARK [2][-]{subsection.233}{API RESTful}{section.232}% 82
-\BOOKMARK [0][-]{chapter.249}{Manual del programador}{}% 83
-\BOOKMARK [1][-]{section.250}{Instalaci\363n del JDK}{chapter.249}% 84
-\BOOKMARK [1][-]{section.258}{Instalaci\363n de Android Studio}{chapter.249}% 85
-\BOOKMARK [1][-]{section.271}{SDK Manager, instalando herramientas}{chapter.249}% 86
-\BOOKMARK [1][-]{section.274}{Importando Cliente en Android Studio}{chapter.249}% 87
-\BOOKMARK [1][-]{section.279}{Instalaci\363n de Matlab}{chapter.249}% 88
-\BOOKMARK [2][-]{subsection.287}{Activar MATLAB}{section.279}% 89
-\BOOKMARK [1][-]{section.290}{Instalaci\363n de CUDA}{chapter.249}% 90
-\BOOKMARK [1][-]{section.317}{Instalando Servidor y sus Dependencias}{chapter.249}% 91
-\BOOKMARK [1][-]{section.362}{Configuraci\363n del Servidor}{chapter.249}% 92
-\BOOKMARK [0][-]{chapter.397}{Manual del usuario}{}% 93
-\BOOKMARK [0][-]{chapter.397}{Bibliograf\355a}{}% 94
+\BOOKMARK [2][-]{subsection.215}{Sprint 11: 6 de Junio al 20 de Junio}{section.160}% 73
+\BOOKMARK [2][-]{subsection.216}{Sprint 12: 21 de Junio a 30 de Junio}{section.160}% 74
+\BOOKMARK [0][-]{chapter.218}{Especificaci\363n de requisitos}{}% 75
+\BOOKMARK [1][-]{section.219}{Introducci\363n}{chapter.218}% 76
+\BOOKMARK [1][-]{section.220}{Requisitos Funcionales}{chapter.218}% 77
+\BOOKMARK [2][-]{subsection.221}{Requisitos Funcionales en el Servidor}{section.220}% 78
+\BOOKMARK [2][-]{subsection.222}{Requisitos Funcionales en el Cliente}{section.220}% 79
+\BOOKMARK [1][-]{section.223}{Diagrama de casos de uso}{chapter.218}% 80
+\BOOKMARK [0][-]{chapter.233}{Especificaci\363n de dise\361o}{}% 81
+\BOOKMARK [1][-]{section.234}{Introducci\363n}{chapter.233}% 82
+\BOOKMARK [1][-]{section.235}{Dise\361o en el Servidor}{chapter.233}% 83
+\BOOKMARK [2][-]{subsection.236}{API RESTful}{section.235}% 84
+\BOOKMARK [0][-]{chapter.252}{Manual del programador}{}% 85
+\BOOKMARK [1][-]{section.253}{Instalaci\363n del JDK}{chapter.252}% 86
+\BOOKMARK [1][-]{section.261}{Instalaci\363n de Android Studio}{chapter.252}% 87
+\BOOKMARK [1][-]{section.274}{SDK Manager, instalando herramientas}{chapter.252}% 88
+\BOOKMARK [1][-]{section.277}{Importando Cliente en Android Studio}{chapter.252}% 89
+\BOOKMARK [1][-]{section.282}{Instalaci\363n de Matlab}{chapter.252}% 90
+\BOOKMARK [2][-]{subsection.290}{Activar MATLAB}{section.282}% 91
+\BOOKMARK [1][-]{section.293}{Instalaci\363n de CUDA}{chapter.252}% 92
+\BOOKMARK [1][-]{section.320}{Instalando Servidor y sus Dependencias}{chapter.252}% 93
+\BOOKMARK [1][-]{section.365}{Configuraci\363n del Servidor}{chapter.252}% 94
+\BOOKMARK [0][-]{chapter.400}{Manual del usuario}{}% 95
+\BOOKMARK [1][-]{section.401}{Introducci\363n}{chapter.400}% 96
+\BOOKMARK [2][-]{subsection.402}{Instalar Aplicaci\363n}{section.401}% 97
+\BOOKMARK [1][-]{section.406}{Uso de la aplicaci\363n}{chapter.400}% 98
+\BOOKMARK [0][-]{section.406}{Bibliograf\355a}{}% 99

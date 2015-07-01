@@ -120,33 +120,38 @@
 \contentsline {subsection}{\numberline {I.2.8}Sprint 8: 27 de Abril al 8 de Mayo}{52}{subsection.207}
 \contentsline {subsection}{\numberline {I.2.9}Sprint 9: 9 de Mayo al 15 de Mayo}{54}{subsection.209}
 \contentsline {subsection}{\numberline {I.2.10}Sprint 10: 15 de Mayo al 5 de Junio}{55}{subsection.212}
-\contentsline {chapter}{\numberline {II}Especificaci\'on de requisitos}{59}{chapter.215}
-\contentsline {section}{\numberline {II.1}Introducci\'on}{59}{section.216}
-\contentsline {section}{\numberline {II.2}Requisitos Funcionales}{59}{section.217}
-\contentsline {subsection}{\numberline {II.2.1}Requisitos Funcionales en el Servidor}{59}{subsection.218}
-\contentsline {subsection}{\numberline {II.2.2}Requisitos Funcionales en el Cliente}{59}{subsection.219}
-\contentsline {section}{\numberline {II.3}Diagrama de casos de uso}{60}{section.220}
-\contentsline {chapter}{\numberline {III}Especificaci\'on de dise\~no}{69}{chapter.230}
-\contentsline {section}{\numberline {III.1}Introducci\'on}{69}{section.231}
-\contentsline {section}{\numberline {III.2}Dise\~no en el Servidor}{69}{section.232}
-\contentsline {subsection}{\numberline {III.2.1}API RESTful}{69}{subsection.233}
-\contentsline {chapter}{\numberline {IV}Manual del programador}{73}{chapter.249}
-\contentsline {section}{\numberline {IV.1}Instalaci\'on del JDK}{73}{section.250}
-\contentsline {paragraph}{}{73}{paragraph*.251}
-\contentsline {paragraph}{}{73}{paragraph*.256}
-\contentsline {section}{\numberline {IV.2}Instalaci\'on de Android Studio}{73}{section.258}
-\contentsline {paragraph}{}{73}{paragraph*.259}
-\contentsline {paragraph}{}{77}{paragraph*.266}
-\contentsline {paragraph}{}{77}{paragraph*.267}
-\contentsline {paragraph}{}{77}{paragraph*.268}
-\contentsline {paragraph}{}{77}{paragraph*.269}
-\contentsline {paragraph}{}{77}{paragraph*.270}
-\contentsline {section}{\numberline {IV.3}SDK Manager, instalando herramientas}{77}{section.271}
-\contentsline {section}{\numberline {IV.4}Importando Cliente en Android Studio}{79}{section.274}
-\contentsline {section}{\numberline {IV.5}Instalaci\'on de Matlab}{81}{section.279}
-\contentsline {subsection}{\numberline {IV.5.1}Activar MATLAB}{82}{subsection.287}
-\contentsline {section}{\numberline {IV.6}Instalaci\'on de CUDA}{84}{section.290}
-\contentsline {section}{\numberline {IV.7}Instalando Servidor y sus Dependencias}{86}{section.317}
-\contentsline {section}{\numberline {IV.8}Configuraci\'on del Servidor}{88}{section.362}
-\contentsline {chapter}{\numberline {V}Manual del usuario}{95}{chapter.397}
-\contentsline {chapter}{Bibliograf\IeC {\'\i }\discretionary {-}{}{}a}{97}{chapter.397}
+\contentsline {subsection}{\numberline {I.2.11}Sprint 11: 6 de Junio al 20 de Junio}{56}{subsection.215}
+\contentsline {subsection}{\numberline {I.2.12}Sprint 12: 21 de Junio a 30 de Junio}{56}{subsection.216}
+\contentsline {chapter}{\numberline {II}Especificaci\'on de requisitos}{61}{chapter.218}
+\contentsline {section}{\numberline {II.1}Introducci\'on}{61}{section.219}
+\contentsline {section}{\numberline {II.2}Requisitos Funcionales}{61}{section.220}
+\contentsline {subsection}{\numberline {II.2.1}Requisitos Funcionales en el Servidor}{61}{subsection.221}
+\contentsline {subsection}{\numberline {II.2.2}Requisitos Funcionales en el Cliente}{61}{subsection.222}
+\contentsline {section}{\numberline {II.3}Diagrama de casos de uso}{62}{section.223}
+\contentsline {chapter}{\numberline {III}Especificaci\'on de dise\~no}{71}{chapter.233}
+\contentsline {section}{\numberline {III.1}Introducci\'on}{71}{section.234}
+\contentsline {section}{\numberline {III.2}Dise\~no en el Servidor}{71}{section.235}
+\contentsline {subsection}{\numberline {III.2.1}API RESTful}{71}{subsection.236}
+\contentsline {chapter}{\numberline {IV}Manual del programador}{75}{chapter.252}
+\contentsline {section}{\numberline {IV.1}Instalaci\'on del JDK}{75}{section.253}
+\contentsline {paragraph}{}{75}{paragraph*.254}
+\contentsline {paragraph}{}{75}{paragraph*.259}
+\contentsline {section}{\numberline {IV.2}Instalaci\'on de Android Studio}{75}{section.261}
+\contentsline {paragraph}{}{75}{paragraph*.262}
+\contentsline {paragraph}{}{79}{paragraph*.269}
+\contentsline {paragraph}{}{79}{paragraph*.270}
+\contentsline {paragraph}{}{79}{paragraph*.271}
+\contentsline {paragraph}{}{79}{paragraph*.272}
+\contentsline {paragraph}{}{79}{paragraph*.273}
+\contentsline {section}{\numberline {IV.3}SDK Manager, instalando herramientas}{79}{section.274}
+\contentsline {section}{\numberline {IV.4}Importando Cliente en Android Studio}{81}{section.277}
+\contentsline {section}{\numberline {IV.5}Instalaci\'on de Matlab}{83}{section.282}
+\contentsline {subsection}{\numberline {IV.5.1}Activar MATLAB}{84}{subsection.290}
+\contentsline {section}{\numberline {IV.6}Instalaci\'on de CUDA}{86}{section.293}
+\contentsline {section}{\numberline {IV.7}Instalando Servidor y sus Dependencias}{88}{section.320}
+\contentsline {section}{\numberline {IV.8}Configuraci\'on del Servidor}{90}{section.365}
+\contentsline {chapter}{\numberline {V}Manual del usuario}{97}{chapter.400}
+\contentsline {section}{\numberline {V.1}Introducci\'on}{97}{section.401}
+\contentsline {subsection}{\numberline {V.1.1}Instalar Aplicaci\'on}{97}{subsection.402}
+\contentsline {section}{\numberline {V.2}Uso de la aplicaci\'on}{97}{section.406}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }\discretionary {-}{}{}a}{101}{section.406}

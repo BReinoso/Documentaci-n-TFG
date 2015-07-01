@@ -1,0 +1,51 @@
+\section{Introducción}
+En este anexo se presentará el manual de usuario, dónde se explicará cómo instalar y usar la aplicación.
+\subsection{Instalar Aplicación}
+Si queremos extraer la aplicación del proyecto, deberemos dirigirnos al directorio ``/Proyecto-Fin-de-Grado/Imagen/app'', en él encontraremos un archivo llamado ``app-release.apk'', este archivo se guardará en el dispositivo en el que se vaya a instalar la aplicación.
+\begin{figure}[]
+    \begin{center}%
+      \Ovalbox{%
+        \begin{minipage}{\anchoFloat}%
+          \begin{center}%
+            \begin{tabular}{ l r}
+ 				\includegraphics[width=0.30\textwidth]{imgs/us1.png} & 
+ 				\includegraphics[width=0.30\textwidth]{imgs/us2.png} \\
+			\end{tabular}
+            \caption{Instalando aplicación paso 1.}%
+            \label{app1}%
+          \end{center}%
+        \end{minipage}
+      }%
+    \end{center}%
+  \end{figure}%
+  \begin{figure}[]
+    \begin{center}%
+      \Ovalbox{%
+        \begin{minipage}{\anchoFloat}%
+          \begin{center}%
+            \begin{tabular}{ l r}
+ 				\includegraphics[width=0.30\textwidth]{imgs/us3.png} & 
+ 				\includegraphics[width=0.30\textwidth]{imgs/us4.png} \\
+			\end{tabular}
+            \caption{Instalando aplicación paso 2.}%
+            \label{app2}%
+          \end{center}%
+        \end{minipage}
+      }%
+    \end{center}%
+  \end{figure}%
+  \figura{0.45}{imgs/us5.png}{Instalando aplicación paso 3}{app3}{}
+  Hay que destacar que la instalación de la aplicación se debe hacer de forma manual, aún no se ha planificado ni modelado una manera de que una persona invidente pueda hacerlo, por tanto esta deberá tener alguien que le ayude a instalarla.
+  
+  Para empezar la instalación tenemos que buscar en los archivos del dispositivo el fichero de instalación con el nombre ``app-release.apk'', una vez encontrado tocamos la pantalla sobre este y se abrirá una ventana de instalación. En la ventana de instalación se nos muestra los permisos que requiere la aplicación y nos da la opción de instalar, presionamos al botón de instalar para proceder con la instalación. Estos pasos están representados en la imagen \ref{app1}.
+  
+  Después de haber presionado el botón de instalar, se nos muestra una ventana que nos informa de que la aplicación se está instalando. Seguidamente, una vez se ha instalado la aplicación, se mostrará una ventana informándonos de que la aplicación se ha instalado correctamente y nos dará la opción de abrirla.Esto esta representado en la imagen \ref{app2}.
+  
+  Si hemos abierto la aplicación se nos mostrará la pantalla inicial (\ref{app3}).
+
+\section{Uso de la aplicación}
+Cuando se ha iniciado la aplicación y se nos muestra la pantalla inicial (\ref{app3}), el usuario deberá apuntar con el móvil en la dirección que se quiera tomar la foto y tocar la pantalla. Entonces la aplicación se encargará de mandar la foto y recibir la predicción.
+
+Si el usuario no sabe qué tiene que hacer cuando abre la aplicación, pasado un tiempo, se le lee un mensaje en voz alta con la librería \textit{TText to Speech} diciéndole qué tiene que hacer.
+
+Tras la ejecución de la petición al servidor y el procesado de la imagen, la aplicación leerá en voz alta la predicción. Y aquí termina la ejecución de la aplicación, si se quiere hacer otra predicción, se debe reiniciar la aplicación; pues, de momento, la aplicación no tiene una ejecución circular.
