@@ -7,93 +7,93 @@
 \BOOKMARK [0][-]{chapter.10}{Conceptos te\363ricos}{}% 7
 \BOOKMARK [1][-]{section.11}{Conceptos te\363ricos en el lado del Servidor}{chapter.10}% 8
 \BOOKMARK [2][-]{subsection.12}{Machine Learning}{section.11}% 9
-\BOOKMARK [2][-]{subsection.21}{Deep Learning}{section.11}% 10
-\BOOKMARK [2][-]{subsection.22}{Servicio Web}{section.11}% 11
-\BOOKMARK [1][-]{section.24}{Conceptos te\363ricos en el lado del Cliente}{chapter.10}% 12
-\BOOKMARK [2][-]{subsection.25}{Funcionamiento de las librer\355as Text2Speech}{section.24}% 13
-\BOOKMARK [1][-]{section.28}{Conceptos te\363ricos asociados a los art\355culos de investigaci\363n}{chapter.10}% 14
-\BOOKMARK [2][-]{subsection.29}{Convolutional Neural Networks o Redes Neuronales Convolucionales}{section.28}% 15
-\BOOKMARK [2][-]{subsection.34}{Recurrent Neural Networks o Redes Neuronales Recurrentes}{section.28}% 16
-\BOOKMARK [0][-]{chapter.38}{T\351cnicas y herramientas}{}% 17
-\BOOKMARK [1][-]{section.39}{T\351cnicas de desarrollo}{chapter.38}% 18
-\BOOKMARK [2][-]{subsection.40}{Metodolog\355a de desarrollo \341gil}{section.39}% 19
-\BOOKMARK [2][-]{subsection.44}{Desarrollo Software con control de versiones}{section.39}% 20
-\BOOKMARK [1][-]{section.51}{Herramientas utilizadas}{chapter.38}% 21
-\BOOKMARK [2][-]{subsection.52}{Gestor de Tareas: VersionOne}{section.51}% 22
-\BOOKMARK [2][-]{subsection.58}{Gestor de Versiones: GitHub}{section.51}% 23
-\BOOKMARK [2][-]{subsection.64}{IDE de desarrollo: Android Studio}{section.51}% 24
-\BOOKMARK [2][-]{subsection.71}{Herramienta de Generaci\363n de Documentaci\363n: TeXMaker}{section.51}% 25
-\BOOKMARK [2][-]{subsection.72}{Herramientas de Deep Learning: NeuralTalk}{section.51}% 26
-\BOOKMARK [2][-]{subsection.80}{Herramientas de Deep Learning: Caffe}{section.51}% 27
-\BOOKMARK [2][-]{subsection.83}{Herramientas de programaci\363n: MATLAB}{section.51}% 28
-\BOOKMARK [2][-]{subsection.84}{Herramientas de desarrollo de servidores: Flask}{section.51}% 29
-\BOOKMARK [2][-]{subsection.89}{Librer\355a Text to Speech para Android}{section.51}% 30
-\BOOKMARK [2][-]{subsection.90}{Librer\355a de Apache para conexiones Http para Android}{section.51}% 31
-\BOOKMARK [2][-]{subsection.91}{Librer\355a de traducci\363n de texto}{section.51}% 32
-\BOOKMARK [0][-]{chapter.92}{Estado del arte}{}% 33
-\BOOKMARK [1][-]{section.93}{Art\355culo del DeepBelief SDK}{chapter.92}% 34
-\BOOKMARK [2][-]{subsection.95}{Introducci\363n}{section.93}% 35
-\BOOKMARK [2][-]{subsection.96}{El dataset o conjunto de datos}{section.93}% 36
-\BOOKMARK [2][-]{subsection.97}{Arquitectura}{section.93}% 37
-\BOOKMARK [1][-]{section.112}{Art\355culo del NeuralTalk}{chapter.92}% 38
-\BOOKMARK [2][-]{subsection.113}{Introducci\363n}{section.112}% 39
-\BOOKMARK [2][-]{subsection.114}{El modelo}{section.112}% 40
-\BOOKMARK [1][-]{section.120}{Art\355culo del Arctic Caption}{chapter.92}% 41
-\BOOKMARK [2][-]{subsection.121}{Introducci\363n}{section.120}% 42
-\BOOKMARK [2][-]{subsection.122}{Generaci\363n de Frases de Im\341genes con un Mecanismo de Atenci\363n}{section.120}% 43
-\BOOKMARK [2][-]{subsection.126}{Conclusiones}{section.120}% 44
-\BOOKMARK [0][-]{chapter.127}{Aspectos relevantes del desarrollo del proyecto}{}% 45
-\BOOKMARK [1][-]{section.128}{Dificultades encontradas}{chapter.127}% 46
-\BOOKMARK [2][-]{subsection.129}{Dificultades con DeepBeliefSDK}{section.128}% 47
-\BOOKMARK [2][-]{subsection.130}{Dificultades con GSOAP y Apache}{section.128}% 48
-\BOOKMARK [2][-]{subsection.138}{Dificultades en la instalaci\363n de Herramientas}{section.128}% 49
-\BOOKMARK [2][-]{subsection.141}{Instalando NeutalTalk}{section.128}% 50
-\BOOKMARK [2][-]{subsection.143}{Dificultades con NeuralTalk}{section.128}% 51
-\BOOKMARK [2][-]{subsection.144}{Dificultades con Android}{section.128}% 52
-\BOOKMARK [2][-]{subsection.148}{Dificultades con Librer\355a de Traducci\363n en el servidor}{section.128}% 53
-\BOOKMARK [0][-]{chapter.149}{Conclusiones y l\355neas de trabajo futuras}{}% 54
-\BOOKMARK [1][-]{section.150}{Conclusiones del Proyecto}{chapter.149}% 55
-\BOOKMARK [1][-]{section.151}{Lineas de trabajo Futura}{chapter.149}% 56
-\BOOKMARK [2][-]{subsection.152}{L\355neas de trabajo futuras en el aspecto te\363rico}{section.151}% 57
-\BOOKMARK [0][-]{subsubsection*.153}{Anexos}{}% 58
-\BOOKMARK [0][-]{chapter.154}{Plan del proyecto software}{}% 59
-\BOOKMARK [1][-]{section.155}{Introducci\363n}{chapter.154}% 60
-\BOOKMARK [2][-]{subsection.157}{Problemas encontrados}{section.155}% 61
-\BOOKMARK [1][-]{section.160}{Planificaci\363n temporal del proyecto}{chapter.154}% 62
-\BOOKMARK [2][-]{subsection.161}{Sprint 1:23 de Diciembre al 12 de Febrero}{section.160}% 63
-\BOOKMARK [2][-]{subsection.163}{Sprint 2:12 de Febrero al 26 de Febrero}{section.160}% 64
-\BOOKMARK [2][-]{subsection.167}{Sprint 3:26 de Febrero al 6 de Marzo}{section.160}% 65
-\BOOKMARK [2][-]{subsection.177}{Sprint 4:6 de Marzo al 13 de Marzo}{section.160}% 66
-\BOOKMARK [2][-]{subsection.188}{Sprint 5:13 de Marzo al 27 de Marzo}{section.160}% 67
-\BOOKMARK [2][-]{subsection.199}{Sprint 6: 28 de Marzo al 22 de Abril}{section.160}% 68
-\BOOKMARK [2][-]{subsection.204}{Sprint 7: 22 de Abril al 27 de Abril}{section.160}% 69
-\BOOKMARK [2][-]{subsection.207}{Sprint 8: 27 de Abril al 8 de Mayo}{section.160}% 70
-\BOOKMARK [2][-]{subsection.209}{Sprint 9: 9 de Mayo al 15 de Mayo}{section.160}% 71
-\BOOKMARK [2][-]{subsection.212}{Sprint 10: 15 de Mayo al 5 de Junio}{section.160}% 72
-\BOOKMARK [2][-]{subsection.215}{Sprint 11: 6 de Junio al 20 de Junio}{section.160}% 73
-\BOOKMARK [2][-]{subsection.216}{Sprint 12: 21 de Junio a 30 de Junio}{section.160}% 74
-\BOOKMARK [0][-]{chapter.218}{Especificaci\363n de requisitos}{}% 75
-\BOOKMARK [1][-]{section.219}{Introducci\363n}{chapter.218}% 76
-\BOOKMARK [1][-]{section.220}{Requisitos Funcionales}{chapter.218}% 77
-\BOOKMARK [2][-]{subsection.221}{Requisitos Funcionales en el Servidor}{section.220}% 78
-\BOOKMARK [2][-]{subsection.222}{Requisitos Funcionales en el Cliente}{section.220}% 79
-\BOOKMARK [1][-]{section.223}{Diagrama de casos de uso}{chapter.218}% 80
-\BOOKMARK [0][-]{chapter.233}{Especificaci\363n de dise\361o}{}% 81
-\BOOKMARK [1][-]{section.234}{Introducci\363n}{chapter.233}% 82
-\BOOKMARK [1][-]{section.235}{Dise\361o en el Servidor}{chapter.233}% 83
-\BOOKMARK [2][-]{subsection.236}{API RESTful}{section.235}% 84
-\BOOKMARK [0][-]{chapter.252}{Manual del programador}{}% 85
-\BOOKMARK [1][-]{section.253}{Instalaci\363n del JDK}{chapter.252}% 86
-\BOOKMARK [1][-]{section.261}{Instalaci\363n de Android Studio}{chapter.252}% 87
-\BOOKMARK [1][-]{section.274}{SDK Manager, instalando herramientas}{chapter.252}% 88
-\BOOKMARK [1][-]{section.277}{Importando Cliente en Android Studio}{chapter.252}% 89
-\BOOKMARK [1][-]{section.282}{Instalaci\363n de Matlab}{chapter.252}% 90
-\BOOKMARK [2][-]{subsection.290}{Activar MATLAB}{section.282}% 91
-\BOOKMARK [1][-]{section.293}{Instalaci\363n de CUDA}{chapter.252}% 92
-\BOOKMARK [1][-]{section.320}{Instalando Servidor y sus Dependencias}{chapter.252}% 93
-\BOOKMARK [1][-]{section.365}{Configuraci\363n del Servidor}{chapter.252}% 94
-\BOOKMARK [0][-]{chapter.400}{Manual del usuario}{}% 95
-\BOOKMARK [1][-]{section.401}{Introducci\363n}{chapter.400}% 96
-\BOOKMARK [2][-]{subsection.402}{Instalar Aplicaci\363n}{section.401}% 97
-\BOOKMARK [1][-]{section.406}{Uso de la aplicaci\363n}{chapter.400}% 98
-\BOOKMARK [0][-]{section.406}{Bibliograf\355a}{}% 99
+\BOOKMARK [2][-]{subsection.18}{Deep Learning}{section.11}% 10
+\BOOKMARK [2][-]{subsection.19}{Servicio Web}{section.11}% 11
+\BOOKMARK [1][-]{section.20}{Conceptos te\363ricos en el lado del Cliente}{chapter.10}% 12
+\BOOKMARK [2][-]{subsection.21}{Funcionamiento de las librer\355as Text2Speech}{section.20}% 13
+\BOOKMARK [1][-]{section.23}{Conceptos te\363ricos asociados a los art\355culos de investigaci\363n}{chapter.10}% 14
+\BOOKMARK [2][-]{subsection.24}{Convolutional Neural Networks o Redes Neuronales Convolucionales}{section.23}% 15
+\BOOKMARK [2][-]{subsection.28}{Recurrent Neural Networks o Redes Neuronales Recurrentes}{section.23}% 16
+\BOOKMARK [0][-]{chapter.34}{T\351cnicas y herramientas}{}% 17
+\BOOKMARK [1][-]{section.35}{T\351cnicas de desarrollo}{chapter.34}% 18
+\BOOKMARK [2][-]{subsection.36}{Metodolog\355a de desarrollo \341gil}{section.35}% 19
+\BOOKMARK [2][-]{subsection.38}{Desarrollo software con control de versiones}{section.35}% 20
+\BOOKMARK [1][-]{section.41}{Herramientas utilizadas}{chapter.34}% 21
+\BOOKMARK [2][-]{subsection.42}{Gestor de Tareas: VersionOne}{section.41}% 22
+\BOOKMARK [2][-]{subsection.47}{Gestor de Versiones: GitHub}{section.41}% 23
+\BOOKMARK [2][-]{subsection.53}{IDE de desarrollo: Android Studio}{section.41}% 24
+\BOOKMARK [2][-]{subsection.60}{Herramienta de Generaci\363n de Documentaci\363n: TeXMaker}{section.41}% 25
+\BOOKMARK [2][-]{subsection.61}{Herramientas de Deep Learning: NeuralTalk}{section.41}% 26
+\BOOKMARK [2][-]{subsection.68}{Herramientas de Deep Learning: Caffe}{section.41}% 27
+\BOOKMARK [2][-]{subsection.71}{Herramientas de programaci\363n: MATLAB}{section.41}% 28
+\BOOKMARK [2][-]{subsection.72}{Herramientas de desarrollo de servidores: Flask}{section.41}% 29
+\BOOKMARK [2][-]{subsection.76}{Biblioteca Text to Speech para Android}{section.41}% 30
+\BOOKMARK [2][-]{subsection.77}{Biblioteca de Apache para conexiones Http para Android}{section.41}% 31
+\BOOKMARK [2][-]{subsection.78}{Biblioteca de traducci\363n de texto}{section.41}% 32
+\BOOKMARK [0][-]{chapter.79}{Estado del arte}{}% 33
+\BOOKMARK [1][-]{section.80}{Art\355culo del DeepBelief SDK}{chapter.79}% 34
+\BOOKMARK [2][-]{subsection.82}{Introducci\363n}{section.80}% 35
+\BOOKMARK [2][-]{subsection.83}{El dataset o conjunto de datos}{section.80}% 36
+\BOOKMARK [2][-]{subsection.84}{Arquitectura}{section.80}% 37
+\BOOKMARK [1][-]{section.99}{Art\355culo del NeuralTalk}{chapter.79}% 38
+\BOOKMARK [2][-]{subsection.100}{Introducci\363n}{section.99}% 39
+\BOOKMARK [2][-]{subsection.102}{El modelo}{section.99}% 40
+\BOOKMARK [1][-]{section.111}{Art\355culo del Arctic Caption}{chapter.79}% 41
+\BOOKMARK [2][-]{subsection.112}{Introducci\363n}{section.111}% 42
+\BOOKMARK [2][-]{subsection.113}{Generaci\363n de Frases de Im\341genes con un Mecanismo de Atenci\363n}{section.111}% 43
+\BOOKMARK [2][-]{subsection.117}{Conclusiones}{section.111}% 44
+\BOOKMARK [0][-]{chapter.118}{Aspectos relevantes del desarrollo del proyecto}{}% 45
+\BOOKMARK [1][-]{section.119}{Dificultades encontradas}{chapter.118}% 46
+\BOOKMARK [2][-]{subsection.120}{Dificultades con DeepBeliefSDK}{section.119}% 47
+\BOOKMARK [2][-]{subsection.121}{Dificultades con GSOAP y Apache}{section.119}% 48
+\BOOKMARK [2][-]{subsection.127}{Dificultades en la instalaci\363n de Herramientas}{section.119}% 49
+\BOOKMARK [2][-]{subsection.130}{Instalando NeutalTalk}{section.119}% 50
+\BOOKMARK [2][-]{subsection.132}{Dificultades con NeuralTalk}{section.119}% 51
+\BOOKMARK [2][-]{subsection.133}{Dificultades con Android}{section.119}% 52
+\BOOKMARK [2][-]{subsection.137}{Dificultades con Librer\355a de Traducci\363n en el servidor}{section.119}% 53
+\BOOKMARK [0][-]{chapter.138}{Conclusiones y l\355neas de trabajo futuras}{}% 54
+\BOOKMARK [1][-]{section.139}{Conclusiones del Proyecto}{chapter.138}% 55
+\BOOKMARK [1][-]{section.140}{L\355neas de trabajo Futura}{chapter.138}% 56
+\BOOKMARK [2][-]{subsection.141}{L\355neas de trabajo futuras en el aspecto te\363rico}{section.140}% 57
+\BOOKMARK [0][-]{subsubsection*.142}{Anexos}{}% 58
+\BOOKMARK [0][-]{chapter.143}{Plan del proyecto software}{}% 59
+\BOOKMARK [1][-]{section.144}{Introducci\363n}{chapter.143}% 60
+\BOOKMARK [2][-]{subsection.146}{Problemas encontrados}{section.144}% 61
+\BOOKMARK [1][-]{section.149}{Planificaci\363n temporal del proyecto}{chapter.143}% 62
+\BOOKMARK [2][-]{subsection.150}{Sprint 1:23 de Diciembre al 12 de Febrero}{section.149}% 63
+\BOOKMARK [2][-]{subsection.152}{Sprint 2:12 de Febrero al 26 de Febrero}{section.149}% 64
+\BOOKMARK [2][-]{subsection.156}{Sprint 3:26 de Febrero al 6 de Marzo}{section.149}% 65
+\BOOKMARK [2][-]{subsection.166}{Sprint 4:6 de Marzo al 13 de Marzo}{section.149}% 66
+\BOOKMARK [2][-]{subsection.177}{Sprint 5:13 de Marzo al 27 de Marzo}{section.149}% 67
+\BOOKMARK [2][-]{subsection.188}{Sprint 6: 28 de Marzo al 22 de Abril}{section.149}% 68
+\BOOKMARK [2][-]{subsection.193}{Sprint 7: 22 de Abril al 27 de Abril}{section.149}% 69
+\BOOKMARK [2][-]{subsection.196}{Sprint 8: 27 de Abril al 8 de Mayo}{section.149}% 70
+\BOOKMARK [2][-]{subsection.198}{Sprint 9: 9 de Mayo al 15 de Mayo}{section.149}% 71
+\BOOKMARK [2][-]{subsection.201}{Sprint 10: 15 de Mayo al 5 de Junio}{section.149}% 72
+\BOOKMARK [2][-]{subsection.204}{Sprint 11: 6 de Junio al 20 de Junio}{section.149}% 73
+\BOOKMARK [2][-]{subsection.205}{Sprint 12: 21 de Junio a 30 de Junio}{section.149}% 74
+\BOOKMARK [0][-]{chapter.207}{Especificaci\363n de requisitos}{}% 75
+\BOOKMARK [1][-]{section.208}{Introducci\363n}{chapter.207}% 76
+\BOOKMARK [1][-]{section.209}{Requisitos Funcionales}{chapter.207}% 77
+\BOOKMARK [2][-]{subsection.210}{Requisitos Funcionales en el Servidor}{section.209}% 78
+\BOOKMARK [2][-]{subsection.211}{Requisitos Funcionales en el Cliente}{section.209}% 79
+\BOOKMARK [1][-]{section.212}{Diagrama de casos de uso}{chapter.207}% 80
+\BOOKMARK [0][-]{chapter.222}{Especificaci\363n de dise\361o}{}% 81
+\BOOKMARK [1][-]{section.223}{Introducci\363n}{chapter.222}% 82
+\BOOKMARK [1][-]{section.224}{Dise\361o en el Servidor}{chapter.222}% 83
+\BOOKMARK [2][-]{subsection.225}{API RESTful}{section.224}% 84
+\BOOKMARK [0][-]{chapter.241}{Manual del programador}{}% 85
+\BOOKMARK [1][-]{section.242}{Instalaci\363n del JDK}{chapter.241}% 86
+\BOOKMARK [1][-]{section.250}{Instalaci\363n de Android Studio}{chapter.241}% 87
+\BOOKMARK [1][-]{section.263}{SDK Manager, instalando herramientas}{chapter.241}% 88
+\BOOKMARK [1][-]{section.266}{Importando Cliente en Android Studio}{chapter.241}% 89
+\BOOKMARK [1][-]{section.271}{Instalaci\363n de Matlab}{chapter.241}% 90
+\BOOKMARK [2][-]{subsection.279}{Activar MATLAB}{section.271}% 91
+\BOOKMARK [1][-]{section.282}{Instalaci\363n de CUDA}{chapter.241}% 92
+\BOOKMARK [1][-]{section.309}{Instalando Servidor y sus Dependencias}{chapter.241}% 93
+\BOOKMARK [1][-]{section.354}{Configuraci\363n del Servidor}{chapter.241}% 94
+\BOOKMARK [0][-]{chapter.393}{Manual del usuario}{}% 95
+\BOOKMARK [1][-]{section.394}{Introducci\363n}{chapter.393}% 96
+\BOOKMARK [2][-]{subsection.395}{Instalar Aplicaci\363n}{section.394}% 97
+\BOOKMARK [1][-]{section.399}{Uso de la aplicaci\363n}{chapter.393}% 98
+\BOOKMARK [0][-]{section.399}{Bibliograf\355a}{}% 99

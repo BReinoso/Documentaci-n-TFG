@@ -2,53 +2,59 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces Ejemplo de clasificaci\'on.\relax }}{6}{figure.caption.15}
-\contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces Ejemplo de regresi\'on lineal.\relax }}{6}{figure.caption.16}
-\contentsline {figure}{\numberline {\relax 3.3}{\ignorespaces Gr\'afico de librer\IeC {\'\i }a \textit {Text to Speech\cite {addison2005text}}\relax }}{9}{figure.caption.26}
-\contentsline {figure}{\numberline {\relax 3.4}{\ignorespaces Gr\'afico de una CNN \cite {cs231nConv}\relax }}{12}{figure.caption.33}
-\contentsline {figure}{\numberline {\relax 3.5}{\ignorespaces Gr\'afico de conexiones recurrentes en una RNN\relax }}{13}{figure.caption.37}
+\contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces Ejemplo de clasificaci\'on.\relax }}{6}{figure.caption.14}
+\contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces Ejemplo de regresi\'on lineal.\relax }}{6}{figure.caption.15}
+\contentsline {figure}{\numberline {\relax 3.3}{\ignorespaces Cambio de dimensionalidad en m\'aquinas de vectores soporte.\relax }}{8}{figure.caption.16}
+\contentsline {figure}{\numberline {\relax 3.4}{\ignorespaces Clasificaci\'on con \'arbol de decisi\'on \cite {ArbDecIm}.\relax }}{8}{figure.caption.17}
+\contentsline {figure}{\numberline {\relax 3.5}{\ignorespaces Gr\'afico de librer\IeC {\'\i }a \textit {Text to Speech\cite {addison2005text}}\relax }}{10}{figure.caption.22}
+\contentsline {figure}{\numberline {\relax 3.6}{\ignorespaces Gr\'afico de una CNN \cite {cs231nConv}\relax }}{12}{figure.caption.27}
+\contentsline {figure}{\numberline {\relax 3.7}{\ignorespaces Gr\'afico de conexiones recurrentes en una RNN\relax }}{14}{figure.caption.30}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces Gr\'afico demostraci\'on de Saturaci\'on vs No Saturaci\'on\relax }}{25}{figure.caption.102}
-\contentsline {figure}{\numberline {\relax 5.2}{\ignorespaces Overlapping Pooling\relax }}{27}{figure.caption.106}
+\contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces Gr\'afico demostraci\'on de Saturaci\'on vs No Saturaci\'on\relax }}{25}{figure.caption.89}
+\contentsline {figure}{\numberline {\relax 5.2}{\ignorespaces Overlapping Pooling\relax }}{27}{figure.caption.93}
+\contentsline {figure}{\numberline {\relax 5.3}{\ignorespaces Asociaci\'on de im\'agenes a regiones del espacio\relax }}{29}{figure.caption.101}
+\contentsline {figure}{\numberline {\relax 5.4}{\ignorespaces Generaci\'on de descripciones de regiones de la imagen\relax }}{29}{figure.caption.103}
+\contentsline {figure}{\numberline {\relax 5.5}{\ignorespaces Diagrama del modelo NeuralTalk\relax }}{31}{figure.caption.107}
+\contentsline {figure}{\numberline {\relax 5.6}{\ignorespaces Diagrama de la RNN del modelo NeuralTalk\relax }}{32}{figure.caption.109}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax I.1}{\ignorespaces Burn-down del sprint 3\relax }}{47}{figure.caption.176}
-\contentsline {figure}{\numberline {\relax I.2}{\ignorespaces Burn-down del sprint 4\relax }}{48}{figure.caption.186}
-\contentsline {figure}{\numberline {\relax I.3}{\ignorespaces Burn-down del sprint 5\relax }}{49}{figure.caption.198}
-\contentsline {figure}{\numberline {\relax I.4}{\ignorespaces Burn-down del sprint 6\relax }}{51}{figure.caption.202}
-\contentsline {figure}{\numberline {\relax I.5}{\ignorespaces Burn-down del sprint 7\relax }}{52}{figure.caption.206}
-\contentsline {figure}{\numberline {\relax I.6}{\ignorespaces Burn-down del sprint 8\relax }}{54}{figure.caption.208}
-\contentsline {figure}{\numberline {\relax I.7}{\ignorespaces Burn-down del sprint 12\relax }}{56}{figure.caption.217}
+\contentsline {figure}{\numberline {\relax I.1}{\ignorespaces Burn-down del sprint 3\relax }}{47}{figure.caption.165}
+\contentsline {figure}{\numberline {\relax I.2}{\ignorespaces Burn-down del sprint 4\relax }}{48}{figure.caption.175}
+\contentsline {figure}{\numberline {\relax I.3}{\ignorespaces Burn-down del sprint 5\relax }}{49}{figure.caption.187}
+\contentsline {figure}{\numberline {\relax I.4}{\ignorespaces Burn-down del sprint 6\relax }}{51}{figure.caption.191}
+\contentsline {figure}{\numberline {\relax I.5}{\ignorespaces Burn-down del sprint 7\relax }}{52}{figure.caption.195}
+\contentsline {figure}{\numberline {\relax I.6}{\ignorespaces Burn-down del sprint 8\relax }}{54}{figure.caption.197}
+\contentsline {figure}{\numberline {\relax I.7}{\ignorespaces Burn-down del sprint 12\relax }}{56}{figure.caption.206}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax II.1}{\ignorespaces Diagrama de caso de uso del RF4\relax }}{63}{figure.caption.224}
+\contentsline {figure}{\numberline {\relax II.1}{\ignorespaces Diagrama de caso de uso del RF4\relax }}{63}{figure.caption.213}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax IV.1}{\ignorespaces P\'agina de descarga del JDK de Java\relax }}{76}{figure.caption.256}
-\contentsline {figure}{\numberline {\relax IV.2}{\ignorespaces Instalaci\'on del JDK, paso 1.\relax }}{76}{figure.caption.257}
-\contentsline {figure}{\numberline {\relax IV.3}{\ignorespaces Instalaci\'on del JDK, paso 2.\relax }}{76}{figure.caption.258}
-\contentsline {figure}{\numberline {\relax IV.4}{\ignorespaces P\'agina de descarga de Android Studio\relax }}{77}{figure.caption.260}
-\contentsline {figure}{\numberline {\relax IV.5}{\ignorespaces Instalaci\'on de Android Studio, paso 1.\relax }}{77}{figure.caption.264}
-\contentsline {figure}{\numberline {\relax IV.6}{\ignorespaces Instalaci\'on de Android Studio, paso 2.\relax }}{77}{figure.caption.265}
-\contentsline {figure}{\numberline {\relax IV.7}{\ignorespaces Instalaci\'on de Android Studio, paso 3.\relax }}{78}{figure.caption.266}
-\contentsline {figure}{\numberline {\relax IV.8}{\ignorespaces Instalaci\'on de Android Studio, paso 4.\relax }}{78}{figure.caption.267}
-\contentsline {figure}{\numberline {\relax IV.9}{\ignorespaces Instalaci\'on de Android Studio, paso 5.\relax }}{78}{figure.caption.268}
-\contentsline {figure}{\numberline {\relax IV.10}{\ignorespaces SDK Manager paso 1.\relax }}{80}{figure.caption.275}
-\contentsline {figure}{\numberline {\relax IV.11}{\ignorespaces SDK Manager paso 2.\relax }}{80}{figure.caption.276}
-\contentsline {figure}{\numberline {\relax IV.12}{\ignorespaces Importando proyecto en Android Studio\relax }}{81}{figure.caption.278}
-\contentsline {figure}{\numberline {\relax IV.13}{\ignorespaces Importando proyecto en Android Studio\relax }}{82}{figure.caption.279}
-\contentsline {figure}{\numberline {\relax IV.14}{\ignorespaces Importando proyecto en Android Studio\relax }}{82}{figure.caption.280}
-\contentsline {figure}{\numberline {\relax IV.15}{\ignorespaces Importando proyecto en Android Studio\relax }}{83}{figure.caption.281}
-\contentsline {figure}{\numberline {\relax IV.16}{\ignorespaces Instalaci\'on de Matlab paso 1.\relax }}{84}{figure.caption.285}
-\contentsline {figure}{\numberline {\relax IV.17}{\ignorespaces Instalaci\'on de Matlab paso 2.\relax }}{84}{figure.caption.286}
-\contentsline {figure}{\numberline {\relax IV.18}{\ignorespaces Instalaci\'on de Matlab paso 3.\relax }}{85}{figure.caption.287}
-\contentsline {figure}{\numberline {\relax IV.19}{\ignorespaces Instalaci\'on de Matlab paso 4.\relax }}{85}{figure.caption.288}
-\contentsline {figure}{\numberline {\relax IV.20}{\ignorespaces Instalaci\'on de Matlab paso 5\relax }}{85}{figure.caption.289}
-\contentsline {figure}{\numberline {\relax IV.21}{\ignorespaces Activaci\'on de Matlab paso 1.\relax }}{86}{figure.caption.291}
-\contentsline {figure}{\numberline {\relax IV.22}{\ignorespaces Activaci\'on de Matlab paso 2.\relax }}{86}{figure.caption.292}
-\contentsline {figure}{\numberline {\relax IV.23}{\ignorespaces Comprobando directorio principal de instalaci\'on\relax }}{91}{figure.caption.369}
+\contentsline {figure}{\numberline {\relax IV.1}{\ignorespaces P\'agina de descarga del JDK de Java\relax }}{76}{figure.caption.245}
+\contentsline {figure}{\numberline {\relax IV.2}{\ignorespaces Instalaci\'on del JDK, paso 1.\relax }}{76}{figure.caption.246}
+\contentsline {figure}{\numberline {\relax IV.3}{\ignorespaces Instalaci\'on del JDK, paso 2.\relax }}{76}{figure.caption.247}
+\contentsline {figure}{\numberline {\relax IV.4}{\ignorespaces P\'agina de descarga de Android Studio\relax }}{77}{figure.caption.249}
+\contentsline {figure}{\numberline {\relax IV.5}{\ignorespaces Instalaci\'on de Android Studio, paso 1.\relax }}{77}{figure.caption.253}
+\contentsline {figure}{\numberline {\relax IV.6}{\ignorespaces Instalaci\'on de Android Studio, paso 2.\relax }}{77}{figure.caption.254}
+\contentsline {figure}{\numberline {\relax IV.7}{\ignorespaces Instalaci\'on de Android Studio, paso 3.\relax }}{78}{figure.caption.255}
+\contentsline {figure}{\numberline {\relax IV.8}{\ignorespaces Instalaci\'on de Android Studio, paso 4.\relax }}{78}{figure.caption.256}
+\contentsline {figure}{\numberline {\relax IV.9}{\ignorespaces Instalaci\'on de Android Studio, paso 5.\relax }}{78}{figure.caption.257}
+\contentsline {figure}{\numberline {\relax IV.10}{\ignorespaces SDK Manager paso 1.\relax }}{80}{figure.caption.264}
+\contentsline {figure}{\numberline {\relax IV.11}{\ignorespaces SDK Manager paso 2.\relax }}{80}{figure.caption.265}
+\contentsline {figure}{\numberline {\relax IV.12}{\ignorespaces Importando proyecto en Android Studio\relax }}{81}{figure.caption.267}
+\contentsline {figure}{\numberline {\relax IV.13}{\ignorespaces Importando proyecto en Android Studio\relax }}{82}{figure.caption.268}
+\contentsline {figure}{\numberline {\relax IV.14}{\ignorespaces Importando proyecto en Android Studio\relax }}{82}{figure.caption.269}
+\contentsline {figure}{\numberline {\relax IV.15}{\ignorespaces Importando proyecto en Android Studio\relax }}{83}{figure.caption.270}
+\contentsline {figure}{\numberline {\relax IV.16}{\ignorespaces Instalaci\'on de Matlab paso 1.\relax }}{84}{figure.caption.274}
+\contentsline {figure}{\numberline {\relax IV.17}{\ignorespaces Instalaci\'on de Matlab paso 2.\relax }}{84}{figure.caption.275}
+\contentsline {figure}{\numberline {\relax IV.18}{\ignorespaces Instalaci\'on de Matlab paso 3.\relax }}{85}{figure.caption.276}
+\contentsline {figure}{\numberline {\relax IV.19}{\ignorespaces Instalaci\'on de Matlab paso 4.\relax }}{85}{figure.caption.277}
+\contentsline {figure}{\numberline {\relax IV.20}{\ignorespaces Instalaci\'on de Matlab paso 5\relax }}{85}{figure.caption.278}
+\contentsline {figure}{\numberline {\relax IV.21}{\ignorespaces Activaci\'on de Matlab paso 1.\relax }}{86}{figure.caption.280}
+\contentsline {figure}{\numberline {\relax IV.22}{\ignorespaces Activaci\'on de Matlab paso 2.\relax }}{86}{figure.caption.281}
+\contentsline {figure}{\numberline {\relax IV.23}{\ignorespaces Comprobando directorio principal de instalaci\'on\relax }}{91}{figure.caption.358}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax V.1}{\ignorespaces Instalando aplicaci\'on paso 1.\relax }}{98}{figure.caption.403}
-\contentsline {figure}{\numberline {\relax V.2}{\ignorespaces Instalando aplicaci\'on paso 2.\relax }}{98}{figure.caption.404}
-\contentsline {figure}{\numberline {\relax V.3}{\ignorespaces Instalando aplicaci\'on paso 3\relax }}{99}{figure.caption.405}
+\contentsline {figure}{\numberline {\relax V.1}{\ignorespaces Instalando aplicaci\'on paso 1.\relax }}{98}{figure.caption.396}
+\contentsline {figure}{\numberline {\relax V.2}{\ignorespaces Instalando aplicaci\'on paso 2.\relax }}{98}{figure.caption.397}
+\contentsline {figure}{\numberline {\relax V.3}{\ignorespaces Instalando aplicaci\'on paso 3\relax }}{99}{figure.caption.398}

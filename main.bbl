@@ -29,6 +29,12 @@ Ross Girshick, Jeff Donahue, Trevor Darrell, and Jagannath Malik.
 \newblock In {\em Computer Vision and Pattern Recognition (CVPR), 2014 IEEE
   Conference on}, pages 580--587. IEEE, 2014.
 
+\bibitem{ArbDec}
+Ozan Irsoy.
+\newblock Deep learning with decision trees, 2014.
+\newblock URL:
+  \url{https://regularizer.wordpress.com/2014/11/18/deep-learning-with-decision-trees/}.
+
 \bibitem{iyerwe}
 Asha Iyer, Christof Koch, and Pietro Perona.
 \newblock What do we perceive in a glance of a real-world scene?
@@ -89,6 +95,23 @@ Bryan~C Russell, Antonio Torralba, Kevin~P Murphy, and William~T Freeman.
 \newblock {\em International journal of computer vision}, 77(1-3):157--173,
   2008.
 
+\bibitem{schwaber2004agile}
+Ken Schwaber.
+\newblock {\em Agile project management with Scrum}.
+\newblock Microsoft Press, 2004.
+
+\bibitem{MaqSop}
+Tad Slaff.
+\newblock How to trade the rsi: An analysis using a support vector machine,
+  2014.
+\newblock URL: \url{https://www.inovancetech.com/how-to-trade-rsi.html}.
+
+\bibitem{ArbDecIm}
+Kardi Teknomo.
+\newblock How to use a decision tree?, 2009.
+\newblock URL:
+  \url{http://people.revoledu.com/kardi/tutorial/DecisionTree/how-to-use-decision-tree.htm}.
+
 \bibitem{wiki:ML}
 Wikipedia.
 \newblock Aprendizaje automático --- wikipedia{,} la enciclopedia libre, 2015.
@@ -100,6 +123,12 @@ Wikipedia.
 \newblock Aprendizaje profundo --- wikipedia{,} la enciclopedia libre, 2015.
 \newblock URL:
   \url{https://es.wikipedia.org/w/index.php?title=Aprendizaje_profundo&oldid=83177869}.
+
+\bibitem{wiki:RegLin}
+Wikipedia.
+\newblock Regresión lineal --- wikipedia{,} la enciclopedia libre, 2015.
+\newblock URL:
+  \url{https://es.wikipedia.org/w/index.php?title=Regresi%C3%B3n_lineal&oldid=82160733}.
 
 \bibitem{wiki:ServW}
 Wikipedia.

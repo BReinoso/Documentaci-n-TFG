@@ -166,7 +166,7 @@ Los paquetes que necesitaremos serám:
 \figura{1}{imgs/Import2.png}{Importando proyecto en Android Studio}{import2}{}
 \figura{0.60}{imgs/Import3.png}{Importando proyecto en Android Studio}{import3}{}
 \figura{1}{imgs/Import4.png}{Importando proyecto en Android Studio}{import4}{}
-Se procede a explicar la manera de importar el proyecto en Android Studio, que es la aplicación con la que se ha trabajado y con la que mejor se puede trabajar sobre el proyecto. Primero deberemos iniciar el Android Studio (\ref{import1}), seguidamente le damos a \textit{File} o Archivo -> \textit{Open\dots } o Abrir\dots (\ref{import2}). Entonces se nos abrirá una ventana (\ref{import3}) en la que deberemos navegas hasta la carpeta en la que tenemos almacenado el proyecto, seleccionamos el archivo con nombre Imagen y que tiene el icono de Android Studio. Entonces le damos a aceptar y el programa procederá a importar el sólo todo el proyecto (\ref{import4}), al finalizar podremos ponernos enseguida a trabajar.
+Se procede a explicar la manera de importar el proyecto en Android Studio, que es la aplicación con la que se ha trabajado y con la que mejor se puede trabajar sobre el proyecto. Primero deberemos iniciar el Android Studio (\ref{import1}), seguidamente le damos a \textit{File} o Archivo -> \textit{Open\dots } o Abrir\dots (\ref{import2}). Entonces se nos abrirá una ventana (\ref{import3}) en la que deberemos navegar hasta la carpeta en la que tenemos almacenado el proyecto, seleccionamos el archivo con nombre Imagen y que tiene el icono de Android Studio. Entonces le damos a aceptar y el programa procederá a importar el sólo todo el proyecto (\ref{import4}), al finalizar podremos ponernos enseguida a trabajar.
 
 \section{Instalación de Matlab}
 \label{MATLAB}
@@ -178,7 +178,9 @@ sudo ./install
 \end{lstlisting}
 Entonces nos aparecerá una ventana a través de la cual guiaremos nuestra instalación.
 
-Con nuestra licencia, la instalación sería. Primero debemos elegir la primera opción de la primera imagen y después aceptar la licencia de la segunda imagen en el paso 1 (\ref{mat1}). 
+Describiremos la instalación con el tipo de licencia que se ha usado en el proyecto.
+
+Primero debemos elegir la primera opción de la primera imagen y después aceptar la licencia de la segunda imagen en el paso 1 (\ref{mat1}). 
 
 Seguidamente, en el segundo paso de instalación. deberemos aportar nuestras credenciales, nuestra cuenta de MathWorks, como se muestra en la primera imagen y después seleccionar el lugar de instalación, tal y como se muestra en la segunda imagen del paso 2 (\ref{mat2}). Se recomienda dejar la carpeta de destino de la instalación a la que viene por defecto, porque evitará futuros problemas de configuración cuando instalemos el servidor y sus dependencias.
 
@@ -507,3 +509,14 @@ Ahora ya podemos ejecutar el servidor, para ello podremos ejecutar los siguiente
 cd ~/Proyecto-Fin-de-Grado/servidor
 sudo python serv.py
 \end{lstlisting}
+
+Ahora hay que tener en cuenta que, si has realizado la instalación sobre una máquina anfitriona, podría darse un error al ejecutar el servidor, este error mostrará un mensaje al ejecutar Matlab, que será el siguiente:
+\begin{lstlisting}[frame=none,language=Matlab,caption={Error en CUDA},basicstyle=\large,label={lst:as}]
+Cannot open shared object file: No such file or directory
+\end{lstlisting}
+Para resolver este error solamente debemos ejecutar el siguiente comando:
+\begin{lstlisting}[frame=none,language=bash,caption={Solución al error de CUDA},basicstyle=\large,label={lst:se}]
+sudo ldconfig /usr/local/cuda/lib64
+\end{lstlisting}
+
+Como punto final cabe destacar que este tutorial de instalación funciona para las herramientas en la versión en la que se encontraban al realizar el proyecto, estas podrán ser encontradas en el CD entregado por si este tutorial no funcionara con las versiones actuales.

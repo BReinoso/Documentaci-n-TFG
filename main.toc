@@ -8,150 +8,139 @@
 \contentsline {chapter}{\numberline {3}Conceptos te\'oricos}{5}{chapter.10}
 \contentsline {section}{\numberline {3.1}Conceptos te\'oricos en el lado del Servidor}{5}{section.11}
 \contentsline {subsection}{\numberline {3.1.1}Machine Learning}{5}{subsection.12}
-\contentsline {paragraph}{}{5}{paragraph*.13}
-\contentsline {subsubsection}{Tipos de algoritmos}{5}{subsubsection*.14}
-\contentsline {subsection}{\numberline {3.1.2}Deep Learning}{8}{subsection.21}
-\contentsline {subsection}{\numberline {3.1.3}Servicio Web}{8}{subsection.22}
-\contentsline {section}{\numberline {3.2}Conceptos te\'oricos en el lado del Cliente}{9}{section.24}
-\contentsline {subsection}{\numberline {3.2.1}Funcionamiento de las librer\IeC {\'\i }as Text2Speech}{9}{subsection.25}
-\contentsline {section}{\numberline {3.3}Conceptos te\'oricos asociados a los art\IeC {\'\i }culos de investigaci\'on}{10}{section.28}
-\contentsline {subsection}{\numberline {3.3.1}Convolutional Neural Networks o Redes Neuronales Convolucionales}{10}{subsection.29}
-\contentsline {subsubsection}{Visi\'on Global de la arquitectura de las CNNs}{10}{subsubsection*.31}
-\contentsline {subsubsection}{Ejemplo de una CNN}{11}{subsubsection*.32}
-\contentsline {subsection}{\numberline {3.3.2}Recurrent Neural Networks o Redes Neuronales Recurrentes}{11}{subsection.34}
-\contentsline {subsubsection}{Visi\'on global de la arquitectura de las RNNs}{12}{subsubsection*.36}
-\contentsline {chapter}{\numberline {4}T\'ecnicas y herramientas}{15}{chapter.38}
-\contentsline {section}{\numberline {4.1}T\'ecnicas de desarrollo}{15}{section.39}
-\contentsline {subsection}{\numberline {4.1.1}Metodolog\IeC {\'\i }a de desarrollo \'agil}{15}{subsection.40}
-\contentsline {paragraph}{}{15}{paragraph*.41}
-\contentsline {paragraph}{}{15}{paragraph*.42}
-\contentsline {paragraph}{}{16}{paragraph*.43}
-\contentsline {subsection}{\numberline {4.1.2}Desarrollo Software con control de versiones}{16}{subsection.44}
-\contentsline {paragraph}{}{16}{paragraph*.45}
-\contentsline {paragraph}{}{16}{paragraph*.47}
-\contentsline {paragraph}{}{16}{paragraph*.49}
-\contentsline {paragraph}{}{16}{paragraph*.50}
-\contentsline {section}{\numberline {4.2}Herramientas utilizadas}{16}{section.51}
-\contentsline {subsection}{\numberline {4.2.1}Gestor de Tareas: VersionOne}{16}{subsection.52}
+\contentsline {subsubsection}{Tipos de algoritmos}{5}{subsubsection*.13}
+\contentsline {subsection}{\numberline {3.1.2}Deep Learning}{9}{subsection.18}
+\contentsline {subsection}{\numberline {3.1.3}Servicio Web}{9}{subsection.19}
+\contentsline {section}{\numberline {3.2}Conceptos te\'oricos en el lado del Cliente}{10}{section.20}
+\contentsline {subsection}{\numberline {3.2.1}Funcionamiento de las librer\IeC {\'\i }as Text2Speech}{10}{subsection.21}
+\contentsline {section}{\numberline {3.3}Conceptos te\'oricos asociados a los art\IeC {\'\i }culos de investigaci\'on}{11}{section.23}
+\contentsline {subsection}{\numberline {3.3.1}Convolutional Neural Networks o Redes Neuronales Convolucionales}{11}{subsection.24}
+\contentsline {subsubsection}{Visi\'on Global de la arquitectura de las CNNs}{11}{subsubsection*.25}
+\contentsline {subsubsection}{Ejemplo de una CNN}{12}{subsubsection*.26}
+\contentsline {subsection}{\numberline {3.3.2}Recurrent Neural Networks o Redes Neuronales Recurrentes}{13}{subsection.28}
+\contentsline {subsubsection}{Visi\'on global de la arquitectura de las RNNs}{13}{subsubsection*.29}
+\contentsline {chapter}{\numberline {4}T\'ecnicas y herramientas}{15}{chapter.34}
+\contentsline {section}{\numberline {4.1}T\'ecnicas de desarrollo}{15}{section.35}
+\contentsline {subsection}{\numberline {4.1.1}Metodolog\IeC {\'\i }a de desarrollo \'agil}{15}{subsection.36}
+\contentsline {paragraph}{}{16}{paragraph*.37}
+\contentsline {subsection}{\numberline {4.1.2}Desarrollo software con control de versiones}{16}{subsection.38}
+\contentsline {paragraph}{}{16}{paragraph*.40}
+\contentsline {section}{\numberline {4.2}Herramientas utilizadas}{16}{section.41}
+\contentsline {subsection}{\numberline {4.2.1}Gestor de Tareas: VersionOne}{16}{subsection.42}
+\contentsline {subsection}{\numberline {4.2.2}Gestor de Versiones: GitHub}{17}{subsection.47}
+\contentsline {paragraph}{}{17}{paragraph*.51}
+\contentsline {subsection}{\numberline {4.2.3}IDE de desarrollo: Android Studio}{17}{subsection.53}
 \contentsline {paragraph}{}{17}{paragraph*.56}
-\contentsline {subsection}{\numberline {4.2.2}Gestor de Versiones: GitHub}{17}{subsection.58}
-\contentsline {paragraph}{}{17}{paragraph*.62}
-\contentsline {subsection}{\numberline {4.2.3}IDE de desarrollo: Android Studio}{17}{subsection.64}
-\contentsline {paragraph}{}{17}{paragraph*.67}
-\contentsline {subsection}{\numberline {4.2.4}Herramienta de Generaci\'on de Documentaci\'on: \textlatin {T\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m }Maker}{18}{subsection.71}
-\contentsline {subsection}{\numberline {4.2.5}Herramientas de Deep Learning: NeuralTalk}{18}{subsection.72}
-\contentsline {paragraph}{}{18}{paragraph*.76}
-\contentsline {subsection}{\numberline {4.2.6}Herramientas de Deep Learning: Caffe}{19}{subsection.80}
-\contentsline {subsubsection}{Anatom\IeC {\'\i }a de un modelo Caffe}{19}{subsubsection*.81}
-\contentsline {paragraph}{}{19}{paragraph*.82}
-\contentsline {subsection}{\numberline {4.2.7}Herramientas de programaci\'on: MATLAB}{19}{subsection.83}
-\contentsline {subsection}{\numberline {4.2.8}Herramientas de desarrollo de servidores: Flask}{19}{subsection.84}
-\contentsline {paragraph}{}{20}{paragraph*.88}
-\contentsline {subsection}{\numberline {4.2.9}Librer\IeC {\'\i }a Text to Speech para Android}{20}{subsection.89}
-\contentsline {subsection}{\numberline {4.2.10}Librer\IeC {\'\i }a de Apache para conexiones Http para Android}{20}{subsection.90}
-\contentsline {subsection}{\numberline {4.2.11}Librer\IeC {\'\i }a de traducci\'on de texto}{21}{subsection.91}
-\contentsline {chapter}{\numberline {5}Estado del arte}{23}{chapter.92}
-\contentsline {section}{\numberline {5.1}Art\IeC {\'\i }culo del DeepBelief SDK}{23}{section.93}
-\contentsline {subsection}{\numberline {5.1.1}Introducci\'on}{23}{subsection.95}
-\contentsline {subsection}{\numberline {5.1.2}El dataset o conjunto de datos}{24}{subsection.96}
-\contentsline {subsection}{\numberline {5.1.3}Arquitectura}{25}{subsection.97}
-\contentsline {subsubsection}{ReLU de no linealidad}{25}{subsubsection*.98}
-\contentsline {subsubsection}{Entrenamiento en m\'ultiples GPUs}{26}{subsubsection*.103}
-\contentsline {subsubsection}{Respuesta local a la Normalizaci\'on}{26}{subsubsection*.104}
-\contentsline {subsubsection}{Overlapping Pooling o Puesta en com\'un superpuesta}{26}{subsubsection*.105}
-\contentsline {subsubsection}{Arquitectura}{26}{subsubsection*.107}
-\contentsline {subsubsection}{Reduciendo el sobreajuste}{27}{subsubsection*.108}
-\contentsline {subsubsection}{Detalles del aprendizaje}{27}{subsubsection*.109}
-\contentsline {subsubsection}{Resultados}{28}{subsubsection*.110}
-\contentsline {subsubsection}{Conclusi\'on}{28}{subsubsection*.111}
-\contentsline {section}{\numberline {5.2}Art\IeC {\'\i }culo del NeuralTalk}{28}{section.112}
-\contentsline {subsection}{\numberline {5.2.1}Introducci\'on}{28}{subsection.113}
-\contentsline {subsection}{\numberline {5.2.2}El modelo}{29}{subsection.114}
-\contentsline {subsubsection}{Aprendiendo a relacionar datos visuales con datos de lenguaje}{29}{subsubsection*.115}
-\contentsline {subsubsection}{Representando im\'agenes}{29}{subsubsection*.116}
-\contentsline {subsubsection}{Representando frases}{29}{subsubsection*.117}
-\contentsline {subsubsection}{Red Neuronal Recurrente Multimodal para la generaci\'on de descripciones}{30}{subsubsection*.118}
-\contentsline {subsubsection}{Conclusiones}{31}{subsubsection*.119}
-\contentsline {section}{\numberline {5.3}Art\IeC {\'\i }culo del Arctic Caption}{31}{section.120}
-\contentsline {subsection}{\numberline {5.3.1}Introducci\'on}{31}{subsection.121}
-\contentsline {subsection}{\numberline {5.3.2}Generaci\'on de Frases de Im\'agenes con un Mecanismo de Atenci\'on}{32}{subsection.122}
-\contentsline {subsubsection}{Detalles del modelo}{32}{subsubsection*.123}
-\contentsline {subsection}{\numberline {5.3.3}Conclusiones}{33}{subsection.126}
-\contentsline {chapter}{\numberline {6}Aspectos relevantes del desarrollo del proyecto}{35}{chapter.127}
-\contentsline {section}{\numberline {6.1}Dificultades encontradas}{35}{section.128}
-\contentsline {subsection}{\numberline {6.1.1}Dificultades con DeepBeliefSDK}{35}{subsection.129}
-\contentsline {subsection}{\numberline {6.1.2}Dificultades con GSOAP y Apache}{35}{subsection.130}
-\contentsline {paragraph}{}{35}{paragraph*.131}
-\contentsline {paragraph}{}{36}{paragraph*.136}
-\contentsline {paragraph}{}{36}{paragraph*.137}
-\contentsline {subsection}{\numberline {6.1.3}Dificultades en la instalaci\'on de Herramientas}{37}{subsection.138}
-\contentsline {subsubsection}{Instalando Caffe}{37}{subsubsection*.139}
-\contentsline {subsection}{\numberline {6.1.4}Instalando NeutalTalk}{37}{subsection.141}
-\contentsline {subsection}{\numberline {6.1.5}Dificultades con NeuralTalk}{38}{subsection.143}
-\contentsline {subsection}{\numberline {6.1.6}Dificultades con Android}{39}{subsection.144}
-\contentsline {subsubsection}{Usando la librer\IeC {\'\i }a de Apache para HTTP}{39}{subsubsection*.145}
-\contentsline {subsubsection}{Localizando la imagen}{39}{subsubsection*.147}
-\contentsline {subsection}{\numberline {6.1.7}Dificultades con Librer\IeC {\'\i }a de Traducci\'on en el servidor}{40}{subsection.148}
-\contentsline {chapter}{\numberline {7}Conclusiones y l\IeC {\'\i }neas de trabajo futuras}{41}{chapter.149}
-\contentsline {section}{\numberline {7.1}Conclusiones del Proyecto}{41}{section.150}
-\contentsline {section}{\numberline {7.2}Lineas de trabajo Futura}{42}{section.151}
-\contentsline {subsection}{\numberline {7.2.1}L\IeC {\'\i }neas de trabajo futuras en el aspecto te\'orico}{42}{subsection.152}
-\contentsline {subsubsection}{L\IeC {\'\i }neas de trabajo futuras en el aspecto te\'orico}{42}{subsubsection*.153}
-\contentsline {chapter}{Anexos}{42}{subsubsection*.153}
-\contentsline {chapter}{\numberline {I}Plan del proyecto software}{45}{chapter.154}
-\contentsline {section}{\numberline {I.1}Introducci\'on}{45}{section.155}
-\contentsline {subsection}{\numberline {I.1.1}Problemas encontrados}{45}{subsection.157}
-\contentsline {section}{\numberline {I.2}Planificaci\'on temporal del proyecto}{45}{section.160}
-\contentsline {subsection}{\numberline {I.2.1}Sprint 1:23 de Diciembre al 12 de Febrero}{45}{subsection.161}
-\contentsline {paragraph}{}{45}{paragraph*.162}
-\contentsline {subsection}{\numberline {I.2.2}Sprint 2:12 de Febrero al 26 de Febrero}{46}{subsection.163}
-\contentsline {subsection}{\numberline {I.2.3}Sprint 3:26 de Febrero al 6 de Marzo}{46}{subsection.167}
-\contentsline {paragraph}{}{46}{paragraph*.172}
-\contentsline {subsection}{\numberline {I.2.4}Sprint 4:6 de Marzo al 13 de Marzo}{47}{subsection.177}
-\contentsline {paragraph}{}{47}{paragraph*.179}
-\contentsline {paragraph}{}{47}{paragraph*.181}
-\contentsline {paragraph}{}{47}{paragraph*.185}
-\contentsline {paragraph}{}{48}{paragraph*.187}
-\contentsline {subsection}{\numberline {I.2.5}Sprint 5:13 de Marzo al 27 de Marzo}{48}{subsection.188}
-\contentsline {subsection}{\numberline {I.2.6}Sprint 6: 28 de Marzo al 22 de Abril}{49}{subsection.199}
-\contentsline {paragraph}{}{50}{paragraph*.203}
-\contentsline {subsection}{\numberline {I.2.7}Sprint 7: 22 de Abril al 27 de Abril}{51}{subsection.204}
-\contentsline {paragraph}{}{51}{paragraph*.205}
-\contentsline {subsection}{\numberline {I.2.8}Sprint 8: 27 de Abril al 8 de Mayo}{52}{subsection.207}
-\contentsline {subsection}{\numberline {I.2.9}Sprint 9: 9 de Mayo al 15 de Mayo}{54}{subsection.209}
-\contentsline {subsection}{\numberline {I.2.10}Sprint 10: 15 de Mayo al 5 de Junio}{55}{subsection.212}
-\contentsline {subsection}{\numberline {I.2.11}Sprint 11: 6 de Junio al 20 de Junio}{56}{subsection.215}
-\contentsline {subsection}{\numberline {I.2.12}Sprint 12: 21 de Junio a 30 de Junio}{56}{subsection.216}
-\contentsline {chapter}{\numberline {II}Especificaci\'on de requisitos}{61}{chapter.218}
-\contentsline {section}{\numberline {II.1}Introducci\'on}{61}{section.219}
-\contentsline {section}{\numberline {II.2}Requisitos Funcionales}{61}{section.220}
-\contentsline {subsection}{\numberline {II.2.1}Requisitos Funcionales en el Servidor}{61}{subsection.221}
-\contentsline {subsection}{\numberline {II.2.2}Requisitos Funcionales en el Cliente}{61}{subsection.222}
-\contentsline {section}{\numberline {II.3}Diagrama de casos de uso}{62}{section.223}
-\contentsline {chapter}{\numberline {III}Especificaci\'on de dise\~no}{71}{chapter.233}
-\contentsline {section}{\numberline {III.1}Introducci\'on}{71}{section.234}
-\contentsline {section}{\numberline {III.2}Dise\~no en el Servidor}{71}{section.235}
-\contentsline {subsection}{\numberline {III.2.1}API RESTful}{71}{subsection.236}
-\contentsline {chapter}{\numberline {IV}Manual del programador}{75}{chapter.252}
-\contentsline {section}{\numberline {IV.1}Instalaci\'on del JDK}{75}{section.253}
-\contentsline {paragraph}{}{75}{paragraph*.254}
-\contentsline {paragraph}{}{75}{paragraph*.259}
-\contentsline {section}{\numberline {IV.2}Instalaci\'on de Android Studio}{75}{section.261}
-\contentsline {paragraph}{}{75}{paragraph*.262}
-\contentsline {paragraph}{}{79}{paragraph*.269}
-\contentsline {paragraph}{}{79}{paragraph*.270}
-\contentsline {paragraph}{}{79}{paragraph*.271}
-\contentsline {paragraph}{}{79}{paragraph*.272}
-\contentsline {paragraph}{}{79}{paragraph*.273}
-\contentsline {section}{\numberline {IV.3}SDK Manager, instalando herramientas}{79}{section.274}
-\contentsline {section}{\numberline {IV.4}Importando Cliente en Android Studio}{81}{section.277}
-\contentsline {section}{\numberline {IV.5}Instalaci\'on de Matlab}{83}{section.282}
-\contentsline {subsection}{\numberline {IV.5.1}Activar MATLAB}{84}{subsection.290}
-\contentsline {section}{\numberline {IV.6}Instalaci\'on de CUDA}{86}{section.293}
-\contentsline {section}{\numberline {IV.7}Instalando Servidor y sus Dependencias}{88}{section.320}
-\contentsline {section}{\numberline {IV.8}Configuraci\'on del Servidor}{90}{section.365}
-\contentsline {chapter}{\numberline {V}Manual del usuario}{97}{chapter.400}
-\contentsline {section}{\numberline {V.1}Introducci\'on}{97}{section.401}
-\contentsline {subsection}{\numberline {V.1.1}Instalar Aplicaci\'on}{97}{subsection.402}
-\contentsline {section}{\numberline {V.2}Uso de la aplicaci\'on}{97}{section.406}
-\contentsline {chapter}{Bibliograf\IeC {\'\i }\discretionary {-}{}{}a}{101}{section.406}
+\contentsline {subsection}{\numberline {4.2.4}Herramienta de Generaci\'on de Documentaci\'on: \textlatin {T\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m }Maker}{18}{subsection.60}
+\contentsline {subsection}{\numberline {4.2.5}Herramientas de Deep Learning: NeuralTalk}{18}{subsection.61}
+\contentsline {subsection}{\numberline {4.2.6}Herramientas de Deep Learning: Caffe}{19}{subsection.68}
+\contentsline {subsubsection}{Anatom\IeC {\'\i }a de un modelo Caffe}{19}{subsubsection*.69}
+\contentsline {paragraph}{}{19}{paragraph*.70}
+\contentsline {subsection}{\numberline {4.2.7}Herramientas de programaci\'on: MATLAB}{19}{subsection.71}
+\contentsline {subsection}{\numberline {4.2.8}Herramientas de desarrollo de servidores: Flask}{19}{subsection.72}
+\contentsline {subsection}{\numberline {4.2.9}Biblioteca Text to Speech para Android}{20}{subsection.76}
+\contentsline {subsection}{\numberline {4.2.10}Biblioteca de Apache para conexiones Http para Android}{20}{subsection.77}
+\contentsline {subsection}{\numberline {4.2.11}Biblioteca de traducci\'on de texto}{21}{subsection.78}
+\contentsline {chapter}{\numberline {5}Estado del arte}{23}{chapter.79}
+\contentsline {section}{\numberline {5.1}Art\IeC {\'\i }culo del DeepBelief SDK}{23}{section.80}
+\contentsline {subsection}{\numberline {5.1.1}Introducci\'on}{23}{subsection.82}
+\contentsline {subsection}{\numberline {5.1.2}El dataset o conjunto de datos}{24}{subsection.83}
+\contentsline {subsection}{\numberline {5.1.3}Arquitectura}{25}{subsection.84}
+\contentsline {subsubsection}{ReLU de no linealidad}{25}{subsubsection*.85}
+\contentsline {subsubsection}{Entrenamiento en m\'ultiples GPUs}{26}{subsubsection*.90}
+\contentsline {subsubsection}{Respuesta local a la Normalizaci\'on}{26}{subsubsection*.91}
+\contentsline {subsubsection}{Overlapping Pooling o Puesta en com\'un superpuesta}{26}{subsubsection*.92}
+\contentsline {subsubsection}{Arquitectura}{26}{subsubsection*.94}
+\contentsline {subsubsection}{Reduciendo el sobreajuste}{27}{subsubsection*.95}
+\contentsline {subsubsection}{Detalles del aprendizaje}{27}{subsubsection*.96}
+\contentsline {subsubsection}{Resultados}{28}{subsubsection*.97}
+\contentsline {subsubsection}{Conclusi\'on}{28}{subsubsection*.98}
+\contentsline {section}{\numberline {5.2}Art\IeC {\'\i }culo del NeuralTalk}{28}{section.99}
+\contentsline {subsection}{\numberline {5.2.1}Introducci\'on}{28}{subsection.100}
+\contentsline {subsection}{\numberline {5.2.2}El modelo}{29}{subsection.102}
+\contentsline {subsubsection}{Aprendiendo a relacionar datos visuales con datos de lenguaje}{30}{subsubsection*.104}
+\contentsline {subsubsection}{Representando im\'agenes}{30}{subsubsection*.105}
+\contentsline {subsubsection}{Representando frases}{30}{subsubsection*.106}
+\contentsline {subsubsection}{Red Neuronal Recurrente Multimodal para la generaci\'on de descripciones}{31}{subsubsection*.108}
+\contentsline {subsubsection}{Conclusiones}{32}{subsubsection*.110}
+\contentsline {section}{\numberline {5.3}Art\IeC {\'\i }culo del Arctic Caption}{32}{section.111}
+\contentsline {subsection}{\numberline {5.3.1}Introducci\'on}{32}{subsection.112}
+\contentsline {subsection}{\numberline {5.3.2}Generaci\'on de Frases de Im\'agenes con un Mecanismo de Atenci\'on}{33}{subsection.113}
+\contentsline {subsubsection}{Detalles del modelo}{33}{subsubsection*.114}
+\contentsline {subsection}{\numberline {5.3.3}Conclusiones}{34}{subsection.117}
+\contentsline {chapter}{\numberline {6}Aspectos relevantes del desarrollo del proyecto}{35}{chapter.118}
+\contentsline {section}{\numberline {6.1}Dificultades encontradas}{35}{section.119}
+\contentsline {subsection}{\numberline {6.1.1}Dificultades con DeepBeliefSDK}{35}{subsection.120}
+\contentsline {subsection}{\numberline {6.1.2}Dificultades con GSOAP y Apache}{35}{subsection.121}
+\contentsline {paragraph}{}{35}{paragraph*.122}
+\contentsline {subsection}{\numberline {6.1.3}Dificultades en la instalaci\'on de Herramientas}{37}{subsection.127}
+\contentsline {subsubsection}{Instalando Caffe}{37}{subsubsection*.128}
+\contentsline {subsection}{\numberline {6.1.4}Instalando NeutalTalk}{37}{subsection.130}
+\contentsline {subsection}{\numberline {6.1.5}Dificultades con NeuralTalk}{38}{subsection.132}
+\contentsline {subsection}{\numberline {6.1.6}Dificultades con Android}{39}{subsection.133}
+\contentsline {subsubsection}{Usando la librer\IeC {\'\i }a de Apache para HTTP}{39}{subsubsection*.134}
+\contentsline {subsubsection}{Localizando la imagen}{40}{subsubsection*.136}
+\contentsline {subsection}{\numberline {6.1.7}Dificultades con Librer\IeC {\'\i }a de Traducci\'on en el servidor}{40}{subsection.137}
+\contentsline {chapter}{\numberline {7}Conclusiones y l\IeC {\'\i }neas de trabajo futuras}{41}{chapter.138}
+\contentsline {section}{\numberline {7.1}Conclusiones del Proyecto}{41}{section.139}
+\contentsline {section}{\numberline {7.2}L\IeC {\'\i }neas de trabajo Futura}{42}{section.140}
+\contentsline {subsection}{\numberline {7.2.1}L\IeC {\'\i }neas de trabajo futuras en el aspecto te\'orico}{42}{subsection.141}
+\contentsline {subsubsection}{L\IeC {\'\i }neas de trabajo futuras en el aspecto te\'orico}{42}{subsubsection*.142}
+\contentsline {chapter}{Anexos}{42}{subsubsection*.142}
+\contentsline {chapter}{\numberline {I}Plan del proyecto software}{45}{chapter.143}
+\contentsline {section}{\numberline {I.1}Introducci\'on}{45}{section.144}
+\contentsline {subsection}{\numberline {I.1.1}Problemas encontrados}{45}{subsection.146}
+\contentsline {section}{\numberline {I.2}Planificaci\'on temporal del proyecto}{45}{section.149}
+\contentsline {subsection}{\numberline {I.2.1}Sprint 1:23 de Diciembre al 12 de Febrero}{45}{subsection.150}
+\contentsline {paragraph}{}{45}{paragraph*.151}
+\contentsline {subsection}{\numberline {I.2.2}Sprint 2:12 de Febrero al 26 de Febrero}{46}{subsection.152}
+\contentsline {subsection}{\numberline {I.2.3}Sprint 3:26 de Febrero al 6 de Marzo}{46}{subsection.156}
+\contentsline {paragraph}{}{46}{paragraph*.161}
+\contentsline {subsection}{\numberline {I.2.4}Sprint 4:6 de Marzo al 13 de Marzo}{47}{subsection.166}
+\contentsline {paragraph}{}{47}{paragraph*.168}
+\contentsline {paragraph}{}{47}{paragraph*.170}
+\contentsline {paragraph}{}{47}{paragraph*.174}
+\contentsline {paragraph}{}{48}{paragraph*.176}
+\contentsline {subsection}{\numberline {I.2.5}Sprint 5:13 de Marzo al 27 de Marzo}{48}{subsection.177}
+\contentsline {subsection}{\numberline {I.2.6}Sprint 6: 28 de Marzo al 22 de Abril}{49}{subsection.188}
+\contentsline {paragraph}{}{50}{paragraph*.192}
+\contentsline {subsection}{\numberline {I.2.7}Sprint 7: 22 de Abril al 27 de Abril}{51}{subsection.193}
+\contentsline {paragraph}{}{51}{paragraph*.194}
+\contentsline {subsection}{\numberline {I.2.8}Sprint 8: 27 de Abril al 8 de Mayo}{52}{subsection.196}
+\contentsline {subsection}{\numberline {I.2.9}Sprint 9: 9 de Mayo al 15 de Mayo}{54}{subsection.198}
+\contentsline {subsection}{\numberline {I.2.10}Sprint 10: 15 de Mayo al 5 de Junio}{55}{subsection.201}
+\contentsline {subsection}{\numberline {I.2.11}Sprint 11: 6 de Junio al 20 de Junio}{56}{subsection.204}
+\contentsline {subsection}{\numberline {I.2.12}Sprint 12: 21 de Junio a 30 de Junio}{56}{subsection.205}
+\contentsline {chapter}{\numberline {II}Especificaci\'on de requisitos}{61}{chapter.207}
+\contentsline {section}{\numberline {II.1}Introducci\'on}{61}{section.208}
+\contentsline {section}{\numberline {II.2}Requisitos Funcionales}{61}{section.209}
+\contentsline {subsection}{\numberline {II.2.1}Requisitos Funcionales en el Servidor}{61}{subsection.210}
+\contentsline {subsection}{\numberline {II.2.2}Requisitos Funcionales en el Cliente}{61}{subsection.211}
+\contentsline {section}{\numberline {II.3}Diagrama de casos de uso}{62}{section.212}
+\contentsline {chapter}{\numberline {III}Especificaci\'on de dise\~no}{71}{chapter.222}
+\contentsline {section}{\numberline {III.1}Introducci\'on}{71}{section.223}
+\contentsline {section}{\numberline {III.2}Dise\~no en el Servidor}{71}{section.224}
+\contentsline {subsection}{\numberline {III.2.1}API RESTful}{71}{subsection.225}
+\contentsline {chapter}{\numberline {IV}Manual del programador}{75}{chapter.241}
+\contentsline {section}{\numberline {IV.1}Instalaci\'on del JDK}{75}{section.242}
+\contentsline {paragraph}{}{75}{paragraph*.243}
+\contentsline {paragraph}{}{75}{paragraph*.248}
+\contentsline {section}{\numberline {IV.2}Instalaci\'on de Android Studio}{75}{section.250}
+\contentsline {paragraph}{}{75}{paragraph*.251}
+\contentsline {paragraph}{}{79}{paragraph*.258}
+\contentsline {paragraph}{}{79}{paragraph*.259}
+\contentsline {paragraph}{}{79}{paragraph*.260}
+\contentsline {paragraph}{}{79}{paragraph*.261}
+\contentsline {paragraph}{}{79}{paragraph*.262}
+\contentsline {section}{\numberline {IV.3}SDK Manager, instalando herramientas}{79}{section.263}
+\contentsline {section}{\numberline {IV.4}Importando Cliente en Android Studio}{81}{section.266}
+\contentsline {section}{\numberline {IV.5}Instalaci\'on de Matlab}{83}{section.271}
+\contentsline {subsection}{\numberline {IV.5.1}Activar MATLAB}{84}{subsection.279}
+\contentsline {section}{\numberline {IV.6}Instalaci\'on de CUDA}{86}{section.282}
+\contentsline {section}{\numberline {IV.7}Instalando Servidor y sus Dependencias}{88}{section.309}
+\contentsline {section}{\numberline {IV.8}Configuraci\'on del Servidor}{90}{section.354}
+\contentsline {chapter}{\numberline {V}Manual del usuario}{97}{chapter.393}
+\contentsline {section}{\numberline {V.1}Introducci\'on}{97}{section.394}
+\contentsline {subsection}{\numberline {V.1.1}Instalar Aplicaci\'on}{97}{subsection.395}
+\contentsline {section}{\numberline {V.2}Uso de la aplicaci\'on}{97}{section.399}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }\discretionary {-}{}{}a}{101}{section.399}
