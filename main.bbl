@@ -22,6 +22,12 @@ Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Li~Fei-Fei.
 \newblock In {\em Computer Vision and Pattern Recognition, 2009. CVPR 2009.
   IEEE Conference on}, pages 248--255. IEEE, 2009.
 
+\bibitem{artePrac}
+American~Foundation for~the Blind.
+\newblock A review of the taptapsee, camfind, and talking goggles object
+  identification apps for the iphone, 2012.
+\newblock URL: \url{http://www.afb.org/afbpress/pub.asp?DocID=aw140704}.
+
 \bibitem{girshick2014rich}
 Ross Girshick, Jeff Donahue, Trevor Darrell, and Jagannath Malik.
 \newblock Rich feature hierarchies for accurate object detection and semantic
