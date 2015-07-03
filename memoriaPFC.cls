@@ -667,6 +667,29 @@ en Universidad de Burgos --- Julio de 2014\\
   \end{figure}%
 }
 
+%Comando para figura apaisada
+%
+%autor:Bryan Reinoso
+%
+\newcommand{\figuraVertical}[5]{%
+  \setlength{\anchoFloat}{#1\textheight}%
+  \addtolength{\anchoFloat}{-4\fboxsep}%
+  \setlength{\anchoFigura}{#1\textwidth}%
+  \begin{figure}
+    \begin{center}%
+      \Ovalbox{%
+        \begin{minipage}{\anchoFigura}%
+          \begin{center}%     	
+           \includegraphics[angle=90,height=\anchoFloat,width=\anchoFigura,#5]{#2}
+            \caption{#3}%
+            \label{#4}%
+          \end{center}%
+        \end{minipage}
+      }%
+    \end{center}%
+  \end{figure}%
+}
+
 \newcommand{\figuraDobleVertical}[7]{%
   \setlength{\anchoFloat}{#1\textwidth}%
   \addtolength{\anchoFloat}{-4\fboxsep}%

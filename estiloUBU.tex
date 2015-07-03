@@ -81,7 +81,6 @@
   \setlength{\anchoFigura}{\anchoFloat}%
   \begin{figure}[#6]
     \begin{center}%
-      \Ovalbox{%
         \begin{minipage}{\anchoFloat}%
           \begin{center}%
             \includegraphics[width=\anchoFigura,#5]{#2}%
@@ -89,7 +88,6 @@
             \label{#4}%
           \end{center}%
         \end{minipage}
-      }%
     \end{center}%
   \end{figure}%
 }
@@ -99,9 +97,11 @@
 \newcommand{\figuraApaisadaSinMarco}[5]{%
   \begin{figure}%
     \begin{center}%
+    \Ovalbox{%
     \includegraphics[angle=90,height=#1\textheight,#5]{#2}%
     \caption{#3}%
     \label{#4}%
+    }%
     \end{center}%
   \end{figure}%
 }
