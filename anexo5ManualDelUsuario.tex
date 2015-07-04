@@ -49,3 +49,24 @@ Cuando se ha iniciado la aplicación, y se nos muestra la pantalla inicial (ver F
 Si el usuario no sabe qué tiene que hacer cuando abre la aplicación, pasado un tiempo, se le lee un mensaje en voz alta con la librería \textit{Text to Speech} diciéndole qué tiene que hacer.
 
 Tras la ejecución de la petición al servidor y el procesado de la imagen, la aplicación leerá en voz alta la predicción. Y aquí termina la ejecución de la aplicación, si se quiere hacer otra predicción, se debe esperar a que la aplicación indique que podemos tomar otra foto.
+
+Podemos ver unos ejemplos de su funcionamiento en la Figura \ref{func}. En dicha figura nos encontramos con unos buenos casos de traducción pero, podemos obtener casos algo más desajustados como el de la Figura \ref{medio}.
+
+\begin{figure}[]
+    \begin{center}%
+      \Ovalbox{%
+        \begin{minipage}{\textwidth}%
+          \begin{center}%
+            \begin{tabular}{c l r}
+ 				\includegraphics[width=0.30\textwidth]{imgs/predicBuena.PNG} & 
+ 				\includegraphics[width=0.30\textwidth]{imgs/predicBuena1.PNG} &
+ 				\includegraphics[width=0.30\textwidth]{imgs/predicBuena2.PNG} \\
+			\end{tabular}
+            \caption{Funcionamiento de la aplicación.}%
+            \label{func}%
+          \end{center}%
+        \end{minipage}
+      }%
+    \end{center}%
+    \end{figure}
+    \figura{0.5}{imgs/predicMedia.PNG}{Predicción medio acertada}{medio}{}

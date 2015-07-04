@@ -9,7 +9,7 @@ En principio se intentó usar DeepBeliefSDK directamente en Android, pero se enco
 
 Se intentó en un principio, siguiendo los ejemplos aportados por el autor, hacer una aplicación lo más sencilla posible para un dispositivo Android. No se obtuvo un resultado satisfactorio, pues no se consiguió que se compilara de manera correcta la aplicación. Entonces se procedió al intento de compilar el ejemplo ofrecido en el proyecto, el cuál resulto que tampoco compilaba y era bastante más complejo que la aplicación de prueba inicial como para poder arreglar los errores.
 
-En conclusión vimos que la ejecución en Android de esta aplicación iba a dar muchos problemas y determinamos que se programaría un servidor para que el cliente subiera ahí la foto y la librería se ejecutará en el lado del servidor. Cabe destacar que después de un par de intentos de instalación del proyecto, los ejemplos, que estaban en la máquina Linux donde se alojaría el servidor, funcionaron de manera adecuada.
+En conclusión vimos que la ejecución en Android de esta aplicación iba a dar muchos problemas y determinamos que se programaría un servidor para que el cliente subiera ahí la foto y la biblioteca se ejecutará en el lado del servidor. Cabe destacar que después de un par de intentos de instalación del proyecto, los ejemplos, que estaban en la máquina Linux donde se alojaría el servidor, funcionaron de manera adecuada.
 \subsection{Dificultades con GSOAP y Apache}
 \label{subchap:RelevGSOAP}
 Los problemas con GSOAP y Apache son los que más han retrasado al proyecto y han supuesto una dificultad enorme a la hora de llevar a cabo el mismo.
@@ -68,8 +68,8 @@ Finalmente se consiguió integrar así el servidor con NeuralTalk, pero la carga d
 \subsection{Dificultades con Android}
 \label{subchap:RelevAndroid}
 Con Android encontramos los problemas más destacables a la hora de realizar la conexión con el servidor y enviarle los datos. Estos son fácilmente numerables por lo que vamos a tratarlos por puntos:
-\subsubsection{Usando la librería de Apache para HTTP}
-El primer problema de todos es que para usar esta librería era necesario instalarla de manera externa y en la documentación de Apache o Android no se encontraba la solución de manera clara. Se tuvo que investigar durante bastante tiempo hasta dar la solución en un foro de Internet\footnote{\url{http://stackoverflow.com/questions/28538078/java-lang-nosuchfielderror-org-apache-http-message-basicheadervalueformatter-in}}.
+\subsubsection{Usando la biblioteca de Apache para HTTP}
+El primer problema de todos es que para usar esta biblioteca era necesario instalarla de manera externa y en la documentación de Apache o Android no se encontraba la solución de manera clara. Se tuvo que investigar durante bastante tiempo hasta dar la solución en un foro de Internet\footnote{\url{http://stackoverflow.com/questions/28538078/java-lang-nosuchfielderror-org-apache-http-message-basicheadervalueformatter-in}}.
 
 Después se procedió a programar la conexión y  se hizo con la documentación que se encontró de manera más usual, pero esta resultó estar obsoleta y, por lo tanto, no funcionaba al compilar y ejecutar la aplicación. Se tuvo que buscar información de manera más exhaustiva para dar con la solución correcta y que no fuera obsoleta.
 
@@ -80,8 +80,10 @@ Finalmente descubrimos que, debido a estándares establecidos por Android, lo que
 Después de haber programado la conexión de manera correcta, la petición hacia el servidor se realizaba de manera incorrecta devolviendo un código de error. Descubrimos el origen de este error ayudándonos de los mensajes de error que devolvían las Excepciones que se producían.
 
 Descubrimos que el error se encontraba al pasar los datos de la imagen desde un hilo a otro, de manera que tuvimos que investigar la manera de conseguir solucionar esto. Resulta que este tipo de problemas es bastante complejo de solucionar porque al intercambiar los datos de un hilo a otro se pierde la dirección en la que se encuentra la imagen. Para solucionar esto se ha puesto la imagen en memoria compartida y se crea la imagen con la dirección de la misma, para extraer esta dirección se tiene que crear una función que extraiga la dirección de la imagen. Al trabajar con la dirección y no con la cabecera de la imagen, no se pierde la imagen durante el proceso.
-\subsection{Dificultades con Librería de Traducción en el servidor}
+\subsection{Dificultades con biblioteca de traducción en el servidor}
 \label{subchap:RelevTraduccion}
+Tenemos dos problemas principales en la parte de traducción, que son los siguientes.
+\subsection{Configuración en el servidor}
 El problema que se encontró es que el API de traducción de Google resulto ser de pago, por lo tanto no era del todo adecuado para su uso en este proyecto. Pero se encontró una solución alternativa.
 
 La solución alternativa consistía en simular una conexión a través del navegador a la página de traducción de Google y recibir como respuesta la cadena ya traducida. Esta solución es bastante interesante ya que usa conceptos de los servicios web y más concretamente de los servicios web con una especificación de tipo REST.
@@ -89,3 +91,8 @@ La solución alternativa consistía en simular una conexión a través del navegador
 Se mandará una petición a la página de Google a través de un url, como sabemos la dificultad está en cómo decir a la página qué queremos traducir y de qué a qué idioma lo queremos traducir. Pues bien, esto se hace definiendo un url. En este url se tiene que hacer uso de la construcción de url, porque en el url es donde van definido los parámetros que se pasan a la página web. Una vez se construye el url, se procede a lanzar la petición con lo parámetros establecidos.
 
 Finalmente, se recibe una respuesta que es recibida en un dato de tipo json, este tipo de dato es fácilmente convertido a un dato de cadena de caracteres en Python y, finalmente, se extrae de ese conjunto de caracteres la cadena que contiene la traducción del texto.
+\subsection{Traducción obtenida}
+Este problema se debe a que no disponemos de herramientas que trabajen directamente en español, por lo que tenemos que recurrir a la  traducción de Google.
+
+El traductor de Google no es perfecto, por lo que estamos condicionados por su traducción, teniendo que tomar como premisa que dicha traducción es correcta. En algunos casos no es así, por ejemplo en la Figura \ref{traduc}, podemos ver que la traducción de la frase \textit{a man is holding a remote control in hand}, que creemos que es una predicción correcta, no tiene un sentido correcto con respecto a la imagen, mientras que en inglés sí que poseía ese sentido.
+\figura{0.5}{imgs/probTrad.PNG}{Problemas al traducir la predicción}{traduc}{}
